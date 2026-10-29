@@ -6,23 +6,33 @@ jobs:
   sondeo:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
       - name: Probar fuentes
         run: |
           exec > salida.txt 2>&1
+          pip -q install pandas openpyxl pyxlsb
           UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
-          for u in \
-            "https://snies.mineducacion.gov.co/portal/ESTADISTICAS/Bases-consolidadas/" \
-            "https://snies.mineducacion.gov.co/1778/w3-propertyvalue-56963.html" \
-            "https://www.icfes.gov.co/data-icfes/" \
-            "https://www.icfes.gov.co/investigaciones/data-icfes/" ; do
+          B=https://snies.mineducacion.gov.co/1778
+          for a in 430149 430151 430140 391576; do curl -sL -m 300 -A "$UA" -o s$a.xlsx "$B/articles-${a}_recurso.xlsx"; ls -la s$a.xlsx; done
+          python - <<'P'
+          import pandas as pd
+          for a in [430149, 430151, 430140, 391576]:
+              x = pd.read_excel(f"s{a}.xlsx", sheet_name=None, header=None, nrows=14)
+              for h, d in x.items():
+                  print("=====", a, h, d.shape)
+                  print(d.to_string(max_colwidth=28)[:6000])
+          P
+          for u in "https://www.icfes.gov.co/estadisticas-oficiales/" "https://www.icfes.gov.co/analisis-de-datos/" "https://www.icfes.gov.co/evaluaciones-icfes/saber-11/"; do
             echo "=================== $u"
-            curl -sL -m 60 -A "$UA" -o "p$(echo $u | md5sum | cut -c1-6).html" -w "HTTP %{http_code} %{size_download} %{url_effective}\n" "$u" || true
-            grep -oiE 'href="[^"]+"' "p$(echo $u | md5sum | cut -c1-6).html" | grep -iE 'xlsx|xls|zip|csv|matricul|bases|saber|sharepoint|dataicfes|recurso' | sort -u | head -80 || true
+            curl -sL -m 60 -A "$UA" -o x.html -w "HTTP %{http_code} %{size_download}\n" "$u" || true
+            grep -oiE 'https?://[^"<> ]+' x.html | grep -iE 'xlsx|xls|zip|csv|pdf|sharepoint|drive|onedrive|dataicfes|informe|resultado' | sort -u | head -60
           done
       - name: Guardar resultado en la rama sondeo
         if: always()
         run: |
-          mkdir r && cd r && git init -q && cp ../salida.txt . && cp ../*.html . 2>/dev/null || true
+          mkdir r && cd r && git init -q && cp ../salida.txt .
           git config user.name sondeo && git config user.email s@users.noreply.github.com
           git checkout -q -b sondeo && git add -A && git commit -qm sondeo
           git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" sondeo
