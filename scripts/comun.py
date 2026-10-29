@@ -51,3 +51,36 @@ def guardar(df, carpeta, nombre, claves):
         raise RuntimeError(f"{carpeta.name}/{nombre}: filas repetidas en {claves}")
     df.sort_values(claves).to_csv(carpeta / nombre, index=False, encoding="utf-8", float_format="%.12g")
     print(f"  {carpeta.name}/{nombre}: {len(df):,} filas")
+
+
+# ---------------------------------------------------------------- departamentos
+# Códigos DANE de los departamentos y una función que reconoce sus nombres escritos de cualquier forma
+# (con o sin tildes, "Bogotá D.C.", "Archipiélago de San Andrés Prov. y SC", "Distrito Capital"...).
+CODIGOS_DEPTO = {"05": "Antioquia", "08": "Atlántico", "11": "Bogotá", "13": "Bolívar", "15": "Boyacá", "17": "Caldas",
+                 "18": "Caquetá", "19": "Cauca", "20": "Cesar", "23": "Córdoba", "25": "Cundinamarca", "27": "Chocó",
+                 "41": "Huila", "44": "La Guajira", "47": "Magdalena", "50": "Meta", "52": "Nariño", "54": "Norte de Santander",
+                 "63": "Quindío", "66": "Risaralda", "68": "Santander", "70": "Sucre", "73": "Tolima", "76": "Valle del Cauca",
+                 "81": "Arauca", "85": "Casanare", "86": "Putumayo", "88": "San Andrés", "91": "Amazonas", "94": "Guainía",
+                 "95": "Guaviare", "97": "Vaupés", "99": "Vichada"}
+
+
+def _llave(x):
+    import re
+    import unicodedata
+    return re.sub(r"[^A-Z]", "", unicodedata.normalize("NFKD", str(x).upper()).encode("ascii", "ignore").decode())
+
+
+_POR_NOMBRE = {_llave(v): k for k, v in CODIGOS_DEPTO.items()}
+
+
+def cod_depto(nombre):
+    k = _llave(nombre)
+    if k in _POR_NOMBRE:
+        return _POR_NOMBRE[k]
+    if k.startswith("BOGOTA") or k.startswith("DISTRITOCAPITAL"):
+        return "11"
+    if "SANANDRES" in k:
+        return "88"
+    if k == "GUAJIRA":
+        return "44"
+    return None

@@ -14,7 +14,7 @@ permissions:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v5
 
@@ -46,6 +46,15 @@ jobs:
       - name: Indicadores de colegios por departamento (MinEducación)
         if: always()
         run: python scripts/indicadores.py
+
+      - name: Calidad - resultados del ICFES (Saber 11 y Saber Pro)
+        if: always()
+        run: python scripts/icfes.py
+
+      # Las bases del SNIES pesan 10-20 MB cada una; solo se procesan los años nuevos y los dos últimos
+      - name: Educación superior (SNIES)
+        if: always()
+        run: python scripts/superior.py
 
       - name: Datos para la página web
         if: always()
