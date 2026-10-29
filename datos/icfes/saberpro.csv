@@ -1,0 +1,978 @@
+anio,grupo,categoria,sector,medida,valor
+2016,depto,05,Privado,global,150.286
+2016,depto,05,Público,global,161.221
+2016,depto,05,Total,global,153.837
+2016,depto,08,Privado,global,144.797
+2016,depto,08,Público,global,149.961
+2016,depto,08,Total,global,145.986
+2016,depto,11,Privado,global,150.442
+2016,depto,11,Público,global,157.499
+2016,depto,11,Total,global,151.749
+2016,depto,13,Privado,global,141.543
+2016,depto,13,Público,global,145.351
+2016,depto,13,Total,global,143.248
+2016,depto,15,Privado,global,149.61
+2016,depto,15,Público,global,152.966
+2016,depto,15,Total,global,151.752
+2016,depto,17,Privado,global,149.388
+2016,depto,17,Público,global,159.181
+2016,depto,17,Total,global,155.476
+2016,depto,18,Público,global,141.52
+2016,depto,18,Total,global,141.52
+2016,depto,19,Privado,global,140.192
+2016,depto,19,Público,global,154.263
+2016,depto,19,Total,global,148.539
+2016,depto,20,Público,global,140.173
+2016,depto,20,Total,global,140.173
+2016,depto,23,Privado,global,145.948
+2016,depto,23,Público,global,144.516
+2016,depto,23,Total,global,145.046
+2016,depto,25,Privado,global,168.988
+2016,depto,25,Público,global,145.946
+2016,depto,25,Total,global,156.547
+2016,depto,27,Privado,global,125.946
+2016,depto,27,Público,global,124.269
+2016,depto,27,Total,global,124.348
+2016,depto,41,Privado,global,140.222
+2016,depto,41,Público,global,153.348
+2016,depto,41,Total,global,148.426
+2016,depto,44,Público,global,130.88
+2016,depto,44,Total,global,130.88
+2016,depto,47,Privado,global,144.026
+2016,depto,47,Público,global,141.76
+2016,depto,47,Total,global,142.474
+2016,depto,50,Privado,global,145.771
+2016,depto,50,Público,global,152.479
+2016,depto,50,Total,global,149.246
+2016,depto,52,Privado,global,142.206
+2016,depto,52,Público,global,154.69
+2016,depto,52,Total,global,146.289
+2016,depto,54,Privado,global,145.071
+2016,depto,54,Público,global,145.085
+2016,depto,54,Total,global,145.083
+2016,depto,63,Privado,global,148.149
+2016,depto,63,Público,global,145.879
+2016,depto,63,Total,global,146.454
+2016,depto,66,Privado,global,147.472
+2016,depto,66,Público,global,158.021
+2016,depto,66,Total,global,152.099
+2016,depto,68,Privado,global,151.527
+2016,depto,68,Público,global,156.23
+2016,depto,68,Total,global,153.238
+2016,depto,70,Privado,global,134.413
+2016,depto,70,Público,global,143.501
+2016,depto,70,Total,global,136.419
+2016,depto,73,Privado,global,151.329
+2016,depto,73,Público,global,136.835
+2016,depto,73,Total,global,139.294
+2016,depto,76,Privado,global,153.059
+2016,depto,76,Público,global,153.511
+2016,depto,76,Total,global,153.242
+2016,depto,81,Público,global,129.571
+2016,depto,81,Total,global,129.571
+2016,depto,85,Privado,global,145.536
+2016,depto,85,Público,global,134.417
+2016,depto,85,Total,global,144.996
+2016,depto,86,Público,global,138.121
+2016,depto,86,Total,global,138.121
+2016,depto,91,Público,global,111.667
+2016,depto,91,Total,global,111.667
+2016,depto,99,Público,global,111.944
+2016,depto,99,Total,global,111.944
+2016,genero,Hombres,Total,global,153.252
+2016,genero,Mujeres,Total,global,147.751
+2016,nacional,Total,Privado,Competencias ciudadanas,149.569
+2016,nacional,Total,Privado,Comunicación escrita,149.559
+2016,nacional,Total,Privado,Inglés,150.864
+2016,nacional,Total,Privado,Lectura crítica,148.923
+2016,nacional,Total,Privado,Razonamiento cuantitativo,148.378
+2016,nacional,Total,Privado,global,149.367
+2016,nacional,Total,Público,Competencias ciudadanas,151.263
+2016,nacional,Total,Público,Comunicación escrita,150.795
+2016,nacional,Total,Público,Inglés,148.598
+2016,nacional,Total,Público,Lectura crítica,152.452
+2016,nacional,Total,Público,Razonamiento cuantitativo,153.289
+2016,nacional,Total,Público,global,151.16
+2016,nacional,Total,Total,Competencias ciudadanas,150.167
+2016,nacional,Total,Total,Comunicación escrita,149.996
+2016,nacional,Total,Total,Inglés,150.064
+2016,nacional,Total,Total,Lectura crítica,150.169
+2016,nacional,Total,Total,Razonamiento cuantitativo,150.112
+2016,nacional,Total,Total,global,150
+2016,nse,1,Total,global,140.743
+2016,nse,2,Total,global,145.386
+2016,nse,3,Total,global,150.968
+2016,nse,4,Total,global,164.594
+2017,depto,05,Privado,global,147.684
+2017,depto,05,Público,global,157.459
+2017,depto,05,Total,global,151.069
+2017,depto,08,Privado,global,143.282
+2017,depto,08,Público,global,149.448
+2017,depto,08,Total,global,144.548
+2017,depto,11,Privado,global,146.611
+2017,depto,11,Público,global,155.591
+2017,depto,11,Total,global,148.138
+2017,depto,13,Privado,global,140.521
+2017,depto,13,Público,global,145.619
+2017,depto,13,Total,global,142.691
+2017,depto,15,Privado,global,147.111
+2017,depto,15,Público,global,152.018
+2017,depto,15,Total,global,150.367
+2017,depto,17,Privado,global,146.093
+2017,depto,17,Público,global,157.54
+2017,depto,17,Total,global,152.832
+2017,depto,18,Público,global,136.988
+2017,depto,18,Total,global,136.988
+2017,depto,19,Privado,global,134.74
+2017,depto,19,Público,global,152.307
+2017,depto,19,Total,global,145.122
+2017,depto,20,Público,global,138.72
+2017,depto,20,Total,global,138.72
+2017,depto,23,Privado,global,140.958
+2017,depto,23,Público,global,139.262
+2017,depto,23,Total,global,139.92
+2017,depto,25,Privado,global,169.495
+2017,depto,25,Público,global,144.673
+2017,depto,25,Total,global,155.826
+2017,depto,27,Privado,global,125.411
+2017,depto,27,Público,global,118.642
+2017,depto,27,Total,global,119.424
+2017,depto,41,Privado,global,134.801
+2017,depto,41,Público,global,149.251
+2017,depto,41,Total,global,144.545
+2017,depto,44,Público,global,124.791
+2017,depto,44,Total,global,124.791
+2017,depto,47,Privado,global,138.606
+2017,depto,47,Público,global,140.51
+2017,depto,47,Total,global,140.049
+2017,depto,50,Privado,global,140.217
+2017,depto,50,Público,global,152.182
+2017,depto,50,Total,global,146.321
+2017,depto,52,Privado,global,138.169
+2017,depto,52,Público,global,155.472
+2017,depto,52,Total,global,143.431
+2017,depto,54,Privado,global,142.637
+2017,depto,54,Público,global,140.918
+2017,depto,54,Total,global,141.073
+2017,depto,63,Privado,global,144.942
+2017,depto,63,Público,global,140.702
+2017,depto,63,Total,global,141.672
+2017,depto,66,Privado,global,142.9
+2017,depto,66,Público,global,153.796
+2017,depto,66,Total,global,147.928
+2017,depto,68,Privado,global,147.678
+2017,depto,68,Público,global,155.281
+2017,depto,68,Total,global,150.468
+2017,depto,70,Privado,global,131.189
+2017,depto,70,Público,global,147.213
+2017,depto,70,Total,global,135.083
+2017,depto,73,Privado,global,149.923
+2017,depto,73,Público,global,134.864
+2017,depto,73,Total,global,137.78
+2017,depto,76,Privado,global,151.728
+2017,depto,76,Público,global,150.963
+2017,depto,76,Total,global,151.409
+2017,depto,85,Privado,global,139.943
+2017,depto,85,Total,global,139.943
+2017,depto,86,Público,global,128.975
+2017,depto,86,Total,global,128.975
+2017,genero,Hombres,Total,global,150.25
+2017,genero,Mujeres,Total,global,144.956
+2017,nacional,Total,Privado,Competencias ciudadanas,140.618
+2017,nacional,Total,Privado,Comunicación escrita,150.753
+2017,nacional,Total,Privado,Inglés,150.631
+2017,nacional,Total,Privado,Lectura crítica,148.072
+2017,nacional,Total,Privado,Razonamiento cuantitativo,146.422
+2017,nacional,Total,Privado,global,146.093
+2017,nacional,Total,Público,Competencias ciudadanas,144.385
+2017,nacional,Total,Público,Comunicación escrita,151.363
+2017,nacional,Total,Público,Inglés,149.615
+2017,nacional,Total,Público,Lectura crítica,154.029
+2017,nacional,Total,Público,Razonamiento cuantitativo,152.739
+2017,nacional,Total,Público,global,149.091
+2017,nacional,Total,Total,Competencias ciudadanas,141.899
+2017,nacional,Total,Total,Comunicación escrita,150.96
+2017,nacional,Total,Total,Inglés,150.285
+2017,nacional,Total,Total,Lectura crítica,150.098
+2017,nacional,Total,Total,Razonamiento cuantitativo,148.57
+2017,nacional,Total,Total,global,147.113
+2017,nse,1,Total,global,139.492
+2017,nse,2,Total,global,146.336
+2017,nse,3,Total,global,151.954
+2017,nse,4,Total,global,162.435
+2018,depto,05,Privado,global,148.76
+2018,depto,05,Público,global,156.877
+2018,depto,05,Total,global,151.63
+2018,depto,08,Privado,global,144.081
+2018,depto,08,Público,global,149.34
+2018,depto,08,Total,global,145.16
+2018,depto,11,Privado,global,146.974
+2018,depto,11,Público,global,155.193
+2018,depto,11,Total,global,148.26
+2018,depto,13,Privado,global,139.632
+2018,depto,13,Público,global,147.272
+2018,depto,13,Total,global,142.65
+2018,depto,15,Privado,global,147.343
+2018,depto,15,Público,global,152.555
+2018,depto,15,Total,global,150.581
+2018,depto,17,Privado,global,146.268
+2018,depto,17,Público,global,158.196
+2018,depto,17,Total,global,153.043
+2018,depto,18,Público,global,138.112
+2018,depto,18,Total,global,138.112
+2018,depto,19,Privado,global,134.89
+2018,depto,19,Público,global,151.605
+2018,depto,19,Total,global,143.695
+2018,depto,20,Público,global,138.179
+2018,depto,20,Total,global,138.179
+2018,depto,23,Privado,global,141.711
+2018,depto,23,Público,global,139.927
+2018,depto,23,Total,global,140.587
+2018,depto,25,Privado,global,170.99
+2018,depto,25,Público,global,145.254
+2018,depto,25,Total,global,156.722
+2018,depto,27,Privado,global,129.673
+2018,depto,27,Público,global,121.338
+2018,depto,27,Total,global,123.048
+2018,depto,41,Privado,global,137.182
+2018,depto,41,Público,global,150.111
+2018,depto,41,Total,global,145.084
+2018,depto,44,Público,global,128.545
+2018,depto,44,Total,global,128.545
+2018,depto,47,Privado,global,140.483
+2018,depto,47,Público,global,146.587
+2018,depto,47,Total,global,144.356
+2018,depto,50,Privado,global,139.667
+2018,depto,50,Público,global,152.181
+2018,depto,50,Total,global,147.048
+2018,depto,52,Privado,global,140.664
+2018,depto,52,Público,global,154.975
+2018,depto,52,Total,global,144.756
+2018,depto,54,Privado,global,143.464
+2018,depto,54,Público,global,140.992
+2018,depto,54,Total,global,141.167
+2018,depto,63,Privado,global,145.627
+2018,depto,63,Público,global,142.594
+2018,depto,63,Total,global,143.334
+2018,depto,66,Privado,global,145.056
+2018,depto,66,Público,global,153.701
+2018,depto,66,Total,global,148.959
+2018,depto,68,Privado,global,148.351
+2018,depto,68,Público,global,155.38
+2018,depto,68,Total,global,150.886
+2018,depto,70,Privado,global,131.884
+2018,depto,70,Público,global,147.734
+2018,depto,70,Total,global,135.153
+2018,depto,73,Privado,global,149.285
+2018,depto,73,Público,global,137.575
+2018,depto,73,Total,global,139.958
+2018,depto,76,Privado,global,151.943
+2018,depto,76,Público,global,150.236
+2018,depto,76,Total,global,151.27
+2018,depto,85,Privado,global,141.61
+2018,depto,85,Total,global,141.61
+2018,depto,86,Público,global,133.866
+2018,depto,86,Total,global,133.866
+2018,genero,Hombres,Total,global,150.953
+2018,genero,Mujeres,Total,global,145.23
+2018,nacional,Total,Privado,Competencias ciudadanas,141.093
+2018,nacional,Total,Privado,Comunicación escrita,149.427
+2018,nacional,Total,Privado,Inglés,151.32
+2018,nacional,Total,Privado,Lectura crítica,148.404
+2018,nacional,Total,Privado,Razonamiento cuantitativo,147.564
+2018,nacional,Total,Privado,global,146.64
+2018,nacional,Total,Público,Competencias ciudadanas,144.445
+2018,nacional,Total,Público,Comunicación escrita,149.595
+2018,nacional,Total,Público,Inglés,150.163
+2018,nacional,Total,Público,Lectura crítica,153.601
+2018,nacional,Total,Público,Razonamiento cuantitativo,154.066
+2018,nacional,Total,Público,global,149.362
+2018,nacional,Total,Total,Competencias ciudadanas,142.187
+2018,nacional,Total,Total,Comunicación escrita,149.482
+2018,nacional,Total,Total,Inglés,150.943
+2018,nacional,Total,Total,Lectura crítica,150.099
+2018,nacional,Total,Total,Razonamiento cuantitativo,149.685
+2018,nacional,Total,Total,global,147.528
+2018,nse,1,Total,global,139.578
+2018,nse,2,Total,global,146.736
+2018,nse,3,Total,global,152.569
+2018,nse,4,Total,global,162.938
+2019,depto,05,Privado,global,147.495
+2019,depto,05,Público,global,155.438
+2019,depto,05,Total,global,150.136
+2019,depto,08,Privado,global,144.453
+2019,depto,08,Público,global,148.132
+2019,depto,08,Total,global,145.186
+2019,depto,11,Privado,global,146.329
+2019,depto,11,Público,global,151.889
+2019,depto,11,Total,global,147.276
+2019,depto,13,Privado,global,139.759
+2019,depto,13,Público,global,143.71
+2019,depto,13,Total,global,141.345
+2019,depto,15,Privado,global,147.255
+2019,depto,15,Público,global,151.555
+2019,depto,15,Total,global,150.083
+2019,depto,17,Privado,global,146.326
+2019,depto,17,Público,global,157.014
+2019,depto,17,Total,global,151.686
+2019,depto,18,Público,global,135.428
+2019,depto,18,Total,global,135.428
+2019,depto,19,Privado,global,134.288
+2019,depto,19,Público,global,151.886
+2019,depto,19,Total,global,143.6
+2019,depto,20,Público,global,136.566
+2019,depto,20,Total,global,136.566
+2019,depto,23,Privado,global,139.938
+2019,depto,23,Público,global,140.177
+2019,depto,23,Total,global,140.078
+2019,depto,25,Privado,global,170.043
+2019,depto,25,Público,global,145.017
+2019,depto,25,Total,global,157.655
+2019,depto,27,Privado,global,125.923
+2019,depto,27,Público,global,118.092
+2019,depto,27,Total,global,120.952
+2019,depto,41,Privado,global,134.17
+2019,depto,41,Público,global,148.72
+2019,depto,41,Total,global,142.607
+2019,depto,44,Público,global,127.771
+2019,depto,44,Total,global,127.771
+2019,depto,47,Privado,global,139.336
+2019,depto,47,Público,global,147.986
+2019,depto,47,Total,global,144.632
+2019,depto,50,Privado,global,138.374
+2019,depto,50,Público,global,150.111
+2019,depto,50,Total,global,145.638
+2019,depto,52,Privado,global,138.359
+2019,depto,52,Público,global,152.047
+2019,depto,52,Total,global,142.601
+2019,depto,54,Privado,global,142.775
+2019,depto,54,Público,global,140.507
+2019,depto,54,Total,global,140.653
+2019,depto,63,Privado,global,145.034
+2019,depto,63,Público,global,140.629
+2019,depto,63,Total,global,141.591
+2019,depto,66,Privado,global,144.905
+2019,depto,66,Público,global,156.383
+2019,depto,66,Total,global,149.825
+2019,depto,68,Privado,global,148.469
+2019,depto,68,Público,global,155.095
+2019,depto,68,Total,global,150.913
+2019,depto,70,Privado,global,129.616
+2019,depto,70,Público,global,147.142
+2019,depto,70,Total,global,133.993
+2019,depto,73,Privado,global,148.968
+2019,depto,73,Público,global,140.833
+2019,depto,73,Total,global,143.099
+2019,depto,76,Privado,global,150.725
+2019,depto,76,Público,global,148.861
+2019,depto,76,Total,global,149.992
+2019,depto,85,Privado,global,140.753
+2019,depto,85,Total,global,140.753
+2019,depto,86,Público,global,131.238
+2019,depto,86,Total,global,131.238
+2019,genero,Hombres,Total,global,149.632
+2019,genero,Mujeres,Total,global,144.716
+2019,nacional,Total,Privado,Competencias ciudadanas,141.587
+2019,nacional,Total,Privado,Comunicación escrita,144.065
+2019,nacional,Total,Privado,Inglés,152.478
+2019,nacional,Total,Privado,Lectura crítica,147.536
+2019,nacional,Total,Privado,Razonamiento cuantitativo,144.456
+2019,nacional,Total,Privado,global,145.986
+2019,nacional,Total,Público,Competencias ciudadanas,144.334
+2019,nacional,Total,Público,Comunicación escrita,143.137
+2019,nacional,Total,Público,Inglés,150.993
+2019,nacional,Total,Público,Lectura crítica,152.102
+2019,nacional,Total,Público,Razonamiento cuantitativo,150.859
+2019,nacional,Total,Público,global,148.26
+2019,nacional,Total,Total,Competencias ciudadanas,142.488
+2019,nacional,Total,Total,Comunicación escrita,143.76
+2019,nacional,Total,Total,Inglés,151.991
+2019,nacional,Total,Total,Lectura crítica,149.034
+2019,nacional,Total,Total,Razonamiento cuantitativo,146.556
+2019,nacional,Total,Total,global,146.732
+2019,nse,1,Total,global,137.564
+2019,nse,2,Total,global,142.251
+2019,nse,3,Total,global,145.137
+2019,nse,4,Total,global,153.717
+2020,depto,05,Privado,global,151.962
+2020,depto,05,Público,global,158.282
+2020,depto,05,Total,global,153.863
+2020,depto,08,Privado,global,146.861
+2020,depto,08,Público,global,151.773
+2020,depto,08,Total,global,147.661
+2020,depto,11,Privado,global,148.442
+2020,depto,11,Público,global,153.373
+2020,depto,11,Total,global,149.35
+2020,depto,13,Privado,global,142.757
+2020,depto,13,Público,global,145.855
+2020,depto,13,Total,global,143.942
+2020,depto,15,Privado,global,148.988
+2020,depto,15,Público,global,154.292
+2020,depto,15,Total,global,152.037
+2020,depto,17,Privado,global,152.833
+2020,depto,17,Público,global,162.225
+2020,depto,17,Total,global,157.425
+2020,depto,18,Público,global,138.667
+2020,depto,18,Total,global,138.667
+2020,depto,19,Privado,global,132.464
+2020,depto,19,Público,global,155.113
+2020,depto,19,Total,global,142.902
+2020,depto,20,Público,global,139.991
+2020,depto,20,Total,global,139.991
+2020,depto,23,Privado,global,142.778
+2020,depto,23,Público,global,140.276
+2020,depto,23,Total,global,141.238
+2020,depto,25,Privado,global,176.83
+2020,depto,25,Público,global,148.671
+2020,depto,25,Total,global,163.147
+2020,depto,27,Privado,global,123.982
+2020,depto,27,Público,global,116.342
+2020,depto,27,Total,global,118.335
+2020,depto,41,Privado,global,135.574
+2020,depto,41,Público,global,153.012
+2020,depto,41,Total,global,145.919
+2020,depto,44,Público,global,128.18
+2020,depto,44,Total,global,128.18
+2020,depto,47,Privado,global,141.924
+2020,depto,47,Público,global,142.416
+2020,depto,47,Total,global,142.288
+2020,depto,50,Privado,global,141.406
+2020,depto,50,Público,global,153.794
+2020,depto,50,Total,global,147.825
+2020,depto,52,Privado,global,139.993
+2020,depto,52,Público,global,155.764
+2020,depto,52,Total,global,145.157
+2020,depto,54,Privado,global,149.461
+2020,depto,54,Público,global,142.924
+2020,depto,54,Total,global,143.291
+2020,depto,63,Privado,global,152.394
+2020,depto,63,Público,global,147.613
+2020,depto,63,Total,global,148.849
+2020,depto,66,Privado,global,144.309
+2020,depto,66,Público,global,157.684
+2020,depto,66,Total,global,150.242
+2020,depto,68,Privado,global,151.973
+2020,depto,68,Público,global,158.118
+2020,depto,68,Total,global,154.252
+2020,depto,70,Privado,global,133.265
+2020,depto,70,Público,global,146.907
+2020,depto,70,Total,global,136.86
+2020,depto,73,Privado,global,152.162
+2020,depto,73,Público,global,141.068
+2020,depto,73,Total,global,144.009
+2020,depto,76,Privado,global,154.938
+2020,depto,76,Público,global,150.653
+2020,depto,76,Total,global,153.4
+2020,depto,85,Privado,global,145.107
+2020,depto,85,Total,global,145.107
+2020,depto,86,Público,global,134.843
+2020,depto,86,Total,global,134.843
+2020,genero,Hombres,Total,global,152.828
+2020,genero,Mujeres,Total,global,146.591
+2020,nacional,Total,Privado,Competencias ciudadanas,151.543
+2020,nacional,Total,Privado,Comunicación escrita,136.909
+2020,nacional,Total,Privado,Inglés,157.301
+2020,nacional,Total,Privado,Lectura crítica,150.642
+2020,nacional,Total,Privado,Razonamiento cuantitativo,147.176
+2020,nacional,Total,Privado,global,148.715
+2020,nacional,Total,Público,Competencias ciudadanas,154.45
+2020,nacional,Total,Público,Comunicación escrita,136.728
+2020,nacional,Total,Público,Inglés,153.619
+2020,nacional,Total,Público,Lectura crítica,153.714
+2020,nacional,Total,Público,Razonamiento cuantitativo,151.723
+2020,nacional,Total,Público,global,150.048
+2020,nacional,Total,Total,Competencias ciudadanas,152.485
+2020,nacional,Total,Total,Comunicación escrita,136.85
+2020,nacional,Total,Total,Inglés,156.108
+2020,nacional,Total,Total,Lectura crítica,151.638
+2020,nacional,Total,Total,Razonamiento cuantitativo,148.65
+2020,nacional,Total,Total,global,149.147
+2020,nse,1,Total,global,138.224
+2020,nse,2,Total,global,144.533
+2020,nse,3,Total,global,148.341
+2020,nse,4,Total,global,158.007
+2021,depto,05,Privado,global,147.661
+2021,depto,05,Público,global,153.013
+2021,depto,05,Total,global,149.53
+2021,depto,08,Privado,global,144.323
+2021,depto,08,Público,global,148.841
+2021,depto,08,Total,global,145.042
+2021,depto,11,Privado,global,143.691
+2021,depto,11,Público,global,150.63
+2021,depto,11,Total,global,144.882
+2021,depto,13,Privado,global,138.917
+2021,depto,13,Público,global,140.254
+2021,depto,13,Total,global,139.436
+2021,depto,15,Privado,global,146.669
+2021,depto,15,Público,global,152.326
+2021,depto,15,Total,global,150.124
+2021,depto,17,Privado,global,150.359
+2021,depto,17,Público,global,156.107
+2021,depto,17,Total,global,152.905
+2021,depto,18,Público,global,134.821
+2021,depto,18,Total,global,134.821
+2021,depto,19,Privado,global,130.096
+2021,depto,19,Público,global,152.832
+2021,depto,19,Total,global,139.991
+2021,depto,20,Público,global,135.979
+2021,depto,20,Total,global,135.979
+2021,depto,23,Privado,global,138.16
+2021,depto,23,Público,global,136.863
+2021,depto,23,Total,global,137.49
+2021,depto,25,Privado,global,179.073
+2021,depto,25,Público,global,145.697
+2021,depto,25,Total,global,161.986
+2021,depto,27,Privado,global,123.544
+2021,depto,27,Público,global,110.383
+2021,depto,27,Total,global,113.587
+2021,depto,41,Privado,global,132.332
+2021,depto,41,Público,global,150.158
+2021,depto,41,Total,global,142.894
+2021,depto,44,Público,global,127.047
+2021,depto,44,Total,global,127.047
+2021,depto,47,Privado,global,139.985
+2021,depto,47,Público,global,142.457
+2021,depto,47,Total,global,141.659
+2021,depto,50,Privado,global,137.401
+2021,depto,50,Público,global,150.446
+2021,depto,50,Total,global,145.543
+2021,depto,52,Privado,global,136.395
+2021,depto,52,Público,global,149.217
+2021,depto,52,Total,global,140.527
+2021,depto,54,Privado,global,150.898
+2021,depto,54,Público,global,138.356
+2021,depto,54,Total,global,139.087
+2021,depto,63,Privado,global,147.855
+2021,depto,63,Público,global,142.768
+2021,depto,63,Total,global,144.301
+2021,depto,66,Privado,global,142.275
+2021,depto,66,Público,global,154.659
+2021,depto,66,Total,global,147.31
+2021,depto,68,Privado,global,147.155
+2021,depto,68,Público,global,152.576
+2021,depto,68,Total,global,149.188
+2021,depto,70,Privado,global,131.458
+2021,depto,70,Público,global,145.012
+2021,depto,70,Total,global,134.494
+2021,depto,73,Privado,global,145.548
+2021,depto,73,Público,global,135.972
+2021,depto,73,Total,global,138.059
+2021,depto,76,Privado,global,147.943
+2021,depto,76,Público,global,145.255
+2021,depto,76,Total,global,146.934
+2021,depto,85,Privado,global,133.725
+2021,depto,85,Total,global,133.725
+2021,depto,86,Público,global,127.198
+2021,depto,86,Total,global,127.198
+2021,genero,Hombres,Total,global,147.869
+2021,genero,Mujeres,Total,global,142.708
+2021,nacional,Total,Privado,Competencias ciudadanas,142.601
+2021,nacional,Total,Privado,Comunicación escrita,137.048
+2021,nacional,Total,Privado,Inglés,154.91
+2021,nacional,Total,Privado,Lectura crítica,144.863
+2021,nacional,Total,Privado,Razonamiento cuantitativo,141.973
+2021,nacional,Total,Privado,global,144.279
+2021,nacional,Total,Público,Competencias ciudadanas,145.012
+2021,nacional,Total,Público,Comunicación escrita,138.082
+2021,nacional,Total,Público,Inglés,151.595
+2021,nacional,Total,Público,Lectura crítica,148.085
+2021,nacional,Total,Público,Razonamiento cuantitativo,146.922
+2021,nacional,Total,Público,global,145.939
+2021,nacional,Total,Total,Competencias ciudadanas,143.383
+2021,nacional,Total,Total,Comunicación escrita,137.384
+2021,nacional,Total,Total,Inglés,153.835
+2021,nacional,Total,Total,Lectura crítica,145.908
+2021,nacional,Total,Total,Razonamiento cuantitativo,143.579
+2021,nacional,Total,Total,global,144.817
+2021,nse,1,Total,global,135.172
+2021,nse,2,Total,global,140.834
+2021,nse,3,Total,global,144.353
+2021,nse,4,Total,global,153.843
+2022,depto,05,Privado,global,146.593
+2022,depto,05,Público,global,153.292
+2022,depto,05,Total,global,148.94
+2022,depto,08,Privado,global,143.246
+2022,depto,08,Público,global,148.821
+2022,depto,08,Total,global,144.188
+2022,depto,11,Privado,global,143.165
+2022,depto,11,Público,global,149.194
+2022,depto,11,Total,global,144.403
+2022,depto,13,Privado,global,137.565
+2022,depto,13,Público,global,140.899
+2022,depto,13,Total,global,138.865
+2022,depto,15,Privado,global,145.528
+2022,depto,15,Público,global,155.453
+2022,depto,15,Total,global,151.943
+2022,depto,17,Privado,global,149.2
+2022,depto,17,Público,global,159.121
+2022,depto,17,Total,global,154.285
+2022,depto,18,Público,global,134.733
+2022,depto,18,Total,global,134.733
+2022,depto,19,Privado,global,130.565
+2022,depto,19,Público,global,154.159
+2022,depto,19,Total,global,143.95
+2022,depto,20,Público,global,137.491
+2022,depto,20,Total,global,137.491
+2022,depto,23,Privado,global,141.907
+2022,depto,23,Público,global,137.272
+2022,depto,23,Total,global,138.816
+2022,depto,25,Privado,global,176.899
+2022,depto,25,Público,global,145.022
+2022,depto,25,Total,global,159.898
+2022,depto,27,Privado,global,121.978
+2022,depto,27,Público,global,115.752
+2022,depto,27,Total,global,116.716
+2022,depto,41,Privado,global,134.31
+2022,depto,41,Público,global,150.923
+2022,depto,41,Total,global,145.56
+2022,depto,44,Público,global,129.225
+2022,depto,44,Total,global,129.225
+2022,depto,47,Privado,global,141.709
+2022,depto,47,Público,global,146.266
+2022,depto,47,Total,global,144.666
+2022,depto,50,Privado,global,137.126
+2022,depto,50,Público,global,150.743
+2022,depto,50,Total,global,145.415
+2022,depto,52,Privado,global,135.908
+2022,depto,52,Público,global,150.704
+2022,depto,52,Total,global,141.022
+2022,depto,54,Privado,global,150.189
+2022,depto,54,Público,global,141.527
+2022,depto,54,Total,global,142.036
+2022,depto,63,Privado,global,146.724
+2022,depto,63,Público,global,146.28
+2022,depto,63,Total,global,146.388
+2022,depto,66,Privado,global,140.855
+2022,depto,66,Público,global,155.364
+2022,depto,66,Total,global,147.207
+2022,depto,68,Privado,global,146.67
+2022,depto,68,Público,global,151.067
+2022,depto,68,Total,global,148.399
+2022,depto,70,Privado,global,131.54
+2022,depto,70,Público,global,146.286
+2022,depto,70,Total,global,135.393
+2022,depto,73,Privado,global,147.851
+2022,depto,73,Público,global,140.062
+2022,depto,73,Total,global,141.756
+2022,depto,76,Privado,global,148.825
+2022,depto,76,Público,global,147.407
+2022,depto,76,Total,global,148.237
+2022,depto,85,Privado,global,136.089
+2022,depto,85,Total,global,136.089
+2022,depto,86,Público,global,131.488
+2022,depto,86,Total,global,131.488
+2022,genero,Hombres,Total,global,147.635
+2022,genero,Mujeres,Total,global,142.738
+2022,nacional,Total,Privado,Competencias ciudadanas,142.355
+2022,nacional,Total,Privado,Comunicación escrita,128.918
+2022,nacional,Total,Privado,Inglés,155.893
+2022,nacional,Total,Privado,Lectura crítica,148.526
+2022,nacional,Total,Privado,Razonamiento cuantitativo,142.888
+2022,nacional,Total,Privado,global,143.716
+2022,nacional,Total,Público,Competencias ciudadanas,146.19
+2022,nacional,Total,Público,Comunicación escrita,130.417
+2022,nacional,Total,Público,Inglés,153.197
+2022,nacional,Total,Público,Lectura crítica,153.957
+2022,nacional,Total,Público,Razonamiento cuantitativo,149.666
+2022,nacional,Total,Público,global,146.686
+2022,nacional,Total,Total,Competencias ciudadanas,143.72
+2022,nacional,Total,Total,Comunicación escrita,129.451
+2022,nacional,Total,Total,Inglés,154.934
+2022,nacional,Total,Total,Lectura crítica,150.458
+2022,nacional,Total,Total,Razonamiento cuantitativo,145.299
+2022,nacional,Total,Total,global,144.772
+2022,nse,1,Total,global,134.684
+2022,nse,2,Total,global,141.407
+2022,nse,3,Total,global,146.55
+2022,nse,4,Total,global,154.407
+2023,depto,05,Privado,global,147.591
+2023,depto,05,Público,global,154.048
+2023,depto,05,Total,global,149.905
+2023,depto,08,Privado,global,142.771
+2023,depto,08,Público,global,148.669
+2023,depto,08,Total,global,143.869
+2023,depto,11,Privado,global,143.424
+2023,depto,11,Público,global,150.428
+2023,depto,11,Total,global,144.796
+2023,depto,13,Privado,global,137.059
+2023,depto,13,Público,global,142.997
+2023,depto,13,Total,global,139.375
+2023,depto,15,Privado,global,145.679
+2023,depto,15,Público,global,156.348
+2023,depto,15,Total,global,152.16
+2023,depto,17,Privado,global,147.626
+2023,depto,17,Público,global,157.426
+2023,depto,17,Total,global,153.115
+2023,depto,18,Público,global,136.886
+2023,depto,18,Total,global,136.886
+2023,depto,19,Privado,global,130.97
+2023,depto,19,Público,global,152.489
+2023,depto,19,Total,global,143.109
+2023,depto,20,Público,global,137.63
+2023,depto,20,Total,global,137.63
+2023,depto,23,Privado,global,140.8
+2023,depto,23,Público,global,141.047
+2023,depto,23,Total,global,140.926
+2023,depto,25,Privado,global,174.574
+2023,depto,25,Público,global,146.818
+2023,depto,25,Total,global,159.801
+2023,depto,27,Privado,global,120.947
+2023,depto,27,Público,global,115.642
+2023,depto,27,Total,global,116.664
+2023,depto,41,Privado,global,133.216
+2023,depto,41,Público,global,149.789
+2023,depto,41,Total,global,144.054
+2023,depto,44,Público,global,129.929
+2023,depto,44,Total,global,129.929
+2023,depto,47,Privado,global,141.392
+2023,depto,47,Público,global,145.811
+2023,depto,47,Total,global,144.322
+2023,depto,50,Privado,global,137.327
+2023,depto,50,Público,global,151.82
+2023,depto,50,Total,global,147.612
+2023,depto,52,Privado,global,136.693
+2023,depto,52,Público,global,149.683
+2023,depto,52,Total,global,141.568
+2023,depto,54,Privado,global,146.609
+2023,depto,54,Público,global,142.005
+2023,depto,54,Total,global,142.298
+2023,depto,63,Privado,global,150.462
+2023,depto,63,Público,global,144.481
+2023,depto,63,Total,global,146.246
+2023,depto,66,Privado,global,142.786
+2023,depto,66,Público,global,153.956
+2023,depto,66,Total,global,147.528
+2023,depto,68,Privado,global,146.016
+2023,depto,68,Público,global,152.907
+2023,depto,68,Total,global,149.04
+2023,depto,70,Privado,global,131.005
+2023,depto,70,Público,global,148.492
+2023,depto,70,Total,global,136.083
+2023,depto,73,Privado,global,143.368
+2023,depto,73,Público,global,138.976
+2023,depto,73,Total,global,139.46
+2023,depto,76,Privado,global,150.28
+2023,depto,76,Público,global,146.14
+2023,depto,76,Total,global,148.451
+2023,depto,85,Privado,global,135.763
+2023,depto,85,Total,global,135.763
+2023,depto,86,Público,global,130.315
+2023,depto,86,Total,global,130.315
+2023,genero,Hombres,Total,global,147.344
+2023,genero,Mujeres,Total,global,143.5
+2023,nacional,Total,Privado,Competencias ciudadanas,137.979
+2023,nacional,Total,Privado,Comunicación escrita,140.362
+2023,nacional,Total,Privado,Inglés,153.746
+2023,nacional,Total,Privado,Lectura crítica,147.061
+2023,nacional,Total,Privado,Razonamiento cuantitativo,140.272
+2023,nacional,Total,Privado,global,143.883
+2023,nacional,Total,Público,Competencias ciudadanas,142.965
+2023,nacional,Total,Público,Comunicación escrita,141.122
+2023,nacional,Total,Público,Inglés,152.242
+2023,nacional,Total,Público,Lectura crítica,152.918
+2023,nacional,Total,Público,Razonamiento cuantitativo,147.792
+2023,nacional,Total,Público,global,147.407
+2023,nacional,Total,Total,Competencias ciudadanas,139.748
+2023,nacional,Total,Total,Comunicación escrita,140.632
+2023,nacional,Total,Total,Inglés,153.212
+2023,nacional,Total,Total,Lectura crítica,149.139
+2023,nacional,Total,Total,Razonamiento cuantitativo,142.94
+2023,nacional,Total,Total,global,145.134
+2023,nse,1,Total,global,135.601
+2023,nse,2,Total,global,141.662
+2023,nse,3,Total,global,145.407
+2023,nse,4,Total,global,151.791
+2024,depto,05,Privado,global,148.288
+2024,depto,05,Público,global,156.278
+2024,depto,05,Total,global,151.488
+2024,depto,08,Privado,global,144.224
+2024,depto,08,Público,global,152.034
+2024,depto,08,Total,global,145.871
+2024,depto,11,Privado,global,143.905
+2024,depto,11,Público,global,150.242
+2024,depto,11,Total,global,145.314
+2024,depto,13,Privado,global,140.469
+2024,depto,13,Público,global,144.498
+2024,depto,13,Total,global,142.329
+2024,depto,15,Privado,global,146.236
+2024,depto,15,Público,global,158.222
+2024,depto,15,Total,global,153.98
+2024,depto,17,Privado,global,150.001
+2024,depto,17,Público,global,160.168
+2024,depto,17,Total,global,155.838
+2024,depto,18,Público,global,139.343
+2024,depto,18,Total,global,139.343
+2024,depto,19,Privado,global,134.232
+2024,depto,19,Público,global,158.153
+2024,depto,19,Total,global,147.651
+2024,depto,20,Público,global,141.427
+2024,depto,20,Total,global,141.427
+2024,depto,23,Privado,global,142.927
+2024,depto,23,Público,global,144.769
+2024,depto,23,Total,global,143.937
+2024,depto,25,Privado,global,177.355
+2024,depto,25,Público,global,145.544
+2024,depto,25,Total,global,161.503
+2024,depto,27,Privado,global,122.935
+2024,depto,27,Público,global,116.618
+2024,depto,27,Total,global,118.177
+2024,depto,41,Privado,global,135.757
+2024,depto,41,Público,global,151.016
+2024,depto,41,Total,global,146.102
+2024,depto,44,Público,global,133.06
+2024,depto,44,Total,global,133.06
+2024,depto,47,Privado,global,145.028
+2024,depto,47,Público,global,145.732
+2024,depto,47,Total,global,145.518
+2024,depto,50,Privado,global,138.399
+2024,depto,50,Público,global,153.579
+2024,depto,50,Total,global,149.109
+2024,depto,52,Privado,global,136.608
+2024,depto,52,Público,global,150.452
+2024,depto,52,Total,global,141.823
+2024,depto,54,Privado,global,146.508
+2024,depto,54,Público,global,142.659
+2024,depto,54,Total,global,142.869
+2024,depto,63,Privado,global,149.297
+2024,depto,63,Público,global,147.492
+2024,depto,63,Total,global,147.999
+2024,depto,66,Privado,global,142.144
+2024,depto,66,Público,global,155.541
+2024,depto,66,Total,global,148.026
+2024,depto,68,Privado,global,148.514
+2024,depto,68,Público,global,154.025
+2024,depto,68,Total,global,151.006
+2024,depto,70,Privado,global,133.026
+2024,depto,70,Público,global,152.879
+2024,depto,70,Total,global,138.341
+2024,depto,73,Privado,global,150.155
+2024,depto,73,Público,global,137.604
+2024,depto,73,Total,global,139.41
+2024,depto,76,Privado,global,150.242
+2024,depto,76,Público,global,146.714
+2024,depto,76,Total,global,148.551
+2024,depto,85,Privado,global,139.467
+2024,depto,85,Total,global,139.467
+2024,depto,86,Público,global,130.491
+2024,depto,86,Total,global,130.491
+2024,genero,Hombres,Total,global,148.941
+2024,genero,Mujeres,Total,global,144.223
+2024,nacional,Total,Privado,Competencias ciudadanas,143.422
+2024,nacional,Total,Privado,Comunicación escrita,133.548
+2024,nacional,Total,Privado,Inglés,155.608
+2024,nacional,Total,Privado,Lectura crítica,150.277
+2024,nacional,Total,Privado,Razonamiento cuantitativo,140.767
+2024,nacional,Total,Privado,global,144.724
+2024,nacional,Total,Público,Competencias ciudadanas,149.322
+2024,nacional,Total,Público,Comunicación escrita,134.702
+2024,nacional,Total,Público,Inglés,154.917
+2024,nacional,Total,Público,Lectura crítica,156.215
+2024,nacional,Total,Público,Razonamiento cuantitativo,148.487
+2024,nacional,Total,Público,global,148.729
+2024,nacional,Total,Total,Competencias ciudadanas,145.64
+2024,nacional,Total,Total,Comunicación escrita,133.982
+2024,nacional,Total,Total,Inglés,155.348
+2024,nacional,Total,Total,Lectura crítica,152.509
+2024,nacional,Total,Total,Razonamiento cuantitativo,143.669
+2024,nacional,Total,Total,global,146.229
+2024,nse,1,Total,global,136.782
+2024,nse,2,Total,global,143.11
+2024,nse,3,Total,global,147.629
+2024,nse,4,Total,global,158.257
+2025,depto,05,Privado,global,151.324
+2025,depto,05,Público,global,157.836
+2025,depto,05,Total,global,153.722
+2025,depto,08,Privado,global,146.014
+2025,depto,08,Público,global,152.267
+2025,depto,08,Total,global,147.279
+2025,depto,11,Privado,global,145.932
+2025,depto,11,Público,global,148.648
+2025,depto,11,Total,global,146.571
+2025,depto,13,Privado,global,141.671
+2025,depto,13,Público,global,148.395
+2025,depto,13,Total,global,144.774
+2025,depto,15,Privado,global,150.366
+2025,depto,15,Público,global,157.982
+2025,depto,15,Total,global,155.358
+2025,depto,17,Privado,global,151.935
+2025,depto,17,Público,global,159.104
+2025,depto,17,Total,global,156.275
+2025,depto,18,Público,global,147.606
+2025,depto,18,Total,global,147.606
+2025,depto,19,Privado,global,136.624
+2025,depto,19,Público,global,159.731
+2025,depto,19,Total,global,149.02
+2025,depto,20,Público,global,147.357
+2025,depto,20,Total,global,147.357
+2025,depto,23,Privado,global,144.827
+2025,depto,23,Público,global,148.711
+2025,depto,23,Total,global,146.953
+2025,depto,25,Privado,global,175.704
+2025,depto,25,Público,global,150.952
+2025,depto,25,Total,global,162.213
+2025,depto,27,Privado,global,125.542
+2025,depto,27,Público,global,120.499
+2025,depto,27,Total,global,122.048
+2025,depto,41,Privado,global,138.4
+2025,depto,41,Público,global,150.672
+2025,depto,41,Total,global,147.028
+2025,depto,44,Público,global,135.229
+2025,depto,44,Total,global,135.229
+2025,depto,47,Privado,global,144.655
+2025,depto,47,Público,global,149.723
+2025,depto,47,Total,global,148.236
+2025,depto,50,Privado,global,140.719
+2025,depto,50,Público,global,157.253
+2025,depto,50,Total,global,153.11
+2025,depto,52,Privado,global,140.616
+2025,depto,52,Público,global,154.242
+2025,depto,52,Total,global,145.457
+2025,depto,54,Privado,global,147.358
+2025,depto,54,Público,global,146.466
+2025,depto,54,Total,global,146.52
+2025,depto,63,Privado,global,152.727
+2025,depto,63,Público,global,150.235
+2025,depto,63,Total,global,150.874
+2025,depto,66,Privado,global,147.556
+2025,depto,66,Público,global,157.546
+2025,depto,66,Total,global,152.108
+2025,depto,68,Privado,global,150.95
+2025,depto,68,Público,global,156.243
+2025,depto,68,Total,global,153.375
+2025,depto,70,Privado,global,136.248
+2025,depto,70,Público,global,155.202
+2025,depto,70,Total,global,141.907
+2025,depto,73,Privado,global,151.596
+2025,depto,73,Público,global,141.97
+2025,depto,73,Total,global,143.492
+2025,depto,76,Privado,global,152.99
+2025,depto,76,Público,global,147.174
+2025,depto,76,Total,global,150.192
+2025,depto,85,Privado,global,141.873
+2025,depto,85,Total,global,141.873
+2025,depto,86,Público,global,135.832
+2025,depto,86,Total,global,135.832
+2025,genero,Hombres,Total,global,151.143
+2025,genero,Mujeres,Total,global,146.041
+2025,nacional,Total,Privado,Competencias ciudadanas,142.241
+2025,nacional,Total,Privado,Comunicación escrita,148.078
+2025,nacional,Total,Privado,Inglés,154.093
+2025,nacional,Total,Privado,Lectura crítica,150.485
+2025,nacional,Total,Privado,Razonamiento cuantitativo,140.06
+2025,nacional,Total,Privado,global,146.991
+2025,nacional,Total,Público,Competencias ciudadanas,146.782
+2025,nacional,Total,Público,Comunicación escrita,149.801
+2025,nacional,Total,Público,Inglés,152.212
+2025,nacional,Total,Público,Lectura crítica,155.071
+2025,nacional,Total,Público,Razonamiento cuantitativo,146.844
+2025,nacional,Total,Público,global,150.142
+2025,nacional,Total,Total,Competencias ciudadanas,143.946
+2025,nacional,Total,Total,Comunicación escrita,148.725
+2025,nacional,Total,Total,Inglés,153.387
+2025,nacional,Total,Total,Lectura crítica,152.207
+2025,nacional,Total,Total,Razonamiento cuantitativo,142.606
+2025,nacional,Total,Total,global,148.174
+2025,nse,1,Total,global,138.809
+2025,nse,2,Total,global,145.167
+2025,nse,3,Total,global,149.499
+2025,nse,4,Total,global,159.87
