@@ -237,7 +237,97 @@ def resumen():
     i = i[(i.depto == "00") & (i.medida == "desercion")].set_index("anio").valor
     out["desercion"] = {"anio": int(i.index.max()), "v": limpiar(i.iloc[-1]), "ant": limpiar(i.iloc[-2]),
                         "serie": [[int(a) for a in i.index], [limpiar(x) for x in i]]}
+    s11 = DATOS / "icfes" / "saber11.csv"
+    if s11.exists():
+        x = pd.read_csv(s11, dtype={"categoria": str})
+        n = x[(x.grupo == "nacional")]
+        g = n[n.medida == "global"].pivot_table(index="anio", columns="sector", values="valor")
+        nb = n[(n.medida == "Matemáticas|Nivel 1") & (n.sector == "Total")].set_index("anio").valor
+        pz = pd.read_csv(DATOS / "pisa" / "pisa.csv")
+        ua = pz.anio.max()
+        pm = pz[(pz.anio == ua) & (pz.materia == "Matemáticas")].set_index("pais").puntaje
+        out["saber11"] = {"anios": [int(a) for a in g.index], "v": [limpiar(v, 1) for v in g.Total],
+                          "brecha": limpiar(g["Privado"].iloc[-1] - g["Público"].iloc[-1], 1), "mat_bajo": limpiar(nb.iloc[-1], 1),
+                          "pisa": [int(ua), int(pm["Colombia"]), int(pm["Promedio OCDE"])]}
+    sup = DATOS / "superior" / "datos.csv"
+    if sup.exists():
+        x = pd.read_csv(sup)
+        m = x[(x.tipo == "matriculados") & (x.semestre == 2)]
+        t = m.groupby("anio").valor.sum()
+        ua = int(t.index.max())
+        out["superior"] = {"anios": [int(a) for a in t.index], "v": [int(v) for v in t],
+                           "pub": limpiar(m[(m.anio == ua) & (m.sector == "Pública")].valor.sum() / t[ua] * 100, 1),
+                           "grad": int(x[(x.tipo == "graduados") & (x.anio == ua)].valor.sum())}
     guardar("resumen.json", out)
+
+
+# ---------------------------------------------------------------- educación superior (SNIES, anual)
+def superior():
+    c = DATOS / "superior"
+    if not (c / "datos.csv").exists():
+        return
+    d = pd.read_csv(c / "datos.csv")
+    # cifra anual: matriculados = segundo semestre (el corte más completo del año); nuevos y graduados = suma de los dos semestres
+    def anual(x):
+        m = x[(x.tipo == "matriculados") & (x.semestre == 2)]
+        o = x[x.tipo != "matriculados"]
+        return pd.concat([m, o])
+    d = anual(d)
+    anios = sorted(int(a) for a in d.anio.unique())
+    out = {"anios": anios}
+    for tipo in ["matriculados", "primer_curso", "graduados"]:
+        x = d[d.tipo == tipo]
+        t = {"total": lista(x.groupby("anio").valor.sum(), anios, 0)}
+        for dim in ["sector", "nivel_academico", "nivel_formacion", "modalidad", "sexo"]:
+            t[dim] = {k: lista(g.groupby("anio").valor.sum(), anios, 0) for k, g in x.groupby(dim) if k != "Sin dato"}
+        t["sector_nivel"] = {f"{a}|{b}": lista(g.groupby("anio").valor.sum(), anios, 0) for (a, b), g in x.groupby(["sector", "nivel_academico"])}
+        out[tipo] = t
+    dp = anual(pd.read_csv(c / "deptos.csv", dtype={"depto": str}))
+    dp = dp[dp.tipo == "matriculados"]
+    out["deptos"] = {k: lista(g.groupby("anio").valor.sum(), anios, 0) for k, g in dp.groupby("depto") if k in mapa_codigos()}
+    out["deptos_publica"] = {k: lista(g.groupby("anio").valor.sum(), anios, 0) for k, g in dp[dp.sector == "Pública"].groupby("depto") if k in mapa_codigos()}
+    ar = anual(pd.read_csv(c / "areas.csv"))
+    ar = ar[(ar.tipo == "matriculados") & (ar.nivel_academico == "Pregrado") & ~ar.area.isin(["Sin dato", "Sin información", "Sin informacion"])]
+    out["areas"] = {k: lista(g.groupby("anio").valor.sum(), anios, 0) for k, g in ar.groupby("area")}
+    ies = anual(pd.read_csv(c / "ies.csv"))
+    ies = ies[ies.tipo == "matriculados"]
+    u, a = anios[-1], anios[-2] if len(anios) > 1 else None
+    tot = ies.groupby(["anio", "cod_ies"]).valor.sum()
+    info = ies[ies.anio == u].groupby("cod_ies").agg(ies=("ies", "first"), sector=("sector", "first"), caracter=("caracter", "first"))
+    top = tot.loc[u].sort_values(ascending=False).head(20)
+    out["ies"] = [[info.ies[k], info.sector[k], info.caracter[k], int(v), int(tot.get((a, k), 0)) if a else None] for k, v in top.items()]
+    guardar("superior.json", out)
+
+
+def mapa_codigos():
+    return set(COD_DEPTO.values())
+
+
+# ---------------------------------------------------------------- calidad: ICFES y PISA
+def calidad():
+    out = {}
+    for nombre, archivo in [("s11", "saber11.csv"), ("pro", "saberpro.csv")]:
+        p = DATOS / "icfes" / archivo
+        if not p.exists():
+            continue
+        d = pd.read_csv(p, dtype={"categoria": str})
+        anios = sorted(int(a) for a in d.anio.unique())
+        serie = lambda x: lista(x.groupby("anio").valor.mean(), anios, 1)
+        n = d[d.grupo == "nacional"]
+        r = {"anios": anios,
+             "global": {s: serie(g) for s, g in n[n.medida == "global"].groupby("sector")},
+             "pruebas": {m: {s: serie(g) for s, g in x.groupby("sector")} for m, x in n[(n.medida != "global") & ~n.medida.str.contains("|", regex=False)].groupby("medida")},
+             "niveles": {m: serie(x) for m, x in n[n.medida.str.contains("|", regex=False) & (n.sector == "Total")].groupby("medida")},
+             "nse": {c: serie(g) for c, g in d[(d.grupo == "nse") & (d.medida == "global")].groupby("categoria")},
+             "genero": {c: serie(g) for c, g in d[(d.grupo == "genero") & (d.medida == "global")].groupby("categoria")},
+             "zona": {c: serie(g) for c, g in d[(d.grupo == "sector_zona") & (d.medida == "global")].groupby("categoria")}}
+        dep = d[(d.grupo == "depto") & (d.sector == "Total")]
+        r["deptos"] = {m: {c: serie(g) for c, g in x.groupby("categoria")} for m, x in dep.groupby("medida")}
+        out[nombre] = r
+    pz = pd.read_csv(DATOS / "pisa" / "pisa.csv")
+    pa = sorted(int(a) for a in pz.anio.unique())
+    out["pisa"] = {"anios": pa, "valores": {p: {m: lista(g.set_index("anio").puntaje, pa, 0) for m, g in x.groupby("materia")} for p, x in pz.groupby("pais")}}
+    guardar("calidad.json", out)
 
 
 def main():
@@ -248,6 +338,8 @@ def main():
     presupuesto_historico()
     icetex()
     colegios()
+    superior()
+    calidad()
     resumen()
 
 

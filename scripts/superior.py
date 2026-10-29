@@ -35,7 +35,7 @@ CARPETA = DATOS / "superior"
 
 
 def plano(x):
-    x = unicodedata.normalize("NFKD", str(x)).encode("ascii", "ignore").decode()
+    x = unicodedata.normalize("NFKD", str(x)).encode("ascii", "ignore").decode().replace("_", " ")
     return " ".join(x.upper().split())
 
 
@@ -43,11 +43,16 @@ def enlaces():
     """{(tipo, año): url} a partir de los títulos de la página del SNIES."""
     pag = bajar(PAGINA).decode("utf-8", "ignore")
     out = {}
-    for href, texto in re.findall(r'<a[^>]+href="(articles-\d+_recurso\.xlsx)"[^>]*>(.*?)</a>', pag, re.S):
-        t = html.unescape(re.sub("<[^>]+>", "", texto)).strip().lower()
-        m = re.match(r"estudiantes (matriculados en primer curso|matriculados|graduados) (\d{4})$", " ".join(t.split()))
+    for href, texto in re.findall(r'<a[^>]+href="(articles-\d+_recurso\.xlsx?b?)"[^>]*>(.*?)</a>', pag, re.S):
+        t = " ".join(html.unescape(re.sub("<[^>]+>", "", texto)).strip().lower().split())
+        m = re.match(r"estudiantes (matriculados en primer curso|matriculados|graduados) (\d{4})$", t)
         if m and int(m.group(2)) >= DESDE:
             out[(TIPOS[m.group(1)], int(m.group(2)))] = BASE + href
+        # los graduados de 2001 a 2017 vienen en una sola base histórica
+        m = re.match(r"estudiantes graduados (\d{4}) a (\d{4})$", t)
+        if m:
+            for a in range(max(DESDE, int(m.group(1))), int(m.group(2)) + 1):
+                out.setdefault(("graduados", a), BASE + href)
     return out
 
 
@@ -59,7 +64,12 @@ def columna(cols, *claves, evitar=("ID ", "CODIGO")):
     return None
 
 
+_LEIDOS = {}
+
+
 def leer(url):
+    if url in _LEIDOS:
+        return _LEIDOS[url]
     hojas = pd.read_excel(io.BytesIO(bajar(url, timeout=600)), sheet_name=None, header=None, engine="calamine")
     for nombre, d in hojas.items():
         for i in range(min(20, len(d))):
@@ -67,6 +77,8 @@ def leer(url):
             if "SECTOR IES" in fila and any(v.startswith("SEMESTRE") for v in fila):
                 x = d.iloc[i + 1:].copy()
                 x.columns = [" ".join(str(v).split()) for v in d.iloc[i]]
+                _LEIDOS.clear()
+                _LEIDOS[url] = x
                 return x
     raise RuntimeError(f"No se encontró la tabla en {url}")
 
@@ -75,16 +87,22 @@ def normalizar(x, tipo, anio):
     cols = list(x.columns)
     c = {"sector": columna(cols, "SECTOR IES"), "caracter": columna(cols, "CARACTER IES"),
          "nivel_academico": columna(cols, "NIVEL ACADEMICO"), "nivel_formacion": columna(cols, "NIVEL DE FORMACION"),
-         "modalidad": columna(cols, "MODALIDAD") or columna(cols, "METODOLOGIA"), "sexo": columna(cols, "SEXO"),
+         "modalidad": columna(cols, "MODALIDAD") or columna(cols, "METODOLOGIA"),
+         "sexo": columna(cols, "SEXO") or columna(cols, "GENERO") or columna(cols, "SEXO", evitar=()) or columna(cols, "GENERO", evitar=()),
          "semestre": columna(cols, "SEMESTRE"), "area": columna(cols, "AREA DE CONOCIMIENTO"),
-         "ies": columna(cols, "INSTITUCION DE EDUCACION SUPERIOR"), "cod_ies": columna(cols, "INSTITUCION", evitar=("ID ",)),
+         "ies": columna(cols, "INSTITUCION DE EDUCACION SUPERIOR"), "cod_ies": columna(cols, "IES PADRE") or columna(cols, "INSTITUCION", evitar=("ID ",)),
          "depto": next((k for k in cols if "DEPARTAMENTO" in plano(k) and "PROGRAMA" in plano(k) and plano(k).startswith("CODIGO")), None)}
     faltan = [k for k, v in c.items() if v is None]
     if faltan:
         raise RuntimeError(f"{tipo} {anio}: no se encontraron las columnas {faltan} en {cols}")
     valor = cols[-1]   # la última columna es la cifra (MATRICULADOS, GRADUADOS, PRIMER CURSO...)
     d = pd.DataFrame({k: x[v] for k, v in c.items()})
-    d["valor"] = pd.to_numeric(x[valor], errors="coerce")
+    col_anio = next((k for k in cols if plano(k).rstrip("*") in ("ANO", "AÑO")), None)
+    if col_anio is not None:   # bases con varios años (la histórica de graduados): solo el año pedido
+        d = d[pd.to_numeric(x[col_anio], errors="coerce") == anio]
+    if plano(c["sexo"]).startswith("ID"):   # algunas bases solo traen el código: 1 = hombre, 2 = mujer
+        d["sexo"] = pd.to_numeric(d.sexo, errors="coerce").map({1: "HOMBRE", 2: "MUJER"})
+    d["valor"] = pd.to_numeric(x.loc[d.index, valor], errors="coerce")
     d = d[d.valor.notna() & pd.to_numeric(d.semestre, errors="coerce").notna()]
     d["semestre"] = pd.to_numeric(d.semestre).astype(int)
     d["anio"], d["tipo"] = anio, tipo

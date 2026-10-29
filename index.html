@@ -9,14 +9,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/estilos.css?v=2">
+<link rel="stylesheet" href="assets/estilos.css?v=3">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-<script src="assets/comun.js?v=2"></script>
-<script src="assets/resumen.js?v=2"></script>
-<script src="assets/jovenes.js?v=2"></script>
-<script src="assets/colegios.js?v=2"></script>
-<script src="assets/icetex.js?v=2"></script>
-<script src="assets/presupuesto.js?v=2"></script>
+<script src="assets/comun.js?v=3"></script>
+<script src="assets/resumen.js?v=3"></script>
+<script src="assets/jovenes.js?v=3"></script>
+<script src="assets/colegios.js?v=3"></script>
+<script src="assets/icetex.js?v=3"></script>
+<script src="assets/universidades.js?v=3"></script>
+<script src="assets/calidad.js?v=3"></script>
+<script src="assets/presupuesto.js?v=3"></script>
 </head>
 <body>
 <header class="appbar">
@@ -35,6 +37,8 @@
       <a href="#resumen" data-tab="resumen">Resumen</a>
       <a href="#jovenes" data-tab="jovenes">Jóvenes</a>
       <a href="#colegios" data-tab="colegios">Colegios</a>
+      <a href="#calidad" data-tab="calidad">Calidad</a>
+      <a href="#universidades" data-tab="universidades">Educación superior</a>
       <a href="#icetex" data-tab="icetex">Créditos ICETEX</a>
       <a href="#presupuesto" data-tab="presupuesto">Presupuesto</a>
     </nav>
@@ -52,10 +56,12 @@
         <div class="tarjeta"><div class="tt"><h3>Desempleo de los jóvenes</h3></div><div class="num" id="res-td-num"></div><div class="cambio" id="res-td-cambio"></div><div class="mini"><canvas id="res-td-g"></canvas></div><p id="res-td-txt"></p><a class="mas" href="#jovenes">Ver más sobre los jóvenes ›</a></div>
         <div class="tarjeta"><div class="tt"><h3>Presupuesto de educación</h3></div><div class="num" id="res-pre-num"></div><div class="cambio" id="res-pre-cambio"></div><div class="mini"><canvas id="res-pre-g"></canvas></div><p id="res-pre-txt"></p><a class="mas" href="#presupuesto">Ver más sobre el presupuesto ›</a></div>
         <div class="tarjeta"><div class="tt"><h3>Créditos del ICETEX</h3></div><div class="num" id="res-ice-num"></div><div class="cambio" id="res-ice-cambio"></div><div class="mini"><canvas id="res-ice-g"></canvas></div><p id="res-ice-txt"></p><a class="mas" href="#icetex">Ver más sobre el ICETEX ›</a></div>
+        <div class="tarjeta"><div class="tt"><h3>Saber 11 (calidad)</h3></div><div class="num" id="res-s11-num"></div><div class="cambio" id="res-s11-cambio"></div><div class="mini"><canvas id="res-s11-g"></canvas></div><p id="res-s11-txt"></p><a class="mas" href="#calidad">Ver más sobre la calidad ›</a></div>
+        <div class="tarjeta"><div class="tt"><h3>Educación superior</h3></div><div class="num" id="res-sup-num"></div><div class="cambio" id="res-sup-cambio"></div><div class="mini"><canvas id="res-sup-g"></canvas></div><p id="res-sup-txt"></p><a class="mas" href="#universidades">Ver más sobre la educación superior ›</a></div>
         <div class="tarjeta"><div class="tt"><h3>Estudiantes en colegios</h3></div><div class="num" id="res-mat-num"></div><div class="cambio" id="res-mat-cambio"></div><div class="mini"><canvas id="res-mat-g"></canvas></div><p id="res-mat-txt"></p><a class="mas" href="#colegios">Ver más sobre los colegios ›</a></div>
         <div class="tarjeta"><div class="tt"><h3>Deserción escolar</h3></div><div class="num" id="res-des-num"></div><div class="cambio" id="res-des-cambio"></div><div class="mini"><canvas id="res-des-g"></canvas></div><p id="res-des-txt"></p><a class="mas" href="#colegios">Ver más sobre los colegios ›</a></div>
       </div>
-      <p class="foot">Fuentes: DANE, Ministerio de Educación, ICETEX y Ministerio de Hacienda.</p>
+      <p class="foot">Fuentes: DANE, Ministerio de Educación (SIMAT y SNIES), ICFES, OCDE (PISA), ICETEX y Ministerio de Hacienda.</p>
     </div>
   </section>
 
@@ -137,6 +143,122 @@
       </section>
       <p class="foot">Fuentes: Ministerio de Educación — matrícula del SIMAT (2010 en adelante; el año 2018 no está publicado en datos abiertos) e indicadores de cobertura, deserción y repitencia por departamento (2011 en adelante).
         Datos: <a href="datos/matricula/datos.csv">matrícula</a> · <a href="datos/matricula/sexo.csv">matrícula por sexo</a> · <a href="datos/indicadores/datos.csv">indicadores</a></p>
+    </div>
+  </section>
+
+
+  <!-- ===================================================== CALIDAD -->
+  <section class="tab" id="tab-calidad" hidden>
+    <div class="cargando">Cargando datos…</div>
+    <div class="contenido" hidden>
+      <div class="row spread mb"><p class="hint" style="margin:0">Qué tanto aprenden los estudiantes, según los exámenes del ICFES (Saber 11 al terminar el colegio y Saber Pro al terminar la universidad) y la prueba internacional PISA.</p><span class="badge" id="cal-ultima"></span></div>
+      <section class="kpis">
+        <div class="kpi"><div class="l">Saber 11, puntaje promedio</div><div class="v" id="cal-k1"></div><div class="d" id="cal-k1d"></div></div>
+        <div class="kpi"><div class="l">Brecha privados − públicos</div><div class="v" id="cal-k2"></div><div class="d" id="cal-k2d"></div></div>
+        <div class="kpi"><div class="l">Matemáticas: nivel más bajo</div><div class="v" id="cal-k3"></div><div class="d" id="cal-k3d"></div></div>
+        <div class="kpi"><div class="l">PISA matemáticas</div><div class="v" id="cal-k4"></div><div class="d" id="cal-k4d"></div></div>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>1</b>Al terminar el colegio</span>
+        <h2>Saber 11: el puntaje promedio en el tiempo</h2>
+        <p class="hint">Puntaje global de 0 a 500 del examen que presentan los estudiantes de grado once (calendario A, el de la gran mayoría de colegios).</p>
+        <div class="chartbox" style="height:300px"><canvas id="cal-s11"></canvas></div>
+        <p class="interp" id="cal-s11-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>2</b>Materia por materia</span>
+        <h2>Puntaje promedio de cada prueba</h2>
+        <div class="chartbox" style="height:300px"><canvas id="cal-pru"></canvas></div>
+        <p class="interp" id="cal-pru-txt"></p>
+        <div class="row spread" style="margin-top:22px"><h2 style="margin:0">¿Cuántos alcanzan lo mínimo?</h2><div class="seg" id="cal-prueba"><button data-v="Matemáticas" class="on">Matemáticas</button><button data-v="Lectura crítica">Lectura</button><button data-v="Ciencias naturales">Ciencias</button><button data-v="Sociales y ciudadanas">Sociales</button><button data-v="Inglés">Inglés</button></div></div>
+        <p class="hint">Porcentaje de estudiantes en cada nivel de desempeño. Nivel 1 (rojo): no alcanza lo mínimo esperado; el último nivel (verde): el más alto.</p>
+        <div class="chartbox" style="height:300px"><canvas id="cal-niv"></canvas></div>
+        <p class="interp" id="cal-niv-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>3</b>Las brechas</span>
+        <div class="row spread"><h2>¿Quién saca mejores resultados?</h2><div class="seg" id="cal-brecha"><button data-v="nse" class="on">Según el hogar</button><button data-v="zona">Campo y ciudad</button><button data-v="genero">Mujeres y hombres</button></div></div>
+        <div class="chartbox" style="height:300px"><canvas id="cal-bre"></canvas></div>
+        <p class="interp" id="cal-bre-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>4</b>Por departamento</span>
+        <h2 id="cal-dep-t"></h2>
+        <div class="row"><label class="lbl">Qué ver:</label><select id="cal-dmed"></select><label class="lbl">Año:</label><select id="cal-danio"></select></div>
+        <p class="hint" style="margin-top:8px">Entre más oscuro, mejor el puntaje promedio.</p>
+        <div id="cal-dep"></div>
+        <div id="cal-dep-tiempo" hidden></div>
+        <p class="interp" id="cal-dep-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>5</b>Al terminar la universidad</span>
+        <h2>Saber Pro: el puntaje promedio en el tiempo</h2>
+        <p class="hint">Examen obligatorio para graduarse de una carrera profesional. Se muestra el puntaje global (las cinco pruebas que presentan todos).</p>
+        <div class="chartbox" style="height:280px"><canvas id="cal-pro"></canvas></div>
+        <p class="interp" id="cal-pro-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>6</b>Frente al mundo</span>
+        <div class="row spread"><h2>PISA: Colombia frente a los países de la OCDE</h2><div class="seg" id="cal-pisa"><button data-v="Matemáticas" class="on">Matemáticas</button><button data-v="Lectura">Lectura</button><button data-v="Ciencias">Ciencias</button></div></div>
+        <p class="hint">PISA evalúa cada tres o cuatro años a estudiantes de 15 años de decenas de países con la misma prueba. Puntaje promedio.</p>
+        <div class="chartbox" style="height:280px"><canvas id="cal-pisa-g"></canvas></div>
+        <p class="interp" id="cal-pisa-txt"></p>
+      </section>
+      <p class="foot">Fuentes: ICFES, cuadros de salida de la operación estadística de Saber 11 y Saber Pro (2016 en adelante); OCDE, resultados de PISA (2006 a 2022).
+        Datos: <a href="datos/icfes/saber11.csv">Saber 11</a> · <a href="datos/icfes/saberpro.csv">Saber Pro</a> · <a href="datos/pisa/pisa.csv">PISA</a></p>
+    </div>
+  </section>
+
+  <!-- ===================================================== EDUCACIÓN SUPERIOR -->
+  <section class="tab" id="tab-universidades" hidden>
+    <div class="cargando">Cargando datos…</div>
+    <div class="contenido" hidden>
+      <div class="row spread mb"><p class="hint" style="margin:0">Universidades, instituciones universitarias, tecnológicas y técnicas, incluido el SENA. El Ministerio de Educación publica las cifras una vez al año.</p><span class="badge" id="uni-ultima"></span></div>
+      <section class="kpis">
+        <div class="kpi"><div class="l">Estudiantes</div><div class="v" id="uni-k1"></div><div class="d" id="uni-k1d"></div></div>
+        <div class="kpi"><div class="l">En instituciones públicas</div><div class="v" id="uni-k2"></div><div class="d" id="uni-k2d"></div></div>
+        <div class="kpi"><div class="l">Nuevos</div><div class="v" id="uni-k3"></div><div class="d" id="uni-k3d"></div></div>
+        <div class="kpi"><div class="l">Graduados</div><div class="v" id="uni-k4"></div><div class="d" id="uni-k4d"></div></div>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>1</b>Cuántos estudian</span>
+        <div class="row spread"><h2 id="uni-mat-t"></h2><div class="seg" id="uni-desg"><button data-v="sector" class="on">Públicas y privadas</button><button data-v="nivel">Nivel</button><button data-v="modalidad">Presencial o virtual</button><button data-v="sexo">Mujeres y hombres</button></div></div>
+        <div class="grupos-ise">
+          <div><strong>Técnico y tecnológico</strong><span>Programas cortos (dos a tres años) para un oficio específico. El SENA es el que más estudiantes tiene.</span></div>
+          <div><strong>Universitario</strong><span>Las carreras profesionales, de cuatro a cinco años.</span></div>
+          <div><strong>Posgrado</strong><span>Especializaciones, maestrías y doctorados, después de una carrera.</span></div>
+        </div>
+        <p class="hint">Matriculados en el segundo semestre de cada año.</p>
+        <div class="chartbox" style="height:320px"><canvas id="uni-mat"></canvas></div>
+        <p class="interp" id="uni-mat-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>2</b>Los que entran y los que se gradúan</span>
+        <h2>Nuevos estudiantes y graduados cada año</h2>
+        <div class="chartbox" style="height:280px"><canvas id="uni-flujo"></canvas></div>
+        <p class="interp" id="uni-flujo-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>3</b>Dónde estudian</span>
+        <h2 id="uni-ies-t"></h2>
+        <div class="chartbox"><canvas id="uni-ies"></canvas></div>
+        <p class="interp" id="uni-ies-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>4</b>Qué estudian</span>
+        <h2 id="uni-area-t"></h2>
+        <div class="chartbox"><canvas id="uni-area"></canvas></div>
+        <p class="interp" id="uni-area-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>5</b>Por departamento</span>
+        <div class="row spread"><h2 id="uni-dep-t"></h2><div class="seg" id="uni-dmapa"><button data-v="n" class="on">Número de estudiantes</button><button data-v="pub">% en públicas</button></div></div>
+        <div id="uni-dep"></div>
+        <div id="uni-dep-tiempo" hidden></div>
+        <p class="interp" id="uni-dep-txt"></p>
+      </section>
+      <p class="foot">Fuente: Ministerio de Educación, SNIES — bases consolidadas de estudiantes matriculados, matriculados en primer curso y graduados (2014 en adelante).
+        Datos: <a href="datos/superior/datos.csv">totales</a> · <a href="datos/superior/ies.csv">por institución</a> · <a href="datos/superior/deptos.csv">por departamento</a> · <a href="datos/superior/areas.csv">por área</a></p>
     </div>
   </section>
 
@@ -273,6 +395,9 @@
         <tr><td>Presupuesto de educación</td><td>Ministerio de Hacienda</td><td>A comienzos del mes siguiente. Si el Ministerio deja un mes sin publicar, la página lo avisa.</td></tr>
         <tr><td>Cartera del ICETEX</td><td>ICETEX</td><td>Cada trimestre</td></tr>
         <tr><td>Créditos nuevos y renovados del ICETEX</td><td>ICETEX</td><td>Por semestre, con varios meses de rezago</td></tr>
+        <tr><td>Saber 11 y Saber Pro</td><td>ICFES</td><td>Una vez al año, cuando el ICFES publica sus cuadros oficiales</td></tr>
+        <tr><td>Educación superior</td><td>Ministerio de Educación (SNIES)</td><td>Una vez al año, a mediados del año siguiente</td></tr>
+        <tr><td>PISA</td><td>OCDE</td><td>Cada tres o cuatro años (se actualiza a mano)</td></tr>
         <tr><td>Matrícula en colegios</td><td>Ministerio de Educación</td><td>Una vez al año</td></tr>
         <tr><td>Cobertura, deserción y repitencia</td><td>Ministerio de Educación</td><td>Una vez al año, con más de un año de rezago</td></tr>
       </tbody></table></div>

@@ -46,6 +46,28 @@ registrar("resumen", (() => {
       `Hoy hay ${fmt(I.creditos / 1000, 0)} mil créditos vivos y <strong>${fmt(I.pct_mora, 0)} de cada 100 tienen cuotas atrasadas</strong>.`;
     mini("res-ice-g", I.nuevos[0], nv, css("--grafica"), "bar");
 
+    // --- calidad (Saber 11)
+    const S = R.saber11;
+    if (S) {
+      const k = S.anios.length - 1;
+      $("res-s11-num").textContent = fmt(S.v[k], 1);
+      $("res-s11-cambio").textContent = `${S.anios[k]} · puntaje promedio sobre 500`;
+      $("res-s11-txt").innerHTML = `El año anterior fue ${fmt(S.v[k - 1], 1)}: <strong>${Math.abs(S.v[k] - S.v[k - 1]) < 0.5 ? "casi igual" : S.v[k] > S.v[k - 1] ? "subió" : "bajó"}</strong>. ` +
+        `Los colegios privados sacan ${fmt(S.brecha, 0)} puntos más que los públicos, y <strong>${fmt(S.mat_bajo, 0)} de cada 100</strong> estudiantes quedan en el nivel más bajo de matemáticas. ` +
+        `En PISA ${S.pisa[0]}, Colombia sacó ${S.pisa[1]} en matemáticas frente a ${S.pisa[2]} del promedio de la OCDE.`;
+      mini("res-s11-g", S.anios.map(String), S.v, css("--s3"));
+    }
+    // --- educación superior
+    const U = R.superior;
+    if (U) {
+      const k = U.anios.length - 1, c = U.v[k] / U.v[k - 1] - 1;
+      $("res-sup-num").textContent = fmt(U.v[k] / 1e6, 2) + " M";
+      $("res-sup-cambio").textContent = `${U.anios[k]} · estudiantes en educación superior`;
+      $("res-sup-txt").innerHTML = `Hay ${fmt(U.v[k] / 1e6, 2)} millones de personas en carreras técnicas, tecnológicas, universitarias y posgrados, <strong>${fmt(Math.abs(c) * 100, 1)}% ${c >= 0 ? "más" : "menos"}</strong> que el año anterior. ` +
+        `${fmt(U.pub, 0)} de cada 100 estudian en instituciones públicas (incluido el SENA). En ${U.anios[k]} se graduaron ${fmt(U.grad / 1000, 0)} mil personas.`;
+      mini("res-sup-g", U.anios.map(String), U.v, css("--s2"));
+    }
+
     // --- matrícula
     const M = R.matricula, cm = M.v - M.ant;
     $("res-mat-num").textContent = fmt(M.v / 1e6, 2) + " M";
