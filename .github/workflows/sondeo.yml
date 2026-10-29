@@ -1,0 +1,18 @@
+name: Sondeo de fuentes (temporal)
+on: workflow_dispatch
+jobs:
+  sondeo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probar fuentes
+        run: |
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
+          for u in \
+            "https://snies.mineducacion.gov.co/portal/ESTADISTICAS/Bases-consolidadas/" \
+            "https://snies.mineducacion.gov.co/1778/w3-propertyvalue-56963.html" \
+            "https://www.icfes.gov.co/data-icfes/" \
+            "https://www.icfes.gov.co/investigaciones/data-icfes/" ; do
+            echo "=================== $u"
+            curl -sL -m 60 -A "$UA" -o p.html -w "HTTP %{http_code} %{size_download} %{url_effective}\n" "$u" || true
+            grep -oiE 'href="[^"]+"' p.html | grep -iE 'xlsx|xls|zip|csv|matricul|bases|saber|sharepoint|dataicfes|recurso' | sort -u | head -80 || true
+          done
