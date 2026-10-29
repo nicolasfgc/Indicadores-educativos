@@ -8,6 +8,8 @@ Se regenera en cada corrida de la tarea automática.
 Uso:  python scripts/web.py
 """
 import json
+import re
+import unicodedata
 from pathlib import Path
 
 import numpy as np
@@ -287,7 +289,11 @@ def superior():
     out["deptos"] = {k: lista(g.groupby("anio").valor.sum(), anios, 0) for k, g in dp.groupby("depto") if k in mapa_codigos()}
     out["deptos_publica"] = {k: lista(g.groupby("anio").valor.sum(), anios, 0) for k, g in dp[dp.sector == "Pública"].groupby("depto") if k in mapa_codigos()}
     ar = anual(pd.read_csv(c / "areas.csv"))
-    ar = ar[(ar.tipo == "matriculados") & (ar.nivel_academico == "Pregrado") & ~ar.area.isin(["Sin dato", "Sin información", "Sin informacion"])]
+    # el nombre de cada área cambió de forma (tildes y comas) entre años: se unifica con el nombre más reciente
+    llave = lambda x: re.sub(r"[^a-z]", "", unicodedata.normalize("NFKD", x.lower()).encode("ascii", "ignore").decode())
+    canon = ar.sort_values("anio").groupby(ar.area.map(llave)).area.last()
+    ar["area"] = ar.area.map(llave).map(canon)
+    ar = ar[(ar.tipo == "matriculados") & (ar.nivel_academico == "Pregrado") & ~ar.area.map(llave).str.startswith(("sin",))]
     out["areas"] = {k: lista(g.groupby("anio").valor.sum(), anios, 0) for k, g in ar.groupby("area")}
     ies = anual(pd.read_csv(c / "ies.csv"))
     ies = ies[ies.tipo == "matriculados"]

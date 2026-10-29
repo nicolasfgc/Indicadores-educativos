@@ -14,6 +14,8 @@ La educación se mide sobre todo una vez al año, así que la página combina un
 |---|---|---|---|
 | Jóvenes | Jóvenes de 15 a 28 años que ni estudian ni trabajan; desempleo, ocupación y participación juvenil, por sexo y zona | Mensual (trimestre móvil), desde 2007 | DANE, GEIH |
 | Presupuesto | Ejecución del presupuesto del sector educación, en qué se gasta, entidad por entidad y la historia desde 2000 | Mensual, desde 2019 | Ministerio de Hacienda |
+| Calidad | Saber 11 (por prueba, niveles, brechas y departamento), Saber Pro y PISA frente a la OCDE | Anual (PISA cada 3-4 años) | ICFES, OCDE |
+| Educación superior | Estudiantes, nuevos y graduados; públicas y privadas, nivel, modalidad, instituciones, áreas y departamentos | Anual, desde 2014 | Ministerio de Educación, SNIES |
 | Créditos ICETEX | Créditos nuevos y renovados; cartera y mora | Semestral y trimestral | ICETEX |
 | Colegios | Matrícula, cobertura, deserción y repitencia, por departamento | Anual | Ministerio de Educación |
 
@@ -21,7 +23,7 @@ El detalle de cada archivo está en [`datos/catalogo.csv`](datos/catalogo.csv).
 
 ## Cómo funciona
 
-- `scripts/` descarga y ordena cada fuente (`juventud.py`, `presupuesto.py`, `icetex.py`, `matricula.py`, `indicadores.py`) y `web.py` prepara archivos livianos para la página en `web/`.
+- `scripts/` descarga y ordena cada fuente (`juventud.py`, `presupuesto.py`, `icetex.py`, `matricula.py`, `indicadores.py`, `icfes.py`, `superior.py`) y `web.py` prepara archivos livianos para la página en `web/`.
 - `.github/workflows/actualizar-datos.yml` corre todo cada día a las 10 a. m. (hora Colombia) y guarda solo si hay datos nuevos.
 - La página (`index.html` y `assets/`) es estática y se publica con GitHub Pages.
 
@@ -31,7 +33,9 @@ El detalle de cada archivo está en [`datos/catalogo.csv`](datos/catalogo.csv).
 - **Matrícula:** el año 2018 no está en el conjunto de datos abiertos del Ministerio de Educación.
 - **Indicadores de colegios:** el conjunto solo trae departamentos; el dato nacional es un promedio ponderado por la población de 5 a 16 años, calculado aquí. Algunas columnas de la fuente vienen corridas y se descartan valores imposibles.
 - **ICETEX:** en junio de 2025 la fuente trae un salto no creíble en el número de créditos (se deja vacío) y algunos departamentos aparecen casi sin mora; la página lo señala.
-- **Pendiente:** matrícula en educación superior (SNIES) y resultados de las pruebas Saber 11 (ICFES).
+- **Educación superior:** la matrícula del año es la del segundo semestre; nuevos y graduados suman los dos semestres. Incluye al SENA.
+- **ICFES:** Saber 11 usa el calendario A. Se lee el archivo de "cuadros de salida" más reciente, que trae toda la serie desde 2016.
+- **PISA:** se escribe a mano en `datos/pisa/pisa.csv` (ver `datos/pisa/LEEME.md`); PISA 2025 sale a finales de 2026.
 
 ## Correr a mano
 

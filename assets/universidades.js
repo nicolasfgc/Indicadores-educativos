@@ -10,7 +10,7 @@ registrar("universidades", (() => {
     nivel: {t: "por nivel de formación", orden: ["Técnico profesional", "Tecnológico", "Universitario (carrera profesional)", "Posgrado"]},
     modalidad: {t: "por modalidad", orden: ["Presencial", "Virtual", "A distancia", "Combinada (presencial, virtual o dual)"]},
     sexo: {t: "mujeres y hombres", orden: ["Mujeres", "Hombres"]}};
-  const mill = x => x == null ? "sin dato" : x >= 1e6 ? fmt(x / 1e6, 2) + " millones" : fmt(x / 1000, 0) + " mil";
+  const mill = x => x == null ? "sin dato" : x >= 1e6 ? fmt(x / 1e6, 2) + " millones" : x >= 1e4 ? fmt(x / 1000, 0) + " mil" : fmt(x, 0);
   const pct = x => fmt(x, 0) + "%";
   const sumaPor = (obj, mapa) => { const out = {}; for (const [k, v] of Object.entries(obj)) { const g = mapa[k] || k; out[g] = out[g] ? out[g].map((x, i) => (x || 0) + (v[i] || 0)) : v.slice(); } return out; };
   const ies = n => titulo(n).replace(/-[a-z]+-$/i, "").replace(/ -([a-z]+)$/i, "").replace(/\bSena\b/i, "SENA").replace(/\bUnad\b/i, "UNAD").replace(/\bCun\b/i, "CUN");
@@ -87,7 +87,7 @@ registrar("universidades", (() => {
       valores[c] = st.dmapa === "n" ? t ?? null : t ? (P[c]?.[k] || 0) / t * 100 : null;
     }
     $("uni-dep-t").textContent = st.dmapa === "n" ? `Estudiantes de educación superior por departamento, ${A[k]}` : `Porcentaje en instituciones públicas por departamento, ${A[k]}`;
-    mapa("uni-dep", valores, nombres, {fmtValor: st.dmapa === "n" ? mill : (x => fmt(x, 1) + "%"), mayorEsMejor: true,
+    mapa("uni-dep", valores, nombres, {fmtValor: st.dmapa === "n" ? mill : (x => fmt(x, 1) + "%"), mayorEsMejor: true, log: st.dmapa === "n",
       extra: k2 => D[k2] ? `${mill(D[k2][k])} estudiantes · ${fmt((P[k2]?.[k] || 0) / D[k2][k] * 100, 0)}% en públicas` : "",
       alClic: c => enElTiempo("uni-dep-tiempo", `Estudiantes de educación superior en ${nombres[c]}`, A.map(String),
         [{label: "Total", data: D[c] || [], color: css("--grafica"), ancho: 2.5}, {label: "En instituciones públicas", data: P[c] || [], color: css("--s3"), ancho: 2}],

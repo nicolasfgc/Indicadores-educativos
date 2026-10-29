@@ -254,7 +254,9 @@ async function mapa(contId, valores, nombres, opts = {}) {
   const svg = c.querySelector("svg"), tip = c.querySelector(".mapa-tip"), caja = c.querySelector(".mapa-box");
   const vals = Object.entries(valores).filter(([k, v]) => v != null && M.deptos[k] && !(opts.dudoso && opts.dudoso(k)));
   const mn = Math.min(...vals.map(x => x[1])), mx = Math.max(...vals.map(x => x[1]));
-  const color = v => mezcla(claro, fuerte, mx > mn ? .08 + .92 * (v - mn) / (mx - mn) : 1);
+  // escala logarítmica para cifras muy desiguales (por ejemplo, número de estudiantes: Bogotá frente a Vaupés)
+  const esc = opts.log ? (v => Math.log(Math.max(v, 1))) : (v => v);
+  const color = v => mezcla(claro, fuerte, mx > mn ? .08 + .92 * (esc(v) - esc(mn)) / (esc(mx) - esc(mn)) : 1);
   const orden = vals.slice().sort((a, b) => opts.mayorEsMejor === false ? a[1] - b[1] : b[1] - a[1]);
   const puesto = k => orden.findIndex(x => x[0] === k) + 1;
   const marcar = k => { svg.querySelectorAll("path").forEach(p => p.classList.toggle("sel", p.dataset.k === k)); c.querySelectorAll(".mapa-lado li").forEach(li => li.classList.toggle("sel", li.dataset.k === k)); };
