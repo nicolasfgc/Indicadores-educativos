@@ -1,0 +1,649 @@
+anio,tipo_gasto,medida,precios,valor
+2000,Funcionamiento,apropiacion,constantes,18759.534
+2000,Funcionamiento,compromisos,constantes,17832.531
+2000,Funcionamiento,obligaciones,constantes,17792.42
+2000,Funcionamiento,pagos,constantes,16889.869
+2000,Inversión,apropiacion,constantes,778.031
+2000,Inversión,compromisos,constantes,702.649
+2000,Inversión,obligaciones,constantes,631.396
+2000,Inversión,pagos,constantes,378.142
+2000,Total sin deuda,apropiacion,constantes,19537.565
+2000,Total sin deuda,compromisos,constantes,18535.18
+2000,Total sin deuda,obligaciones,constantes,18423.816
+2000,Total sin deuda,pagos,constantes,17268.012
+2001,Funcionamiento,apropiacion,constantes,26072.149
+2001,Funcionamiento,compromisos,constantes,25311.875
+2001,Funcionamiento,obligaciones,constantes,25157.902
+2001,Funcionamiento,pagos,constantes,25137.413
+2001,Inversión,apropiacion,constantes,822.461
+2001,Inversión,compromisos,constantes,724.135
+2001,Inversión,obligaciones,constantes,482.274
+2001,Inversión,pagos,constantes,461.03
+2001,Total sin deuda,apropiacion,constantes,26894.61
+2001,Total sin deuda,compromisos,constantes,26036.01
+2001,Total sin deuda,obligaciones,constantes,25640.176
+2001,Total sin deuda,pagos,constantes,25598.443
+2002,Funcionamiento,apropiacion,constantes,27461.045
+2002,Funcionamiento,compromisos,constantes,27385.834
+2002,Funcionamiento,obligaciones,constantes,27325.379
+2002,Funcionamiento,pagos,constantes,26247.632
+2002,Inversión,apropiacion,constantes,908.517
+2002,Inversión,compromisos,constantes,823.529
+2002,Inversión,obligaciones,constantes,636.473
+2002,Inversión,pagos,constantes,478.306
+2002,Total sin deuda,apropiacion,constantes,28369.562
+2002,Total sin deuda,compromisos,constantes,28209.363
+2002,Total sin deuda,obligaciones,constantes,27961.852
+2002,Total sin deuda,pagos,constantes,26725.938
+2003,Funcionamiento,apropiacion,constantes,30149.319
+2003,Funcionamiento,compromisos,constantes,30026.22
+2003,Funcionamiento,obligaciones,constantes,28862.577
+2003,Funcionamiento,pagos,constantes,28849.414
+2003,Inversión,apropiacion,constantes,788.799
+2003,Inversión,compromisos,constantes,778.089
+2003,Inversión,obligaciones,constantes,623.801
+2003,Inversión,pagos,constantes,616.892
+2003,Total sin deuda,apropiacion,constantes,30938.118
+2003,Total sin deuda,compromisos,constantes,30804.309
+2003,Total sin deuda,obligaciones,constantes,29486.379
+2003,Total sin deuda,pagos,constantes,29466.305
+2004,Funcionamiento,apropiacion,constantes,32215.297
+2004,Funcionamiento,compromisos,constantes,32186.219
+2004,Funcionamiento,obligaciones,constantes,32024.402
+2004,Funcionamiento,pagos,constantes,31358.756
+2004,Inversión,apropiacion,constantes,1195.756
+2004,Inversión,compromisos,constantes,1162.541
+2004,Inversión,obligaciones,constantes,665.562
+2004,Inversión,pagos,constantes,658.617
+2004,Total sin deuda,apropiacion,constantes,33411.053
+2004,Total sin deuda,compromisos,constantes,33348.76
+2004,Total sin deuda,obligaciones,constantes,32689.964
+2004,Total sin deuda,pagos,constantes,32017.373
+2005,Funcionamiento,apropiacion,constantes,32996.679
+2005,Funcionamiento,compromisos,constantes,32935.582
+2005,Funcionamiento,obligaciones,constantes,32770.092
+2005,Funcionamiento,pagos,constantes,32766.412
+2005,Inversión,apropiacion,constantes,1723.349
+2005,Inversión,compromisos,constantes,1703.892
+2005,Inversión,obligaciones,constantes,915.504
+2005,Inversión,pagos,constantes,907.197
+2005,Total sin deuda,apropiacion,constantes,34720.028
+2005,Total sin deuda,compromisos,constantes,34639.474
+2005,Total sin deuda,obligaciones,constantes,33685.596
+2005,Total sin deuda,pagos,constantes,33673.609
+2006,Funcionamiento,apropiacion,constantes,33996.615
+2006,Funcionamiento,compromisos,constantes,33862.474
+2006,Funcionamiento,obligaciones,constantes,33623.123
+2006,Funcionamiento,pagos,constantes,33615.269
+2006,Inversión,apropiacion,constantes,1793.482
+2006,Inversión,compromisos,constantes,1431.504
+2006,Inversión,obligaciones,constantes,862.429
+2006,Inversión,pagos,constantes,856.086
+2006,Total sin deuda,apropiacion,constantes,35790.097
+2006,Total sin deuda,compromisos,constantes,35293.978
+2006,Total sin deuda,obligaciones,constantes,34485.553
+2006,Total sin deuda,pagos,constantes,34471.355
+2007,Funcionamiento,apropiacion,constantes,34219.964
+2007,Funcionamiento,compromisos,constantes,34144.763
+2007,Funcionamiento,obligaciones,constantes,34071.635
+2007,Funcionamiento,pagos,constantes,33917.2
+2007,Inversión,apropiacion,constantes,1605.049
+2007,Inversión,compromisos,constantes,1580.935
+2007,Inversión,obligaciones,constantes,1465.862
+2007,Inversión,pagos,constantes,1329.73
+2007,Total sin deuda,apropiacion,constantes,35825.013
+2007,Total sin deuda,compromisos,constantes,35725.698
+2007,Total sin deuda,obligaciones,constantes,35537.497
+2007,Total sin deuda,pagos,constantes,35246.93
+2008,Funcionamiento,apropiacion,constantes,35676.216
+2008,Funcionamiento,compromisos,constantes,35631.561
+2008,Funcionamiento,obligaciones,constantes,35615.442
+2008,Funcionamiento,pagos,constantes,34754.35
+2008,Inversión,apropiacion,constantes,1970.679
+2008,Inversión,compromisos,constantes,1874.156
+2008,Inversión,obligaciones,constantes,1729.863
+2008,Inversión,pagos,constantes,1292.739
+2008,Total sin deuda,apropiacion,constantes,37646.894
+2008,Total sin deuda,compromisos,constantes,37505.717
+2008,Total sin deuda,obligaciones,constantes,37345.305
+2008,Total sin deuda,pagos,constantes,36047.089
+2009,Funcionamiento,apropiacion,constantes,40528.744
+2009,Funcionamiento,compromisos,constantes,40399.194
+2009,Funcionamiento,obligaciones,constantes,40028.683
+2009,Funcionamiento,pagos,constantes,39860.343
+2009,Inversión,apropiacion,constantes,2246.44
+2009,Inversión,compromisos,constantes,2102.719
+2009,Inversión,obligaciones,constantes,1921.131
+2009,Inversión,pagos,constantes,1562.572
+2009,Total sin deuda,apropiacion,constantes,42775.185
+2009,Total sin deuda,compromisos,constantes,42501.913
+2009,Total sin deuda,obligaciones,constantes,41949.814
+2009,Total sin deuda,pagos,constantes,41422.915
+2010,Funcionamiento,apropiacion,constantes,43576.673
+2010,Funcionamiento,compromisos,constantes,42637.312
+2010,Funcionamiento,obligaciones,constantes,42171.629
+2010,Funcionamiento,pagos,constantes,42052.518
+2010,Inversión,apropiacion,constantes,2278.971
+2010,Inversión,compromisos,constantes,2117.095
+2010,Inversión,obligaciones,constantes,1918.821
+2010,Inversión,pagos,constantes,1631.807
+2010,Total sin deuda,apropiacion,constantes,45855.644
+2010,Total sin deuda,compromisos,constantes,44754.407
+2010,Total sin deuda,obligaciones,constantes,44090.45
+2010,Total sin deuda,pagos,constantes,43684.325
+2011,Funcionamiento,apropiacion,constantes,44132.298
+2011,Funcionamiento,compromisos,constantes,44119.995
+2011,Funcionamiento,obligaciones,constantes,44112.02
+2011,Funcionamiento,pagos,constantes,43557.661
+2011,Inversión,apropiacion,constantes,2005.417
+2011,Inversión,compromisos,constantes,1967.525
+2011,Inversión,obligaciones,constantes,1745.402
+2011,Inversión,pagos,constantes,1459.454
+2011,Total sin deuda,apropiacion,constantes,46137.714
+2011,Total sin deuda,compromisos,constantes,46087.52
+2011,Total sin deuda,obligaciones,constantes,45857.421
+2011,Total sin deuda,pagos,constantes,45017.114
+2012,Funcionamiento,apropiacion,constantes,45847.05
+2012,Funcionamiento,compromisos,constantes,45803.642
+2012,Funcionamiento,obligaciones,constantes,44991.119
+2012,Funcionamiento,pagos,constantes,44500.874
+2012,Inversión,apropiacion,constantes,2511.722
+2012,Inversión,compromisos,constantes,2262.37
+2012,Inversión,obligaciones,constantes,1943.502
+2012,Inversión,pagos,constantes,1681.183
+2012,Total sin deuda,apropiacion,constantes,48358.772
+2012,Total sin deuda,compromisos,constantes,48066.012
+2012,Total sin deuda,obligaciones,constantes,46934.621
+2012,Total sin deuda,pagos,constantes,46182.058
+2013,Funcionamiento,apropiacion,constantes,48109.378
+2013,Funcionamiento,compromisos,constantes,48043.064
+2013,Funcionamiento,obligaciones,constantes,48040.482
+2013,Funcionamiento,pagos,constantes,47623.875
+2013,Inversión,apropiacion,constantes,3189.913
+2013,Inversión,compromisos,constantes,3019.83
+2013,Inversión,obligaciones,constantes,2948.462
+2013,Inversión,pagos,constantes,2125.001
+2013,Total sin deuda,apropiacion,constantes,51299.292
+2013,Total sin deuda,compromisos,constantes,51062.894
+2013,Total sin deuda,obligaciones,constantes,50988.944
+2013,Total sin deuda,pagos,constantes,49748.876
+2014,Funcionamiento,apropiacion,constantes,48999.595
+2014,Funcionamiento,compromisos,constantes,48985.403
+2014,Funcionamiento,obligaciones,constantes,48975.417
+2014,Funcionamiento,pagos,constantes,47909.704
+2014,Inversión,apropiacion,constantes,3730.225
+2014,Inversión,compromisos,constantes,3713.052
+2014,Inversión,obligaciones,constantes,3580.134
+2014,Inversión,pagos,constantes,3146.066
+2014,Total sin deuda,apropiacion,constantes,52729.82
+2014,Total sin deuda,compromisos,constantes,52698.438
+2014,Total sin deuda,obligaciones,constantes,52555.551
+2014,Total sin deuda,pagos,constantes,51055.77
+2015,Funcionamiento,apropiacion,constantes,48774.262
+2015,Funcionamiento,compromisos,constantes,48750.29
+2015,Funcionamiento,obligaciones,constantes,48746.007
+2015,Funcionamiento,pagos,constantes,48578.887
+2015,Inversión,apropiacion,constantes,4519.233
+2015,Inversión,compromisos,constantes,4505.334
+2015,Inversión,obligaciones,constantes,4409.74
+2015,Inversión,pagos,constantes,4071.534
+2015,Total sin deuda,apropiacion,constantes,53293.495
+2015,Total sin deuda,compromisos,constantes,53255.624
+2015,Total sin deuda,obligaciones,constantes,53155.746
+2015,Total sin deuda,pagos,constantes,52650.421
+2016,Funcionamiento,apropiacion,constantes,50308.45
+2016,Funcionamiento,compromisos,constantes,49891.738
+2016,Funcionamiento,obligaciones,constantes,49877.795
+2016,Funcionamiento,pagos,constantes,49854.163
+2016,Inversión,apropiacion,constantes,4505.65
+2016,Inversión,compromisos,constantes,4471.765
+2016,Inversión,obligaciones,constantes,4405.802
+2016,Inversión,pagos,constantes,3983.884
+2016,Total sin deuda,apropiacion,constantes,54814.1
+2016,Total sin deuda,compromisos,constantes,54363.503
+2016,Total sin deuda,obligaciones,constantes,54283.597
+2016,Total sin deuda,pagos,constantes,53838.047
+2017,Funcionamiento,apropiacion,constantes,53839.535
+2017,Funcionamiento,compromisos,constantes,53822.601
+2017,Funcionamiento,obligaciones,constantes,53812.512
+2017,Funcionamiento,pagos,constantes,53794.346
+2017,Inversión,apropiacion,constantes,5455.082
+2017,Inversión,compromisos,constantes,5415.116
+2017,Inversión,obligaciones,constantes,5356.835
+2017,Inversión,pagos,constantes,5097.093
+2017,Total sin deuda,apropiacion,constantes,59294.617
+2017,Total sin deuda,compromisos,constantes,59237.717
+2017,Total sin deuda,obligaciones,constantes,59169.346
+2017,Total sin deuda,pagos,constantes,58891.44
+2018,Funcionamiento,apropiacion,constantes,56211.16
+2018,Funcionamiento,compromisos,constantes,56194.869
+2018,Funcionamiento,obligaciones,constantes,56018.363
+2018,Funcionamiento,pagos,constantes,55967.515
+2018,Inversión,apropiacion,constantes,5532.144
+2018,Inversión,compromisos,constantes,5527.325
+2018,Inversión,obligaciones,constantes,5193.352
+2018,Inversión,pagos,constantes,5192.538
+2018,Total sin deuda,apropiacion,constantes,61743.304
+2018,Total sin deuda,compromisos,constantes,61722.194
+2018,Total sin deuda,obligaciones,constantes,61211.715
+2018,Total sin deuda,pagos,constantes,61160.053
+2019,Funcionamiento,apropiacion,constantes,58167.104
+2019,Funcionamiento,compromisos,constantes,58157.747
+2019,Funcionamiento,obligaciones,constantes,58130.565
+2019,Funcionamiento,pagos,constantes,58130.446
+2019,Inversión,apropiacion,constantes,6318.333
+2019,Inversión,compromisos,constantes,6313.284
+2019,Inversión,obligaciones,constantes,6107.507
+2019,Inversión,pagos,constantes,5634.789
+2019,Total sin deuda,apropiacion,constantes,64485.436
+2019,Total sin deuda,compromisos,constantes,64471.032
+2019,Total sin deuda,obligaciones,constantes,64238.071
+2019,Total sin deuda,pagos,constantes,63765.235
+2020,Funcionamiento,apropiacion,constantes,62171.852
+2020,Funcionamiento,compromisos,constantes,62163.947
+2020,Funcionamiento,obligaciones,constantes,62150.592
+2020,Funcionamiento,pagos,constantes,62149.412
+2020,Inversión,apropiacion,constantes,6114.827
+2020,Inversión,compromisos,constantes,6106.686
+2020,Inversión,obligaciones,constantes,6056.234
+2020,Inversión,pagos,constantes,6055.806
+2020,Total sin deuda,apropiacion,constantes,68286.679
+2020,Total sin deuda,compromisos,constantes,68270.632
+2020,Total sin deuda,obligaciones,constantes,68206.826
+2020,Total sin deuda,pagos,constantes,68205.218
+2021,Funcionamiento,apropiacion,constantes,62656.278
+2021,Funcionamiento,compromisos,constantes,62639.305
+2021,Funcionamiento,obligaciones,constantes,62614.899
+2021,Funcionamiento,pagos,constantes,62614.07
+2021,Inversión,apropiacion,constantes,7045.169
+2021,Inversión,compromisos,constantes,7037.344
+2021,Inversión,obligaciones,constantes,6993.107
+2021,Inversión,pagos,constantes,6987.7
+2021,Total sin deuda,apropiacion,constantes,69701.447
+2021,Total sin deuda,compromisos,constantes,69676.649
+2021,Total sin deuda,obligaciones,constantes,69608.005
+2021,Total sin deuda,pagos,constantes,69601.77
+2022,Funcionamiento,apropiacion,constantes,56653.752
+2022,Funcionamiento,compromisos,constantes,56614.162
+2022,Funcionamiento,obligaciones,constantes,56594.751
+2022,Funcionamiento,pagos,constantes,56593.491
+2022,Inversión,apropiacion,constantes,7091.284
+2022,Inversión,compromisos,constantes,7083.411
+2022,Inversión,obligaciones,constantes,7001.359
+2022,Inversión,pagos,constantes,7001.046
+2022,Total sin deuda,apropiacion,constantes,63745.036
+2022,Total sin deuda,compromisos,constantes,63697.574
+2022,Total sin deuda,obligaciones,constantes,63596.11
+2022,Total sin deuda,pagos,constantes,63594.538
+2023,Funcionamiento,apropiacion,constantes,60550.023
+2023,Funcionamiento,compromisos,constantes,59967.281
+2023,Funcionamiento,obligaciones,constantes,59941.204
+2023,Funcionamiento,pagos,constantes,59935.153
+2023,Inversión,apropiacion,constantes,8679.76
+2023,Inversión,compromisos,constantes,8656.483
+2023,Inversión,obligaciones,constantes,7913.406
+2023,Inversión,pagos,constantes,7903.904
+2023,Total sin deuda,apropiacion,constantes,69229.783
+2023,Total sin deuda,compromisos,constantes,68623.764
+2023,Total sin deuda,obligaciones,constantes,67862.991
+2023,Total sin deuda,pagos,constantes,67839.058
+2024,Funcionamiento,apropiacion,constantes,69143.193
+2024,Funcionamiento,compromisos,constantes,69062.476
+2024,Funcionamiento,obligaciones,constantes,68915.643
+2024,Funcionamiento,pagos,constantes,68901.371
+2024,Inversión,apropiacion,constantes,9005.702
+2024,Inversión,compromisos,constantes,8978.3
+2024,Inversión,obligaciones,constantes,6406.921
+2024,Inversión,pagos,constantes,6291.162
+2024,Total sin deuda,apropiacion,constantes,78148.895
+2024,Total sin deuda,compromisos,constantes,78040.776
+2024,Total sin deuda,obligaciones,constantes,75322.564
+2024,Total sin deuda,pagos,constantes,75192.533
+2025,Funcionamiento,apropiacion,constantes,77870.868
+2025,Funcionamiento,compromisos,constantes,77556.474
+2025,Funcionamiento,obligaciones,constantes,76255.296
+2025,Funcionamiento,pagos,constantes,76239.409
+2025,Inversión,apropiacion,constantes,7185.798
+2025,Inversión,compromisos,constantes,7161.534
+2025,Inversión,obligaciones,constantes,6489.196
+2025,Inversión,pagos,constantes,6488.319
+2025,Total sin deuda,apropiacion,constantes,85056.666
+2025,Total sin deuda,compromisos,constantes,84718.009
+2025,Total sin deuda,obligaciones,constantes,82744.492
+2025,Total sin deuda,pagos,constantes,82727.728
+2026,Funcionamiento,apropiacion,constantes,81418.242
+2026,Funcionamiento,compromisos,constantes,64552.976
+2026,Funcionamiento,obligaciones,constantes,59881.94
+2026,Funcionamiento,pagos,constantes,59362.548
+2026,Inversión,apropiacion,constantes,6820.3
+2026,Inversión,compromisos,constantes,5641.313
+2026,Inversión,obligaciones,constantes,4622.87
+2026,Inversión,pagos,constantes,4622.044
+2026,Total sin deuda,apropiacion,constantes,88238.543
+2026,Total sin deuda,compromisos,constantes,70194.289
+2026,Total sin deuda,obligaciones,constantes,64504.81
+2026,Total sin deuda,pagos,constantes,63984.593
+2000,Funcionamiento,apropiacion,corrientes,5026.784
+2000,Funcionamiento,compromisos,corrientes,4778.385
+2000,Funcionamiento,obligaciones,corrientes,4767.637
+2000,Funcionamiento,pagos,corrientes,4525.791
+2000,Inversión,apropiacion,corrientes,208.48
+2000,Inversión,compromisos,corrientes,188.281
+2000,Inversión,obligaciones,corrientes,169.188
+2000,Inversión,pagos,corrientes,101.327
+2000,Total sin deuda,apropiacion,corrientes,5235.264
+2000,Total sin deuda,compromisos,corrientes,4966.667
+2000,Total sin deuda,obligaciones,corrientes,4936.825
+2000,Total sin deuda,pagos,corrientes,4627.117
+2001,Funcionamiento,apropiacion,corrientes,7520.595
+2001,Funcionamiento,compromisos,corrientes,7301.292
+2001,Funcionamiento,obligaciones,corrientes,7256.878
+2001,Funcionamiento,pagos,corrientes,7250.968
+2001,Inversión,apropiacion,corrientes,237.241
+2001,Inversión,compromisos,corrientes,208.879
+2001,Inversión,obligaciones,corrientes,139.113
+2001,Inversión,pagos,corrientes,132.986
+2001,Total sin deuda,apropiacion,corrientes,7757.837
+2001,Total sin deuda,compromisos,corrientes,7510.171
+2001,Total sin deuda,obligaciones,corrientes,7395.991
+2001,Total sin deuda,pagos,corrientes,7383.953
+2002,Funcionamiento,apropiacion,corrientes,8475.066
+2002,Funcionamiento,compromisos,corrientes,8451.854
+2002,Funcionamiento,obligaciones,corrientes,8433.197
+2002,Funcionamiento,pagos,corrientes,8100.581
+2002,Inversión,apropiacion,corrientes,280.388
+2002,Inversión,compromisos,corrientes,254.159
+2002,Inversión,obligaciones,corrientes,196.429
+2002,Inversión,pagos,corrientes,147.616
+2002,Total sin deuda,apropiacion,corrientes,8755.454
+2002,Total sin deuda,compromisos,corrientes,8706.013
+2002,Total sin deuda,obligaciones,corrientes,8629.626
+2002,Total sin deuda,pagos,corrientes,8248.197
+2003,Funcionamiento,apropiacion,corrientes,9908.728
+2003,Funcionamiento,compromisos,corrientes,9868.271
+2003,Funcionamiento,obligaciones,corrientes,9485.834
+2003,Funcionamiento,pagos,corrientes,9481.508
+2003,Inversión,apropiacion,corrientes,259.243
+2003,Inversión,compromisos,corrientes,255.723
+2003,Inversión,obligaciones,corrientes,205.016
+2003,Inversión,pagos,corrientes,202.745
+2003,Total sin deuda,apropiacion,corrientes,10167.971
+2003,Total sin deuda,compromisos,corrientes,10123.994
+2003,Total sin deuda,obligaciones,corrientes,9690.85
+2003,Total sin deuda,pagos,corrientes,9684.252
+2004,Funcionamiento,apropiacion,corrientes,11169.728
+2004,Funcionamiento,compromisos,corrientes,11159.646
+2004,Funcionamiento,obligaciones,corrientes,11103.541
+2004,Funcionamiento,pagos,corrientes,10872.747
+2004,Inversión,apropiacion,corrientes,414.594
+2004,Inversión,compromisos,corrientes,403.078
+2004,Inversión,obligaciones,corrientes,230.765
+2004,Inversión,pagos,corrientes,228.356
+2004,Total sin deuda,apropiacion,corrientes,11584.322
+2004,Total sin deuda,compromisos,corrientes,11562.724
+2004,Total sin deuda,obligaciones,corrientes,11334.305
+2004,Total sin deuda,pagos,corrientes,11101.103
+2005,Funcionamiento,apropiacion,corrientes,11996.112
+2005,Funcionamiento,compromisos,corrientes,11973.9
+2005,Funcionamiento,obligaciones,corrientes,11913.736
+2005,Funcionamiento,pagos,corrientes,11912.397
+2005,Inversión,apropiacion,corrientes,626.532
+2005,Inversión,compromisos,corrientes,619.459
+2005,Inversión,obligaciones,corrientes,332.836
+2005,Inversión,pagos,corrientes,329.816
+2005,Total sin deuda,apropiacion,corrientes,12622.645
+2005,Total sin deuda,compromisos,corrientes,12593.359
+2005,Total sin deuda,obligaciones,corrientes,12246.572
+2005,Total sin deuda,pagos,corrientes,12242.214
+2006,Funcionamiento,apropiacion,corrientes,12913.103
+2006,Funcionamiento,compromisos,corrientes,12862.151
+2006,Funcionamiento,obligaciones,corrientes,12771.237
+2006,Funcionamiento,pagos,corrientes,12768.254
+2006,Inversión,apropiacion,corrientes,681.227
+2006,Inversión,compromisos,corrientes,543.735
+2006,Inversión,obligaciones,corrientes,327.581
+2006,Inversión,pagos,corrientes,325.171
+2006,Total sin deuda,apropiacion,corrientes,13594.33
+2006,Total sin deuda,compromisos,corrientes,13405.886
+2006,Total sin deuda,obligaciones,corrientes,13098.818
+2006,Total sin deuda,pagos,corrientes,13093.425
+2007,Funcionamiento,apropiacion,corrientes,13738.101
+2007,Funcionamiento,compromisos,corrientes,13707.91
+2007,Funcionamiento,obligaciones,corrientes,13678.552
+2007,Funcionamiento,pagos,corrientes,13616.552
+2007,Inversión,apropiacion,corrientes,644.37
+2007,Inversión,compromisos,corrientes,634.689
+2007,Inversión,obligaciones,corrientes,588.491
+2007,Inversión,pagos,corrientes,533.839
+2007,Total sin deuda,apropiacion,corrientes,14382.471
+2007,Total sin deuda,compromisos,corrientes,14342.6
+2007,Total sin deuda,obligaciones,corrientes,14267.044
+2007,Total sin deuda,pagos,corrientes,14150.391
+2008,Funcionamiento,apropiacion,corrientes,15421.914
+2008,Funcionamiento,compromisos,corrientes,15402.611
+2008,Funcionamiento,obligaciones,corrientes,15395.643
+2008,Funcionamiento,pagos,corrientes,15023.415
+2008,Inversión,apropiacion,corrientes,851.874
+2008,Inversión,compromisos,corrientes,810.15
+2008,Inversión,obligaciones,corrientes,747.775
+2008,Inversión,pagos,corrientes,558.818
+2008,Total sin deuda,apropiacion,corrientes,16273.788
+2008,Total sin deuda,compromisos,corrientes,16212.76
+2008,Total sin deuda,obligaciones,corrientes,16143.419
+2008,Total sin deuda,pagos,corrientes,15582.233
+2009,Funcionamiento,apropiacion,corrientes,17870.245
+2009,Funcionamiento,compromisos,corrientes,17813.123
+2009,Funcionamiento,obligaciones,corrientes,17649.755
+2009,Funcionamiento,pagos,corrientes,17575.529
+2009,Inversión,apropiacion,corrientes,990.518
+2009,Inversión,compromisos,corrientes,927.147
+2009,Inversión,obligaciones,corrientes,847.08
+2009,Inversión,pagos,corrientes,688.981
+2009,Total sin deuda,apropiacion,corrientes,18860.763
+2009,Total sin deuda,compromisos,corrientes,18740.27
+2009,Total sin deuda,obligaciones,corrientes,18496.834
+2009,Total sin deuda,pagos,corrientes,18264.51
+2010,Funcionamiento,apropiacion,corrientes,19823.485
+2010,Funcionamiento,compromisos,corrientes,19396.16
+2010,Funcionamiento,obligaciones,corrientes,19184.316
+2010,Funcionamiento,pagos,corrientes,19130.131
+2010,Inversión,apropiacion,corrientes,1036.728
+2010,Inversión,compromisos,corrientes,963.089
+2010,Inversión,obligaciones,corrientes,872.892
+2010,Inversión,pagos,corrientes,742.326
+2010,Total sin deuda,apropiacion,corrientes,20860.213
+2010,Total sin deuda,compromisos,corrientes,20359.249
+2010,Total sin deuda,obligaciones,corrientes,20057.208
+2010,Total sin deuda,pagos,corrientes,19872.458
+2011,Funcionamiento,apropiacion,corrientes,20824.423
+2011,Funcionamiento,compromisos,corrientes,20818.618
+2011,Funcionamiento,obligaciones,corrientes,20814.855
+2011,Funcionamiento,pagos,corrientes,20553.273
+2011,Inversión,apropiacion,corrientes,946.283
+2011,Inversión,compromisos,corrientes,928.403
+2011,Inversión,obligaciones,corrientes,823.591
+2011,Inversión,pagos,corrientes,688.663
+2011,Total sin deuda,apropiacion,corrientes,21770.706
+2011,Total sin deuda,compromisos,corrientes,21747.021
+2011,Total sin deuda,obligaciones,corrientes,21638.446
+2011,Total sin deuda,pagos,corrientes,21241.936
+2012,Funcionamiento,apropiacion,corrientes,22161.411
+2012,Funcionamiento,compromisos,corrientes,22140.429
+2012,Funcionamiento,obligaciones,corrientes,21747.674
+2012,Funcionamiento,pagos,corrientes,21510.701
+2012,Inversión,apropiacion,corrientes,1214.109
+2012,Inversión,compromisos,corrientes,1093.578
+2012,Inversión,obligaciones,corrientes,939.444
+2012,Inversión,pagos,corrientes,812.645
+2012,Total sin deuda,apropiacion,corrientes,23375.52
+2012,Total sin deuda,compromisos,corrientes,23234.007
+2012,Total sin deuda,obligaciones,corrientes,22687.118
+2012,Total sin deuda,pagos,corrientes,22323.346
+2013,Funcionamiento,apropiacion,corrientes,23706.115
+2013,Funcionamiento,compromisos,corrientes,23673.438
+2013,Funcionamiento,obligaciones,corrientes,23672.166
+2013,Funcionamiento,pagos,corrientes,23466.881
+2013,Inversión,apropiacion,corrientes,1571.844
+2013,Inversión,compromisos,corrientes,1488.035
+2013,Inversión,obligaciones,corrientes,1452.868
+2013,Inversión,pagos,corrientes,1047.104
+2013,Total sin deuda,apropiacion,corrientes,25277.959
+2013,Total sin deuda,compromisos,corrientes,25161.473
+2013,Total sin deuda,obligaciones,corrientes,25125.034
+2013,Total sin deuda,pagos,corrientes,24513.985
+2014,Funcionamiento,apropiacion,corrientes,25028.472
+2014,Funcionamiento,compromisos,corrientes,25021.223
+2014,Funcionamiento,obligaciones,corrientes,25016.122
+2014,Funcionamiento,pagos,corrientes,24471.767
+2014,Inversión,apropiacion,corrientes,1905.359
+2014,Inversión,compromisos,corrientes,1896.588
+2014,Inversión,obligaciones,corrientes,1828.694
+2014,Inversión,pagos,corrientes,1606.977
+2014,Total sin deuda,apropiacion,corrientes,26933.831
+2014,Total sin deuda,compromisos,corrientes,26917.802
+2014,Total sin deuda,obligaciones,corrientes,26844.817
+2014,Total sin deuda,pagos,corrientes,26078.745
+2015,Funcionamiento,apropiacion,corrientes,26600.01
+2015,Funcionamiento,compromisos,corrientes,26586.936
+2015,Funcionamiento,obligaciones,corrientes,26584.6
+2015,Funcionamiento,pagos,corrientes,26493.458
+2015,Inversión,apropiacion,corrientes,2464.653
+2015,Inversión,compromisos,corrientes,2457.073
+2015,Inversión,obligaciones,corrientes,2404.939
+2015,Inversión,pagos,corrientes,2220.492
+2015,Total sin deuda,apropiacion,corrientes,29064.663
+2015,Total sin deuda,compromisos,corrientes,29044.009
+2015,Total sin deuda,obligaciones,corrientes,28989.539
+2015,Total sin deuda,pagos,corrientes,28713.95
+2016,Funcionamiento,apropiacion,corrientes,29014.321
+2016,Funcionamiento,compromisos,corrientes,28773.991
+2016,Funcionamiento,obligaciones,corrientes,28765.949
+2016,Funcionamiento,pagos,corrientes,28752.32
+2016,Inversión,apropiacion,corrientes,2598.537
+2016,Inversión,compromisos,corrientes,2578.995
+2016,Inversión,obligaciones,corrientes,2540.952
+2016,Inversión,pagos,corrientes,2297.62
+2016,Total sin deuda,apropiacion,corrientes,31612.858
+2016,Total sin deuda,compromisos,corrientes,31352.986
+2016,Total sin deuda,obligaciones,corrientes,31306.901
+2016,Total sin deuda,pagos,corrientes,31049.94
+2017,Funcionamiento,apropiacion,corrientes,32320.776
+2017,Funcionamiento,compromisos,corrientes,32310.61
+2017,Funcionamiento,obligaciones,corrientes,32304.553
+2017,Funcionamiento,pagos,corrientes,32293.648
+2017,Inversión,apropiacion,corrientes,3274.777
+2017,Inversión,compromisos,corrientes,3250.785
+2017,Inversión,obligaciones,corrientes,3215.798
+2017,Inversión,pagos,corrientes,3059.871
+2017,Total sin deuda,apropiacion,corrientes,35595.553
+2017,Total sin deuda,compromisos,corrientes,35561.395
+2017,Total sin deuda,obligaciones,corrientes,35520.351
+2017,Total sin deuda,pagos,corrientes,35353.519
+2018,Funcionamiento,apropiacion,corrientes,34817.577
+2018,Funcionamiento,compromisos,corrientes,34807.486
+2018,Funcionamiento,obligaciones,corrientes,34698.157
+2018,Funcionamiento,pagos,corrientes,34666.662
+2018,Inversión,apropiacion,corrientes,3426.648
+2018,Inversión,compromisos,corrientes,3423.663
+2018,Inversión,obligaciones,corrientes,3216.798
+2018,Inversión,pagos,corrientes,3216.294
+2018,Total sin deuda,apropiacion,corrientes,38244.225
+2018,Total sin deuda,compromisos,corrientes,38231.149
+2018,Total sin deuda,obligaciones,corrientes,37914.955
+2018,Total sin deuda,pagos,corrientes,37882.955
+2019,Funcionamiento,apropiacion,corrientes,37398.208
+2019,Funcionamiento,compromisos,corrientes,37392.192
+2019,Funcionamiento,obligaciones,corrientes,37374.715
+2019,Funcionamiento,pagos,corrientes,37374.639
+2019,Inversión,apropiacion,corrientes,4062.336
+2019,Inversión,compromisos,corrientes,4059.09
+2019,Inversión,obligaciones,corrientes,3926.787
+2019,Inversión,pagos,corrientes,3622.855
+2019,Total sin deuda,apropiacion,corrientes,41460.544
+2019,Total sin deuda,compromisos,corrientes,41451.282
+2019,Total sin deuda,obligaciones,corrientes,41301.502
+2019,Total sin deuda,pagos,corrientes,40997.494
+2020,Funcionamiento,apropiacion,corrientes,40616.604
+2020,Funcionamiento,compromisos,corrientes,40611.439
+2020,Funcionamiento,obligaciones,corrientes,40602.715
+2020,Funcionamiento,pagos,corrientes,40601.944
+2020,Inversión,apropiacion,corrientes,3994.79
+2020,Inversión,compromisos,corrientes,3989.471
+2020,Inversión,obligaciones,corrientes,3956.512
+2020,Inversión,pagos,corrientes,3956.232
+2020,Total sin deuda,apropiacion,corrientes,44611.394
+2020,Total sin deuda,compromisos,corrientes,44600.911
+2020,Total sin deuda,obligaciones,corrientes,44559.227
+2020,Total sin deuda,pagos,corrientes,44558.176
+2021,Funcionamiento,apropiacion,corrientes,43233.516
+2021,Funcionamiento,compromisos,corrientes,43221.805
+2021,Funcionamiento,obligaciones,corrientes,43204.964
+2021,Funcionamiento,pagos,corrientes,43204.393
+2021,Inversión,apropiacion,corrientes,4861.243
+2021,Inversión,compromisos,corrientes,4855.844
+2021,Inversión,obligaciones,corrientes,4825.32
+2021,Inversión,pagos,corrientes,4821.589
+2021,Total sin deuda,apropiacion,corrientes,48094.76
+2021,Total sin deuda,compromisos,corrientes,48077.649
+2021,Total sin deuda,obligaciones,corrientes,48030.284
+2021,Total sin deuda,pagos,corrientes,48025.982
+2022,Funcionamiento,apropiacion,corrientes,44220.54
+2022,Funcionamiento,compromisos,corrientes,44189.639
+2022,Funcionamiento,obligaciones,corrientes,44174.487
+2022,Funcionamiento,pagos,corrientes,44173.504
+2022,Inversión,apropiacion,corrientes,5535.033
+2022,Inversión,compromisos,corrientes,5528.888
+2022,Inversión,obligaciones,corrientes,5464.843
+2022,Inversión,pagos,corrientes,5464.599
+2022,Total sin deuda,apropiacion,corrientes,49755.573
+2022,Total sin deuda,compromisos,corrientes,49718.527
+2022,Total sin deuda,obligaciones,corrientes,49639.33
+2022,Total sin deuda,pagos,corrientes,49638.103
+2023,Funcionamiento,apropiacion,corrientes,51647.626
+2023,Funcionamiento,compromisos,corrientes,51150.562
+2023,Funcionamiento,obligaciones,corrientes,51128.318
+2023,Funcionamiento,pagos,corrientes,51123.157
+2023,Inversión,apropiacion,corrientes,7403.614
+2023,Inversión,compromisos,corrientes,7383.76
+2023,Inversión,obligaciones,corrientes,6749.933
+2023,Inversión,pagos,corrientes,6741.829
+2023,Total sin deuda,apropiacion,corrientes,59051.239
+2023,Total sin deuda,compromisos,corrientes,58534.321
+2023,Total sin deuda,obligaciones,corrientes,57885.401
+2023,Total sin deuda,pagos,corrientes,57864.986
+2024,Funcionamiento,apropiacion,corrientes,62044.205
+2024,Funcionamiento,compromisos,corrientes,61971.774
+2024,Funcionamiento,obligaciones,corrientes,61840.017
+2024,Funcionamiento,pagos,corrientes,61827.211
+2024,Inversión,apropiacion,corrientes,8081.079
+2024,Inversión,compromisos,corrientes,8056.491
+2024,Inversión,obligaciones,corrientes,5749.117
+2024,Inversión,pagos,corrientes,5645.244
+2024,Total sin deuda,apropiacion,corrientes,70125.283
+2024,Total sin deuda,compromisos,corrientes,70028.265
+2024,Total sin deuda,obligaciones,corrientes,67589.135
+2024,Total sin deuda,pagos,corrientes,67472.454
+2025,Funcionamiento,apropiacion,corrientes,73440.18
+2025,Funcionamiento,compromisos,corrientes,73143.675
+2025,Funcionamiento,obligaciones,corrientes,71916.531
+2025,Funcionamiento,pagos,corrientes,71901.548
+2025,Inversión,apropiacion,corrientes,6776.942
+2025,Inversión,compromisos,corrientes,6754.058
+2025,Inversión,obligaciones,corrientes,6119.975
+2025,Inversión,pagos,corrientes,6119.147
+2025,Total sin deuda,apropiacion,corrientes,80217.122
+2025,Total sin deuda,compromisos,corrientes,79897.733
+2025,Total sin deuda,obligaciones,corrientes,78036.506
+2025,Total sin deuda,pagos,corrientes,78020.696
+2026,Funcionamiento,apropiacion,corrientes,81418.242
+2026,Funcionamiento,compromisos,corrientes,64552.976
+2026,Funcionamiento,obligaciones,corrientes,59881.94
+2026,Funcionamiento,pagos,corrientes,59362.548
+2026,Inversión,apropiacion,corrientes,6820.3
+2026,Inversión,compromisos,corrientes,5641.313
+2026,Inversión,obligaciones,corrientes,4622.87
+2026,Inversión,pagos,corrientes,4622.044
+2026,Total sin deuda,apropiacion,corrientes,88238.543
+2026,Total sin deuda,compromisos,corrientes,70194.289
+2026,Total sin deuda,obligaciones,corrientes,64504.81
+2026,Total sin deuda,pagos,corrientes,63984.593

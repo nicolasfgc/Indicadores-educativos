@@ -1,0 +1,8 @@
+tema,archivo,fuente,conjunto_o_url,frecuencia,desde,descripcion
+Jóvenes,datos/juventud/datos.csv,DANE - GEIH Mercado laboral de la juventud,https://www.dane.gov.co/index.php/estadisticas-por-tema/mercado-laboral/mercado-laboral-de-la-juventud,mensual (trimestre móvil),2007,"Jóvenes de 15 a 28 años: ni estudian ni trabajan, desempleo, ocupación y participación, por sexo y zona"
+Presupuesto,datos/presupuesto/,Ministerio de Hacienda,datos.gov.co 5phs-yqfw (sector EDUCACION) + reportes SIIF en fuentes/siif,mensual,2019,"Ejecución del presupuesto del sector educación por entidad y rubro"
+Presupuesto histórico,datos/presupuesto_historico/educacion.csv,Ministerio de Hacienda - Cifras Presupuestales Históricas,https://www.minhacienda.gov.co/web/pte/cifras-presupuestales,anual,2000,"Apropiación, compromisos, obligaciones y pagos del sector educación (precios corrientes y constantes)"
+ICETEX,datos/icetex/cartera.csv,ICETEX,datos.gov.co dugh-vkir,trimestral,2022,"Créditos vivos, al día y en mora, y saldos, por departamento"
+ICETEX,datos/icetex/creditos.csv,ICETEX,datos.gov.co 26bn-e42j y nvcf-b8a3,semestral,2015,"Créditos nuevos y renovados por nivel, estrato, sexo, tipo de institución y departamento"
+Colegios,datos/matricula/,Ministerio de Educación - SIMAT,datos.gov.co ngw5-c5nw,anual,2010,"Matrícula por departamento, sector, zona, nivel y sexo (2018 no está publicado)"
+Colegios,datos/indicadores/datos.csv,Ministerio de Educación,datos.gov.co ji8i-4anb,anual,2011,"Cobertura neta y bruta, deserción, aprobación, reprobación y repitencia por departamento; nacional estimado"

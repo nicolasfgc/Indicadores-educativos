@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Educación en Colombia en datos</title>
+<meta name="author" content="Nicolás González">
+<meta name="description" content="Explorador abierto de los indicadores de educación en Colombia: jóvenes que ni estudian ni trabajan, colegios, ICETEX y el presupuesto del sector, con actualización automática.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilos.css?v=1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="assets/comun.js?v=1"></script>
+<script src="assets/resumen.js?v=1"></script>
+<script src="assets/jovenes.js?v=1"></script>
+<script src="assets/colegios.js?v=1"></script>
+<script src="assets/icetex.js?v=1"></script>
+<script src="assets/presupuesto.js?v=1"></script>
+</head>
+<body>
+<header class="appbar">
+  <div class="wrap">
+    <div class="marca">
+      <div>
+        <h1>Educación en Colombia en datos</h1>
+        <p class="sub">Las cifras oficiales de cómo estudian los niños y los jóvenes del país, explicadas para todos.</p>
+      </div>
+      <p class="autor"><span>Por <strong>Nicolás González</strong></span><a href="mailto:nicolasfgcht@gmail.com">nicolasfgcht@gmail.com</a><a href="https://www.linkedin.com/in/nicolas-gonzalezc/" target="_blank" rel="noopener">LinkedIn</a></p>
+    </div>
+  </div>
+</header>
+<div class="navbar"><div class="wrap">
+  <nav class="tabs">
+      <a href="#resumen" data-tab="resumen">Resumen</a>
+      <a href="#jovenes" data-tab="jovenes">Jóvenes</a>
+      <a href="#colegios" data-tab="colegios">Colegios</a>
+      <a href="#icetex" data-tab="icetex">Créditos ICETEX</a>
+      <a href="#presupuesto" data-tab="presupuesto">Presupuesto</a>
+    </nav>
+</div></div>
+<div class="wrap">
+  <div class="subbar"><label class="toggle"><input type="checkbox" id="ver-gobiernos" checked> Marcar gobiernos en las gráficas</label></div>
+
+  <!-- ===================================================== RESUMEN -->
+  <section class="tab" id="tab-resumen" hidden>
+    <div class="cargando">Cargando datos…</div>
+    <div class="contenido" hidden>
+      <p class="hint mb">Lo más reciente de cada tema y qué significa. Arriba, lo que se mide cada mes o cada semestre; abajo, lo que el Ministerio de Educación publica una vez al año. Toca “Ver más” para ir al detalle.</p>
+      <div class="tarjetas">
+        <div class="tarjeta"><div class="tt"><h3>Jóvenes que ni estudian ni trabajan</h3></div><div class="num" id="res-nin-num"></div><div class="cambio" id="res-nin-cambio"></div><div class="mini"><canvas id="res-nin-g"></canvas></div><p id="res-nin-txt"></p><a class="mas" href="#jovenes">Ver más sobre los jóvenes ›</a></div>
+        <div class="tarjeta"><div class="tt"><h3>Desempleo de los jóvenes</h3></div><div class="num" id="res-td-num"></div><div class="cambio" id="res-td-cambio"></div><div class="mini"><canvas id="res-td-g"></canvas></div><p id="res-td-txt"></p><a class="mas" href="#jovenes">Ver más sobre los jóvenes ›</a></div>
+        <div class="tarjeta"><div class="tt"><h3>Presupuesto de educación</h3></div><div class="num" id="res-pre-num"></div><div class="cambio" id="res-pre-cambio"></div><div class="mini"><canvas id="res-pre-g"></canvas></div><p id="res-pre-txt"></p><a class="mas" href="#presupuesto">Ver más sobre el presupuesto ›</a></div>
+        <div class="tarjeta"><div class="tt"><h3>Créditos del ICETEX</h3></div><div class="num" id="res-ice-num"></div><div class="cambio" id="res-ice-cambio"></div><div class="mini"><canvas id="res-ice-g"></canvas></div><p id="res-ice-txt"></p><a class="mas" href="#icetex">Ver más sobre el ICETEX ›</a></div>
+        <div class="tarjeta"><div class="tt"><h3>Estudiantes en colegios</h3></div><div class="num" id="res-mat-num"></div><div class="cambio" id="res-mat-cambio"></div><div class="mini"><canvas id="res-mat-g"></canvas></div><p id="res-mat-txt"></p><a class="mas" href="#colegios">Ver más sobre los colegios ›</a></div>
+        <div class="tarjeta"><div class="tt"><h3>Deserción escolar</h3></div><div class="num" id="res-des-num"></div><div class="cambio" id="res-des-cambio"></div><div class="mini"><canvas id="res-des-g"></canvas></div><p id="res-des-txt"></p><a class="mas" href="#colegios">Ver más sobre los colegios ›</a></div>
+      </div>
+      <p class="foot">Fuentes: DANE, Ministerio de Educación, ICETEX y Ministerio de Hacienda.</p>
+    </div>
+  </section>
+
+  <!-- ===================================================== JÓVENES -->
+  <section class="tab" id="tab-jovenes" hidden>
+    <div class="cargando">Cargando datos…</div>
+    <div class="contenido" hidden>
+      <div class="row spread mb"><p class="hint" style="margin:0">Jóvenes de 15 a 28 años. El DANE los mide cada mes, sumando tres meses seguidos (trimestre móvil) para que la cifra sea confiable.</p><span class="badge" id="jov-ultima"></span></div>
+      <section class="kpis">
+        <div class="kpi"><div class="l">Ni estudian ni trabajan</div><div class="v" id="jov-k1"></div><div class="d" id="jov-k1d"></div></div>
+        <div class="kpi"><div class="l">Cuántos son</div><div class="v" id="jov-k2"></div><div class="d" id="jov-k2d"></div></div>
+        <div class="kpi"><div class="l">Desempleo juvenil</div><div class="v" id="jov-k3"></div><div class="d" id="jov-k3d"></div></div>
+        <div class="kpi"><div class="l">Jóvenes con trabajo</div><div class="v" id="jov-k4"></div><div class="d" id="jov-k4d"></div></div>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>1</b>Los que se están quedando por fuera</span>
+        <h2>Jóvenes que ni estudian ni trabajan</h2>
+        <p class="hint">Porcentaje de jóvenes de 15 a 28 años que no están estudiando ni tienen trabajo. A veces se les llama “ninis”, pero muchos sí trabajan: cuidan a otros o hacen oficios del hogar, solo que sin pago.</p>
+        <div class="chartbox" style="height:320px"><canvas id="jov-ninis"></canvas></div>
+        <p class="interp" id="jov-ninis-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>2</b>El trabajo</span>
+        <div class="row spread"><h2 id="jov-trab-t"></h2><div class="seg" id="jov-ind"><button data-v="td" class="on">Desempleo</button><button data-v="to">Ocupación</button><button data-v="tgp">Participación</button></div></div>
+        <p class="hint" id="jov-trab-h"></p>
+        <div class="row"><label class="lbl">Dónde:</label><div class="seg" id="jov-zona"><button data-v="NACIONAL" class="on">Todo el país</button><button data-v="CABECERAS">Zonas urbanas</button><button data-v="RURAL">Campo</button></div></div>
+        <div class="chartbox" style="height:320px;margin-top:10px"><canvas id="jov-trab"></canvas></div>
+        <p class="interp" id="jov-trab-txt"></p>
+      </section>
+      <p class="foot">Fuente: DANE, Gran Encuesta Integrada de Hogares — Mercado laboral de la juventud (trimestre móvil, desde 2007). El porcentaje de mujeres y de hombres que no estudian ni trabajan se calcula sobre los jóvenes de cada sexo.
+        Datos: <a href="datos/juventud/datos.csv">datos.csv</a> · <a href="datos/juventud/series.csv">series.csv</a></p>
+    </div>
+  </section>
+
+  <!-- ===================================================== COLEGIOS -->
+  <section class="tab" id="tab-colegios" hidden>
+    <div class="cargando">Cargando datos…</div>
+    <div class="contenido" hidden>
+      <div class="row spread mb"><p class="hint" style="margin:0">Preescolar, primaria, secundaria y media. El Ministerio de Educación publica estas cifras una vez al año: la matrícula es más reciente que los demás indicadores.</p><span class="badge" id="col-ultima"></span></div>
+      <section class="kpis">
+        <div class="kpi"><div class="l">Estudiantes matriculados</div><div class="v" id="col-k1"></div><div class="d" id="col-k1d"></div></div>
+        <div class="kpi"><div class="l">En colegios públicos</div><div class="v" id="col-k2"></div><div class="d" id="col-k2d"></div></div>
+        <div class="kpi"><div class="l">Cobertura</div><div class="v" id="col-k3"></div><div class="d" id="col-k3d"></div></div>
+        <div class="kpi"><div class="l">Deserción</div><div class="v" id="col-k4"></div><div class="d" id="col-k4d"></div></div>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>1</b>Cuántos estudian</span>
+        <div class="row spread"><h2 id="col-mat-t"></h2><div class="seg" id="col-desg"><button data-v="nivel" class="on">Por nivel</button><button data-v="sector">Público y privado</button><button data-v="zona">Urbano y rural</button><button data-v="sexo">Mujeres y hombres</button></div></div>
+        <div class="grupos-ise">
+          <div><strong>Preescolar y primaria</strong><span>Prejardín, jardín y transición; luego de primero a quinto.</span></div>
+          <div><strong>Secundaria y media</strong><span>Secundaria va de sexto a noveno. La media son décimo y once, los dos últimos años antes de graduarse.</span></div>
+          <div><strong>Adultos y otros</strong><span>Programas para adultos y jóvenes que van atrasados (por ciclos o de aceleración del aprendizaje).</span></div>
+        </div>
+        <div class="chartbox" style="height:320px"><canvas id="col-mat"></canvas></div>
+        <p class="interp" id="col-mat-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>2</b>¿Están todos los que deberían?</span>
+        <div class="row spread"><h2>Cobertura: niños y jóvenes estudiando</h2><div class="seg" id="col-cob"><button data-v="neta" class="on">Cobertura neta</button><button data-v="bruta">Cobertura bruta</button></div></div>
+        <p class="hint">La cobertura neta dice, de cada 100 niños en edad de estar en un nivel, cuántos están efectivamente en él. Es la mejor forma de saber si el sistema llega a todos. Estimado nacional con los datos por departamento.</p>
+        <div class="chartbox" style="height:320px"><canvas id="col-cob-g"></canvas></div>
+        <p class="interp" id="col-cob-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>3</b>Los que se quedan en el camino</span>
+        <div class="row spread"><h2>Deserción y repitencia</h2><div class="seg" id="col-sal"><button data-v="desercion" class="on">Deserción</button><button data-v="repitencia">Repitencia y reprobación</button></div></div>
+        <p class="hint">Deserción: estudiantes que se salen del colegio durante el año. Repitencia: los que están cursando de nuevo un grado. Por cada 100 estudiantes.</p>
+        <div class="chartbox" style="height:300px"><canvas id="col-sal-g"></canvas></div>
+        <p class="interp" id="col-sal-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>4</b>Por departamento</span>
+        <h2 id="col-dep-t"></h2>
+        <div class="row"><label class="lbl">Indicador:</label><select id="col-dind"></select><label class="lbl">Año:</label><select id="col-danio"></select></div>
+        <p class="hint" id="col-dep-h" style="margin-top:8px"></p>
+        <div class="chartbox"><canvas id="col-dep"></canvas></div>
+        <div id="col-dep-tiempo" hidden></div>
+        <p class="interp" id="col-dep-txt"></p>
+      </section>
+      <p class="foot">Fuentes: Ministerio de Educación — matrícula del SIMAT (2010 en adelante; el año 2018 no está publicado en datos abiertos) e indicadores de cobertura, deserción y repitencia por departamento (2011 en adelante).
+        Datos: <a href="datos/matricula/datos.csv">matrícula</a> · <a href="datos/matricula/sexo.csv">matrícula por sexo</a> · <a href="datos/indicadores/datos.csv">indicadores</a></p>
+    </div>
+  </section>
+
+  <!-- ===================================================== ICETEX -->
+  <section class="tab" id="tab-icetex" hidden>
+    <div class="cargando">Cargando datos…</div>
+    <div class="contenido" hidden>
+      <div class="row spread mb"><p class="hint" style="margin:0">El ICETEX presta plata para pagar la universidad o el instituto, y se paga cuando el estudiante termina. Los créditos se reportan por semestre y la cartera, cada trimestre.</p><span class="badge" id="ice-ultima"></span></div>
+      <section class="kpis">
+        <div class="kpi"><div class="l">Créditos vivos</div><div class="v" id="ice-k1"></div><div class="d" id="ice-k1d"></div></div>
+        <div class="kpi"><div class="l">Con cuotas atrasadas</div><div class="v" id="ice-k2"></div><div class="d" id="ice-k2d"></div></div>
+        <div class="kpi"><div class="l">Créditos nuevos del último semestre</div><div class="v" id="ice-k3"></div><div class="d" id="ice-k3d"></div></div>
+        <div class="kpi"><div class="l">Saldo de la cartera</div><div class="v small" id="ice-k4"></div><div class="d" id="ice-k4d"></div></div>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>1</b>Cuántos créditos se entregan</span>
+        <h2>Créditos nuevos y renovaciones por semestre</h2>
+        <p class="hint">Las barras son los créditos nuevos: estudiantes que reciben un crédito por primera vez. La línea, las renovaciones de quienes ya lo tenían (eje de la derecha).</p>
+        <div class="chartbox" style="height:320px"><canvas id="ice-ent"></canvas></div>
+        <p class="interp" id="ice-ent-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>2</b>A quién le llegan</span>
+        <h2 id="ice-q-t"></h2>
+        <div class="row"><div class="seg" id="ice-tipo"><button data-v="nuevos" class="on">Nuevos</button><button data-v="renovados">Renovaciones</button></div>
+          <div class="seg" id="ice-dim"><button data-v="nivel" class="on">Nivel</button><button data-v="estrato">Estrato</button><button data-v="sector_ies">Pública o privada</button><button data-v="sexo">Sexo</button></div>
+          <label class="lbl">Semestre:</label><select id="ice-per"></select></div>
+        <div class="chartbox" style="margin-top:10px"><canvas id="ice-q"></canvas></div>
+        <p class="interp" id="ice-q-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>3</b>Cómo se están pagando</span>
+        <div class="row spread"><h2>La cartera del ICETEX</h2><div class="seg" id="ice-mora"><button data-v="pct" class="on">% con cuotas atrasadas</button><button data-v="n">Número de créditos</button></div></div>
+        <p class="hint">“Todavía estudiando”: créditos de quienes aún no terminan (algunos ya deben hacer pagos pequeños). “Ya pagando”: quienes terminaron y están devolviendo el préstamo. Corte de cada trimestre.</p>
+        <div class="chartbox" style="height:300px"><canvas id="ice-cart"></canvas></div>
+        <p class="interp" id="ice-cart-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>4</b>Por departamento</span>
+        <h2 id="ice-dep-t"></h2>
+        <div class="chartbox"><canvas id="ice-dep"></canvas></div>
+        <p class="interp" id="ice-dep-txt"></p>
+      </section>
+      <p class="foot">Fuente: ICETEX en datos.gov.co — Créditos otorgados, Créditos renovados y Comportamiento de cartera y crédito.
+        Datos: <a href="datos/icetex/creditos.csv">créditos</a> · <a href="datos/icetex/cartera.csv">cartera</a></p>
+    </div>
+  </section>
+
+  <!-- ===================================================== PRESUPUESTO -->
+  <section class="tab" id="tab-presupuesto" hidden>
+    <div class="cargando">Cargando datos…</div>
+    <div class="contenido" hidden>
+      <div class="row spread mb">
+        <div class="row"><label class="lbl">Qué gasto ver:</label>
+          <div class="seg" id="pre-tipo"><button data-v="todos" class="on">Todo</button><button data-v="0">Funcionamiento</button><button data-v="1">Inversión</button></div></div>
+        <span class="badge" id="pre-ultima"></span>
+      </div>
+      <section class="panel" id="pre-paso1">
+        <span class="paso"><b>1</b>Cómo vamos</span>
+        <h2 id="pre-paso1-t"></h2>
+        <p class="hint">Todo lo que el Presupuesto General de la Nación le asigna al sector educación: Ministerio de Educación, alimentación escolar, universidades públicas e institutos técnicos. Cifras acumuladas en el año. <strong>Comprometido</strong>: lo que ya se contrató. <strong>Ejecutado</strong> (obligado): lo que ya se recibió y se debe pagar.</p>
+        <section class="kpis" style="margin:8px 0 0">
+          <div class="kpi"><div class="l">Presupuesto del año (apropiación)</div><div class="v small" id="pre-k1"></div><div class="d" id="pre-k1d"></div></div>
+          <div class="kpi"><div class="l">Comprometido</div><div class="v" id="pre-k2"></div><div class="d" id="pre-k2d"></div></div>
+          <div class="kpi"><div class="l">Ejecutado (obligado)</div><div class="v" id="pre-k3"></div><div class="d" id="pre-k3d"></div></div>
+          <div class="kpi"><div class="l">Comprometido en el último mes</div><div class="v small" id="pre-k4"></div><div class="d" id="pre-k4d"></div></div>
+        </section>
+        <h2 style="margin-top:20px" id="pre-curva-t"></h2>
+        <p class="hint">Porcentaje del presupuesto ejecutado, acumulado mes a mes. La línea punteada es el año anterior.</p>
+        <div class="chartbox" style="height:280px"><canvas id="pre-curva"></canvas></div>
+        <p class="interp" id="pre-curva-txt"></p>
+        <div class="aviso" id="pre-aviso"></div>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>2</b>En qué se va la plata</span>
+        <div class="row spread"><h2>¿A qué se destina el presupuesto de educación?</h2><div class="seg" id="pre-dmed"><button data-v="apropiacion_vigente" class="on">Presupuesto del año</button><button data-v="obligaciones">Ejecutado hasta hoy</button></div></div>
+        <p class="hint">Cada rubro del presupuesto agrupado según para qué sirve. Toca una barra para ver cómo se ha ejecutado mes a mes.</p>
+        <div class="chartbox"><canvas id="pre-dest"></canvas></div>
+        <div id="pre-dest-tiempo" hidden></div>
+        <p class="interp" id="pre-dest-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>3</b>La historia desde 2000</span>
+        <h2>El presupuesto de educación año a año</h2>
+        <div class="row"><div class="seg" id="preh-tipo"><button data-v="Total sin deuda" class="on">Todo</button><button data-v="Funcionamiento">Funcionamiento</button><button data-v="Inversión">Inversión</button></div>
+          <div class="seg" id="preh-precios"><button data-v="constantes" class="on">Sin inflación</button><button data-v="corrientes">Pesos de cada año</button></div></div>
+        <div class="chartbox" style="height:320px;margin-top:8px"><canvas id="preh-montos"></canvas></div>
+        <p class="interp" id="preh-txt"></p>
+      </section>
+      <section class="panel">
+        <span class="paso"><b>4</b>Mes a mes desde 2019</span>
+        <h2>Ejecución y compromisos de cada mes</h2>
+        <p class="hint">La línea es el porcentaje ejecutado acumulado del año (vuelve a cero cada enero). Las barras, lo que se comprometió en cada mes.</p>
+        <div class="chartbox" style="height:320px"><canvas id="pre-evo"></canvas></div>
+      </section>
+      <div class="detalle-mes">
+      <div class="barra-mes"><span class="t">Explorar un mes</span><div id="pre-periodo"></div><span class="s">Todo lo que sigue corresponde a este mes</span></div>
+      <section class="panel" id="pre-paso4">
+        <span class="paso"><b>5</b>Entidad por entidad</span>
+        <h2 id="pre-bar-t"></h2>
+        <div class="migas" id="pre-migas"></div>
+        <div id="pre-nodo" hidden>
+          <section class="kpis" style="margin:4px 0 0">
+            <div class="kpi"><div class="l">Presupuesto del año</div><div class="v small" id="pre-n1"></div><div class="d" id="pre-n1d"></div></div>
+            <div class="kpi"><div class="l">Comprometido</div><div class="v" id="pre-n2"></div><div class="d" id="pre-n2d"></div></div>
+            <div class="kpi"><div class="l">Ejecutado (obligado)</div><div class="v" id="pre-n3"></div><div class="d" id="pre-n3d"></div></div>
+            <div class="kpi"><div class="l">Comprometido en el mes</div><div class="v small" id="pre-n4"></div><div class="d" id="pre-n4d"></div></div>
+          </section>
+          <h3 style="margin:14px 0 4px" id="pre-ncurva-t"></h3>
+          <div class="chartbox" style="height:220px"><canvas id="pre-ncurva"></canvas></div>
+          <p class="interp" id="pre-ncurva-txt"></p>
+        </div>
+        <div class="seg" id="pre-medida" style="margin-top:14px"><button data-v="pct_oblig" class="on">% ejecutado</button><button data-v="pct_comp">% comprometido</button><button data-v="comp_mes">Comprometido en el mes</button><button data-v="aprop">Presupuesto del año</button></div>
+        <p class="hint" style="margin-top:8px" id="pre-bar-h"></p>
+        <div class="chartbox"><canvas id="pre-bar"></canvas></div>
+        <p class="hint" id="pre-bar-nota"></p>
+        <div class="tabla"><table id="pre-tabla"></table></div>
+      </section>
+      </div>
+      <p class="foot">Fuentes: Ministerio de Hacienda — ejecución mensual por entidad y rubro (datos.gov.co, 2019 en adelante; los meses que faltan allí se completan con el reporte del SIIF del Portal de Transparencia Económica) y Cifras Presupuestales Históricas por sector (2000 en adelante).
+        <strong>Compromisos</strong>: lo contratado. <strong>Obligaciones</strong>: lo que ya se recibió y se debe pagar (la medida usual de ejecución). <strong>Pagos</strong>: lo efectivamente pagado.
+        Datos: <a href="datos/presupuesto/resumen.csv">resumen.csv</a> · <a href="datos/presupuesto/rubros.csv">rubros.csv</a> · <a href="datos/presupuesto_historico/educacion.csv">histórico</a></p>
+    </div>
+  </section>
+
+  <details class="sobre">
+    <summary>¿Cada cuánto se actualizan los datos?</summary>
+    <p class="hint" style="margin-top:8px">La página revisa todas las fuentes cada día a las 10 de la mañana y se actualiza sola apenas hay un dato nuevo. Cada entidad publica a su ritmo:</p>
+    <div class="tabla"><table>
+      <thead><tr><th>Indicador</th><th>Quién lo publica</th><th>Cuándo aparece el dato</th></tr></thead>
+      <tbody>
+        <tr><td>Jóvenes: estudio y trabajo</td><td>DANE</td><td>Cada mes, unos dos meses después (trimestre móvil)</td></tr>
+        <tr><td>Presupuesto de educación</td><td>Ministerio de Hacienda</td><td>A comienzos del mes siguiente. Si el Ministerio deja un mes sin publicar, la página lo avisa.</td></tr>
+        <tr><td>Cartera del ICETEX</td><td>ICETEX</td><td>Cada trimestre</td></tr>
+        <tr><td>Créditos nuevos y renovados del ICETEX</td><td>ICETEX</td><td>Por semestre, con varios meses de rezago</td></tr>
+        <tr><td>Matrícula en colegios</td><td>Ministerio de Educación</td><td>Una vez al año</td></tr>
+        <tr><td>Cobertura, deserción y repitencia</td><td>Ministerio de Educación</td><td>Una vez al año, con más de un año de rezago</td></tr>
+      </tbody></table></div>
+  </details>
+
+  <p class="foot">Se actualiza solo todos los días con las publicaciones oficiales. Todos los datos y el código están en <a href="https://github.com/nicolasfgc/Indicadores-educativos">GitHub</a>. Proyecto hermano: <a href="https://nicolasfgc.github.io/Indicadores-economia-colombiana/">Economía colombiana en datos</a>.</p>
+</div>
+</body>
+</html>

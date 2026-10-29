@@ -1,0 +1,66 @@
+name: Actualizar datos
+
+# Corre todos los días a las 10:00 a. m. hora Colombia (15:00 UTC). Si no hay datos nuevos, no guarda nada.
+# Cada fuente publica a su ritmo: jóvenes (DANE) cada mes, presupuesto cada mes, ICETEX por trimestre o semestre,
+# matrícula e indicadores de colegios una vez al año. También se puede correr a mano desde "Actions".
+on:
+  schedule:
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      # Cada fuente corre aunque otra falle, para no perder lo que sí se actualizó.
+      - name: Jóvenes - estudio y trabajo (DANE)
+        if: always()
+        run: python scripts/juventud.py
+
+      - name: Presupuesto del sector educación (MinHacienda)
+        if: always()
+        run: python scripts/presupuesto.py
+
+      - name: ICETEX
+        if: always()
+        run: python scripts/icetex.py
+
+      - name: Matrícula en colegios (MinEducación)
+        if: always()
+        run: python scripts/matricula.py
+
+      - name: Indicadores de colegios por departamento (MinEducación)
+        if: always()
+        run: python scripts/indicadores.py
+
+      - name: Datos para la página web
+        if: always()
+        run: python scripts/web.py
+
+      - name: Guardar cambios si hay datos nuevos
+        if: always()
+        run: |
+          git config user.name "actualizador-automatico"
+          git config user.email "actions@users.noreply.github.com"
+          git add datos/ web/
+          if git diff --cached --quiet; then
+            echo "Sin datos nuevos."
+          else
+            git commit -m "Actualización automática de datos $(date -u +%Y-%m-%d)"
+            git pull --rebase
+            git push
+          fi

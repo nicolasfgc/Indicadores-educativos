@@ -1,0 +1,10 @@
+id_serie,nombre,grupo,zona,fuente
+JUV_CABECERAS,Jóvenes en cabeceras (zonas urbanas),Total,Urbana,"DANE, GEIH - Mercado laboral de la juventud (trimestre móvil)"
+JUV_CABECERAS_HOMBRES,Hombres en cabeceras,Hombres,Urbana,"DANE, GEIH - Mercado laboral de la juventud (trimestre móvil)"
+JUV_CABECERAS_MUJERES,Mujeres en cabeceras,Mujeres,Urbana,"DANE, GEIH - Mercado laboral de la juventud (trimestre móvil)"
+JUV_NACIONAL,"Jóvenes de 15 a 28 años, total nacional",Total,Nacional,"DANE, GEIH - Mercado laboral de la juventud (trimestre móvil)"
+JUV_NACIONAL_HOMBRES,Hombres de 15 a 28 años,Hombres,Nacional,"DANE, GEIH - Mercado laboral de la juventud (trimestre móvil)"
+JUV_NACIONAL_MUJERES,Mujeres de 15 a 28 años,Mujeres,Nacional,"DANE, GEIH - Mercado laboral de la juventud (trimestre móvil)"
+JUV_RURAL,Jóvenes en centros poblados y zona rural,Total,Rural,"DANE, GEIH - Mercado laboral de la juventud (trimestre móvil)"
+JUV_RURAL_HOMBRES,Hombres en zona rural,Hombres,Rural,"DANE, GEIH - Mercado laboral de la juventud (trimestre móvil)"
+JUV_RURAL_MUJERES,Mujeres en zona rural,Mujeres,Rural,"DANE, GEIH - Mercado laboral de la juventud (trimestre móvil)"

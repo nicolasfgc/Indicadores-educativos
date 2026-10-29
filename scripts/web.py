@@ -1,0 +1,240 @@
+"""
+Prepara versiones livianas de los datos para el explorador web (carpeta web/).
+
+Los CSV de datos/ son la fuente completa para quien quiera descargar; estos JSON solo
+tienen lo que la página muestra, en el formato más compacto posible, para que cargue rápido.
+Se regenera en cada corrida de la tarea automática.
+
+Uso:  python scripts/web.py
+"""
+import json
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+
+RAIZ = Path(__file__).resolve().parents[1]
+DATOS = RAIZ / "datos"
+WEB = RAIZ / "web"
+
+
+def guardar(nombre, obj):
+    p = WEB / nombre
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":"), allow_nan=False), encoding="utf-8")
+    print(f"  {nombre}: {p.stat().st_size / 1024:,.0f} KB")
+
+
+def limpiar(v, dec=2):
+    return None if v is None or (isinstance(v, float) and np.isnan(v)) else round(float(v), dec)
+
+
+def lista(s, claves, dec=2):
+    return [limpiar(s.get(k), dec) for k in claves]
+
+
+# ---------------------------------------------------------------- jóvenes (GEIH, mensual)
+def juventud():
+    d = pd.read_csv(DATOS / "juventud" / "datos.csv")
+    s = pd.read_csv(DATOS / "juventud" / "series.csv", dtype=str)
+    fechas = sorted(d.fecha.unique())
+    valores = {}
+    for (sid, med), g in d.groupby(["id_serie", "medida"]):
+        valores.setdefault(sid, {})[med] = lista(g.set_index("fecha").valor, fechas, 2)
+    guardar("juventud.json", {"fechas": fechas, "series": s[["id_serie", "nombre", "grupo", "zona"]].values.tolist(), "valores": valores})
+
+
+# ---------------------------------------------------------------- presupuesto del sector
+VAL = ["apropiacion_vigente", "compromisos", "obligaciones", "pagos",
+       "cambio_mes_apropiacion_vigente", "cambio_mes_compromisos", "cambio_mes_obligaciones", "cambio_mes_pagos"]
+# "¿En qué se va la plata?": cada rubro se clasifica en un destino que cualquiera entiende
+DESTINOS = ["Colegios públicos: pago de docentes y funcionamiento", "Pensiones y prestaciones de los maestros",
+            "Universidades y educación superior pública", "Alimentación escolar (PAE)",
+            "Inversión en colegios: infraestructura y calidad", "Ministerio y otros gastos"]
+
+
+def destino(r):
+    t = " ".join([r.nombre_2, r.nombre_3, r.nombre_4, r.nombre_5]).upper()
+    if "SISTEMA GENERAL DE PARTICIPACIONES" in r.nombre_4.upper() and "DISTINTAS" not in r.nombre_4.upper():
+        return 0
+    if "MAGISTERIO" in t or "PASIVO PENSIONAL" in t:
+        return 1
+    if r.codigo_entidad == "22-46-00" or "ALIMENTACIÓN ESCOLAR" in t:
+        return 3
+    if r.codigo_entidad != "22-01-01" or "SUPERIOR" in t or "UNIVERSIDAD" in t:
+        return 2
+    if r.nombre_1.startswith("INVERSI") and any(x in t for x in ["BÁSICA", "PRESCOLAR", "PREESCOLAR", "INICIAL", "TERRITORIALES", "AMBIENTES EDUCATIVOS", "ESPACIOS DE APRENDIZAJE"]):
+        return 4
+    return 5
+
+
+def presupuesto():
+    carpeta = DATOS / "presupuesto"
+    ent = pd.read_csv(carpeta / "entidades.csv", dtype=str)
+    rub = pd.read_csv(carpeta / "rubros.csv", dtype=str).fillna("")
+    rub["id_rubro"] = rub.id_rubro.astype(int)
+    rub["destino"] = [destino(r) for r in rub.itertuples()]
+    tipos = ["FUNCIONAMIENTO", "INVERSION"]
+    r = pd.read_csv(carpeta / "resumen.csv", dtype={"codigo_entidad": str})
+    r = r[r.vigencia == "Vigencia actual"]
+    fechas = sorted(r.fecha.unique())
+    # el Ministerio primero, luego las demás entidades en orden alfabético
+    lista_ent = ent.assign(o=ent.codigo_entidad.ne("22-01-01")).sort_values(["o", "entidad"]).reset_index(drop=True)
+    idx_ent = {c: i for i, c in enumerate(lista_ent.codigo_entidad)}
+    idx_tipo = {t: i for i, t in enumerate(tipos)}
+    filas = []
+    for x in r.itertuples():
+        if x.codigo_entidad not in idx_ent or x.tipo_gasto not in idx_tipo:
+            continue
+        filas.append([fechas.index(x.fecha), idx_ent[x.codigo_entidad], idx_tipo[x.tipo_gasto]] +
+                     [int(round(getattr(x, v) / 1e6)) for v in VAL])  # millones de pesos
+    todos = pd.date_range(fechas[0], fechas[-1], freq="MS").strftime("%Y-%m-%d").tolist()
+    faltantes = [f for f in todos if f not in fechas]
+    reg = carpeta / "meses_siif.csv"
+    desde_siif = [f for f in pd.read_csv(reg, dtype=str).fecha if f in fechas] if reg.exists() else []
+    guardar("presupuesto/entidades.json", {"fechas": fechas, "faltantes": faltantes, "desde_siif": desde_siif, "tipos": ["Funcionamiento", "Inversión"],
+                                           "entidades": lista_ent[["codigo_entidad", "entidad", "sector"]].values.tolist(),
+                                           "destinos": DESTINOS, "campos": VAL, "filas": filas})
+    for p in sorted(carpeta.glob("gastos_*.csv")):
+        anio = p.stem.split("_")[1]
+        h = pd.read_csv(p, dtype={"recurso": str})
+        h = h[h.vigencia == "Vigencia actual"]
+        g = h.groupby(["fecha", "id_rubro"], as_index=False)[VAL].sum()
+        meses = sorted(g.fecha.unique())
+        ids = sorted(g.id_rubro.unique())
+        info = rub.set_index("id_rubro").loc[ids]
+        filas = [[meses.index(x.fecha), int(x.id_rubro)] + [int(round(getattr(x, v) / 1e6)) for v in VAL] for x in g.itertuples()]
+        rubros = {int(i): [idx_ent.get(z.codigo_entidad, -1), z.nombre_1[:1], z.nombre_2, z.nombre_3, z.nombre_4, z.nombre_5, int(z.destino)]
+                  for i, z in info.iterrows()}
+        guardar(f"presupuesto/rubros_{anio}.json", {"fechas": meses, "campos": VAL, "rubros": rubros, "filas": filas})
+    # destinos mes a mes (para "¿en qué se va la plata?")
+    partes = []
+    for p in sorted(carpeta.glob("gastos_*.csv")):
+        h = pd.read_csv(p, dtype={"recurso": str})
+        h = h[h.vigencia == "Vigencia actual"].merge(rub[["id_rubro", "destino"]], on="id_rubro")
+        partes.append(h.groupby(["fecha", "destino"], as_index=False)[["apropiacion_vigente", "compromisos", "obligaciones"]].sum())
+    dd = pd.concat(partes)
+    out = {"fechas": fechas, "destinos": DESTINOS, "valores": {}}
+    for k in range(len(DESTINOS)):
+        s = dd[dd.destino == k].set_index("fecha")
+        out["valores"][k] = {m: [int(round(s[m].get(f, 0) / 1e6)) for f in fechas] for m in ["apropiacion_vigente", "compromisos", "obligaciones"]}
+    guardar("presupuesto/destinos.json", out)
+
+
+def presupuesto_historico():
+    s = pd.read_csv(DATOS / "presupuesto_historico" / "educacion.csv")
+    anios = sorted(s.anio.unique().tolist())
+    out = {"anios": anios, "tipos": {}}
+    for (tipo, med, pr), g in s.groupby(["tipo_gasto", "medida", "precios"]):
+        out["tipos"].setdefault(tipo, {}).setdefault(med, {})[pr] = lista(g.set_index("anio").valor, anios, 1)
+    guardar("presupuesto/historico.json", out)
+
+
+# ---------------------------------------------------------------- ICETEX
+def icetex():
+    c = pd.read_csv(DATOS / "icetex" / "cartera.csv")
+    fechas = sorted(c.fecha.unique())
+    nac = c[c.depto == "TOTAL"]
+    cart = {}
+    for (ep, med), g in nac.groupby(["epoca", "medida"]):
+        cart.setdefault(ep, {})[med] = lista(g.set_index("fecha").valor, fechas, 0)
+    # un trimestre con un salto imposible en el número de créditos (cae más de 25% y se recupera al siguiente) se marca
+    atipicos = []
+    for ep in ["pagando", "estudios", "todas"]:
+        v = cart[ep]["creditos"]
+        for i in range(1, len(v) - 1):
+            if v[i] and v[i - 1] and v[i + 1] and v[i] < 0.75 * v[i - 1] and v[i + 1] > 0.9 * v[i - 1]:
+                atipicos.append(fechas[i])
+    atipicos = sorted(set(atipicos))
+    for ep in cart:
+        for med in ["creditos", "al_dia", "en_mora", "mora_mayor"]:
+            cart[ep][med] = [None if f in atipicos else x for f, x in zip(fechas, cart[ep][med])]
+    u = c[(c.fecha == fechas[-1]) & (c.depto != "TOTAL") & (c.epoca == "todas")].pivot(index="depto", columns="medida", values="valor")
+    deptos = [[d, int(x.creditos), int(x.en_mora), round(x.saldo_total / 1e6)] for d, x in u.iterrows() if x.creditos > 0 and d != "SIN DATO"]
+    cr = pd.read_csv(DATOS / "icetex" / "creditos.csv")
+    periodos = sorted(cr.periodo.unique())
+    creditos = {}
+    for (tipo, dim, cat), g in cr.groupby(["tipo", "dimension", "categoria"]):
+        creditos.setdefault(tipo, {}).setdefault(dim, {})[cat] = lista(g.set_index("periodo").valor, periodos, 0)
+    guardar("icetex.json", {"fechas": fechas, "atipicos": atipicos, "cartera": cart, "deptos": deptos, "periodos": periodos, "creditos": creditos})
+
+
+# ---------------------------------------------------------------- colegios (anual)
+def colegios():
+    m = pd.read_csv(DATOS / "matricula" / "datos.csv", dtype={"depto": str})
+    sx = pd.read_csv(DATOS / "matricula" / "sexo.csv")
+    nombres = dict(pd.read_csv(DATOS / "matricula" / "deptos.csv", dtype=str).values)
+    anios = sorted(int(a) for a in m.anio.unique())
+    todos = list(range(anios[0], anios[-1] + 1))   # los años sin dato quedan como hueco
+    tot = lambda g: lista(g.groupby("anio").matricula.sum(), todos, 0)
+    mat = {"total": tot(m),
+           "nivel": {k: tot(g) for k, g in m.groupby("nivel")},
+           "sector": {k: tot(g) for k, g in m.groupby("sector")},
+           "zona": {k: tot(g) for k, g in m.groupby("zona")},
+           "sexo": {k: lista(g.groupby("anio").matricula.sum(), todos, 0) for k, g in sx.groupby("sexo")},
+           "deptos": {d: tot(g) for d, g in m.groupby("depto")},
+           "deptos_publico": {d: tot(g) for d, g in m[m.sector == "Público"].groupby("depto")}}
+    i = pd.read_csv(DATOS / "indicadores" / "datos.csv", dtype={"depto": str})
+    ai = sorted(int(a) for a in i.anio.unique())
+    ind = {}
+    for (med, dep), g in i.groupby(["medida", "depto"]):
+        ind.setdefault(med, {})[dep] = lista(g.set_index("anio").valor, ai, 2)
+    nombres_i = dict(i.drop_duplicates("depto", keep="last")[["depto", "nombre"]].values)
+    guardar("colegios.json", {"anios": todos, "matricula": mat, "nombres": {**nombres, **nombres_i},
+                              "anios_ind": ai, "indicadores": ind})
+
+
+# ---------------------------------------------------------------- resumen
+def resumen():
+    out = {}
+    d = pd.read_csv(DATOS / "juventud" / "datos.csv")
+    n = d[d.id_serie == "JUV_NACIONAL"].pivot(index="fecha", columns="medida", values="valor")
+    f = n.pct_ninis.dropna().index.max()
+    f_ant = f"{int(f[:4]) - 1}{f[4:]}"
+    serie = n.pct_ninis.dropna().iloc[-37:]
+    out["ninis"] = {"fecha": f, "pct": limpiar(n.pct_ninis[f]), "miles": limpiar(n.ninis[f], 0), "pct_ant": limpiar(n.pct_ninis.get(f_ant)),
+                    "serie": [serie.index.tolist(), [limpiar(x) for x in serie]]}
+    f2 = n.td.dropna().index.max()
+    serie = n.td.dropna().iloc[-37:]
+    out["td"] = {"fecha": f2, "v": limpiar(n.td[f2]), "ant": limpiar(n.td.get(f"{int(f2[:4]) - 1}{f2[4:]}")),
+                 "serie": [serie.index.tolist(), [limpiar(x) for x in serie]]}
+    r = pd.read_csv(DATOS / "presupuesto" / "resumen.csv")
+    r = r[r.vigencia == "Vigencia actual"].groupby("fecha")[["apropiacion_vigente", "compromisos", "obligaciones"]].sum()
+    fu = r.index.max()
+    pct = (r.obligaciones / r.apropiacion_vigente * 100)
+    ant = f"{int(fu[:4]) - 1}{fu[4:]}"
+    anio = [x for x in r.index if x[:4] == fu[:4]]
+    out["presupuesto"] = {"fecha": fu, "aprop": round(r.apropiacion_vigente[fu] / 1e6), "pct": limpiar(pct[fu], 1), "pct_ant": limpiar(pct.get(ant), 1),
+                          "serie": [anio, [limpiar(pct[x], 1) for x in anio]],
+                          "serie_ant": [limpiar(pct.get(f"{int(x[:4]) - 1}{x[4:]}"), 1) for x in anio]}
+    c = pd.read_csv(DATOS / "icetex" / "cartera.csv")
+    c = c[(c.depto == "TOTAL") & (c.epoca == "todas")].pivot(index="fecha", columns="medida", values="valor")
+    c["pct"] = c.en_mora / c.creditos * 100
+    fc = c.index.max()
+    cr = pd.read_csv(DATOS / "icetex" / "creditos.csv")
+    nuevos = cr[(cr.tipo == "nuevos") & (cr.dimension == "total")].set_index("periodo").valor.sort_index()
+    out["icetex"] = {"fecha": fc, "creditos": int(c.creditos[fc]), "pct_mora": limpiar(c.pct[fc], 1),
+                     "nuevos": [nuevos.index.tolist()[-8:], [int(x) for x in nuevos.iloc[-8:]]]}
+    m = pd.read_csv(DATOS / "matricula" / "datos.csv").groupby("anio").matricula.sum()
+    ua = int(m.index.max())
+    out["matricula"] = {"anio": ua, "v": int(m[ua]), "ant": int(m.get(ua - 1, 0)) or None, "inicio": [int(m.index.min()), int(m.iloc[0])],
+                        "serie": [[int(a) for a in m.index], [int(x) for x in m]]}
+    i = pd.read_csv(DATOS / "indicadores" / "datos.csv", dtype={"depto": str})
+    i = i[(i.depto == "00") & (i.medida == "desercion")].set_index("anio").valor
+    out["desercion"] = {"anio": int(i.index.max()), "v": limpiar(i.iloc[-1]), "ant": limpiar(i.iloc[-2]),
+                        "serie": [[int(a) for a in i.index], [limpiar(x) for x in i]]}
+    guardar("resumen.json", out)
+
+
+def main():
+    print("Preparando datos para la web:")
+    juventud()
+    presupuesto()
+    presupuesto_historico()
+    icetex()
+    colegios()
+    resumen()
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,2177 @@
+periodo,tipo,dimension,categoria,valor
+2015-1,nuevos,departamento,AMAZONAS,42
+2015-1,nuevos,departamento,ANTIOQUIA,2726
+2015-1,nuevos,departamento,ARAUCA,173
+2015-1,nuevos,departamento,ATLÁNTICO,2251
+2015-1,nuevos,departamento,BOGOTÁ,8115
+2015-1,nuevos,departamento,BOLÍVAR,1641
+2015-1,nuevos,departamento,BOYACÁ,1051
+2015-1,nuevos,departamento,CALDAS,843
+2015-1,nuevos,departamento,CAQUETÁ,345
+2015-1,nuevos,departamento,CASANARE,286
+2015-1,nuevos,departamento,CAUCA,936
+2015-1,nuevos,departamento,CESAR,333
+2015-1,nuevos,departamento,CHOCÓ,26
+2015-1,nuevos,departamento,CUNDINAMARCA,2609
+2015-1,nuevos,departamento,CÓRDOBA,1129
+2015-1,nuevos,departamento,GUAINÍA,4
+2015-1,nuevos,departamento,GUAVIARE,54
+2015-1,nuevos,departamento,HUILA,598
+2015-1,nuevos,departamento,LA GUAJIRA,223
+2015-1,nuevos,departamento,MAGDALENA,561
+2015-1,nuevos,departamento,META,673
+2015-1,nuevos,departamento,NARIÑO,885
+2015-1,nuevos,departamento,NORTE DE SANTANDER,1006
+2015-1,nuevos,departamento,PUTUMAYO,387
+2015-1,nuevos,departamento,QUINDÍO,546
+2015-1,nuevos,departamento,RISARALDA,866
+2015-1,nuevos,departamento,SAN ANDRÉS,50
+2015-1,nuevos,departamento,SANTANDER,1966
+2015-1,nuevos,departamento,SUCRE,906
+2015-1,nuevos,departamento,TOLIMA,1115
+2015-1,nuevos,departamento,VALLE DEL CAUCA,2955
+2015-1,nuevos,departamento,VAUPÉS,1
+2015-1,nuevos,departamento,VICHADA,6
+2015-1,nuevos,estrato,Estrato 1,10302
+2015-1,nuevos,estrato,Estrato 2,15145
+2015-1,nuevos,estrato,Estrato 3,7304
+2015-1,nuevos,estrato,Estrato 4,1761
+2015-1,nuevos,estrato,Estrato 5,589
+2015-1,nuevos,estrato,Estrato 6,207
+2015-1,nuevos,nivel,Estudios en el exterior,730
+2015-1,nuevos,nivel,Posgrado,2054
+2015-1,nuevos,nivel,Pregrado universitario,27777
+2015-1,nuevos,nivel,Técnico o tecnológico,4747
+2015-1,nuevos,sector_ies,No aplica (exterior),731
+2015-1,nuevos,sector_ies,Oficial,5819
+2015-1,nuevos,sector_ies,Privado,28758
+2015-1,nuevos,sexo,Femenino,19977
+2015-1,nuevos,sexo,Masculino,15331
+2015-1,nuevos,total,Total,35308
+2015-1,renovados,departamento,AMAZONAS,165
+2015-1,renovados,departamento,ANTIOQUIA,10693
+2015-1,renovados,departamento,ARAUCA,1239
+2015-1,renovados,departamento,ATLÁNTICO,8530
+2015-1,renovados,departamento,BOGOTÁ,27721
+2015-1,renovados,departamento,BOLÍVAR,6920
+2015-1,renovados,departamento,BOYACÁ,4167
+2015-1,renovados,departamento,CALDAS,3258
+2015-1,renovados,departamento,CAQUETÁ,1417
+2015-1,renovados,departamento,CASANARE,749
+2015-1,renovados,departamento,CAUCA,3171
+2015-1,renovados,departamento,CESAR,1912
+2015-1,renovados,departamento,CHOCÓ,370
+2015-1,renovados,departamento,CUNDINAMARCA,5668
+2015-1,renovados,departamento,CÓRDOBA,5185
+2015-1,renovados,departamento,GUAINÍA,43
+2015-1,renovados,departamento,GUAVIARE,292
+2015-1,renovados,departamento,HUILA,2914
+2015-1,renovados,departamento,LA GUAJIRA,1353
+2015-1,renovados,departamento,MAGDALENA,2500
+2015-1,renovados,departamento,META,2011
+2015-1,renovados,departamento,NARIÑO,5177
+2015-1,renovados,departamento,NORTE DE SANTANDER,3283
+2015-1,renovados,departamento,PUTUMAYO,1796
+2015-1,renovados,departamento,QUINDÍO,1813
+2015-1,renovados,departamento,RISARALDA,2812
+2015-1,renovados,departamento,SAN ANDRÉS,725
+2015-1,renovados,departamento,SANTANDER,6950
+2015-1,renovados,departamento,SUCRE,4125
+2015-1,renovados,departamento,TOLIMA,4105
+2015-1,renovados,departamento,VALLE DEL CAUCA,11898
+2015-1,renovados,departamento,VAUPÉS,24
+2015-1,renovados,departamento,VICHADA,60
+2015-1,renovados,estrato,Estrato 1,39474
+2015-1,renovados,estrato,Estrato 2,58223
+2015-1,renovados,estrato,Estrato 3,26431
+2015-1,renovados,estrato,Estrato 4,5942
+2015-1,renovados,estrato,Estrato 5,2232
+2015-1,renovados,estrato,Estrato 6,744
+2015-1,renovados,nivel,Estudios en el exterior,383
+2015-1,renovados,nivel,Otros,324
+2015-1,renovados,nivel,Posgrado,3204
+2015-1,renovados,nivel,Pregrado universitario,114146
+2015-1,renovados,nivel,Técnico o tecnológico,14989
+2015-1,renovados,sector_ies,No aplica (exterior),383
+2015-1,renovados,sector_ies,Oficial,21677
+2015-1,renovados,sector_ies,Privado,110986
+2015-1,renovados,sexo,Femenino,76827
+2015-1,renovados,sexo,Masculino,56219
+2015-1,renovados,total,Total,133046
+2015-2,nuevos,departamento,AMAZONAS,26
+2015-2,nuevos,departamento,ANTIOQUIA,1427
+2015-2,nuevos,departamento,ARAUCA,136
+2015-2,nuevos,departamento,ATLÁNTICO,1770
+2015-2,nuevos,departamento,BOGOTÁ,6866
+2015-2,nuevos,departamento,BOLÍVAR,711
+2015-2,nuevos,departamento,BOYACÁ,685
+2015-2,nuevos,departamento,CALDAS,462
+2015-2,nuevos,departamento,CAQUETÁ,107
+2015-2,nuevos,departamento,CASANARE,201
+2015-2,nuevos,departamento,CAUCA,437
+2015-2,nuevos,departamento,CESAR,186
+2015-2,nuevos,departamento,CHOCÓ,15
+2015-2,nuevos,departamento,CUNDINAMARCA,1473
+2015-2,nuevos,departamento,CÓRDOBA,1195
+2015-2,nuevos,departamento,GUAINÍA,5
+2015-2,nuevos,departamento,GUAVIARE,15
+2015-2,nuevos,departamento,HUILA,327
+2015-2,nuevos,departamento,LA GUAJIRA,136
+2015-2,nuevos,departamento,MAGDALENA,219
+2015-2,nuevos,departamento,META,355
+2015-2,nuevos,departamento,NARIÑO,651
+2015-2,nuevos,departamento,NORTE DE SANTANDER,597
+2015-2,nuevos,departamento,PUTUMAYO,158
+2015-2,nuevos,departamento,QUINDÍO,292
+2015-2,nuevos,departamento,RISARALDA,544
+2015-2,nuevos,departamento,SAN ANDRÉS,22
+2015-2,nuevos,departamento,SANTANDER,1283
+2015-2,nuevos,departamento,SUCRE,960
+2015-2,nuevos,departamento,TOLIMA,493
+2015-2,nuevos,departamento,VALLE DEL CAUCA,2055
+2015-2,nuevos,departamento,VICHADA,4
+2015-2,nuevos,estrato,Estrato 1,5927
+2015-2,nuevos,estrato,Estrato 2,9413
+2015-2,nuevos,estrato,Estrato 3,6114
+2015-2,nuevos,estrato,Estrato 4,1546
+2015-2,nuevos,estrato,Estrato 5,578
+2015-2,nuevos,estrato,Estrato 6,235
+2015-2,nuevos,nivel,Estudios en el exterior,995
+2015-2,nuevos,nivel,Posgrado,2367
+2015-2,nuevos,nivel,Pregrado universitario,19303
+2015-2,nuevos,nivel,Técnico o tecnológico,1148
+2015-2,nuevos,sector_ies,No aplica (exterior),995
+2015-2,nuevos,sector_ies,Oficial,3064
+2015-2,nuevos,sector_ies,Privado,19754
+2015-2,nuevos,sexo,Femenino,13833
+2015-2,nuevos,sexo,Masculino,9980
+2015-2,nuevos,total,Total,23813
+2015-2,renovados,departamento,AMAZONAS,176
+2015-2,renovados,departamento,ANTIOQUIA,11113
+2015-2,renovados,departamento,ARAUCA,1338
+2015-2,renovados,departamento,ATLÁNTICO,9136
+2015-2,renovados,departamento,BOGOTÁ,30067
+2015-2,renovados,departamento,BOLÍVAR,7053
+2015-2,renovados,departamento,BOYACÁ,4666
+2015-2,renovados,departamento,CALDAS,3431
+2015-2,renovados,departamento,CAQUETÁ,1527
+2015-2,renovados,departamento,CASANARE,862
+2015-2,renovados,departamento,CAUCA,3419
+2015-2,renovados,departamento,CESAR,2083
+2015-2,renovados,departamento,CHOCÓ,368
+2015-2,renovados,departamento,CUNDINAMARCA,6480
+2015-2,renovados,departamento,CÓRDOBA,5587
+2015-2,renovados,departamento,GUAINÍA,49
+2015-2,renovados,departamento,GUAVIARE,310
+2015-2,renovados,departamento,HUILA,3098
+2015-2,renovados,departamento,LA GUAJIRA,1437
+2015-2,renovados,departamento,MAGDALENA,2720
+2015-2,renovados,departamento,META,2193
+2015-2,renovados,departamento,NARIÑO,5385
+2015-2,renovados,departamento,NORTE DE SANTANDER,3557
+2015-2,renovados,departamento,PUTUMAYO,2018
+2015-2,renovados,departamento,QUINDÍO,1924
+2015-2,renovados,departamento,RISARALDA,2854
+2015-2,renovados,departamento,SAN ANDRÉS,744
+2015-2,renovados,departamento,SANTANDER,7479
+2015-2,renovados,departamento,SUCRE,4419
+2015-2,renovados,departamento,TOLIMA,4523
+2015-2,renovados,departamento,VALLE DEL CAUCA,12464
+2015-2,renovados,departamento,VAUPÉS,28
+2015-2,renovados,departamento,VICHADA,74
+2015-2,renovados,estrato,Estrato 1,42401
+2015-2,renovados,estrato,Estrato 2,62214
+2015-2,renovados,estrato,Estrato 3,28344
+2015-2,renovados,estrato,Estrato 4,6534
+2015-2,renovados,estrato,Estrato 5,2313
+2015-2,renovados,estrato,Estrato 6,776
+2015-2,renovados,nivel,Estudios en el exterior,186
+2015-2,renovados,nivel,Otros,318
+2015-2,renovados,nivel,Posgrado,3094
+2015-2,renovados,nivel,Pregrado universitario,124097
+2015-2,renovados,nivel,Técnico o tecnológico,14887
+2015-2,renovados,sector_ies,No aplica (exterior),186
+2015-2,renovados,sector_ies,Oficial,22051
+2015-2,renovados,sector_ies,Privado,120345
+2015-2,renovados,sexo,Femenino,82793
+2015-2,renovados,sexo,Masculino,59789
+2015-2,renovados,total,Total,142582
+2016-1,nuevos,departamento,AMAZONAS,23
+2016-1,nuevos,departamento,ANTIOQUIA,2201
+2016-1,nuevos,departamento,ARAUCA,176
+2016-1,nuevos,departamento,ATLÁNTICO,2983
+2016-1,nuevos,departamento,BOGOTÁ,9340
+2016-1,nuevos,departamento,BOLÍVAR,1346
+2016-1,nuevos,departamento,BOYACÁ,1010
+2016-1,nuevos,departamento,CALDAS,530
+2016-1,nuevos,departamento,CAQUETÁ,133
+2016-1,nuevos,departamento,CASANARE,438
+2016-1,nuevos,departamento,CAUCA,573
+2016-1,nuevos,departamento,CESAR,263
+2016-1,nuevos,departamento,CHOCÓ,20
+2016-1,nuevos,departamento,CUNDINAMARCA,2269
+2016-1,nuevos,departamento,CÓRDOBA,1595
+2016-1,nuevos,departamento,GUAINÍA,2
+2016-1,nuevos,departamento,GUAVIARE,21
+2016-1,nuevos,departamento,HUILA,436
+2016-1,nuevos,departamento,LA GUAJIRA,197
+2016-1,nuevos,departamento,MAGDALENA,328
+2016-1,nuevos,departamento,META,529
+2016-1,nuevos,departamento,NARIÑO,830
+2016-1,nuevos,departamento,NORTE DE SANTANDER,949
+2016-1,nuevos,departamento,PUTUMAYO,203
+2016-1,nuevos,departamento,QUINDÍO,474
+2016-1,nuevos,departamento,RISARALDA,784
+2016-1,nuevos,departamento,SAN ANDRÉS,34
+2016-1,nuevos,departamento,SANTANDER,2146
+2016-1,nuevos,departamento,SUCRE,1497
+2016-1,nuevos,departamento,TOLIMA,747
+2016-1,nuevos,departamento,VALLE DEL CAUCA,2632
+2016-1,nuevos,departamento,VICHADA,5
+2016-1,nuevos,estrato,Estrato 1,9264
+2016-1,nuevos,estrato,Estrato 2,13433
+2016-1,nuevos,estrato,Estrato 3,9245
+2016-1,nuevos,estrato,Estrato 4,1964
+2016-1,nuevos,estrato,Estrato 5,589
+2016-1,nuevos,estrato,Estrato 6,219
+2016-1,nuevos,nivel,Estudios en el exterior,787
+2016-1,nuevos,nivel,Posgrado,3139
+2016-1,nuevos,nivel,Pregrado universitario,28839
+2016-1,nuevos,nivel,Técnico o tecnológico,1949
+2016-1,nuevos,sector_ies,No aplica (exterior),814
+2016-1,nuevos,sector_ies,Oficial,4438
+2016-1,nuevos,sector_ies,Privado,29462
+2016-1,nuevos,sexo,Femenino,19391
+2016-1,nuevos,sexo,Masculino,15323
+2016-1,nuevos,total,Total,34714
+2016-1,renovados,departamento,AMAZONAS,144
+2016-1,renovados,departamento,ANTIOQUIA,10492
+2016-1,renovados,departamento,ARAUCA,1316
+2016-1,renovados,departamento,ATLÁNTICO,8290
+2016-1,renovados,departamento,BOGOTÁ,30445
+2016-1,renovados,departamento,BOLÍVAR,6310
+2016-1,renovados,departamento,BOYACÁ,4762
+2016-1,renovados,departamento,CALDAS,3305
+2016-1,renovados,departamento,CAQUETÁ,1426
+2016-1,renovados,departamento,CASANARE,937
+2016-1,renovados,departamento,CAUCA,3207
+2016-1,renovados,departamento,CESAR,2039
+2016-1,renovados,departamento,CHOCÓ,352
+2016-1,renovados,departamento,CUNDINAMARCA,6455
+2016-1,renovados,departamento,CÓRDOBA,5928
+2016-1,renovados,departamento,GUAINÍA,43
+2016-1,renovados,departamento,GUAVIARE,281
+2016-1,renovados,departamento,HUILA,2924
+2016-1,renovados,departamento,LA GUAJIRA,1386
+2016-1,renovados,departamento,MAGDALENA,2528
+2016-1,renovados,departamento,META,2213
+2016-1,renovados,departamento,NARIÑO,5218
+2016-1,renovados,departamento,NORTE DE SANTANDER,3657
+2016-1,renovados,departamento,PUTUMAYO,1967
+2016-1,renovados,departamento,QUINDÍO,1801
+2016-1,renovados,departamento,RISARALDA,2717
+2016-1,renovados,departamento,SAN ANDRÉS,696
+2016-1,renovados,departamento,SANTANDER,7495
+2016-1,renovados,departamento,SUCRE,4599
+2016-1,renovados,departamento,TOLIMA,4226
+2016-1,renovados,departamento,VALLE DEL CAUCA,12228
+2016-1,renovados,departamento,VAUPÉS,27
+2016-1,renovados,departamento,VICHADA,78
+2016-1,renovados,estrato,Estrato 1,40665
+2016-1,renovados,estrato,Estrato 2,60815
+2016-1,renovados,estrato,Estrato 3,28399
+2016-1,renovados,estrato,Estrato 4,6521
+2016-1,renovados,estrato,Estrato 5,2310
+2016-1,renovados,estrato,Estrato 6,782
+2016-1,renovados,nivel,Estudios en el exterior,252
+2016-1,renovados,nivel,Otros,320
+2016-1,renovados,nivel,Posgrado,2956
+2016-1,renovados,nivel,Pregrado universitario,125549
+2016-1,renovados,nivel,Técnico o tecnológico,10415
+2016-1,renovados,sector_ies,No aplica (exterior),252
+2016-1,renovados,sector_ies,Oficial,20318
+2016-1,renovados,sector_ies,Privado,118922
+2016-1,renovados,sexo,Femenino,81161
+2016-1,renovados,sexo,Masculino,58331
+2016-1,renovados,total,Total,139492
+2016-2,nuevos,departamento,AMAZONAS,23
+2016-2,nuevos,departamento,ANTIOQUIA,1393
+2016-2,nuevos,departamento,ARAUCA,170
+2016-2,nuevos,departamento,ATLÁNTICO,1746
+2016-2,nuevos,departamento,BOGOTÁ,6404
+2016-2,nuevos,departamento,BOLÍVAR,605
+2016-2,nuevos,departamento,BOYACÁ,683
+2016-2,nuevos,departamento,CALDAS,404
+2016-2,nuevos,departamento,CAQUETÁ,86
+2016-2,nuevos,departamento,CASANARE,337
+2016-2,nuevos,departamento,CAUCA,285
+2016-2,nuevos,departamento,CESAR,175
+2016-2,nuevos,departamento,CHOCÓ,13
+2016-2,nuevos,departamento,CUNDINAMARCA,1297
+2016-2,nuevos,departamento,CÓRDOBA,1040
+2016-2,nuevos,departamento,GUAINÍA,2
+2016-2,nuevos,departamento,GUAVIARE,25
+2016-2,nuevos,departamento,HUILA,314
+2016-2,nuevos,departamento,LA GUAJIRA,193
+2016-2,nuevos,departamento,MAGDALENA,259
+2016-2,nuevos,departamento,META,328
+2016-2,nuevos,departamento,NARIÑO,509
+2016-2,nuevos,departamento,NORTE DE SANTANDER,556
+2016-2,nuevos,departamento,PUTUMAYO,156
+2016-2,nuevos,departamento,QUINDÍO,272
+2016-2,nuevos,departamento,RISARALDA,561
+2016-2,nuevos,departamento,SAN ANDRÉS,5
+2016-2,nuevos,departamento,SANTANDER,1416
+2016-2,nuevos,departamento,SUCRE,931
+2016-2,nuevos,departamento,TOLIMA,443
+2016-2,nuevos,departamento,VALLE DEL CAUCA,1760
+2016-2,nuevos,departamento,VAUPÉS,1
+2016-2,nuevos,departamento,VICHADA,5
+2016-2,nuevos,estrato,Estrato 1,5692
+2016-2,nuevos,estrato,Estrato 2,8451
+2016-2,nuevos,estrato,Estrato 3,5949
+2016-2,nuevos,estrato,Estrato 4,1596
+2016-2,nuevos,estrato,Estrato 5,487
+2016-2,nuevos,estrato,Estrato 6,222
+2016-2,nuevos,nivel,Estudios en el exterior,941
+2016-2,nuevos,nivel,Posgrado,2136
+2016-2,nuevos,nivel,Pregrado universitario,18388
+2016-2,nuevos,nivel,Técnico o tecnológico,932
+2016-2,nuevos,sector_ies,No aplica (exterior),941
+2016-2,nuevos,sector_ies,Oficial,2299
+2016-2,nuevos,sector_ies,Privado,19157
+2016-2,nuevos,sexo,Femenino,12486
+2016-2,nuevos,sexo,Masculino,9911
+2016-2,nuevos,total,Total,22397
+2016-2,renovados,departamento,AMAZONAS,136
+2016-2,renovados,departamento,ANTIOQUIA,10352
+2016-2,renovados,departamento,ARAUCA,1316
+2016-2,renovados,departamento,ATLÁNTICO,9093
+2016-2,renovados,departamento,BOGOTÁ,32330
+2016-2,renovados,departamento,BOLÍVAR,6432
+2016-2,renovados,departamento,BOYACÁ,4939
+2016-2,renovados,departamento,CALDAS,3208
+2016-2,renovados,departamento,CAQUETÁ,1324
+2016-2,renovados,departamento,CASANARE,1198
+2016-2,renovados,departamento,CAUCA,3183
+2016-2,renovados,departamento,CESAR,2044
+2016-2,renovados,departamento,CHOCÓ,330
+2016-2,renovados,departamento,CUNDINAMARCA,6991
+2016-2,renovados,departamento,CÓRDOBA,6520
+2016-2,renovados,departamento,GUAINÍA,41
+2016-2,renovados,departamento,GUAVIARE,290
+2016-2,renovados,departamento,HUILA,2928
+2016-2,renovados,departamento,LA GUAJIRA,1435
+2016-2,renovados,departamento,MAGDALENA,2609
+2016-2,renovados,departamento,META,2314
+2016-2,renovados,departamento,NARIÑO,5337
+2016-2,renovados,departamento,NORTE DE SANTANDER,3583
+2016-2,renovados,departamento,PUTUMAYO,2001
+2016-2,renovados,departamento,QUINDÍO,1796
+2016-2,renovados,departamento,RISARALDA,2635
+2016-2,renovados,departamento,SAN ANDRÉS,688
+2016-2,renovados,departamento,SANTANDER,7910
+2016-2,renovados,departamento,SUCRE,5203
+2016-2,renovados,departamento,TOLIMA,4322
+2016-2,renovados,departamento,VALLE DEL CAUCA,12341
+2016-2,renovados,departamento,VAUPÉS,24
+2016-2,renovados,departamento,VICHADA,88
+2016-2,renovados,estrato,Estrato 1,42248
+2016-2,renovados,estrato,Estrato 2,62067
+2016-2,renovados,estrato,Estrato 3,30834
+2016-2,renovados,estrato,Estrato 4,6688
+2016-2,renovados,estrato,Estrato 5,2328
+2016-2,renovados,estrato,Estrato 6,776
+2016-2,renovados,nivel,Estudios en el exterior,118
+2016-2,renovados,nivel,Otros,338
+2016-2,renovados,nivel,Posgrado,3490
+2016-2,renovados,nivel,Pregrado universitario,131838
+2016-2,renovados,nivel,Técnico o tecnológico,9157
+2016-2,renovados,sector_ies,No aplica (exterior),120
+2016-2,renovados,sector_ies,Oficial,20278
+2016-2,renovados,sector_ies,Privado,124543
+2016-2,renovados,sexo,Femenino,84475
+2016-2,renovados,sexo,Masculino,60466
+2016-2,renovados,total,Total,144941
+2017-1,nuevos,departamento,AMAZONAS,19
+2017-1,nuevos,departamento,ANTIOQUIA,1394
+2017-1,nuevos,departamento,ARAUCA,200
+2017-1,nuevos,departamento,ATLÁNTICO,2214
+2017-1,nuevos,departamento,BOGOTÁ,6279
+2017-1,nuevos,departamento,BOLÍVAR,1423
+2017-1,nuevos,departamento,BOYACÁ,954
+2017-1,nuevos,departamento,CALDAS,442
+2017-1,nuevos,departamento,CAQUETÁ,163
+2017-1,nuevos,departamento,CASANARE,336
+2017-1,nuevos,departamento,CAUCA,395
+2017-1,nuevos,departamento,CESAR,402
+2017-1,nuevos,departamento,CHOCÓ,65
+2017-1,nuevos,departamento,CUNDINAMARCA,1097
+2017-1,nuevos,departamento,CÓRDOBA,1585
+2017-1,nuevos,departamento,GUAINÍA,7
+2017-1,nuevos,departamento,GUAVIARE,42
+2017-1,nuevos,departamento,HUILA,567
+2017-1,nuevos,departamento,LA GUAJIRA,297
+2017-1,nuevos,departamento,MAGDALENA,519
+2017-1,nuevos,departamento,META,458
+2017-1,nuevos,departamento,NARIÑO,824
+2017-1,nuevos,departamento,NORTE DE SANTANDER,678
+2017-1,nuevos,departamento,PUTUMAYO,188
+2017-1,nuevos,departamento,QUINDÍO,267
+2017-1,nuevos,departamento,RISARALDA,438
+2017-1,nuevos,departamento,SAN ANDRÉS,129
+2017-1,nuevos,departamento,SANTANDER,1545
+2017-1,nuevos,departamento,SUCRE,1534
+2017-1,nuevos,departamento,TOLIMA,697
+2017-1,nuevos,departamento,VALLE DEL CAUCA,2017
+2017-1,nuevos,departamento,VAUPÉS,1
+2017-1,nuevos,departamento,VICHADA,19
+2017-1,nuevos,estrato,Estrato 1,8327
+2017-1,nuevos,estrato,Estrato 2,10286
+2017-1,nuevos,estrato,Estrato 3,6398
+2017-1,nuevos,estrato,Estrato 4,1584
+2017-1,nuevos,estrato,Estrato 5,445
+2017-1,nuevos,estrato,Estrato 6,155
+2017-1,nuevos,nivel,Estudios en el exterior,779
+2017-1,nuevos,nivel,Posgrado,2330
+2017-1,nuevos,nivel,Pregrado universitario,22962
+2017-1,nuevos,nivel,Técnico o tecnológico,1124
+2017-1,nuevos,sector_ies,No aplica (exterior),779
+2017-1,nuevos,sector_ies,Oficial,3080
+2017-1,nuevos,sector_ies,Privado,23336
+2017-1,nuevos,sexo,Femenino,15200
+2017-1,nuevos,sexo,Masculino,11995
+2017-1,nuevos,total,Total,27195
+2017-1,renovados,departamento,AMAZONAS,132
+2017-1,renovados,departamento,ANTIOQUIA,9648
+2017-1,renovados,departamento,ARAUCA,1288
+2017-1,renovados,departamento,ATLÁNTICO,8752
+2017-1,renovados,departamento,BOGOTÁ,31970
+2017-1,renovados,departamento,BOLÍVAR,5765
+2017-1,renovados,departamento,BOYACÁ,4906
+2017-1,renovados,departamento,CALDAS,3074
+2017-1,renovados,departamento,CAQUETÁ,1181
+2017-1,renovados,departamento,CASANARE,1303
+2017-1,renovados,departamento,CAUCA,2872
+2017-1,renovados,departamento,CESAR,1931
+2017-1,renovados,departamento,CHOCÓ,301
+2017-1,renovados,departamento,CUNDINAMARCA,6620
+2017-1,renovados,departamento,CÓRDOBA,6661
+2017-1,renovados,departamento,GUAINÍA,33
+2017-1,renovados,departamento,GUAVIARE,266
+2017-1,renovados,departamento,HUILA,2694
+2017-1,renovados,departamento,LA GUAJIRA,1379
+2017-1,renovados,departamento,MAGDALENA,2421
+2017-1,renovados,departamento,META,2234
+2017-1,renovados,departamento,NARIÑO,5029
+2017-1,renovados,departamento,NORTE DE SANTANDER,3513
+2017-1,renovados,departamento,PUTUMAYO,1779
+2017-1,renovados,departamento,QUINDÍO,1562
+2017-1,renovados,departamento,RISARALDA,2593
+2017-1,renovados,departamento,SAN ANDRÉS,613
+2017-1,renovados,departamento,SANTANDER,7893
+2017-1,renovados,departamento,SUCRE,5192
+2017-1,renovados,departamento,TOLIMA,4019
+2017-1,renovados,departamento,VALLE DEL CAUCA,11890
+2017-1,renovados,departamento,VAUPÉS,21
+2017-1,renovados,departamento,VICHADA,81
+2017-1,renovados,estrato,Estrato 1,40567
+2017-1,renovados,estrato,Estrato 2,59046
+2017-1,renovados,estrato,Estrato 3,30391
+2017-1,renovados,estrato,Estrato 4,6554
+2017-1,renovados,estrato,Estrato 5,2280
+2017-1,renovados,estrato,Estrato 6,778
+2017-1,renovados,nivel,Estudios en el exterior,282
+2017-1,renovados,nivel,Otros,344
+2017-1,renovados,nivel,Posgrado,3181
+2017-1,renovados,nivel,Pregrado universitario,129475
+2017-1,renovados,nivel,Técnico o tecnológico,6334
+2017-1,renovados,sector_ies,No aplica (exterior),282
+2017-1,renovados,sector_ies,Oficial,18451
+2017-1,renovados,sector_ies,Privado,120883
+2017-1,renovados,sexo,Femenino,81320
+2017-1,renovados,sexo,Masculino,58296
+2017-1,renovados,total,Total,139616
+2017-2,nuevos,departamento,AMAZONAS,20
+2017-2,nuevos,departamento,ANTIOQUIA,1272
+2017-2,nuevos,departamento,ARAUCA,178
+2017-2,nuevos,departamento,ATLÁNTICO,1890
+2017-2,nuevos,departamento,BOGOTÁ,5949
+2017-2,nuevos,departamento,BOLÍVAR,1177
+2017-2,nuevos,departamento,BOYACÁ,904
+2017-2,nuevos,departamento,CALDAS,401
+2017-2,nuevos,departamento,CAQUETÁ,147
+2017-2,nuevos,departamento,CASANARE,235
+2017-2,nuevos,departamento,CAUCA,359
+2017-2,nuevos,departamento,CESAR,369
+2017-2,nuevos,departamento,CHOCÓ,71
+2017-2,nuevos,departamento,CUNDINAMARCA,943
+2017-2,nuevos,departamento,CÓRDOBA,1407
+2017-2,nuevos,departamento,GUAINÍA,5
+2017-2,nuevos,departamento,GUAVIARE,34
+2017-2,nuevos,departamento,HUILA,522
+2017-2,nuevos,departamento,LA GUAJIRA,253
+2017-2,nuevos,departamento,MAGDALENA,562
+2017-2,nuevos,departamento,META,477
+2017-2,nuevos,departamento,NARIÑO,811
+2017-2,nuevos,departamento,NORTE DE SANTANDER,701
+2017-2,nuevos,departamento,PUTUMAYO,157
+2017-2,nuevos,departamento,QUINDÍO,254
+2017-2,nuevos,departamento,RISARALDA,370
+2017-2,nuevos,departamento,SAN ANDRÉS,36
+2017-2,nuevos,departamento,SANTANDER,1392
+2017-2,nuevos,departamento,SUCRE,1773
+2017-2,nuevos,departamento,TOLIMA,714
+2017-2,nuevos,departamento,VALLE DEL CAUCA,1857
+2017-2,nuevos,departamento,VAUPÉS,2
+2017-2,nuevos,departamento,VICHADA,9
+2017-2,nuevos,estrato,Estrato 1,7504
+2017-2,nuevos,estrato,Estrato 2,9037
+2017-2,nuevos,estrato,Estrato 3,6246
+2017-2,nuevos,estrato,Estrato 4,1627
+2017-2,nuevos,estrato,Estrato 5,604
+2017-2,nuevos,estrato,Estrato 6,233
+2017-2,nuevos,nivel,Estudios en el exterior,961
+2017-2,nuevos,nivel,Posgrado,2498
+2017-2,nuevos,nivel,Pregrado universitario,20814
+2017-2,nuevos,nivel,Técnico o tecnológico,978
+2017-2,nuevos,sector_ies,No aplica (exterior),961
+2017-2,nuevos,sector_ies,Oficial,2662
+2017-2,nuevos,sector_ies,Privado,21628
+2017-2,nuevos,sexo,Femenino,14432
+2017-2,nuevos,sexo,Masculino,10819
+2017-2,nuevos,total,Total,25251
+2017-2,renovados,departamento,AMAZONAS,123
+2017-2,renovados,departamento,ANTIOQUIA,9108
+2017-2,renovados,departamento,ARAUCA,1225
+2017-2,renovados,departamento,ATLÁNTICO,9265
+2017-2,renovados,departamento,BOGOTÁ,31531
+2017-2,renovados,departamento,BOLÍVAR,5757
+2017-2,renovados,departamento,BOYACÁ,4882
+2017-2,renovados,departamento,CALDAS,2869
+2017-2,renovados,departamento,CAQUETÁ,1072
+2017-2,renovados,departamento,CASANARE,1440
+2017-2,renovados,departamento,CAUCA,2704
+2017-2,renovados,departamento,CESAR,1879
+2017-2,renovados,departamento,CHOCÓ,299
+2017-2,renovados,departamento,CUNDINAMARCA,6585
+2017-2,renovados,departamento,CÓRDOBA,7101
+2017-2,renovados,departamento,GUAINÍA,30
+2017-2,renovados,departamento,GUAVIARE,253
+2017-2,renovados,departamento,HUILA,2600
+2017-2,renovados,departamento,LA GUAJIRA,1373
+2017-2,renovados,departamento,MAGDALENA,2401
+2017-2,renovados,departamento,META,2244
+2017-2,renovados,departamento,NARIÑO,4794
+2017-2,renovados,departamento,NORTE DE SANTANDER,3408
+2017-2,renovados,departamento,PUTUMAYO,1585
+2017-2,renovados,departamento,QUINDÍO,1469
+2017-2,renovados,departamento,RISARALDA,2379
+2017-2,renovados,departamento,SAN ANDRÉS,591
+2017-2,renovados,departamento,SANTANDER,7720
+2017-2,renovados,departamento,SUCRE,5939
+2017-2,renovados,departamento,TOLIMA,3867
+2017-2,renovados,departamento,VALLE DEL CAUCA,11458
+2017-2,renovados,departamento,VAUPÉS,20
+2017-2,renovados,departamento,VICHADA,90
+2017-2,renovados,estrato,Estrato 1,41044
+2017-2,renovados,estrato,Estrato 2,57731
+2017-2,renovados,estrato,Estrato 3,30043
+2017-2,renovados,estrato,Estrato 4,6425
+2017-2,renovados,estrato,Estrato 5,2092
+2017-2,renovados,estrato,Estrato 6,726
+2017-2,renovados,nivel,Estudios en el exterior,185
+2017-2,renovados,nivel,Otros,299
+2017-2,renovados,nivel,Posgrado,3154
+2017-2,renovados,nivel,Pregrado universitario,129385
+2017-2,renovados,nivel,Técnico o tecnológico,5038
+2017-2,renovados,sector_ies,No aplica (exterior),185
+2017-2,renovados,sector_ies,Oficial,17111
+2017-2,renovados,sector_ies,Privado,120765
+2017-2,renovados,sexo,Femenino,80328
+2017-2,renovados,sexo,Masculino,57733
+2017-2,renovados,total,Total,138061
+2018-1,nuevos,departamento,AMAZONAS,6
+2018-1,nuevos,departamento,ANTIOQUIA,774
+2018-1,nuevos,departamento,ARAUCA,61
+2018-1,nuevos,departamento,ATLÁNTICO,1512
+2018-1,nuevos,departamento,BOGOTÁ,3767
+2018-1,nuevos,departamento,BOLÍVAR,771
+2018-1,nuevos,departamento,BOYACÁ,351
+2018-1,nuevos,departamento,CALDAS,185
+2018-1,nuevos,departamento,CAQUETÁ,47
+2018-1,nuevos,departamento,CASANARE,135
+2018-1,nuevos,departamento,CAUCA,141
+2018-1,nuevos,departamento,CESAR,146
+2018-1,nuevos,departamento,CHOCÓ,17
+2018-1,nuevos,departamento,CUNDINAMARCA,1064
+2018-1,nuevos,departamento,CÓRDOBA,856
+2018-1,nuevos,departamento,GUAINÍA,3
+2018-1,nuevos,departamento,GUAVIARE,12
+2018-1,nuevos,departamento,HUILA,136
+2018-1,nuevos,departamento,LA GUAJIRA,150
+2018-1,nuevos,departamento,MAGDALENA,257
+2018-1,nuevos,departamento,META,260
+2018-1,nuevos,departamento,NARIÑO,296
+2018-1,nuevos,departamento,NORTE DE SANTANDER,293
+2018-1,nuevos,departamento,PUTUMAYO,67
+2018-1,nuevos,departamento,QUINDÍO,98
+2018-1,nuevos,departamento,RISARALDA,229
+2018-1,nuevos,departamento,SAN ANDRÉS,58
+2018-1,nuevos,departamento,SANTANDER,789
+2018-1,nuevos,departamento,SUCRE,989
+2018-1,nuevos,departamento,TOLIMA,276
+2018-1,nuevos,departamento,VALLE DEL CAUCA,1117
+2018-1,nuevos,departamento,VAUPÉS,3
+2018-1,nuevos,departamento,VICHADA,5
+2018-1,nuevos,estrato,Estrato 1,4983
+2018-1,nuevos,estrato,Estrato 2,4428
+2018-1,nuevos,estrato,Estrato 3,3720
+2018-1,nuevos,estrato,Estrato 4,1220
+2018-1,nuevos,estrato,Estrato 5,393
+2018-1,nuevos,estrato,Estrato 6,127
+2018-1,nuevos,nivel,Estudios en el exterior,493
+2018-1,nuevos,nivel,Posgrado,1639
+2018-1,nuevos,nivel,Pregrado universitario,12516
+2018-1,nuevos,nivel,Técnico o tecnológico,223
+2018-1,nuevos,sector_ies,No aplica (exterior),493
+2018-1,nuevos,sector_ies,Oficial,1784
+2018-1,nuevos,sector_ies,Privado,12594
+2018-1,nuevos,sexo,Femenino,8350
+2018-1,nuevos,sexo,Masculino,6521
+2018-1,nuevos,total,Total,14871
+2018-1,renovados,departamento,AMAZONAS,122
+2018-1,renovados,departamento,ANTIOQUIA,8347
+2018-1,renovados,departamento,ARAUCA,1172
+2018-1,renovados,departamento,ATLÁNTICO,9504
+2018-1,renovados,departamento,BOGOTÁ,30910
+2018-1,renovados,departamento,BOLÍVAR,5584
+2018-1,renovados,departamento,BOYACÁ,4716
+2018-1,renovados,departamento,CALDAS,2635
+2018-1,renovados,departamento,CAQUETÁ,953
+2018-1,renovados,departamento,CASANARE,1470
+2018-1,renovados,departamento,CAUCA,2413
+2018-1,renovados,departamento,CESAR,1839
+2018-1,renovados,departamento,CHOCÓ,292
+2018-1,renovados,departamento,CUNDINAMARCA,6384
+2018-1,renovados,departamento,CÓRDOBA,7255
+2018-1,renovados,departamento,GUAINÍA,34
+2018-1,renovados,departamento,GUAVIARE,229
+2018-1,renovados,departamento,HUILA,2531
+2018-1,renovados,departamento,LA GUAJIRA,1364
+2018-1,renovados,departamento,MAGDALENA,2375
+2018-1,renovados,departamento,META,2230
+2018-1,renovados,departamento,NARIÑO,4579
+2018-1,renovados,departamento,NORTE DE SANTANDER,3393
+2018-1,renovados,departamento,PUTUMAYO,1321
+2018-1,renovados,departamento,QUINDÍO,1416
+2018-1,renovados,departamento,RISARALDA,2270
+2018-1,renovados,departamento,SAN ANDRÉS,487
+2018-1,renovados,departamento,SANTANDER,7626
+2018-1,renovados,departamento,SUCRE,6456
+2018-1,renovados,departamento,TOLIMA,3635
+2018-1,renovados,departamento,VALLE DEL CAUCA,10994
+2018-1,renovados,departamento,VAUPÉS,19
+2018-1,renovados,departamento,VICHADA,86
+2018-1,renovados,estrato,Estrato 1,40408
+2018-1,renovados,estrato,Estrato 2,55222
+2018-1,renovados,estrato,Estrato 3,29656
+2018-1,renovados,estrato,Estrato 4,6369
+2018-1,renovados,estrato,Estrato 5,2220
+2018-1,renovados,estrato,Estrato 6,766
+2018-1,renovados,nivel,Estudios en el exterior,327
+2018-1,renovados,nivel,Otros,348
+2018-1,renovados,nivel,Posgrado,3086
+2018-1,renovados,nivel,Pregrado universitario,127447
+2018-1,renovados,nivel,Técnico o tecnológico,3433
+2018-1,renovados,sector_ies,No aplica (exterior),327
+2018-1,renovados,sector_ies,Oficial,15598
+2018-1,renovados,sector_ies,Privado,118716
+2018-1,renovados,sexo,Femenino,78581
+2018-1,renovados,sexo,Masculino,56060
+2018-1,renovados,total,Total,134641
+2018-2,nuevos,departamento,AMAZONAS,21
+2018-2,nuevos,departamento,ANTIOQUIA,955
+2018-2,nuevos,departamento,ARAUCA,135
+2018-2,nuevos,departamento,ATLÁNTICO,2054
+2018-2,nuevos,departamento,BOGOTÁ,4691
+2018-2,nuevos,departamento,BOLÍVAR,1190
+2018-2,nuevos,departamento,BOYACÁ,529
+2018-2,nuevos,departamento,CALDAS,294
+2018-2,nuevos,departamento,CAQUETÁ,81
+2018-2,nuevos,departamento,CASANARE,211
+2018-2,nuevos,departamento,CAUCA,230
+2018-2,nuevos,departamento,CESAR,273
+2018-2,nuevos,departamento,CHOCÓ,41
+2018-2,nuevos,departamento,CUNDINAMARCA,927
+2018-2,nuevos,departamento,CÓRDOBA,1284
+2018-2,nuevos,departamento,GUAINÍA,6
+2018-2,nuevos,departamento,GUAVIARE,25
+2018-2,nuevos,departamento,HUILA,251
+2018-2,nuevos,departamento,LA GUAJIRA,259
+2018-2,nuevos,departamento,MAGDALENA,496
+2018-2,nuevos,departamento,META,301
+2018-2,nuevos,departamento,NARIÑO,548
+2018-2,nuevos,departamento,NORTE DE SANTANDER,373
+2018-2,nuevos,departamento,PUTUMAYO,119
+2018-2,nuevos,departamento,QUINDÍO,155
+2018-2,nuevos,departamento,RISARALDA,262
+2018-2,nuevos,departamento,SAN ANDRÉS,30
+2018-2,nuevos,departamento,SANTANDER,1061
+2018-2,nuevos,departamento,SUCRE,1697
+2018-2,nuevos,departamento,TOLIMA,416
+2018-2,nuevos,departamento,VALLE DEL CAUCA,1607
+2018-2,nuevos,departamento,VAUPÉS,2
+2018-2,nuevos,departamento,VICHADA,10
+2018-2,nuevos,estrato,Estrato 1,7471
+2018-2,nuevos,estrato,Estrato 2,5994
+2018-2,nuevos,estrato,Estrato 3,4703
+2018-2,nuevos,estrato,Estrato 4,1575
+2018-2,nuevos,estrato,Estrato 5,558
+2018-2,nuevos,estrato,Estrato 6,233
+2018-2,nuevos,nivel,Estudios en el exterior,1005
+2018-2,nuevos,nivel,Posgrado,2318
+2018-2,nuevos,nivel,Pregrado universitario,16731
+2018-2,nuevos,nivel,Técnico o tecnológico,480
+2018-2,nuevos,sector_ies,No aplica (exterior),1005
+2018-2,nuevos,sector_ies,Oficial,2518
+2018-2,nuevos,sector_ies,Privado,17011
+2018-2,nuevos,sexo,Femenino,11462
+2018-2,nuevos,sexo,Masculino,9072
+2018-2,nuevos,total,Total,20534
+2018-2,renovados,departamento,AMAZONAS,106
+2018-2,renovados,departamento,ANTIOQUIA,7528
+2018-2,renovados,departamento,ARAUCA,1030
+2018-2,renovados,departamento,ATLÁNTICO,9105
+2018-2,renovados,departamento,BOGOTÁ,28655
+2018-2,renovados,departamento,BOLÍVAR,5204
+2018-2,renovados,departamento,BOYACÁ,4250
+2018-2,renovados,departamento,CALDAS,2341
+2018-2,renovados,departamento,CAQUETÁ,774
+2018-2,renovados,departamento,CASANARE,1362
+2018-2,renovados,departamento,CAUCA,2015
+2018-2,renovados,departamento,CESAR,1638
+2018-2,renovados,departamento,CHOCÓ,270
+2018-2,renovados,departamento,CUNDINAMARCA,6006
+2018-2,renovados,departamento,CÓRDOBA,6791
+2018-2,renovados,departamento,GUAINÍA,24
+2018-2,renovados,departamento,GUAVIARE,207
+2018-2,renovados,departamento,HUILA,2189
+2018-2,renovados,departamento,LA GUAJIRA,1260
+2018-2,renovados,departamento,MAGDALENA,2187
+2018-2,renovados,departamento,META,2056
+2018-2,renovados,departamento,NARIÑO,4079
+2018-2,renovados,departamento,NORTE DE SANTANDER,2916
+2018-2,renovados,departamento,PUTUMAYO,1115
+2018-2,renovados,departamento,QUINDÍO,1229
+2018-2,renovados,departamento,RISARALDA,1894
+2018-2,renovados,departamento,SAN ANDRÉS,393
+2018-2,renovados,departamento,SANTANDER,6898
+2018-2,renovados,departamento,SUCRE,6187
+2018-2,renovados,departamento,TOLIMA,3299
+2018-2,renovados,departamento,VALLE DEL CAUCA,9960
+2018-2,renovados,departamento,VAUPÉS,21
+2018-2,renovados,departamento,VICHADA,78
+2018-2,renovados,estrato,Estrato 1,37793
+2018-2,renovados,estrato,Estrato 2,49007
+2018-2,renovados,estrato,Estrato 3,27486
+2018-2,renovados,estrato,Estrato 4,6024
+2018-2,renovados,estrato,Estrato 5,2100
+2018-2,renovados,estrato,Estrato 6,657
+2018-2,renovados,nivel,Estudios en el exterior,172
+2018-2,renovados,nivel,Otros,334
+2018-2,renovados,nivel,Posgrado,2594
+2018-2,renovados,nivel,Pregrado universitario,117553
+2018-2,renovados,nivel,Técnico o tecnológico,2414
+2018-2,renovados,sector_ies,No aplica (exterior),172
+2018-2,renovados,sector_ies,Oficial,13846
+2018-2,renovados,sector_ies,Privado,109049
+2018-2,renovados,sexo,Femenino,71702
+2018-2,renovados,sexo,Masculino,51365
+2018-2,renovados,total,Total,123067
+2019-1,nuevos,departamento,AMAZONAS,18
+2019-1,nuevos,departamento,ANTIOQUIA,1424
+2019-1,nuevos,departamento,ARAUCA,189
+2019-1,nuevos,departamento,ATLÁNTICO,3137
+2019-1,nuevos,departamento,BOGOTÁ,6380
+2019-1,nuevos,departamento,BOLÍVAR,1961
+2019-1,nuevos,departamento,BOYACÁ,871
+2019-1,nuevos,departamento,CALDAS,369
+2019-1,nuevos,departamento,CAQUETÁ,134
+2019-1,nuevos,departamento,CASANARE,290
+2019-1,nuevos,departamento,CAUCA,330
+2019-1,nuevos,departamento,CESAR,479
+2019-1,nuevos,departamento,CHOCÓ,68
+2019-1,nuevos,departamento,CUNDINAMARCA,951
+2019-1,nuevos,departamento,CÓRDOBA,2090
+2019-1,nuevos,departamento,GUAINÍA,6
+2019-1,nuevos,departamento,GUAVIARE,42
+2019-1,nuevos,departamento,HUILA,469
+2019-1,nuevos,departamento,LA GUAJIRA,352
+2019-1,nuevos,departamento,MAGDALENA,850
+2019-1,nuevos,departamento,META,541
+2019-1,nuevos,departamento,NARIÑO,799
+2019-1,nuevos,departamento,NORTE DE SANTANDER,617
+2019-1,nuevos,departamento,PUTUMAYO,116
+2019-1,nuevos,departamento,QUINDÍO,290
+2019-1,nuevos,departamento,RISARALDA,310
+2019-1,nuevos,departamento,SAN ANDRÉS,28
+2019-1,nuevos,departamento,SANTANDER,1439
+2019-1,nuevos,departamento,SUCRE,2492
+2019-1,nuevos,departamento,TOLIMA,732
+2019-1,nuevos,departamento,VALLE DEL CAUCA,1855
+2019-1,nuevos,departamento,VAUPÉS,9
+2019-1,nuevos,departamento,VICHADA,15
+2019-1,nuevos,estrato,Estrato 1,12090
+2019-1,nuevos,estrato,Estrato 2,9077
+2019-1,nuevos,estrato,Estrato 3,6088
+2019-1,nuevos,estrato,Estrato 4,1693
+2019-1,nuevos,estrato,Estrato 5,528
+2019-1,nuevos,estrato,Estrato 6,177
+2019-1,nuevos,nivel,Estudios en el exterior,598
+2019-1,nuevos,nivel,Posgrado,2719
+2019-1,nuevos,nivel,Pregrado universitario,25554
+2019-1,nuevos,nivel,Técnico o tecnológico,782
+2019-1,nuevos,sector_ies,No aplica (exterior),598
+2019-1,nuevos,sector_ies,Oficial,2395
+2019-1,nuevos,sector_ies,Privado,26660
+2019-1,nuevos,sexo,Femenino,16810
+2019-1,nuevos,sexo,Masculino,12843
+2019-1,nuevos,total,Total,29653
+2019-1,renovados,departamento,AMAZONAS,93
+2019-1,renovados,departamento,ANTIOQUIA,6626
+2019-1,renovados,departamento,ARAUCA,943
+2019-1,renovados,departamento,ATLÁNTICO,9474
+2019-1,renovados,departamento,BOGOTÁ,27174
+2019-1,renovados,departamento,BOLÍVAR,5196
+2019-1,renovados,departamento,BOYACÁ,3990
+2019-1,renovados,departamento,CALDAS,2067
+2019-1,renovados,departamento,CAQUETÁ,671
+2019-1,renovados,departamento,CASANARE,1344
+2019-1,renovados,departamento,CAUCA,1732
+2019-1,renovados,departamento,CESAR,1553
+2019-1,renovados,departamento,CHOCÓ,266
+2019-1,renovados,departamento,CUNDINAMARCA,5529
+2019-1,renovados,departamento,CÓRDOBA,6787
+2019-1,renovados,departamento,GUAINÍA,25
+2019-1,renovados,departamento,GUAVIARE,196
+2019-1,renovados,departamento,HUILA,2026
+2019-1,renovados,departamento,LA GUAJIRA,1258
+2019-1,renovados,departamento,MAGDALENA,2233
+2019-1,renovados,departamento,META,1917
+2019-1,renovados,departamento,NARIÑO,3755
+2019-1,renovados,departamento,NORTE DE SANTANDER,2710
+2019-1,renovados,departamento,PUTUMAYO,939
+2019-1,renovados,departamento,QUINDÍO,1084
+2019-1,renovados,departamento,RISARALDA,1732
+2019-1,renovados,departamento,SAN ANDRÉS,334
+2019-1,renovados,departamento,SANTANDER,6594
+2019-1,renovados,departamento,SUCRE,6650
+2019-1,renovados,departamento,TOLIMA,2969
+2019-1,renovados,departamento,VALLE DEL CAUCA,9439
+2019-1,renovados,departamento,VAUPÉS,17
+2019-1,renovados,departamento,VICHADA,76
+2019-1,renovados,estrato,Estrato 1,37607
+2019-1,renovados,estrato,Estrato 2,44851
+2019-1,renovados,estrato,Estrato 3,26098
+2019-1,renovados,estrato,Estrato 4,5993
+2019-1,renovados,estrato,Estrato 5,2117
+2019-1,renovados,estrato,Estrato 6,733
+2019-1,renovados,nivel,Estudios en el exterior,476
+2019-1,renovados,nivel,Otros,378
+2019-1,renovados,nivel,Posgrado,2740
+2019-1,renovados,nivel,Pregrado universitario,112106
+2019-1,renovados,nivel,Técnico o tecnológico,1699
+2019-1,renovados,sector_ies,No aplica (exterior),476
+2019-1,renovados,sector_ies,Oficial,12636
+2019-1,renovados,sector_ies,Privado,104287
+2019-1,renovados,sexo,Femenino,68369
+2019-1,renovados,sexo,Masculino,49030
+2019-1,renovados,total,Total,117399
+2019-2,nuevos,departamento,AMAZONAS,8
+2019-2,nuevos,departamento,ANTIOQUIA,506
+2019-2,nuevos,departamento,ARAUCA,72
+2019-2,nuevos,departamento,ATLÁNTICO,1114
+2019-2,nuevos,departamento,BOGOTÁ,2295
+2019-2,nuevos,departamento,BOLÍVAR,710
+2019-2,nuevos,departamento,BOYACÁ,338
+2019-2,nuevos,departamento,CALDAS,138
+2019-2,nuevos,departamento,CAQUETÁ,37
+2019-2,nuevos,departamento,CASANARE,126
+2019-2,nuevos,departamento,CAUCA,124
+2019-2,nuevos,departamento,CESAR,256
+2019-2,nuevos,departamento,CHOCÓ,20
+2019-2,nuevos,departamento,CUNDINAMARCA,303
+2019-2,nuevos,departamento,CÓRDOBA,523
+2019-2,nuevos,departamento,GUAINÍA,1
+2019-2,nuevos,departamento,GUAVIARE,14
+2019-2,nuevos,departamento,HUILA,180
+2019-2,nuevos,departamento,LA GUAJIRA,162
+2019-2,nuevos,departamento,MAGDALENA,306
+2019-2,nuevos,departamento,META,164
+2019-2,nuevos,departamento,NARIÑO,327
+2019-2,nuevos,departamento,NORTE DE SANTANDER,256
+2019-2,nuevos,departamento,PUTUMAYO,73
+2019-2,nuevos,departamento,QUINDÍO,79
+2019-2,nuevos,departamento,RISARALDA,107
+2019-2,nuevos,departamento,SAN ANDRÉS,11
+2019-2,nuevos,departamento,SANTANDER,522
+2019-2,nuevos,departamento,SUCRE,701
+2019-2,nuevos,departamento,TOLIMA,232
+2019-2,nuevos,departamento,VALLE DEL CAUCA,795
+2019-2,nuevos,departamento,VAUPÉS,2
+2019-2,nuevos,departamento,VICHADA,5
+2019-2,nuevos,estrato,Estrato 1,3702
+2019-2,nuevos,estrato,Estrato 2,3459
+2019-2,nuevos,estrato,Estrato 3,2232
+2019-2,nuevos,estrato,Estrato 4,739
+2019-2,nuevos,estrato,Estrato 5,274
+2019-2,nuevos,estrato,Estrato 6,101
+2019-2,nuevos,nivel,Estudios en el exterior,295
+2019-2,nuevos,nivel,Posgrado,1118
+2019-2,nuevos,nivel,Pregrado universitario,8847
+2019-2,nuevos,nivel,Técnico o tecnológico,247
+2019-2,nuevos,sector_ies,No aplica (exterior),295
+2019-2,nuevos,sector_ies,Oficial,726
+2019-2,nuevos,sector_ies,Privado,9486
+2019-2,nuevos,sexo,Femenino,6224
+2019-2,nuevos,sexo,Masculino,4283
+2019-2,nuevos,total,Total,10507
+2019-2,renovados,departamento,AMAZONAS,89
+2019-2,renovados,departamento,ANTIOQUIA,6417
+2019-2,renovados,departamento,ARAUCA,911
+2019-2,renovados,departamento,ATLÁNTICO,10535
+2019-2,renovados,departamento,BOGOTÁ,27174
+2019-2,renovados,departamento,BOLÍVAR,6030
+2019-2,renovados,departamento,BOYACÁ,3977
+2019-2,renovados,departamento,CALDAS,1960
+2019-2,renovados,departamento,CAQUETÁ,634
+2019-2,renovados,departamento,CASANARE,1370
+2019-2,renovados,departamento,CAUCA,1559
+2019-2,renovados,departamento,CESAR,1650
+2019-2,renovados,departamento,CHOCÓ,261
+2019-2,renovados,departamento,CUNDINAMARCA,5284
+2019-2,renovados,departamento,CÓRDOBA,7679
+2019-2,renovados,departamento,GUAINÍA,26
+2019-2,renovados,departamento,GUAVIARE,181
+2019-2,renovados,departamento,HUILA,1982
+2019-2,renovados,departamento,LA GUAJIRA,1308
+2019-2,renovados,departamento,MAGDALENA,2508
+2019-2,renovados,departamento,META,2042
+2019-2,renovados,departamento,NARIÑO,3779
+2019-2,renovados,departamento,NORTE DE SANTANDER,2655
+2019-2,renovados,departamento,PUTUMAYO,810
+2019-2,renovados,departamento,QUINDÍO,1157
+2019-2,renovados,departamento,RISARALDA,1598
+2019-2,renovados,departamento,SAN ANDRÉS,287
+2019-2,renovados,departamento,SANTANDER,6492
+2019-2,renovados,departamento,SUCRE,7950
+2019-2,renovados,departamento,TOLIMA,2992
+2019-2,renovados,departamento,VALLE DEL CAUCA,9165
+2019-2,renovados,departamento,VAUPÉS,22
+2019-2,renovados,departamento,VICHADA,65
+2019-2,renovados,estrato,Estrato 1,41771
+2019-2,renovados,estrato,Estrato 2,43790
+2019-2,renovados,estrato,Estrato 3,26097
+2019-2,renovados,estrato,Estrato 4,6162
+2019-2,renovados,estrato,Estrato 5,2065
+2019-2,renovados,estrato,Estrato 6,664
+2019-2,renovados,nivel,Estudios en el exterior,285
+2019-2,renovados,nivel,Otros,460
+2019-2,renovados,nivel,Posgrado,3265
+2019-2,renovados,nivel,Pregrado universitario,114796
+2019-2,renovados,nivel,Técnico o tecnológico,1743
+2019-2,renovados,sector_ies,No aplica (exterior),285
+2019-2,renovados,sector_ies,Oficial,12034
+2019-2,renovados,sector_ies,Privado,108230
+2019-2,renovados,sexo,Femenino,69868
+2019-2,renovados,sexo,Masculino,50681
+2019-2,renovados,total,Total,120549
+2020-1,nuevos,departamento,AMAZONAS,17
+2020-1,nuevos,departamento,ANTIOQUIA,1066
+2020-1,nuevos,departamento,ARAUCA,98
+2020-1,nuevos,departamento,ATLÁNTICO,2338
+2020-1,nuevos,departamento,BOGOTÁ,4147
+2020-1,nuevos,departamento,BOLÍVAR,1606
+2020-1,nuevos,departamento,BOYACÁ,568
+2020-1,nuevos,departamento,CALDAS,249
+2020-1,nuevos,departamento,CAQUETÁ,101
+2020-1,nuevos,departamento,CASANARE,162
+2020-1,nuevos,departamento,CAUCA,202
+2020-1,nuevos,departamento,CESAR,466
+2020-1,nuevos,departamento,CHOCÓ,50
+2020-1,nuevos,departamento,CUNDINAMARCA,605
+2020-1,nuevos,departamento,CÓRDOBA,1945
+2020-1,nuevos,departamento,GUAINÍA,2
+2020-1,nuevos,departamento,GUAVIARE,31
+2020-1,nuevos,departamento,HUILA,335
+2020-1,nuevos,departamento,LA GUAJIRA,335
+2020-1,nuevos,departamento,MAGDALENA,666
+2020-1,nuevos,departamento,META,299
+2020-1,nuevos,departamento,NARIÑO,609
+2020-1,nuevos,departamento,NORTE DE SANTANDER,412
+2020-1,nuevos,departamento,PUTUMAYO,101
+2020-1,nuevos,departamento,QUINDÍO,156
+2020-1,nuevos,departamento,RISARALDA,245
+2020-1,nuevos,departamento,SAN ANDRÉS,129
+2020-1,nuevos,departamento,SANTANDER,930
+2020-1,nuevos,departamento,SUCRE,2365
+2020-1,nuevos,departamento,TOLIMA,422
+2020-1,nuevos,departamento,VALLE DEL CAUCA,1280
+2020-1,nuevos,departamento,VAUPÉS,2
+2020-1,nuevos,departamento,VICHADA,12
+2020-1,nuevos,estrato,Estrato 1,9019
+2020-1,nuevos,estrato,Estrato 2,6915
+2020-1,nuevos,estrato,Estrato 3,4326
+2020-1,nuevos,estrato,Estrato 4,1177
+2020-1,nuevos,estrato,Estrato 5,382
+2020-1,nuevos,estrato,Estrato 6,132
+2020-1,nuevos,nivel,Estudios en el exterior,369
+2020-1,nuevos,nivel,Posgrado,1989
+2020-1,nuevos,nivel,Pregrado universitario,18647
+2020-1,nuevos,nivel,Técnico o tecnológico,946
+2020-1,nuevos,sector_ies,No aplica (exterior),370
+2020-1,nuevos,sector_ies,Oficial,1708
+2020-1,nuevos,sector_ies,Privado,19873
+2020-1,nuevos,sexo,Femenino,12446
+2020-1,nuevos,sexo,Masculino,9505
+2020-1,nuevos,total,Total,21951
+2020-1,renovados,departamento,AMAZONAS,81
+2020-1,renovados,departamento,ANTIOQUIA,5695
+2020-1,renovados,departamento,ARAUCA,789
+2020-1,renovados,departamento,ATLÁNTICO,10483
+2020-1,renovados,departamento,BOGOTÁ,25024
+2020-1,renovados,departamento,BOLÍVAR,6103
+2020-1,renovados,departamento,BOYACÁ,3647
+2020-1,renovados,departamento,CALDAS,1638
+2020-1,renovados,departamento,CAQUETÁ,519
+2020-1,renovados,departamento,CASANARE,1307
+2020-1,renovados,departamento,CAUCA,1272
+2020-1,renovados,departamento,CESAR,1712
+2020-1,renovados,departamento,CHOCÓ,231
+2020-1,renovados,departamento,CUNDINAMARCA,4587
+2020-1,renovados,departamento,CÓRDOBA,7464
+2020-1,renovados,departamento,GUAINÍA,26
+2020-1,renovados,departamento,GUAVIARE,175
+2020-1,renovados,departamento,HUILA,1721
+2020-1,renovados,departamento,LA GUAJIRA,1323
+2020-1,renovados,departamento,MAGDALENA,2610
+2020-1,renovados,departamento,META,1909
+2020-1,renovados,departamento,NARIÑO,3426
+2020-1,renovados,departamento,NORTE DE SANTANDER,2496
+2020-1,renovados,departamento,PUTUMAYO,693
+2020-1,renovados,departamento,QUINDÍO,1031
+2020-1,renovados,departamento,RISARALDA,1441
+2020-1,renovados,departamento,SAN ANDRÉS,231
+2020-1,renovados,departamento,SANTANDER,6018
+2020-1,renovados,departamento,SUCRE,7922
+2020-1,renovados,departamento,TOLIMA,2667
+2020-1,renovados,departamento,VALLE DEL CAUCA,8444
+2020-1,renovados,departamento,VAUPÉS,21
+2020-1,renovados,departamento,VICHADA,54
+2020-1,renovados,estrato,Estrato 1,40494
+2020-1,renovados,estrato,Estrato 2,39747
+2020-1,renovados,estrato,Estrato 3,24089
+2020-1,renovados,estrato,Estrato 4,5779
+2020-1,renovados,estrato,Estrato 5,2001
+2020-1,renovados,estrato,Estrato 6,650
+2020-1,renovados,nivel,Estudios en el exterior,385
+2020-1,renovados,nivel,Otros,463
+2020-1,renovados,nivel,Posgrado,2726
+2020-1,renovados,nivel,Pregrado universitario,107799
+2020-1,renovados,nivel,Técnico o tecnológico,1387
+2020-1,renovados,sector_ies,No aplica (exterior),385
+2020-1,renovados,sector_ies,Oficial,10138
+2020-1,renovados,sector_ies,Privado,102237
+2020-1,renovados,sexo,Femenino,65280
+2020-1,renovados,sexo,Masculino,47480
+2020-1,renovados,total,Total,112760
+2020-2,nuevos,departamento,AMAZONAS,10
+2020-2,nuevos,departamento,ANTIOQUIA,985
+2020-2,nuevos,departamento,ARAUCA,82
+2020-2,nuevos,departamento,ATLÁNTICO,2114
+2020-2,nuevos,departamento,BOGOTÁ,4097
+2020-2,nuevos,departamento,BOLÍVAR,1443
+2020-2,nuevos,departamento,BOYACÁ,469
+2020-2,nuevos,departamento,CALDAS,257
+2020-2,nuevos,departamento,CAQUETÁ,116
+2020-2,nuevos,departamento,CASANARE,130
+2020-2,nuevos,departamento,CAUCA,253
+2020-2,nuevos,departamento,CESAR,546
+2020-2,nuevos,departamento,CHOCÓ,73
+2020-2,nuevos,departamento,CUNDINAMARCA,535
+2020-2,nuevos,departamento,CÓRDOBA,1768
+2020-2,nuevos,departamento,GUAINÍA,1
+2020-2,nuevos,departamento,GUAVIARE,25
+2020-2,nuevos,departamento,HUILA,303
+2020-2,nuevos,departamento,LA GUAJIRA,437
+2020-2,nuevos,departamento,MAGDALENA,609
+2020-2,nuevos,departamento,META,314
+2020-2,nuevos,departamento,NARIÑO,651
+2020-2,nuevos,departamento,NORTE DE SANTANDER,360
+2020-2,nuevos,departamento,PUTUMAYO,105
+2020-2,nuevos,departamento,QUINDÍO,137
+2020-2,nuevos,departamento,RISARALDA,180
+2020-2,nuevos,departamento,SAN ANDRÉS,36
+2020-2,nuevos,departamento,SANTANDER,789
+2020-2,nuevos,departamento,SUCRE,1354
+2020-2,nuevos,departamento,TOLIMA,434
+2020-2,nuevos,departamento,VALLE DEL CAUCA,1523
+2020-2,nuevos,departamento,VAUPÉS,4
+2020-2,nuevos,departamento,VICHADA,9
+2020-2,nuevos,estrato,Estrato 1,7311
+2020-2,nuevos,estrato,Estrato 2,6636
+2020-2,nuevos,estrato,Estrato 3,4310
+2020-2,nuevos,estrato,Estrato 4,1303
+2020-2,nuevos,estrato,Estrato 5,415
+2020-2,nuevos,estrato,Estrato 6,174
+2020-2,nuevos,nivel,Estudios en el exterior,242
+2020-2,nuevos,nivel,Posgrado,2429
+2020-2,nuevos,nivel,Pregrado universitario,16806
+2020-2,nuevos,nivel,Técnico o tecnológico,672
+2020-2,nuevos,sector_ies,No aplica (exterior),242
+2020-2,nuevos,sector_ies,Oficial,1551
+2020-2,nuevos,sector_ies,Privado,18356
+2020-2,nuevos,sexo,Femenino,11559
+2020-2,nuevos,sexo,Masculino,8590
+2020-2,nuevos,total,Total,20149
+2020-2,renovados,departamento,AMAZONAS,89
+2020-2,renovados,departamento,ANTIOQUIA,5387
+2020-2,renovados,departamento,ARAUCA,726
+2020-2,renovados,departamento,ATLÁNTICO,10853
+2020-2,renovados,departamento,BOGOTÁ,22988
+2020-2,renovados,departamento,BOLÍVAR,6542
+2020-2,renovados,departamento,BOYACÁ,3232
+2020-2,renovados,departamento,CALDAS,1430
+2020-2,renovados,departamento,CAQUETÁ,476
+2020-2,renovados,departamento,CASANARE,1174
+2020-2,renovados,departamento,CAUCA,1139
+2020-2,renovados,departamento,CESAR,1805
+2020-2,renovados,departamento,CHOCÓ,228
+2020-2,renovados,departamento,CUNDINAMARCA,4126
+2020-2,renovados,departamento,CÓRDOBA,8133
+2020-2,renovados,departamento,GUAINÍA,18
+2020-2,renovados,departamento,GUAVIARE,162
+2020-2,renovados,departamento,HUILA,1562
+2020-2,renovados,departamento,LA GUAJIRA,1455
+2020-2,renovados,departamento,MAGDALENA,2770
+2020-2,renovados,departamento,META,1753
+2020-2,renovados,departamento,NARIÑO,3274
+2020-2,renovados,departamento,NORTE DE SANTANDER,2280
+2020-2,renovados,departamento,PUTUMAYO,580
+2020-2,renovados,departamento,QUINDÍO,949
+2020-2,renovados,departamento,RISARALDA,1289
+2020-2,renovados,departamento,SAN ANDRÉS,253
+2020-2,renovados,departamento,SANTANDER,5514
+2020-2,renovados,departamento,SUCRE,9029
+2020-2,renovados,departamento,TOLIMA,2420
+2020-2,renovados,departamento,VALLE DEL CAUCA,8051
+2020-2,renovados,departamento,VAUPÉS,18
+2020-2,renovados,departamento,VICHADA,54
+2020-2,renovados,estrato,Estrato 1,42022
+2020-2,renovados,estrato,Estrato 2,37376
+2020-2,renovados,estrato,Estrato 3,22390
+2020-2,renovados,estrato,Estrato 4,5468
+2020-2,renovados,estrato,Estrato 5,1906
+2020-2,renovados,estrato,Estrato 6,597
+2020-2,renovados,nivel,Estudios en el exterior,243
+2020-2,renovados,nivel,Otros,536
+2020-2,renovados,nivel,Posgrado,2480
+2020-2,renovados,nivel,Pregrado universitario,104891
+2020-2,renovados,nivel,Técnico o tecnológico,1609
+2020-2,renovados,sector_ies,No aplica (exterior),244
+2020-2,renovados,sector_ies,Oficial,8517
+2020-2,renovados,sector_ies,Privado,100998
+2020-2,renovados,sexo,Femenino,63793
+2020-2,renovados,sexo,Masculino,45966
+2020-2,renovados,total,Total,109759
+2021-1,nuevos,departamento,AMAZONAS,24
+2021-1,nuevos,departamento,ANTIOQUIA,1391
+2021-1,nuevos,departamento,ARAUCA,98
+2021-1,nuevos,departamento,ATLÁNTICO,2612
+2021-1,nuevos,departamento,BOGOTÁ,4824
+2021-1,nuevos,departamento,BOLÍVAR,1876
+2021-1,nuevos,departamento,BOYACÁ,651
+2021-1,nuevos,departamento,CALDAS,268
+2021-1,nuevos,departamento,CAQUETÁ,119
+2021-1,nuevos,departamento,CASANARE,163
+2021-1,nuevos,departamento,CAUCA,232
+2021-1,nuevos,departamento,CESAR,686
+2021-1,nuevos,departamento,CHOCÓ,78
+2021-1,nuevos,departamento,CUNDINAMARCA,708
+2021-1,nuevos,departamento,CÓRDOBA,2281
+2021-1,nuevos,departamento,GUAINÍA,4
+2021-1,nuevos,departamento,GUAVIARE,43
+2021-1,nuevos,departamento,HUILA,344
+2021-1,nuevos,departamento,LA GUAJIRA,495
+2021-1,nuevos,departamento,MAGDALENA,785
+2021-1,nuevos,departamento,META,376
+2021-1,nuevos,departamento,NARIÑO,716
+2021-1,nuevos,departamento,NORTE DE SANTANDER,414
+2021-1,nuevos,departamento,PUTUMAYO,113
+2021-1,nuevos,departamento,QUINDÍO,150
+2021-1,nuevos,departamento,RISARALDA,227
+2021-1,nuevos,departamento,SAN ANDRÉS,32
+2021-1,nuevos,departamento,SANTANDER,857
+2021-1,nuevos,departamento,SUCRE,2024
+2021-1,nuevos,departamento,TOLIMA,503
+2021-1,nuevos,departamento,VALLE DEL CAUCA,1535
+2021-1,nuevos,departamento,VAUPÉS,2
+2021-1,nuevos,departamento,VICHADA,8
+2021-1,nuevos,estrato,Estrato 1,9611
+2021-1,nuevos,estrato,Estrato 2,8112
+2021-1,nuevos,estrato,Estrato 3,5087
+2021-1,nuevos,estrato,Estrato 4,1321
+2021-1,nuevos,estrato,Estrato 5,394
+2021-1,nuevos,estrato,Estrato 6,114
+2021-1,nuevos,nivel,Estudios en el exterior,328
+2021-1,nuevos,nivel,Posgrado,2531
+2021-1,nuevos,nivel,Pregrado universitario,20880
+2021-1,nuevos,nivel,Técnico o tecnológico,900
+2021-1,nuevos,sector_ies,No aplica (exterior),328
+2021-1,nuevos,sector_ies,Oficial,1996
+2021-1,nuevos,sector_ies,Privado,22315
+2021-1,nuevos,sexo,Femenino,14022
+2021-1,nuevos,sexo,Masculino,10617
+2021-1,nuevos,total,Total,24639
+2021-1,renovados,departamento,AMAZONAS,90
+2021-1,renovados,departamento,ANTIOQUIA,5493
+2021-1,renovados,departamento,ARAUCA,692
+2021-1,renovados,departamento,ATLÁNTICO,12041
+2021-1,renovados,departamento,BOGOTÁ,23756
+2021-1,renovados,departamento,BOLÍVAR,7442
+2021-1,renovados,departamento,BOYACÁ,3273
+2021-1,renovados,departamento,CALDAS,1413
+2021-1,renovados,departamento,CAQUETÁ,491
+2021-1,renovados,departamento,CASANARE,1173
+2021-1,renovados,departamento,CAUCA,1185
+2021-1,renovados,departamento,CESAR,2215
+2021-1,renovados,departamento,CHOCÓ,265
+2021-1,renovados,departamento,CUNDINAMARCA,3920
+2021-1,renovados,departamento,CÓRDOBA,9102
+2021-1,renovados,departamento,GUAINÍA,21
+2021-1,renovados,departamento,GUAVIARE,168
+2021-1,renovados,departamento,HUILA,1590
+2021-1,renovados,departamento,LA GUAJIRA,1763
+2021-1,renovados,departamento,MAGDALENA,3129
+2021-1,renovados,departamento,META,1843
+2021-1,renovados,departamento,NARIÑO,3526
+2021-1,renovados,departamento,NORTE DE SANTANDER,2271
+2021-1,renovados,departamento,PUTUMAYO,605
+2021-1,renovados,departamento,QUINDÍO,897
+2021-1,renovados,departamento,RISARALDA,1291
+2021-1,renovados,departamento,SAN ANDRÉS,259
+2021-1,renovados,departamento,SANTANDER,5447
+2021-1,renovados,departamento,SUCRE,9610
+2021-1,renovados,departamento,TOLIMA,2397
+2021-1,renovados,departamento,VALLE DEL CAUCA,8354
+2021-1,renovados,departamento,VAUPÉS,20
+2021-1,renovados,departamento,VICHADA,56
+2021-1,renovados,estrato,Estrato 1,45309
+2021-1,renovados,estrato,Estrato 2,38905
+2021-1,renovados,estrato,Estrato 3,23171
+2021-1,renovados,estrato,Estrato 4,5776
+2021-1,renovados,estrato,Estrato 5,1970
+2021-1,renovados,estrato,Estrato 6,667
+2021-1,renovados,nivel,Estudios en el exterior,284
+2021-1,renovados,nivel,Otros,538
+2021-1,renovados,nivel,Posgrado,3104
+2021-1,renovados,nivel,Pregrado universitario,110000
+2021-1,renovados,nivel,Técnico o tecnológico,1872
+2021-1,renovados,sector_ies,No aplica (exterior),285
+2021-1,renovados,sector_ies,Oficial,9133
+2021-1,renovados,sector_ies,Privado,106380
+2021-1,renovados,sexo,Femenino,67341
+2021-1,renovados,sexo,Masculino,48457
+2021-1,renovados,total,Total,115798
+2021-2,nuevos,departamento,AMAZONAS,9
+2021-2,nuevos,departamento,ANTIOQUIA,1317
+2021-2,nuevos,departamento,ARAUCA,89
+2021-2,nuevos,departamento,ATLÁNTICO,2031
+2021-2,nuevos,departamento,BOGOTÁ,4412
+2021-2,nuevos,departamento,BOLÍVAR,1530
+2021-2,nuevos,departamento,BOYACÁ,570
+2021-2,nuevos,departamento,CALDAS,277
+2021-2,nuevos,departamento,CAQUETÁ,107
+2021-2,nuevos,departamento,CASANARE,127
+2021-2,nuevos,departamento,CAUCA,250
+2021-2,nuevos,departamento,CESAR,574
+2021-2,nuevos,departamento,CHOCÓ,69
+2021-2,nuevos,departamento,CUNDINAMARCA,648
+2021-2,nuevos,departamento,CÓRDOBA,2165
+2021-2,nuevos,departamento,GUAINÍA,4
+2021-2,nuevos,departamento,GUAVIARE,24
+2021-2,nuevos,departamento,HUILA,336
+2021-2,nuevos,departamento,LA GUAJIRA,376
+2021-2,nuevos,departamento,MAGDALENA,665
+2021-2,nuevos,departamento,META,298
+2021-2,nuevos,departamento,NARIÑO,708
+2021-2,nuevos,departamento,NORTE DE SANTANDER,352
+2021-2,nuevos,departamento,PUTUMAYO,130
+2021-2,nuevos,departamento,QUINDÍO,124
+2021-2,nuevos,departamento,RISARALDA,186
+2021-2,nuevos,departamento,SAN ANDRÉS,94
+2021-2,nuevos,departamento,SANTANDER,794
+2021-2,nuevos,departamento,SUCRE,1374
+2021-2,nuevos,departamento,TOLIMA,426
+2021-2,nuevos,departamento,VALLE DEL CAUCA,1470
+2021-2,nuevos,departamento,VAUPÉS,2
+2021-2,nuevos,departamento,VICHADA,7
+2021-2,nuevos,estrato,Estrato 1,8310
+2021-2,nuevos,estrato,Estrato 2,6737
+2021-2,nuevos,estrato,Estrato 3,4424
+2021-2,nuevos,estrato,Estrato 4,1397
+2021-2,nuevos,estrato,Estrato 5,488
+2021-2,nuevos,estrato,Estrato 6,189
+2021-2,nuevos,nivel,Estudios en el exterior,774
+2021-2,nuevos,nivel,Posgrado,2465
+2021-2,nuevos,nivel,Pregrado universitario,17488
+2021-2,nuevos,nivel,Técnico o tecnológico,818
+2021-2,nuevos,sector_ies,No aplica (exterior),774
+2021-2,nuevos,sector_ies,Oficial,1335
+2021-2,nuevos,sector_ies,Privado,19436
+2021-2,nuevos,sexo,Femenino,12467
+2021-2,nuevos,sexo,Masculino,9078
+2021-2,nuevos,total,Total,21545
+2021-2,renovados,departamento,AMAZONAS,100
+2021-2,renovados,departamento,ANTIOQUIA,5429
+2021-2,renovados,departamento,ARAUCA,620
+2021-2,renovados,departamento,ATLÁNTICO,12624
+2021-2,renovados,departamento,BOGOTÁ,22178
+2021-2,renovados,departamento,BOLÍVAR,8141
+2021-2,renovados,departamento,BOYACÁ,3046
+2021-2,renovados,departamento,CALDAS,1304
+2021-2,renovados,departamento,CAQUETÁ,469
+2021-2,renovados,departamento,CASANARE,1068
+2021-2,renovados,departamento,CAUCA,1122
+2021-2,renovados,departamento,CESAR,2488
+2021-2,renovados,departamento,CHOCÓ,283
+2021-2,renovados,departamento,CUNDINAMARCA,3581
+2021-2,renovados,departamento,CÓRDOBA,9774
+2021-2,renovados,departamento,GUAINÍA,20
+2021-2,renovados,departamento,GUAVIARE,162
+2021-2,renovados,departamento,HUILA,1508
+2021-2,renovados,departamento,LA GUAJIRA,1938
+2021-2,renovados,departamento,MAGDALENA,3401
+2021-2,renovados,departamento,META,1774
+2021-2,renovados,departamento,NARIÑO,3248
+2021-2,renovados,departamento,NORTE DE SANTANDER,2135
+2021-2,renovados,departamento,PUTUMAYO,529
+2021-2,renovados,departamento,QUINDÍO,780
+2021-2,renovados,departamento,RISARALDA,1100
+2021-2,renovados,departamento,SAN ANDRÉS,224
+2021-2,renovados,departamento,SANTANDER,4871
+2021-2,renovados,departamento,SUCRE,10179
+2021-2,renovados,departamento,TOLIMA,2282
+2021-2,renovados,departamento,VALLE DEL CAUCA,7951
+2021-2,renovados,departamento,VAUPÉS,14
+2021-2,renovados,departamento,VICHADA,50
+2021-2,renovados,estrato,Estrato 1,46553
+2021-2,renovados,estrato,Estrato 2,37622
+2021-2,renovados,estrato,Estrato 3,21945
+2021-2,renovados,estrato,Estrato 4,5733
+2021-2,renovados,estrato,Estrato 5,1907
+2021-2,renovados,estrato,Estrato 6,633
+2021-2,renovados,nivel,Estudios en el exterior,257
+2021-2,renovados,nivel,Otros,565
+2021-2,renovados,nivel,Posgrado,3252
+2021-2,renovados,nivel,Pregrado universitario,108425
+2021-2,renovados,nivel,Técnico o tecnológico,1894
+2021-2,renovados,sector_ies,No aplica (exterior),258
+2021-2,renovados,sector_ies,Oficial,5963
+2021-2,renovados,sector_ies,Privado,108172
+2021-2,renovados,sexo,Femenino,67156
+2021-2,renovados,sexo,Masculino,47237
+2021-2,renovados,total,Total,114393
+2022-1,nuevos,departamento,AMAZONAS,11
+2022-1,nuevos,departamento,ANTIOQUIA,1527
+2022-1,nuevos,departamento,ARAUCA,154
+2022-1,nuevos,departamento,ATLÁNTICO,2236
+2022-1,nuevos,departamento,BOGOTÁ,4615
+2022-1,nuevos,departamento,BOLÍVAR,1604
+2022-1,nuevos,departamento,BOYACÁ,542
+2022-1,nuevos,departamento,CALDAS,294
+2022-1,nuevos,departamento,CAQUETÁ,152
+2022-1,nuevos,departamento,CASANARE,171
+2022-1,nuevos,departamento,CAUCA,248
+2022-1,nuevos,departamento,CESAR,771
+2022-1,nuevos,departamento,CHOCÓ,108
+2022-1,nuevos,departamento,CUNDINAMARCA,709
+2022-1,nuevos,departamento,CÓRDOBA,2521
+2022-1,nuevos,departamento,GUAINÍA,4
+2022-1,nuevos,departamento,GUAVIARE,38
+2022-1,nuevos,departamento,HUILA,420
+2022-1,nuevos,departamento,LA GUAJIRA,587
+2022-1,nuevos,departamento,MAGDALENA,685
+2022-1,nuevos,departamento,META,347
+2022-1,nuevos,departamento,NARIÑO,908
+2022-1,nuevos,departamento,NORTE DE SANTANDER,435
+2022-1,nuevos,departamento,PUTUMAYO,150
+2022-1,nuevos,departamento,QUINDÍO,160
+2022-1,nuevos,departamento,RISARALDA,205
+2022-1,nuevos,departamento,SAN ANDRÉS,35
+2022-1,nuevos,departamento,SANTANDER,1020
+2022-1,nuevos,departamento,SUCRE,1606
+2022-1,nuevos,departamento,TOLIMA,475
+2022-1,nuevos,departamento,VALLE DEL CAUCA,1556
+2022-1,nuevos,departamento,VAUPÉS,4
+2022-1,nuevos,departamento,VICHADA,7
+2022-1,nuevos,estrato,Estrato 1,9717
+2022-1,nuevos,estrato,Estrato 2,7703
+2022-1,nuevos,estrato,Estrato 3,4911
+2022-1,nuevos,estrato,Estrato 4,1418
+2022-1,nuevos,estrato,Estrato 5,429
+2022-1,nuevos,estrato,Estrato 6,127
+2022-1,nuevos,nivel,Estudios en el exterior,871
+2022-1,nuevos,nivel,Posgrado,2539
+2022-1,nuevos,nivel,Pregrado universitario,20155
+2022-1,nuevos,nivel,Técnico o tecnológico,740
+2022-1,nuevos,sector_ies,No aplica (exterior),871
+2022-1,nuevos,sector_ies,Oficial,2226
+2022-1,nuevos,sector_ies,Privado,21208
+2022-1,nuevos,sexo,Femenino,13640
+2022-1,nuevos,sexo,Intersexual,1
+2022-1,nuevos,sexo,Masculino,10664
+2022-1,nuevos,total,Total,24305
+2022-1,renovados,departamento,AMAZONAS,90
+2022-1,renovados,departamento,ANTIOQUIA,5636
+2022-1,renovados,departamento,ARAUCA,583
+2022-1,renovados,departamento,ATLÁNTICO,12855
+2022-1,renovados,departamento,BOGOTÁ,22111
+2022-1,renovados,departamento,BOLÍVAR,8637
+2022-1,renovados,departamento,BOYACÁ,2958
+2022-1,renovados,departamento,CALDAS,1298
+2022-1,renovados,departamento,CAQUETÁ,491
+2022-1,renovados,departamento,CASANARE,967
+2022-1,renovados,departamento,CAUCA,1146
+2022-1,renovados,departamento,CESAR,2748
+2022-1,renovados,departamento,CHOCÓ,304
+2022-1,renovados,departamento,CUNDINAMARCA,3429
+2022-1,renovados,departamento,CÓRDOBA,10335
+2022-1,renovados,departamento,GUAINÍA,21
+2022-1,renovados,departamento,GUAVIARE,155
+2022-1,renovados,departamento,HUILA,1467
+2022-1,renovados,departamento,LA GUAJIRA,2081
+2022-1,renovados,departamento,MAGDALENA,3650
+2022-1,renovados,departamento,META,1721
+2022-1,renovados,departamento,NARIÑO,3523
+2022-1,renovados,departamento,NORTE DE SANTANDER,2060
+2022-1,renovados,departamento,PUTUMAYO,585
+2022-1,renovados,departamento,QUINDÍO,744
+2022-1,renovados,departamento,RISARALDA,1047
+2022-1,renovados,departamento,SAN ANDRÉS,259
+2022-1,renovados,departamento,SANTANDER,4699
+2022-1,renovados,departamento,SUCRE,10314
+2022-1,renovados,departamento,TOLIMA,2223
+2022-1,renovados,departamento,VALLE DEL CAUCA,7976
+2022-1,renovados,departamento,VAUPÉS,13
+2022-1,renovados,departamento,VICHADA,44
+2022-1,renovados,estrato,Estrato 1,48084
+2022-1,renovados,estrato,Estrato 2,37526
+2022-1,renovados,estrato,Estrato 3,22084
+2022-1,renovados,estrato,Estrato 4,5821
+2022-1,renovados,estrato,Estrato 5,1981
+2022-1,renovados,estrato,Estrato 6,674
+2022-1,renovados,nivel,Estudios en el exterior,463
+2022-1,renovados,nivel,Otros,531
+2022-1,renovados,nivel,Posgrado,3518
+2022-1,renovados,nivel,Pregrado universitario,109556
+2022-1,renovados,nivel,Técnico o tecnológico,2102
+2022-1,renovados,sector_ies,No aplica (exterior),463
+2022-1,renovados,sector_ies,Oficial,6714
+2022-1,renovados,sector_ies,Privado,108993
+2022-1,renovados,sexo,Femenino,68462
+2022-1,renovados,sexo,Masculino,47708
+2022-1,renovados,total,Total,116170
+2022-2,nuevos,departamento,AMAZONAS,25
+2022-2,nuevos,departamento,ANTIOQUIA,1496
+2022-2,nuevos,departamento,ARAUCA,129
+2022-2,nuevos,departamento,ATLÁNTICO,2598
+2022-2,nuevos,departamento,BOGOTÁ,4686
+2022-2,nuevos,departamento,BOLÍVAR,1909
+2022-2,nuevos,departamento,BOYACÁ,611
+2022-2,nuevos,departamento,CALDAS,305
+2022-2,nuevos,departamento,CAQUETÁ,119
+2022-2,nuevos,departamento,CASANARE,161
+2022-2,nuevos,departamento,CAUCA,259
+2022-2,nuevos,departamento,CESAR,785
+2022-2,nuevos,departamento,CHOCÓ,85
+2022-2,nuevos,departamento,CUNDINAMARCA,667
+2022-2,nuevos,departamento,CÓRDOBA,2368
+2022-2,nuevos,departamento,GUAINÍA,6
+2022-2,nuevos,departamento,GUAVIARE,28
+2022-2,nuevos,departamento,HUILA,404
+2022-2,nuevos,departamento,LA GUAJIRA,471
+2022-2,nuevos,departamento,MAGDALENA,751
+2022-2,nuevos,departamento,META,290
+2022-2,nuevos,departamento,NARIÑO,817
+2022-2,nuevos,departamento,NORTE DE SANTANDER,485
+2022-2,nuevos,departamento,PUTUMAYO,157
+2022-2,nuevos,departamento,QUINDÍO,159
+2022-2,nuevos,departamento,RISARALDA,201
+2022-2,nuevos,departamento,SAN ANDRÉS,27
+2022-2,nuevos,departamento,SANTANDER,860
+2022-2,nuevos,departamento,SUCRE,1598
+2022-2,nuevos,departamento,TOLIMA,439
+2022-2,nuevos,departamento,VALLE DEL CAUCA,1565
+2022-2,nuevos,departamento,VAUPÉS,8
+2022-2,nuevos,departamento,VICHADA,13
+2022-2,nuevos,estrato,Estrato 1,9731
+2022-2,nuevos,estrato,Estrato 2,7567
+2022-2,nuevos,estrato,Estrato 3,4926
+2022-2,nuevos,estrato,Estrato 4,1549
+2022-2,nuevos,estrato,Estrato 5,493
+2022-2,nuevos,estrato,Estrato 6,216
+2022-2,nuevos,nivel,Estudios en el exterior,1246
+2022-2,nuevos,nivel,Posgrado,3052
+2022-2,nuevos,nivel,Pregrado universitario,19390
+2022-2,nuevos,nivel,Técnico o tecnológico,794
+2022-2,nuevos,sector_ies,No aplica (exterior),1246
+2022-2,nuevos,sector_ies,Oficial,1907
+2022-2,nuevos,sector_ies,Privado,21329
+2022-2,nuevos,sexo,Femenino,13914
+2022-2,nuevos,sexo,Intersexual,1
+2022-2,nuevos,sexo,Masculino,10567
+2022-2,nuevos,total,Total,24482
+2022-2,renovados,departamento,AMAZONAS,88
+2022-2,renovados,departamento,ANTIOQUIA,5753
+2022-2,renovados,departamento,ARAUCA,600
+2022-2,renovados,departamento,ATLÁNTICO,12883
+2022-2,renovados,departamento,BOGOTÁ,21276
+2022-2,renovados,departamento,BOLÍVAR,8853
+2022-2,renovados,departamento,BOYACÁ,2762
+2022-2,renovados,departamento,CALDAS,1292
+2022-2,renovados,departamento,CAQUETÁ,507
+2022-2,renovados,departamento,CASANARE,876
+2022-2,renovados,departamento,CAUCA,1144
+2022-2,renovados,departamento,CESAR,3026
+2022-2,renovados,departamento,CHOCÓ,332
+2022-2,renovados,departamento,CUNDINAMARCA,3285
+2022-2,renovados,departamento,CÓRDOBA,11023
+2022-2,renovados,departamento,GUAINÍA,19
+2022-2,renovados,departamento,GUAVIARE,160
+2022-2,renovados,departamento,HUILA,1468
+2022-2,renovados,departamento,LA GUAJIRA,2290
+2022-2,renovados,departamento,MAGDALENA,3745
+2022-2,renovados,departamento,META,1688
+2022-2,renovados,departamento,NARIÑO,3634
+2022-2,renovados,departamento,NORTE DE SANTANDER,1951
+2022-2,renovados,departamento,PUTUMAYO,614
+2022-2,renovados,departamento,QUINDÍO,709
+2022-2,renovados,departamento,RISARALDA,1004
+2022-2,renovados,departamento,SAN ANDRÉS,246
+2022-2,renovados,departamento,SANTANDER,4482
+2022-2,renovados,departamento,SUCRE,10203
+2022-2,renovados,departamento,TOLIMA,2152
+2022-2,renovados,departamento,VALLE DEL CAUCA,7860
+2022-2,renovados,departamento,VAUPÉS,15
+2022-2,renovados,departamento,VICHADA,43
+2022-2,renovados,estrato,Estrato 1,49211
+2022-2,renovados,estrato,Estrato 2,37021
+2022-2,renovados,estrato,Estrato 3,21579
+2022-2,renovados,estrato,Estrato 4,5652
+2022-2,renovados,estrato,Estrato 5,1902
+2022-2,renovados,estrato,Estrato 6,618
+2022-2,renovados,nivel,Estudios en el exterior,276
+2022-2,renovados,nivel,Otros,655
+2022-2,renovados,nivel,Posgrado,3470
+2022-2,renovados,nivel,Pregrado universitario,109539
+2022-2,renovados,nivel,Técnico o tecnológico,2043
+2022-2,renovados,sector_ies,No aplica (exterior),276
+2022-2,renovados,sector_ies,Oficial,6722
+2022-2,renovados,sector_ies,Privado,108985
+2022-2,renovados,sexo,Femenino,68132
+2022-2,renovados,sexo,Masculino,47851
+2022-2,renovados,total,Total,115983
+2023-1,nuevos,departamento,AMAZONAS,25
+2023-1,nuevos,departamento,ANTIOQUIA,1785
+2023-1,nuevos,departamento,ARAUCA,153
+2023-1,nuevos,departamento,ATLÁNTICO,3116
+2023-1,nuevos,departamento,BOGOTÁ,5570
+2023-1,nuevos,departamento,BOLÍVAR,2238
+2023-1,nuevos,departamento,BOYACÁ,786
+2023-1,nuevos,departamento,CALDAS,416
+2023-1,nuevos,departamento,CAQUETÁ,136
+2023-1,nuevos,departamento,CASANARE,156
+2023-1,nuevos,departamento,CAUCA,364
+2023-1,nuevos,departamento,CESAR,1072
+2023-1,nuevos,departamento,CHOCÓ,108
+2023-1,nuevos,departamento,CUNDINAMARCA,703
+2023-1,nuevos,departamento,CÓRDOBA,2578
+2023-1,nuevos,departamento,GUAINÍA,3
+2023-1,nuevos,departamento,GUAVIARE,45
+2023-1,nuevos,departamento,HUILA,553
+2023-1,nuevos,departamento,LA GUAJIRA,647
+2023-1,nuevos,departamento,MAGDALENA,897
+2023-1,nuevos,departamento,META,387
+2023-1,nuevos,departamento,NARIÑO,1204
+2023-1,nuevos,departamento,NORTE DE SANTANDER,578
+2023-1,nuevos,departamento,PUTUMAYO,213
+2023-1,nuevos,departamento,QUINDÍO,251
+2023-1,nuevos,departamento,RISARALDA,277
+2023-1,nuevos,departamento,SAN ANDRÉS,37
+2023-1,nuevos,departamento,SANTANDER,1128
+2023-1,nuevos,departamento,SUCRE,1657
+2023-1,nuevos,departamento,TOLIMA,584
+2023-1,nuevos,departamento,VALLE DEL CAUCA,1916
+2023-1,nuevos,departamento,VAUPÉS,3
+2023-1,nuevos,departamento,VICHADA,12
+2023-1,nuevos,estrato,Estrato 1,11218
+2023-1,nuevos,estrato,Estrato 2,9466
+2023-1,nuevos,estrato,Estrato 3,6235
+2023-1,nuevos,estrato,Estrato 4,1934
+2023-1,nuevos,estrato,Estrato 5,566
+2023-1,nuevos,estrato,Estrato 6,179
+2023-1,nuevos,nivel,Estudios en el exterior,1608
+2023-1,nuevos,nivel,Posgrado,3774
+2023-1,nuevos,nivel,Pregrado universitario,23554
+2023-1,nuevos,nivel,Técnico o tecnológico,662
+2023-1,nuevos,sector_ies,No aplica (exterior),1608
+2023-1,nuevos,sector_ies,Oficial,2837
+2023-1,nuevos,sector_ies,Privado,25153
+2023-1,nuevos,sexo,Femenino,16678
+2023-1,nuevos,sexo,Intersexual,2
+2023-1,nuevos,sexo,Masculino,12918
+2023-1,nuevos,total,Total,29598
+2023-1,renovados,departamento,AMAZONAS,92
+2023-1,renovados,departamento,ANTIOQUIA,6059
+2023-1,renovados,departamento,ARAUCA,613
+2023-1,renovados,departamento,ATLÁNTICO,13278
+2023-1,renovados,departamento,BOGOTÁ,21264
+2023-1,renovados,departamento,BOLÍVAR,9411
+2023-1,renovados,departamento,BOYACÁ,2720
+2023-1,renovados,departamento,CALDAS,1269
+2023-1,renovados,departamento,CAQUETÁ,527
+2023-1,renovados,departamento,CASANARE,847
+2023-1,renovados,departamento,CAUCA,1178
+2023-1,renovados,departamento,CESAR,3348
+2023-1,renovados,departamento,CHOCÓ,352
+2023-1,renovados,departamento,CUNDINAMARCA,3213
+2023-1,renovados,departamento,CÓRDOBA,11773
+2023-1,renovados,departamento,GUAINÍA,22
+2023-1,renovados,departamento,GUAVIARE,165
+2023-1,renovados,departamento,HUILA,1521
+2023-1,renovados,departamento,LA GUAJIRA,2452
+2023-1,renovados,departamento,MAGDALENA,3878
+2023-1,renovados,departamento,META,1591
+2023-1,renovados,departamento,NARIÑO,3926
+2023-1,renovados,departamento,NORTE DE SANTANDER,1957
+2023-1,renovados,departamento,PUTUMAYO,652
+2023-1,renovados,departamento,QUINDÍO,710
+2023-1,renovados,departamento,RISARALDA,960
+2023-1,renovados,departamento,SAN ANDRÉS,222
+2023-1,renovados,departamento,SANTANDER,4394
+2023-1,renovados,departamento,SUCRE,10281
+2023-1,renovados,departamento,TOLIMA,2086
+2023-1,renovados,departamento,VALLE DEL CAUCA,7796
+2023-1,renovados,departamento,VAUPÉS,22
+2023-1,renovados,departamento,VICHADA,43
+2023-1,renovados,estrato,Estrato 1,51346
+2023-1,renovados,estrato,Estrato 2,37086
+2023-1,renovados,estrato,Estrato 3,21791
+2023-1,renovados,estrato,Estrato 4,5782
+2023-1,renovados,estrato,Estrato 5,1950
+2023-1,renovados,estrato,Estrato 6,667
+2023-1,renovados,nivel,Estudios en el exterior,585
+2023-1,renovados,nivel,Otros,636
+2023-1,renovados,nivel,Posgrado,3943
+2023-1,renovados,nivel,Pregrado universitario,111382
+2023-1,renovados,nivel,Técnico o tecnológico,2076
+2023-1,renovados,sector_ies,No aplica (exterior),585
+2023-1,renovados,sector_ies,Oficial,7130
+2023-1,renovados,sector_ies,Privado,110907
+2023-1,renovados,sexo,Femenino,69629
+2023-1,renovados,sexo,Masculino,48993
+2023-1,renovados,total,Total,118622
+2023-2,nuevos,departamento,AMAZONAS,11
+2023-2,nuevos,departamento,ANTIOQUIA,1473
+2023-2,nuevos,departamento,ARAUCA,123
+2023-2,nuevos,departamento,ATLÁNTICO,2911
+2023-2,nuevos,departamento,BOGOTÁ,4853
+2023-2,nuevos,departamento,BOLÍVAR,2001
+2023-2,nuevos,departamento,BOYACÁ,622
+2023-2,nuevos,departamento,CALDAS,364
+2023-2,nuevos,departamento,CAQUETÁ,135
+2023-2,nuevos,departamento,CASANARE,157
+2023-2,nuevos,departamento,CAUCA,330
+2023-2,nuevos,departamento,CESAR,966
+2023-2,nuevos,departamento,CHOCÓ,132
+2023-2,nuevos,departamento,CUNDINAMARCA,637
+2023-2,nuevos,departamento,CÓRDOBA,2540
+2023-2,nuevos,departamento,GUAINÍA,8
+2023-2,nuevos,departamento,GUAVIARE,27
+2023-2,nuevos,departamento,HUILA,466
+2023-2,nuevos,departamento,LA GUAJIRA,654
+2023-2,nuevos,departamento,MAGDALENA,834
+2023-2,nuevos,departamento,META,343
+2023-2,nuevos,departamento,NARIÑO,917
+2023-2,nuevos,departamento,NORTE DE SANTANDER,478
+2023-2,nuevos,departamento,PUTUMAYO,189
+2023-2,nuevos,departamento,QUINDÍO,173
+2023-2,nuevos,departamento,RISARALDA,212
+2023-2,nuevos,departamento,SAN ANDRÉS,32
+2023-2,nuevos,departamento,SANTANDER,935
+2023-2,nuevos,departamento,SUCRE,1592
+2023-2,nuevos,departamento,TOLIMA,460
+2023-2,nuevos,departamento,VALLE DEL CAUCA,1810
+2023-2,nuevos,departamento,VAUPÉS,9
+2023-2,nuevos,departamento,VICHADA,17
+2023-2,nuevos,estrato,Estrato 1,10753
+2023-2,nuevos,estrato,Estrato 2,8026
+2023-2,nuevos,estrato,Estrato 3,5118
+2023-2,nuevos,estrato,Estrato 4,1759
+2023-2,nuevos,estrato,Estrato 5,556
+2023-2,nuevos,estrato,Estrato 6,199
+2023-2,nuevos,nivel,Estudios en el exterior,1629
+2023-2,nuevos,nivel,Posgrado,3090
+2023-2,nuevos,nivel,Pregrado universitario,21018
+2023-2,nuevos,nivel,Técnico o tecnológico,674
+2023-2,nuevos,sector_ies,No aplica (exterior),1629
+2023-2,nuevos,sector_ies,Oficial,2351
+2023-2,nuevos,sector_ies,Privado,22431
+2023-2,nuevos,sexo,Femenino,15026
+2023-2,nuevos,sexo,Intersexual,2
+2023-2,nuevos,sexo,Masculino,11383
+2023-2,nuevos,total,Total,26411
+2023-2,renovados,departamento,AMAZONAS,97
+2023-2,renovados,departamento,ANTIOQUIA,6215
+2023-2,renovados,departamento,ARAUCA,587
+2023-2,renovados,departamento,ATLÁNTICO,13554
+2023-2,renovados,departamento,BOGOTÁ,20936
+2023-2,renovados,departamento,BOLÍVAR,9886
+2023-2,renovados,departamento,BOYACÁ,2715
+2023-2,renovados,departamento,CALDAS,1352
+2023-2,renovados,departamento,CAQUETÁ,535
+2023-2,renovados,departamento,CASANARE,818
+2023-2,renovados,departamento,CAUCA,1249
+2023-2,renovados,departamento,CESAR,3777
+2023-2,renovados,departamento,CHOCÓ,372
+2023-2,renovados,departamento,CUNDINAMARCA,3041
+2023-2,renovados,departamento,CÓRDOBA,12283
+2023-2,renovados,departamento,GUAINÍA,19
+2023-2,renovados,departamento,GUAVIARE,178
+2023-2,renovados,departamento,HUILA,1658
+2023-2,renovados,departamento,LA GUAJIRA,2671
+2023-2,renovados,departamento,MAGDALENA,3930
+2023-2,renovados,departamento,META,1557
+2023-2,renovados,departamento,NARIÑO,4362
+2023-2,renovados,departamento,NORTE DE SANTANDER,2036
+2023-2,renovados,departamento,PUTUMAYO,717
+2023-2,renovados,departamento,QUINDÍO,765
+2023-2,renovados,departamento,RISARALDA,962
+2023-2,renovados,departamento,SAN ANDRÉS,218
+2023-2,renovados,departamento,SANTANDER,4303
+2023-2,renovados,departamento,SUCRE,10114
+2023-2,renovados,departamento,TOLIMA,2076
+2023-2,renovados,departamento,VALLE DEL CAUCA,7896
+2023-2,renovados,departamento,VAUPÉS,23
+2023-2,renovados,departamento,VICHADA,48
+2023-2,renovados,estrato,Estrato 1,52847
+2023-2,renovados,estrato,Estrato 2,37883
+2023-2,renovados,estrato,Estrato 3,21839
+2023-2,renovados,estrato,Estrato 4,5828
+2023-2,renovados,estrato,Estrato 5,1918
+2023-2,renovados,estrato,Estrato 6,635
+2023-2,renovados,nivel,Estudios en el exterior,396
+2023-2,renovados,nivel,Otros,861
+2023-2,renovados,nivel,Posgrado,4476
+2023-2,renovados,nivel,Pregrado universitario,113217
+2023-2,renovados,nivel,Técnico o tecnológico,2000
+2023-2,renovados,sector_ies,No aplica (exterior),396
+2023-2,renovados,sector_ies,Oficial,7620
+2023-2,renovados,sector_ies,Privado,112934
+2023-2,renovados,sexo,Femenino,70903
+2023-2,renovados,sexo,Masculino,50047
+2023-2,renovados,total,Total,120950
+2024-1,nuevos,departamento,AMAZONAS,17
+2024-1,nuevos,departamento,ANTIOQUIA,1465
+2024-1,nuevos,departamento,ARAUCA,121
+2024-1,nuevos,departamento,ATLÁNTICO,2960
+2024-1,nuevos,departamento,BOGOTÁ,4397
+2024-1,nuevos,departamento,BOLÍVAR,2141
+2024-1,nuevos,departamento,BOYACÁ,621
+2024-1,nuevos,departamento,CALDAS,346
+2024-1,nuevos,departamento,CAQUETÁ,132
+2024-1,nuevos,departamento,CASANARE,121
+2024-1,nuevos,departamento,CAUCA,380
+2024-1,nuevos,departamento,CESAR,1132
+2024-1,nuevos,departamento,CHOCÓ,98
+2024-1,nuevos,departamento,CUNDINAMARCA,571
+2024-1,nuevos,departamento,CÓRDOBA,3113
+2024-1,nuevos,departamento,GUAINÍA,2
+2024-1,nuevos,departamento,GUAVIARE,34
+2024-1,nuevos,departamento,HUILA,447
+2024-1,nuevos,departamento,LA GUAJIRA,758
+2024-1,nuevos,departamento,MAGDALENA,888
+2024-1,nuevos,departamento,META,343
+2024-1,nuevos,departamento,NARIÑO,1173
+2024-1,nuevos,departamento,NORTE DE SANTANDER,528
+2024-1,nuevos,departamento,PUTUMAYO,178
+2024-1,nuevos,departamento,QUINDÍO,169
+2024-1,nuevos,departamento,RISARALDA,255
+2024-1,nuevos,departamento,SAN ANDRÉS,41
+2024-1,nuevos,departamento,SANTANDER,920
+2024-1,nuevos,departamento,SUCRE,1692
+2024-1,nuevos,departamento,TOLIMA,460
+2024-1,nuevos,departamento,VALLE DEL CAUCA,1825
+2024-1,nuevos,departamento,VAUPÉS,3
+2024-1,nuevos,departamento,VICHADA,5
+2024-1,nuevos,estrato,Estrato 1,11902
+2024-1,nuevos,estrato,Estrato 2,8194
+2024-1,nuevos,estrato,Estrato 3,5039
+2024-1,nuevos,estrato,Estrato 4,1622
+2024-1,nuevos,estrato,Estrato 5,451
+2024-1,nuevos,estrato,Estrato 6,128
+2024-1,nuevos,nivel,Estudios en el exterior,1421
+2024-1,nuevos,nivel,Posgrado,3695
+2024-1,nuevos,nivel,Pregrado universitario,21668
+2024-1,nuevos,nivel,Técnico o tecnológico,552
+2024-1,nuevos,sector_ies,No aplica (exterior),1423
+2024-1,nuevos,sector_ies,Oficial,2789
+2024-1,nuevos,sector_ies,Privado,23124
+2024-1,nuevos,sexo,Femenino,15398
+2024-1,nuevos,sexo,Intersexual,1
+2024-1,nuevos,sexo,Masculino,11937
+2024-1,nuevos,total,Total,27336
+2024-1,renovados,departamento,AMAZONAS,95
+2024-1,renovados,departamento,ANTIOQUIA,6436
+2024-1,renovados,departamento,ARAUCA,595
+2024-1,renovados,departamento,ATLÁNTICO,14269
+2024-1,renovados,departamento,BOGOTÁ,21362
+2024-1,renovados,departamento,BOLÍVAR,10362
+2024-1,renovados,departamento,BOYACÁ,2687
+2024-1,renovados,departamento,CALDAS,1409
+2024-1,renovados,departamento,CAQUETÁ,548
+2024-1,renovados,departamento,CASANARE,793
+2024-1,renovados,departamento,CAUCA,1341
+2024-1,renovados,departamento,CESAR,4179
+2024-1,renovados,departamento,CHOCÓ,436
+2024-1,renovados,departamento,CUNDINAMARCA,3008
+2024-1,renovados,departamento,CÓRDOBA,13062
+2024-1,renovados,departamento,GUAINÍA,30
+2024-1,renovados,departamento,GUAVIARE,175
+2024-1,renovados,departamento,HUILA,1731
+2024-1,renovados,departamento,LA GUAJIRA,2969
+2024-1,renovados,departamento,MAGDALENA,4195
+2024-1,renovados,departamento,META,1595
+2024-1,renovados,departamento,NARIÑO,4532
+2024-1,renovados,departamento,NORTE DE SANTANDER,2039
+2024-1,renovados,departamento,PUTUMAYO,782
+2024-1,renovados,departamento,QUINDÍO,772
+2024-1,renovados,departamento,RISARALDA,970
+2024-1,renovados,departamento,SAN ANDRÉS,220
+2024-1,renovados,departamento,SANTANDER,4271
+2024-1,renovados,departamento,SUCRE,10153
+2024-1,renovados,departamento,TOLIMA,2073
+2024-1,renovados,departamento,VALLE DEL CAUCA,8166
+2024-1,renovados,departamento,VAUPÉS,24
+2024-1,renovados,departamento,VICHADA,55
+2024-1,renovados,estrato,Estrato 1,55600
+2024-1,renovados,estrato,Estrato 2,38855
+2024-1,renovados,estrato,Estrato 3,22272
+2024-1,renovados,estrato,Estrato 4,6031
+2024-1,renovados,estrato,Estrato 5,1948
+2024-1,renovados,estrato,Estrato 6,628
+2024-1,renovados,nivel,Estudios en el exterior,300
+2024-1,renovados,nivel,Otros,798
+2024-1,renovados,nivel,Posgrado,4571
+2024-1,renovados,nivel,Pregrado universitario,117611
+2024-1,renovados,nivel,Técnico o tecnológico,2054
+2024-1,renovados,sector_ies,No aplica (exterior),303
+2024-1,renovados,sector_ies,Oficial,8179
+2024-1,renovados,sector_ies,Privado,116852
+2024-1,renovados,sexo,Femenino,73328
+2024-1,renovados,sexo,Masculino,52006
+2024-1,renovados,total,Total,125334
+2024-2,nuevos,departamento,AMAZONAS,11
+2024-2,nuevos,departamento,ANTIOQUIA,1690
+2024-2,nuevos,departamento,ARAUCA,133
+2024-2,nuevos,departamento,ATLÁNTICO,2664
+2024-2,nuevos,departamento,BOGOTÁ,5334
+2024-2,nuevos,departamento,BOLÍVAR,2025
+2024-2,nuevos,departamento,BOYACÁ,704
+2024-2,nuevos,departamento,CALDAS,380
+2024-2,nuevos,departamento,CAQUETÁ,167
+2024-2,nuevos,departamento,CASANARE,171
+2024-2,nuevos,departamento,CAUCA,466
+2024-2,nuevos,departamento,CESAR,1075
+2024-2,nuevos,departamento,CHOCÓ,133
+2024-2,nuevos,departamento,CUNDINAMARCA,733
+2024-2,nuevos,departamento,CÓRDOBA,3432
+2024-2,nuevos,departamento,GUAINÍA,11
+2024-2,nuevos,departamento,GUAVIARE,29
+2024-2,nuevos,departamento,HUILA,460
+2024-2,nuevos,departamento,LA GUAJIRA,886
+2024-2,nuevos,departamento,MAGDALENA,1004
+2024-2,nuevos,departamento,META,347
+2024-2,nuevos,departamento,NARIÑO,1389
+2024-2,nuevos,departamento,NORTE DE SANTANDER,587
+2024-2,nuevos,departamento,PUTUMAYO,239
+2024-2,nuevos,departamento,QUINDÍO,188
+2024-2,nuevos,departamento,RISARALDA,247
+2024-2,nuevos,departamento,SAN ANDRÉS,31
+2024-2,nuevos,departamento,SANTANDER,1045
+2024-2,nuevos,departamento,SUCRE,1673
+2024-2,nuevos,departamento,TOLIMA,514
+2024-2,nuevos,departamento,VALLE DEL CAUCA,2130
+2024-2,nuevos,departamento,VAUPÉS,12
+2024-2,nuevos,departamento,VICHADA,6
+2024-2,nuevos,estrato,Estrato 1,12692
+2024-2,nuevos,estrato,Estrato 2,8820
+2024-2,nuevos,estrato,Estrato 3,5800
+2024-2,nuevos,estrato,Estrato 4,1821
+2024-2,nuevos,estrato,Estrato 5,578
+2024-2,nuevos,estrato,Estrato 6,205
+2024-2,nuevos,nivel,Estudios en el exterior,1155
+2024-2,nuevos,nivel,Posgrado,3851
+2024-2,nuevos,nivel,Pregrado universitario,24218
+2024-2,nuevos,nivel,Técnico o tecnológico,692
+2024-2,nuevos,sector_ies,No aplica (exterior),1155
+2024-2,nuevos,sector_ies,Oficial,3450
+2024-2,nuevos,sector_ies,Privado,25311
+2024-2,nuevos,sexo,Femenino,17133
+2024-2,nuevos,sexo,Intersexual,5
+2024-2,nuevos,sexo,Masculino,12778
+2024-2,nuevos,total,Total,29916
+2024-2,renovados,departamento,AMAZONAS,88
+2024-2,renovados,departamento,ANTIOQUIA,6674
+2024-2,renovados,departamento,ARAUCA,591
+2024-2,renovados,departamento,ATLÁNTICO,14649
+2024-2,renovados,departamento,BOGOTÁ,21073
+2024-2,renovados,departamento,BOLÍVAR,10836
+2024-2,renovados,departamento,BOYACÁ,2643
+2024-2,renovados,departamento,CALDAS,1414
+2024-2,renovados,departamento,CAQUETÁ,560
+2024-2,renovados,departamento,CASANARE,754
+2024-2,renovados,departamento,CAUCA,1410
+2024-2,renovados,departamento,CESAR,4621
+2024-2,renovados,departamento,CHOCÓ,440
+2024-2,renovados,departamento,CUNDINAMARCA,2884
+2024-2,renovados,departamento,CÓRDOBA,14065
+2024-2,renovados,departamento,GUAINÍA,21
+2024-2,renovados,departamento,GUAVIARE,180
+2024-2,renovados,departamento,HUILA,1812
+2024-2,renovados,departamento,LA GUAJIRA,3288
+2024-2,renovados,departamento,MAGDALENA,4310
+2024-2,renovados,departamento,META,1594
+2024-2,renovados,departamento,NARIÑO,4858
+2024-2,renovados,departamento,NORTE DE SANTANDER,2137
+2024-2,renovados,departamento,PUTUMAYO,809
+2024-2,renovados,departamento,QUINDÍO,759
+2024-2,renovados,departamento,RISARALDA,988
+2024-2,renovados,departamento,SAN ANDRÉS,211
+2024-2,renovados,departamento,SANTANDER,4225
+2024-2,renovados,departamento,SUCRE,10072
+2024-2,renovados,departamento,TOLIMA,2041
+2024-2,renovados,departamento,VALLE DEL CAUCA,8285
+2024-2,renovados,departamento,VAUPÉS,23
+2024-2,renovados,departamento,VICHADA,49
+2024-2,renovados,estrato,Estrato 1,58368
+2024-2,renovados,estrato,Estrato 2,39504
+2024-2,renovados,estrato,Estrato 3,21996
+2024-2,renovados,estrato,Estrato 4,5987
+2024-2,renovados,estrato,Estrato 5,1901
+2024-2,renovados,estrato,Estrato 6,608
+2024-2,renovados,nivel,Estudios en el exterior,117
+2024-2,renovados,nivel,Otros,930
+2024-2,renovados,nivel,Posgrado,4824
+2024-2,renovados,nivel,Pregrado universitario,120478
+2024-2,renovados,nivel,Técnico o tecnológico,2015
+2024-2,renovados,sector_ies,No aplica (exterior),118
+2024-2,renovados,sector_ies,Oficial,8733
+2024-2,renovados,sector_ies,Privado,119513
+2024-2,renovados,sexo,Femenino,75098
+2024-2,renovados,sexo,Masculino,53266
+2024-2,renovados,total,Total,128364
+2025-1,nuevos,departamento,AMAZONAS,4
+2025-1,nuevos,departamento,ANTIOQUIA,283
+2025-1,nuevos,departamento,ARAUCA,13
+2025-1,nuevos,departamento,ATLÁNTICO,654
+2025-1,nuevos,departamento,BOGOTÁ,1098
+2025-1,nuevos,departamento,BOLÍVAR,388
+2025-1,nuevos,departamento,BOYACÁ,114
+2025-1,nuevos,departamento,CALDAS,58
+2025-1,nuevos,departamento,CAQUETÁ,31
+2025-1,nuevos,departamento,CASANARE,25
+2025-1,nuevos,departamento,CAUCA,61
+2025-1,nuevos,departamento,CESAR,138
+2025-1,nuevos,departamento,CHOCÓ,20
+2025-1,nuevos,departamento,CUNDINAMARCA,135
+2025-1,nuevos,departamento,CÓRDOBA,410
+2025-1,nuevos,departamento,GUAVIARE,6
+2025-1,nuevos,departamento,HUILA,79
+2025-1,nuevos,departamento,LA GUAJIRA,103
+2025-1,nuevos,departamento,MAGDALENA,167
+2025-1,nuevos,departamento,META,64
+2025-1,nuevos,departamento,NARIÑO,235
+2025-1,nuevos,departamento,NORTE DE SANTANDER,94
+2025-1,nuevos,departamento,PUTUMAYO,16
+2025-1,nuevos,departamento,QUINDÍO,43
+2025-1,nuevos,departamento,RISARALDA,45
+2025-1,nuevos,departamento,SAN ANDRÉS,6
+2025-1,nuevos,departamento,SANTANDER,196
+2025-1,nuevos,departamento,SUCRE,165
+2025-1,nuevos,departamento,TOLIMA,99
+2025-1,nuevos,departamento,VALLE DEL CAUCA,504
+2025-1,nuevos,departamento,VAUPÉS,1
+2025-1,nuevos,estrato,Estrato 1,1969
+2025-1,nuevos,estrato,Estrato 2,1629
+2025-1,nuevos,estrato,Estrato 3,1120
+2025-1,nuevos,estrato,Estrato 4,382
+2025-1,nuevos,estrato,Estrato 5,120
+2025-1,nuevos,estrato,Estrato 6,35
+2025-1,nuevos,nivel,Otros,117
+2025-1,nuevos,nivel,Posgrado,519
+2025-1,nuevos,nivel,Pregrado universitario,4571
+2025-1,nuevos,nivel,Técnico o tecnológico,48
+2025-1,nuevos,sector_ies,No aplica (exterior),117
+2025-1,nuevos,sector_ies,Oficial,111
+2025-1,nuevos,sector_ies,Privado,5027
+2025-1,nuevos,sexo,Femenino,3216
+2025-1,nuevos,sexo,Intersexual,1
+2025-1,nuevos,sexo,Masculino,2038
+2025-1,nuevos,total,Total,5255
+2025-1,renovados,departamento,AMAZONAS,81
+2025-1,renovados,departamento,ANTIOQUIA,6905
+2025-1,renovados,departamento,ARAUCA,607
+2025-1,renovados,departamento,ATLÁNTICO,14989
+2025-1,renovados,departamento,BOGOTÁ,21798
+2025-1,renovados,departamento,BOLÍVAR,11052
+2025-1,renovados,departamento,BOYACÁ,2666
+2025-1,renovados,departamento,CALDAS,1439
+2025-1,renovados,departamento,CAQUETÁ,605
+2025-1,renovados,departamento,CASANARE,758
+2025-1,renovados,departamento,CAUCA,1521
+2025-1,renovados,departamento,CESAR,4979
+2025-1,renovados,departamento,CHOCÓ,469
+2025-1,renovados,departamento,CUNDINAMARCA,2932
+2025-1,renovados,departamento,CÓRDOBA,15167
+2025-1,renovados,departamento,GUAINÍA,26
+2025-1,renovados,departamento,GUAVIARE,164
+2025-1,renovados,departamento,HUILA,1888
+2025-1,renovados,departamento,LA GUAJIRA,3581
+2025-1,renovados,departamento,MAGDALENA,4569
+2025-1,renovados,departamento,META,1552
+2025-1,renovados,departamento,NARIÑO,5276
+2025-1,renovados,departamento,NORTE DE SANTANDER,2221
+2025-1,renovados,departamento,PUTUMAYO,878
+2025-1,renovados,departamento,QUINDÍO,765
+2025-1,renovados,departamento,RISARALDA,971
+2025-1,renovados,departamento,SAN ANDRÉS,183
+2025-1,renovados,departamento,SANTANDER,4365
+2025-1,renovados,departamento,SUCRE,9819
+2025-1,renovados,departamento,TOLIMA,2053
+2025-1,renovados,departamento,VALLE DEL CAUCA,8683
+2025-1,renovados,departamento,VAUPÉS,29
+2025-1,renovados,departamento,VICHADA,39
+2025-1,renovados,estrato,Estrato 1,61449
+2025-1,renovados,estrato,Estrato 2,40202
+2025-1,renovados,estrato,Estrato 3,22532
+2025-1,renovados,estrato,Estrato 4,6206
+2025-1,renovados,estrato,Estrato 5,2000
+2025-1,renovados,estrato,Estrato 6,641
+2025-1,renovados,nivel,Otros,1258
+2025-1,renovados,nivel,Posgrado,4600
+2025-1,renovados,nivel,Pregrado universitario,125272
+2025-1,renovados,nivel,Técnico o tecnológico,1900
+2025-1,renovados,sector_ies,No aplica (exterior),86
+2025-1,renovados,sector_ies,Oficial,9294
+2025-1,renovados,sector_ies,Privado,123650
+2025-1,renovados,sexo,Femenino,77970
+2025-1,renovados,sexo,Masculino,55060
+2025-1,renovados,total,Total,133030
+2025-2,nuevos,departamento,AMAZONAS,2
+2025-2,nuevos,departamento,ANTIOQUIA,201
+2025-2,nuevos,departamento,ARAUCA,18
+2025-2,nuevos,departamento,ATLÁNTICO,416
+2025-2,nuevos,departamento,BOGOTÁ,731
+2025-2,nuevos,departamento,BOLÍVAR,351
+2025-2,nuevos,departamento,BOYACÁ,89
+2025-2,nuevos,departamento,CALDAS,40
+2025-2,nuevos,departamento,CAQUETÁ,18
+2025-2,nuevos,departamento,CASANARE,12
+2025-2,nuevos,departamento,CAUCA,55
+2025-2,nuevos,departamento,CESAR,157
+2025-2,nuevos,departamento,CHOCÓ,24
+2025-2,nuevos,departamento,CUNDINAMARCA,98
+2025-2,nuevos,departamento,CÓRDOBA,478
+2025-2,nuevos,departamento,GUAVIARE,4
+2025-2,nuevos,departamento,HUILA,54
+2025-2,nuevos,departamento,LA GUAJIRA,107
+2025-2,nuevos,departamento,MAGDALENA,136
+2025-2,nuevos,departamento,META,43
+2025-2,nuevos,departamento,NARIÑO,156
+2025-2,nuevos,departamento,NORTE DE SANTANDER,50
+2025-2,nuevos,departamento,PUTUMAYO,18
+2025-2,nuevos,departamento,QUINDÍO,29
+2025-2,nuevos,departamento,RISARALDA,35
+2025-2,nuevos,departamento,SAN ANDRÉS,2
+2025-2,nuevos,departamento,SANTANDER,108
+2025-2,nuevos,departamento,SUCRE,306
+2025-2,nuevos,departamento,TOLIMA,76
+2025-2,nuevos,departamento,VALLE DEL CAUCA,273
+2025-2,nuevos,estrato,Estrato 1,1844
+2025-2,nuevos,estrato,Estrato 2,1167
+2025-2,nuevos,estrato,Estrato 3,699
+2025-2,nuevos,estrato,Estrato 4,256
+2025-2,nuevos,estrato,Estrato 5,97
+2025-2,nuevos,estrato,Estrato 6,24
+2025-2,nuevos,nivel,Otros,165
+2025-2,nuevos,nivel,Posgrado,488
+2025-2,nuevos,nivel,Pregrado universitario,3335
+2025-2,nuevos,nivel,Técnico o tecnológico,99
+2025-2,nuevos,sector_ies,No aplica (exterior),165
+2025-2,nuevos,sector_ies,Oficial,413
+2025-2,nuevos,sector_ies,Privado,3509
+2025-2,nuevos,sexo,Femenino,2123
+2025-2,nuevos,sexo,Masculino,1964
+2025-2,nuevos,total,Total,4087
+2025-2,renovados,departamento,AMAZONAS,68
+2025-2,renovados,departamento,ANTIOQUIA,6149
+2025-2,renovados,departamento,ARAUCA,502
+2025-2,renovados,departamento,ATLÁNTICO,13444
+2025-2,renovados,departamento,BOGOTÁ,19310
+2025-2,renovados,departamento,BOLÍVAR,9938
+2025-2,renovados,departamento,BOYACÁ,2280
+2025-2,renovados,departamento,CALDAS,1290
+2025-2,renovados,departamento,CAQUETÁ,541
+2025-2,renovados,departamento,CASANARE,657
+2025-2,renovados,departamento,CAUCA,1310
+2025-2,renovados,departamento,CESAR,4447
+2025-2,renovados,departamento,CHOCÓ,415
+2025-2,renovados,departamento,CUNDINAMARCA,2502
+2025-2,renovados,departamento,CÓRDOBA,13626
+2025-2,renovados,departamento,GUAINÍA,23
+2025-2,renovados,departamento,GUAVIARE,140
+2025-2,renovados,departamento,HUILA,1635
+2025-2,renovados,departamento,LA GUAJIRA,3218
+2025-2,renovados,departamento,MAGDALENA,4077
+2025-2,renovados,departamento,META,1311
+2025-2,renovados,departamento,NARIÑO,4687
+2025-2,renovados,departamento,NORTE DE SANTANDER,1971
+2025-2,renovados,departamento,PUTUMAYO,748
+2025-2,renovados,departamento,QUINDÍO,666
+2025-2,renovados,departamento,RISARALDA,878
+2025-2,renovados,departamento,SAN ANDRÉS,142
+2025-2,renovados,departamento,SANTANDER,3857
+2025-2,renovados,departamento,SUCRE,8556
+2025-2,renovados,departamento,TOLIMA,1741
+2025-2,renovados,departamento,VALLE DEL CAUCA,7830
+2025-2,renovados,departamento,VAUPÉS,26
+2025-2,renovados,departamento,VICHADA,34
+2025-2,renovados,estrato,Estrato 1,55009
+2025-2,renovados,estrato,Estrato 2,35689
+2025-2,renovados,estrato,Estrato 3,19600
+2025-2,renovados,estrato,Estrato 4,5410
+2025-2,renovados,estrato,Estrato 5,1763
+2025-2,renovados,estrato,Estrato 6,548
+2025-2,renovados,nivel,Otros,1073
+2025-2,renovados,nivel,Posgrado,2624
+2025-2,renovados,nivel,Pregrado universitario,112817
+2025-2,renovados,nivel,Técnico o tecnológico,1505
+2025-2,renovados,sector_ies,No aplica (exterior),48
+2025-2,renovados,sector_ies,Oficial,7638
+2025-2,renovados,sector_ies,Privado,110333
+2025-2,renovados,sexo,Femenino,69557
+2025-2,renovados,sexo,Masculino,48462
+2025-2,renovados,total,Total,118019
