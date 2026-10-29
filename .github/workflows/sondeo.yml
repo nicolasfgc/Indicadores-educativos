@@ -1,0 +1,35 @@
+name: Sondeo de fuentes (temporal)
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  sondeo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Revisar bases que fallaron
+        run: |
+          pip -q install pandas python-calamine
+          mkdir r && cd r
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
+          B=https://snies.mineducacion.gov.co/1778
+          for a in 391579 391578 401909 401906 397883 391581; do curl -sL -m 300 -A "$UA" -o "$a.bin" "$B/articles-${a}_recurso.$( [ $a = 397883 ] && echo xlsb || echo xlsx )"; done
+          python - > salida.txt 2>&1 <<'P'
+          import pandas as pd, glob
+          for f in sorted(glob.glob("*.bin")):
+              try:
+                  hs = pd.read_excel(f, sheet_name=None, header=None, nrows=14, engine="calamine")
+              except Exception as e:
+                  print("ERR", f, e); continue
+              for h, d in hs.items():
+                  print("=====", f, h, d.shape)
+                  for i in range(len(d)):
+                      fila = [" ".join(str(v).split()) for v in d.iloc[i] if str(v) != "nan"]
+                      if fila: print(i, fila[:45])
+          P
+          rm *.bin
+          git init -q && git config user.name sondeo && git config user.email s@users.noreply.github.com
+          git checkout -q -b sondeo && git add -A && git commit -qm sondeo
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" sondeo
