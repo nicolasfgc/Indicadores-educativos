@@ -1,0 +1,1233 @@
+anio,semestre,tipo,area,nivel_academico,valor
+2014,1,graduados,Agronomia veterinaria y afines,Posgrado,191
+2014,1,graduados,Agronomia veterinaria y afines,Pregrado,2388
+2014,1,graduados,Bellas artes,Posgrado,167
+2014,1,graduados,Bellas artes,Pregrado,5079
+2014,1,graduados,Ciencias de la educacion,Posgrado,5216
+2014,1,graduados,Ciencias de la educacion,Pregrado,9084
+2014,1,graduados,Ciencias de la salud,Posgrado,2194
+2014,1,graduados,Ciencias de la salud,Pregrado,8665
+2014,1,graduados,Ciencias sociales y humanas,Posgrado,7155
+2014,1,graduados,Ciencias sociales y humanas,Pregrado,16714
+2014,1,graduados,"Economia, administracion, contaduria y afines",Posgrado,12338
+2014,1,graduados,"Economia, administracion, contaduria y afines",Pregrado,46243
+2014,1,graduados,"Ingenieria, arquitectura, urbanismo y afines",Posgrado,3391
+2014,1,graduados,"Ingenieria, arquitectura, urbanismo y afines",Pregrado,32874
+2014,1,graduados,Matematicas y ciencias naturales,Posgrado,512
+2014,1,graduados,Matematicas y ciencias naturales,Pregrado,2312
+2014,1,graduados,Sin clasificar,Posgrado,113
+2014,1,graduados,Sin clasificar,Pregrado,333
+2014,1,matriculados,Agronomia veterinaria y afines,Posgrado,1128
+2014,1,matriculados,Agronomia veterinaria y afines,Pregrado,39249
+2014,1,matriculados,Bellas artes,Posgrado,848
+2014,1,matriculados,Bellas artes,Pregrado,78648
+2014,1,matriculados,Ciencias de la educacion,Posgrado,32206
+2014,1,matriculados,Ciencias de la educacion,Pregrado,158020
+2014,1,matriculados,Ciencias de la salud,Posgrado,12341
+2014,1,matriculados,Ciencias de la salud,Pregrado,151271
+2014,1,matriculados,Ciencias sociales y humanas,Posgrado,28927
+2014,1,matriculados,Ciencias sociales y humanas,Pregrado,326091
+2014,1,matriculados,Economia administracion contaduria y afines,Posgrado,42842
+2014,1,matriculados,Economia administracion contaduria y afines,Pregrado,667771
+2014,1,matriculados,Ingenieria arquitectura urbanismo y afines,Posgrado,18187
+2014,1,matriculados,Ingenieria arquitectura urbanismo y afines,Pregrado,603840
+2014,1,matriculados,Matematicas y ciencias naturales,Posgrado,3733
+2014,1,matriculados,Matematicas y ciencias naturales,Pregrado,38113
+2014,1,primer_curso,Agronomia veterinaria y afines,Posgrado,279
+2014,1,primer_curso,Agronomia veterinaria y afines,Pregrado,5599
+2014,1,primer_curso,Bellas artes,Posgrado,187
+2014,1,primer_curso,Bellas artes,Pregrado,12351
+2014,1,primer_curso,Ciencias de la educacion,Posgrado,8489
+2014,1,primer_curso,Ciencias de la educacion,Pregrado,23993
+2014,1,primer_curso,Ciencias de la salud,Posgrado,2985
+2014,1,primer_curso,Ciencias de la salud,Pregrado,21008
+2014,1,primer_curso,Ciencias sociales y humanas,Posgrado,11078
+2014,1,primer_curso,Ciencias sociales y humanas,Pregrado,61693
+2014,1,primer_curso,Economia administracion contaduria y afines,Posgrado,16714
+2014,1,primer_curso,Economia administracion contaduria y afines,Pregrado,106465
+2014,1,primer_curso,Ingenieria arquitectura urbanismo y afines,Posgrado,5265
+2014,1,primer_curso,Ingenieria arquitectura urbanismo y afines,Pregrado,98462
+2014,1,primer_curso,Matematicas y ciencias naturales,Posgrado,753
+2014,1,primer_curso,Matematicas y ciencias naturales,Pregrado,5996
+2014,2,graduados,Agronomia veterinaria y afines,Posgrado,270
+2014,2,graduados,Agronomia veterinaria y afines,Pregrado,4817
+2014,2,graduados,Bellas artes,Posgrado,156
+2014,2,graduados,Bellas artes,Pregrado,5887
+2014,2,graduados,Ciencias de la educacion,Posgrado,9898
+2014,2,graduados,Ciencias de la educacion,Pregrado,11549
+2014,2,graduados,Ciencias de la salud,Posgrado,3410
+2014,2,graduados,Ciencias de la salud,Pregrado,12687
+2014,2,graduados,Ciencias sociales y humanas,Posgrado,7542
+2014,2,graduados,Ciencias sociales y humanas,Pregrado,21581
+2014,2,graduados,"Economia, administracion, contaduria y afines",Posgrado,16796
+2014,2,graduados,"Economia, administracion, contaduria y afines",Pregrado,58176
+2014,2,graduados,"Ingenieria, arquitectura, urbanismo y afines",Posgrado,6416
+2014,2,graduados,"Ingenieria, arquitectura, urbanismo y afines",Pregrado,41624
+2014,2,graduados,Matematicas y ciencias naturales,Posgrado,648
+2014,2,graduados,Matematicas y ciencias naturales,Pregrado,2726
+2014,2,graduados,Sin clasificar,Posgrado,230
+2014,2,graduados,Sin clasificar,Pregrado,225
+2014,2,matriculados,Agronomia veterinaria y afines,Posgrado,1185
+2014,2,matriculados,Agronomia veterinaria y afines,Pregrado,44718
+2014,2,matriculados,Bellas artes,Posgrado,895
+2014,2,matriculados,Bellas artes,Pregrado,75869
+2014,2,matriculados,Ciencias de la educacion,Posgrado,35139
+2014,2,matriculados,Ciencias de la educacion,Pregrado,159894
+2014,2,matriculados,Ciencias de la salud,Posgrado,11544
+2014,2,matriculados,Ciencias de la salud,Pregrado,145606
+2014,2,matriculados,Ciencias sociales y humanas,Posgrado,29038
+2014,2,matriculados,Ciencias sociales y humanas,Pregrado,329197
+2014,2,matriculados,Economia administracion contaduria y afines,Posgrado,44508
+2014,2,matriculados,Economia administracion contaduria y afines,Pregrado,668775
+2014,2,matriculados,Ingenieria arquitectura urbanismo y afines,Posgrado,17597
+2014,2,matriculados,Ingenieria arquitectura urbanismo y afines,Pregrado,588259
+2014,2,matriculados,Matematicas y ciencias naturales,Posgrado,3849
+2014,2,matriculados,Matematicas y ciencias naturales,Pregrado,38396
+2014,2,primer_curso,Agronomia veterinaria y afines,Posgrado,265
+2014,2,primer_curso,Agronomia veterinaria y afines,Pregrado,8692
+2014,2,primer_curso,Bellas artes,Posgrado,347
+2014,2,primer_curso,Bellas artes,Pregrado,11874
+2014,2,primer_curso,Ciencias de la educacion,Posgrado,8171
+2014,2,primer_curso,Ciencias de la educacion,Pregrado,22718
+2014,2,primer_curso,Ciencias de la salud,Posgrado,2914
+2014,2,primer_curso,Ciencias de la salud,Pregrado,16498
+2014,2,primer_curso,Ciencias sociales y humanas,Posgrado,9031
+2014,2,primer_curso,Ciencias sociales y humanas,Pregrado,46660
+2014,2,primer_curso,Economia administracion contaduria y afines,Posgrado,15376
+2014,2,primer_curso,Economia administracion contaduria y afines,Pregrado,135604
+2014,2,primer_curso,Ingenieria arquitectura urbanismo y afines,Posgrado,4843
+2014,2,primer_curso,Ingenieria arquitectura urbanismo y afines,Pregrado,110812
+2014,2,primer_curso,Matematicas y ciencias naturales,Posgrado,826
+2014,2,primer_curso,Matematicas y ciencias naturales,Pregrado,6833
+2015,1,graduados,Agronomia veterinaria y afines,Posgrado,179
+2015,1,graduados,Agronomia veterinaria y afines,Pregrado,2486
+2015,1,graduados,Bellas artes,Posgrado,169
+2015,1,graduados,Bellas artes,Pregrado,5370
+2015,1,graduados,Ciencias de la educacion,Posgrado,6682
+2015,1,graduados,Ciencias de la educacion,Pregrado,9579
+2015,1,graduados,Ciencias de la salud,Posgrado,2257
+2015,1,graduados,Ciencias de la salud,Pregrado,8853
+2015,1,graduados,Ciencias sociales y humanas,Posgrado,6573
+2015,1,graduados,Ciencias sociales y humanas,Pregrado,20173
+2015,1,graduados,"Economia, administracion, contaduria y afines",Posgrado,12763
+2015,1,graduados,"Economia, administracion, contaduria y afines",Pregrado,43713
+2015,1,graduados,"Ingenieria, arquitectura, urbanismo y afines",Posgrado,3676
+2015,1,graduados,"Ingenieria, arquitectura, urbanismo y afines",Pregrado,30541
+2015,1,graduados,Matematicas y ciencias naturales,Posgrado,505
+2015,1,graduados,Matematicas y ciencias naturales,Pregrado,1862
+2015,1,graduados,Sin clasificar,Posgrado,122
+2015,1,graduados,Sin clasificar,Pregrado,142
+2015,1,matriculados,Agronomia veterinaria y afines,Posgrado,1184
+2015,1,matriculados,Agronomia veterinaria y afines,Pregrado,46003
+2015,1,matriculados,Bellas artes,Posgrado,949
+2015,1,matriculados,Bellas artes,Pregrado,76984
+2015,1,matriculados,Ciencias de la educacion,Posgrado,27658
+2015,1,matriculados,Ciencias de la educacion,Pregrado,165479
+2015,1,matriculados,Ciencias de la salud,Posgrado,12638
+2015,1,matriculados,Ciencias de la salud,Pregrado,149257
+2015,1,matriculados,Ciencias sociales y humanas,Posgrado,32412
+2015,1,matriculados,Ciencias sociales y humanas,Pregrado,346056
+2015,1,matriculados,Economia administracion contaduria y afines,Posgrado,46492
+2015,1,matriculados,Economia administracion contaduria y afines,Pregrado,695794
+2015,1,matriculados,Ingenieria arquitectura urbanismo y afines,Posgrado,18496
+2015,1,matriculados,Ingenieria arquitectura urbanismo y afines,Pregrado,634280
+2015,1,matriculados,Matematicas y ciencias naturales,Posgrado,4217
+2015,1,matriculados,Matematicas y ciencias naturales,Pregrado,40592
+2015,1,primer_curso,Agronomia veterinaria y afines,Posgrado,244
+2015,1,primer_curso,Agronomia veterinaria y afines,Pregrado,8146
+2015,1,primer_curso,Bellas artes,Posgrado,231
+2015,1,primer_curso,Bellas artes,Pregrado,13066
+2015,1,primer_curso,Ciencias de la educacion,Posgrado,8846
+2015,1,primer_curso,Ciencias de la educacion,Pregrado,25957
+2015,1,primer_curso,Ciencias de la salud,Posgrado,3038
+2015,1,primer_curso,Ciencias de la salud,Pregrado,20282
+2015,1,primer_curso,Ciencias sociales y humanas,Posgrado,12161
+2015,1,primer_curso,Ciencias sociales y humanas,Pregrado,62355
+2015,1,primer_curso,Economia administracion contaduria y afines,Posgrado,17902
+2015,1,primer_curso,Economia administracion contaduria y afines,Pregrado,121923
+2015,1,primer_curso,Ingenieria arquitectura urbanismo y afines,Posgrado,5711
+2015,1,primer_curso,Ingenieria arquitectura urbanismo y afines,Pregrado,116941
+2015,1,primer_curso,Matematicas y ciencias naturales,Posgrado,818
+2015,1,primer_curso,Matematicas y ciencias naturales,Pregrado,6110
+2015,2,graduados,Agronomia veterinaria y afines,Posgrado,231
+2015,2,graduados,Agronomia veterinaria y afines,Pregrado,3591
+2015,2,graduados,Bellas artes,Posgrado,264
+2015,2,graduados,Bellas artes,Pregrado,7148
+2015,2,graduados,Ciencias de la educacion,Posgrado,7396
+2015,2,graduados,Ciencias de la educacion,Pregrado,12517
+2015,2,graduados,Ciencias de la salud,Posgrado,3679
+2015,2,graduados,Ciencias de la salud,Pregrado,13269
+2015,2,graduados,Ciencias sociales y humanas,Posgrado,8753
+2015,2,graduados,Ciencias sociales y humanas,Pregrado,22374
+2015,2,graduados,"Economia, administracion, contaduria y afines",Posgrado,17717
+2015,2,graduados,"Economia, administracion, contaduria y afines",Pregrado,67348
+2015,2,graduados,"Ingenieria, arquitectura, urbanismo y afines",Posgrado,5470
+2015,2,graduados,"Ingenieria, arquitectura, urbanismo y afines",Pregrado,45287
+2015,2,graduados,Matematicas y ciencias naturales,Posgrado,612
+2015,2,graduados,Matematicas y ciencias naturales,Pregrado,2768
+2015,2,graduados,Sin clasificar,Posgrado,219
+2015,2,graduados,Sin clasificar,Pregrado,450
+2015,2,matriculados,Agronomia veterinaria y afines,Posgrado,1144
+2015,2,matriculados,Agronomia veterinaria y afines,Pregrado,42898
+2015,2,matriculados,Bellas artes,Posgrado,949
+2015,2,matriculados,Bellas artes,Pregrado,76096
+2015,2,matriculados,Ciencias de la educacion,Posgrado,34779
+2015,2,matriculados,Ciencias de la educacion,Pregrado,164099
+2015,2,matriculados,Ciencias de la salud,Posgrado,12380
+2015,2,matriculados,Ciencias de la salud,Pregrado,145112
+2015,2,matriculados,Ciencias sociales y humanas,Posgrado,31095
+2015,2,matriculados,Ciencias sociales y humanas,Pregrado,342700
+2015,2,matriculados,Economia administracion contaduria y afines,Posgrado,48238
+2015,2,matriculados,Economia administracion contaduria y afines,Pregrado,696734
+2015,2,matriculados,Ingenieria arquitectura urbanismo y afines,Posgrado,18653
+2015,2,matriculados,Ingenieria arquitectura urbanismo y afines,Pregrado,622808
+2015,2,matriculados,Matematicas y ciencias naturales,Posgrado,4316
+2015,2,matriculados,Matematicas y ciencias naturales,Pregrado,39993
+2015,2,primer_curso,Agronomia veterinaria y afines,Posgrado,235
+2015,2,primer_curso,Agronomia veterinaria y afines,Pregrado,6358
+2015,2,primer_curso,Bellas artes,Posgrado,305
+2015,2,primer_curso,Bellas artes,Pregrado,10797
+2015,2,primer_curso,Ciencias de la educacion,Posgrado,9071
+2015,2,primer_curso,Ciencias de la educacion,Pregrado,21607
+2015,2,primer_curso,Ciencias de la salud,Posgrado,2858
+2015,2,primer_curso,Ciencias de la salud,Pregrado,18247
+2015,2,primer_curso,Ciencias sociales y humanas,Posgrado,9356
+2015,2,primer_curso,Ciencias sociales y humanas,Pregrado,45854
+2015,2,primer_curso,Economia administracion contaduria y afines,Posgrado,17927
+2015,2,primer_curso,Economia administracion contaduria y afines,Pregrado,116556
+2015,2,primer_curso,Ingenieria arquitectura urbanismo y afines,Posgrado,5344
+2015,2,primer_curso,Ingenieria arquitectura urbanismo y afines,Pregrado,97318
+2015,2,primer_curso,Matematicas y ciencias naturales,Posgrado,719
+2015,2,primer_curso,Matematicas y ciencias naturales,Pregrado,5453
+2016,1,graduados,Agronomia veterinaria y afines,Posgrado,160
+2016,1,graduados,Agronomia veterinaria y afines,Pregrado,2795
+2016,1,graduados,Bellas artes,Posgrado,177
+2016,1,graduados,Bellas artes,Pregrado,5720
+2016,1,graduados,Ciencias de la educacion,Posgrado,7438
+2016,1,graduados,Ciencias de la educacion,Pregrado,9993
+2016,1,graduados,Ciencias de la salud,Posgrado,2207
+2016,1,graduados,Ciencias de la salud,Pregrado,11652
+2016,1,graduados,Ciencias sociales y humanas,Posgrado,7607
+2016,1,graduados,Ciencias sociales y humanas,Pregrado,19591
+2016,1,graduados,"Economia, administracion, contaduria y afines",Posgrado,14966
+2016,1,graduados,"Economia, administracion, contaduria y afines",Pregrado,59749
+2016,1,graduados,"Ingenieria, arquitectura, urbanismo y afines",Posgrado,4265
+2016,1,graduados,"Ingenieria, arquitectura, urbanismo y afines",Pregrado,39502
+2016,1,graduados,Matematicas y ciencias naturales,Posgrado,486
+2016,1,graduados,Matematicas y ciencias naturales,Pregrado,2313
+2016,1,graduados,Sin clasificar,Posgrado,135
+2016,1,graduados,Sin clasificar,Pregrado,231
+2016,1,matriculados,"Agronomía, veterinaria y afines",Posgrado,1250
+2016,1,matriculados,"Agronomía, veterinaria y afines",Pregrado,41561
+2016,1,matriculados,Bellas artes,Posgrado,1059
+2016,1,matriculados,Bellas artes,Pregrado,73174
+2016,1,matriculados,Ciencias de la educación,Posgrado,34256
+2016,1,matriculados,Ciencias de la educación,Pregrado,165790
+2016,1,matriculados,Ciencias de la salud,Posgrado,13507
+2016,1,matriculados,Ciencias de la salud,Pregrado,145445
+2016,1,matriculados,Ciencias sociales y humanas,Posgrado,33378
+2016,1,matriculados,Ciencias sociales y humanas,Pregrado,371629
+2016,1,matriculados,"Economía, administración, contaduría y afines",Posgrado,51130
+2016,1,matriculados,"Economía, administración, contaduría y afines",Pregrado,680046
+2016,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,21130
+2016,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,614332
+2016,1,matriculados,Matemáticas y ciencias naturales,Posgrado,4439
+2016,1,matriculados,Matemáticas y ciencias naturales,Pregrado,41148
+2016,1,primer_curso,"Agronomía, veterinaria y afines",Posgrado,353
+2016,1,primer_curso,"Agronomía, veterinaria y afines",Pregrado,9205
+2016,1,primer_curso,Bellas artes,Posgrado,239
+2016,1,primer_curso,Bellas artes,Pregrado,15126
+2016,1,primer_curso,Ciencias de la educación,Posgrado,13033
+2016,1,primer_curso,Ciencias de la educación,Pregrado,28166
+2016,1,primer_curso,Ciencias de la salud,Posgrado,3979
+2016,1,primer_curso,Ciencias de la salud,Pregrado,21713
+2016,1,primer_curso,Ciencias sociales y humanas,Posgrado,14458
+2016,1,primer_curso,Ciencias sociales y humanas,Pregrado,73977
+2016,1,primer_curso,"Economía, administración, contaduría y afines",Posgrado,22887
+2016,1,primer_curso,"Economía, administración, contaduría y afines",Pregrado,171278
+2016,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,7951
+2016,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,137761
+2016,1,primer_curso,Matemáticas y ciencias naturales,Posgrado,1139
+2016,1,primer_curso,Matemáticas y ciencias naturales,Pregrado,8269
+2016,2,graduados,Agronomia veterinaria y afines,Posgrado,323
+2016,2,graduados,Agronomia veterinaria y afines,Pregrado,3455
+2016,2,graduados,Bellas artes,Posgrado,193
+2016,2,graduados,Bellas artes,Pregrado,6690
+2016,2,graduados,Ciencias de la educacion,Posgrado,9415
+2016,2,graduados,Ciencias de la educacion,Pregrado,13457
+2016,2,graduados,Ciencias de la salud,Posgrado,3614
+2016,2,graduados,Ciencias de la salud,Pregrado,13432
+2016,2,graduados,Ciencias sociales y humanas,Posgrado,9993
+2016,2,graduados,Ciencias sociales y humanas,Pregrado,24693
+2016,2,graduados,"Economia, administracion, contaduria y afines",Posgrado,20129
+2016,2,graduados,"Economia, administracion, contaduria y afines",Pregrado,69190
+2016,2,graduados,"Ingenieria, arquitectura, urbanismo y afines",Posgrado,6724
+2016,2,graduados,"Ingenieria, arquitectura, urbanismo y afines",Pregrado,48563
+2016,2,graduados,Matematicas y ciencias naturales,Posgrado,651
+2016,2,graduados,Matematicas y ciencias naturales,Pregrado,3002
+2016,2,graduados,Sin clasificar,Posgrado,359
+2016,2,graduados,Sin clasificar,Pregrado,312
+2016,2,matriculados,"Agronomía, veterinaria y afines",Posgrado,1110
+2016,2,matriculados,"Agronomía, veterinaria y afines",Pregrado,43093
+2016,2,matriculados,Bellas artes,Posgrado,1121
+2016,2,matriculados,Bellas artes,Pregrado,74303
+2016,2,matriculados,Ciencias de la educación,Posgrado,27991
+2016,2,matriculados,Ciencias de la educación,Pregrado,162077
+2016,2,matriculados,Ciencias de la salud,Posgrado,13156
+2016,2,matriculados,Ciencias de la salud,Pregrado,145729
+2016,2,matriculados,Ciencias sociales y humanas,Posgrado,31926
+2016,2,matriculados,Ciencias sociales y humanas,Pregrado,366502
+2016,2,matriculados,"Economía, administración, contaduría y afines",Posgrado,50159
+2016,2,matriculados,"Economía, administración, contaduría y afines",Pregrado,712039
+2016,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,20566
+2016,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,623707
+2016,2,matriculados,Matemáticas y ciencias naturales,Posgrado,4422
+2016,2,matriculados,Matemáticas y ciencias naturales,Pregrado,42247
+2016,2,primer_curso,"Agronomía, veterinaria y afines",Posgrado,286
+2016,2,primer_curso,"Agronomía, veterinaria y afines",Pregrado,6544
+2016,2,primer_curso,Bellas artes,Posgrado,382
+2016,2,primer_curso,Bellas artes,Pregrado,13697
+2016,2,primer_curso,Ciencias de la educación,Posgrado,8838
+2016,2,primer_curso,Ciencias de la educación,Pregrado,23020
+2016,2,primer_curso,Ciencias de la salud,Posgrado,3800
+2016,2,primer_curso,Ciencias de la salud,Pregrado,21061
+2016,2,primer_curso,Ciencias sociales y humanas,Posgrado,11878
+2016,2,primer_curso,Ciencias sociales y humanas,Pregrado,51025
+2016,2,primer_curso,"Economía, administración, contaduría y afines",Posgrado,21457
+2016,2,primer_curso,"Economía, administración, contaduría y afines",Pregrado,146364
+2016,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,6691
+2016,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,100578
+2016,2,primer_curso,Matemáticas y ciencias naturales,Posgrado,959
+2016,2,primer_curso,Matemáticas y ciencias naturales,Pregrado,6874
+2017,1,graduados,Agronomia veterinaria y afines,Posgrado,170
+2017,1,graduados,Agronomia veterinaria y afines,Pregrado,2734
+2017,1,graduados,Bellas artes,Posgrado,195
+2017,1,graduados,Bellas artes,Pregrado,5699
+2017,1,graduados,Ciencias de la educacion,Posgrado,7762
+2017,1,graduados,Ciencias de la educacion,Pregrado,9642
+2017,1,graduados,Ciencias de la salud,Posgrado,2665
+2017,1,graduados,Ciencias de la salud,Pregrado,10268
+2017,1,graduados,Ciencias sociales y humanas,Posgrado,9244
+2017,1,graduados,Ciencias sociales y humanas,Pregrado,25395
+2017,1,graduados,"Economia, administracion, contaduria y afines",Posgrado,15850
+2017,1,graduados,"Economia, administracion, contaduria y afines",Pregrado,62997
+2017,1,graduados,"Ingenieria, arquitectura, urbanismo y afines",Posgrado,4787
+2017,1,graduados,"Ingenieria, arquitectura, urbanismo y afines",Pregrado,42024
+2017,1,graduados,Matematicas y ciencias naturales,Posgrado,645
+2017,1,graduados,Matematicas y ciencias naturales,Pregrado,2581
+2017,1,matriculados,"Agronomía, veterinaria y afines",Posgrado,1345
+2017,1,matriculados,"Agronomía, veterinaria y afines",Pregrado,43366
+2017,1,matriculados,Bellas artes,Posgrado,1140
+2017,1,matriculados,Bellas artes,Pregrado,72164
+2017,1,matriculados,Ciencias de la educación,Posgrado,35916
+2017,1,matriculados,Ciencias de la educación,Pregrado,166240
+2017,1,matriculados,Ciencias de la salud,Posgrado,14211
+2017,1,matriculados,Ciencias de la salud,Pregrado,148096
+2017,1,matriculados,Ciencias sociales y humanas,Posgrado,34340
+2017,1,matriculados,Ciencias sociales y humanas,Pregrado,385705
+2017,1,matriculados,"Economía, administración, contaduría y afines",Posgrado,52475
+2017,1,matriculados,"Economía, administración, contaduría y afines",Pregrado,686589
+2017,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,21756
+2017,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,615443
+2017,1,matriculados,Matemáticas y ciencias naturales,Posgrado,4804
+2017,1,matriculados,Matemáticas y ciencias naturales,Pregrado,41923
+2017,1,primer_curso,"Agronomía, veterinaria y afines",Posgrado,366
+2017,1,primer_curso,"Agronomía, veterinaria y afines",Pregrado,9962
+2017,1,primer_curso,Bellas artes,Posgrado,257
+2017,1,primer_curso,Bellas artes,Pregrado,14558
+2017,1,primer_curso,Ciencias de la educación,Posgrado,9287
+2017,1,primer_curso,Ciencias de la educación,Pregrado,27132
+2017,1,primer_curso,Ciencias de la salud,Posgrado,4243
+2017,1,primer_curso,Ciencias de la salud,Pregrado,23460
+2017,1,primer_curso,Ciencias sociales y humanas,Posgrado,15012
+2017,1,primer_curso,Ciencias sociales y humanas,Pregrado,69356
+2017,1,primer_curso,"Economía, administración, contaduría y afines",Posgrado,21852
+2017,1,primer_curso,"Economía, administración, contaduría y afines",Pregrado,154343
+2017,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,7491
+2017,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,121146
+2017,1,primer_curso,Matemáticas y ciencias naturales,Posgrado,1169
+2017,1,primer_curso,Matemáticas y ciencias naturales,Pregrado,7877
+2017,2,graduados,Agronomia veterinaria y afines,Posgrado,290
+2017,2,graduados,Agronomia veterinaria y afines,Pregrado,4098
+2017,2,graduados,Bellas artes,Posgrado,301
+2017,2,graduados,Bellas artes,Pregrado,6879
+2017,2,graduados,Ciencias de la educacion,Posgrado,10397
+2017,2,graduados,Ciencias de la educacion,Pregrado,14082
+2017,2,graduados,Ciencias de la salud,Posgrado,3920
+2017,2,graduados,Ciencias de la salud,Pregrado,13176
+2017,2,graduados,Ciencias sociales y humanas,Posgrado,12289
+2017,2,graduados,Ciencias sociales y humanas,Pregrado,27915
+2017,2,graduados,"Economia, administracion, contaduria y afines",Posgrado,21346
+2017,2,graduados,"Economia, administracion, contaduria y afines",Pregrado,79199
+2017,2,graduados,"Ingenieria, arquitectura, urbanismo y afines",Posgrado,6527
+2017,2,graduados,"Ingenieria, arquitectura, urbanismo y afines",Pregrado,55102
+2017,2,graduados,Matematicas y ciencias naturales,Posgrado,819
+2017,2,graduados,Matematicas y ciencias naturales,Pregrado,3369
+2017,2,matriculados,"Agronomía, veterinaria y afines",Posgrado,1301
+2017,2,matriculados,"Agronomía, veterinaria y afines",Pregrado,44907
+2017,2,matriculados,Bellas artes,Posgrado,1292
+2017,2,matriculados,Bellas artes,Pregrado,74758
+2017,2,matriculados,Ciencias de la educación,Posgrado,31405
+2017,2,matriculados,Ciencias de la educación,Pregrado,158771
+2017,2,matriculados,Ciencias de la salud,Posgrado,13732
+2017,2,matriculados,Ciencias de la salud,Pregrado,153472
+2017,2,matriculados,Ciencias sociales y humanas,Posgrado,35145
+2017,2,matriculados,Ciencias sociales y humanas,Pregrado,377449
+2017,2,matriculados,"Economía, administración, contaduría y afines",Posgrado,51512
+2017,2,matriculados,"Economía, administración, contaduría y afines",Pregrado,723814
+2017,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,21161
+2017,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,627583
+2017,2,matriculados,Matemáticas y ciencias naturales,Posgrado,4637
+2017,2,matriculados,Matemáticas y ciencias naturales,Pregrado,42827
+2017,2,primer_curso,"Agronomía, veterinaria y afines",Posgrado,304
+2017,2,primer_curso,"Agronomía, veterinaria y afines",Pregrado,6836
+2017,2,primer_curso,Bellas artes,Posgrado,425
+2017,2,primer_curso,Bellas artes,Pregrado,13311
+2017,2,primer_curso,Ciencias de la educación,Posgrado,8026
+2017,2,primer_curso,Ciencias de la educación,Pregrado,23943
+2017,2,primer_curso,Ciencias de la salud,Posgrado,3610
+2017,2,primer_curso,Ciencias de la salud,Pregrado,22005
+2017,2,primer_curso,Ciencias sociales y humanas,Posgrado,12397
+2017,2,primer_curso,Ciencias sociales y humanas,Pregrado,47951
+2017,2,primer_curso,"Economía, administración, contaduría y afines",Posgrado,21978
+2017,2,primer_curso,"Economía, administración, contaduría y afines",Pregrado,144435
+2017,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,6805
+2017,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,105301
+2017,2,primer_curso,Matemáticas y ciencias naturales,Posgrado,815
+2017,2,primer_curso,Matemáticas y ciencias naturales,Pregrado,6815
+2018,1,graduados,"Agronomía, veterinaria y afines",Posgrado,229
+2018,1,graduados,"Agronomía, veterinaria y afines",Pregrado,2816
+2018,1,graduados,Bellas artes,Posgrado,252
+2018,1,graduados,Bellas artes,Pregrado,5742
+2018,1,graduados,Ciencias de la educación,Posgrado,8089
+2018,1,graduados,Ciencias de la educación,Pregrado,9775
+2018,1,graduados,Ciencias de la salud,Posgrado,2903
+2018,1,graduados,Ciencias de la salud,Pregrado,9745
+2018,1,graduados,Ciencias sociales y humanas,Posgrado,10006
+2018,1,graduados,Ciencias sociales y humanas,Pregrado,26656
+2018,1,graduados,"Economía, administración, contaduría y afines",Posgrado,16855
+2018,1,graduados,"Economía, administración, contaduría y afines",Pregrado,61914
+2018,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,5087
+2018,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,42349
+2018,1,graduados,Matemáticas y ciencias naturales,Posgrado,601
+2018,1,graduados,Matemáticas y ciencias naturales,Pregrado,2327
+2018,1,matriculados,"Agronomía, veterinaria y afines",Posgrado,1364
+2018,1,matriculados,"Agronomía, veterinaria y afines",Pregrado,43078
+2018,1,matriculados,Bellas artes,Posgrado,1240
+2018,1,matriculados,Bellas artes,Pregrado,72327
+2018,1,matriculados,Ciencias de la educación,Posgrado,34795
+2018,1,matriculados,Ciencias de la educación,Pregrado,160769
+2018,1,matriculados,Ciencias de la salud,Posgrado,14734
+2018,1,matriculados,Ciencias de la salud,Pregrado,152101
+2018,1,matriculados,Ciencias sociales y humanas,Posgrado,34905
+2018,1,matriculados,Ciencias sociales y humanas,Pregrado,397858
+2018,1,matriculados,"Economía, administración, contaduría y afines",Posgrado,52316
+2018,1,matriculados,"Economía, administración, contaduría y afines",Pregrado,694876
+2018,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,20232
+2018,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,608097
+2018,1,matriculados,Matemáticas y ciencias naturales,Posgrado,4603
+2018,1,matriculados,Matemáticas y ciencias naturales,Pregrado,42322
+2018,1,primer_curso,"Agronomía, veterinaria y afines",Posgrado,586
+2018,1,primer_curso,"Agronomía, veterinaria y afines",Pregrado,9064
+2018,1,primer_curso,Bellas artes,Posgrado,524
+2018,1,primer_curso,Bellas artes,Pregrado,14023
+2018,1,primer_curso,Ciencias de la educación,Posgrado,12620
+2018,1,primer_curso,Ciencias de la educación,Pregrado,22556
+2018,1,primer_curso,Ciencias de la salud,Posgrado,4706
+2018,1,primer_curso,Ciencias de la salud,Pregrado,22783
+2018,1,primer_curso,Ciencias sociales y humanas,Posgrado,15357
+2018,1,primer_curso,Ciencias sociales y humanas,Pregrado,68571
+2018,1,primer_curso,"Economía, administración, contaduría y afines",Posgrado,24591
+2018,1,primer_curso,"Economía, administración, contaduría y afines",Pregrado,132125
+2018,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,8395
+2018,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,103141
+2018,1,primer_curso,Matemáticas y ciencias naturales,Posgrado,1264
+2018,1,primer_curso,Matemáticas y ciencias naturales,Pregrado,7609
+2018,2,graduados,"Agronomía, veterinaria y afines",Posgrado,446
+2018,2,graduados,"Agronomía, veterinaria y afines",Pregrado,4053
+2018,2,graduados,Bellas artes,Posgrado,373
+2018,2,graduados,Bellas artes,Pregrado,7169
+2018,2,graduados,Ciencias de la educación,Posgrado,11120
+2018,2,graduados,Ciencias de la educación,Pregrado,15835
+2018,2,graduados,Ciencias de la salud,Posgrado,4253
+2018,2,graduados,Ciencias de la salud,Pregrado,15158
+2018,2,graduados,Ciencias sociales y humanas,Posgrado,12403
+2018,2,graduados,Ciencias sociales y humanas,Pregrado,31080
+2018,2,graduados,"Economía, administración, contaduría y afines",Posgrado,23677
+2018,2,graduados,"Economía, administración, contaduría y afines",Pregrado,82605
+2018,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,7026
+2018,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,56770
+2018,2,graduados,Matemáticas y ciencias naturales,Posgrado,1116
+2018,2,graduados,Matemáticas y ciencias naturales,Pregrado,3692
+2018,2,matriculados,"Agronomía, veterinaria y afines",Posgrado,1823
+2018,2,matriculados,"Agronomía, veterinaria y afines",Pregrado,46601
+2018,2,matriculados,Bellas artes,Posgrado,1741
+2018,2,matriculados,Bellas artes,Pregrado,75081
+2018,2,matriculados,Ciencias de la educación,Posgrado,30167
+2018,2,matriculados,Ciencias de la educación,Pregrado,153266
+2018,2,matriculados,Ciencias de la salud,Posgrado,14982
+2018,2,matriculados,Ciencias de la salud,Pregrado,153050
+2018,2,matriculados,Ciencias sociales y humanas,Posgrado,34294
+2018,2,matriculados,Ciencias sociales y humanas,Pregrado,387876
+2018,2,matriculados,"Economía, administración, contaduría y afines",Posgrado,54310
+2018,2,matriculados,"Economía, administración, contaduría y afines",Pregrado,713414
+2018,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,22601
+2018,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,619474
+2018,2,matriculados,Matemáticas y ciencias naturales,Posgrado,4555
+2018,2,matriculados,Matemáticas y ciencias naturales,Pregrado,43851
+2018,2,primer_curso,"Agronomía, veterinaria y afines",Posgrado,684
+2018,2,primer_curso,"Agronomía, veterinaria y afines",Pregrado,6249
+2018,2,primer_curso,Bellas artes,Posgrado,705
+2018,2,primer_curso,Bellas artes,Pregrado,12669
+2018,2,primer_curso,Ciencias de la educación,Posgrado,6016
+2018,2,primer_curso,Ciencias de la educación,Pregrado,18603
+2018,2,primer_curso,Ciencias de la salud,Posgrado,3974
+2018,2,primer_curso,Ciencias de la salud,Pregrado,19348
+2018,2,primer_curso,Ciencias sociales y humanas,Posgrado,12128
+2018,2,primer_curso,Ciencias sociales y humanas,Pregrado,47464
+2018,2,primer_curso,"Economía, administración, contaduría y afines",Posgrado,22856
+2018,2,primer_curso,"Economía, administración, contaduría y afines",Pregrado,112508
+2018,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,7575
+2018,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,86537
+2018,2,primer_curso,Matemáticas y ciencias naturales,Posgrado,1068
+2018,2,primer_curso,Matemáticas y ciencias naturales,Pregrado,6918
+2019,1,graduados,"Agronomía, veterinaria y afines",Posgrado,344
+2019,1,graduados,"Agronomía, veterinaria y afines",Pregrado,2184
+2019,1,graduados,Bellas artes,Posgrado,349
+2019,1,graduados,Bellas artes,Pregrado,5456
+2019,1,graduados,Ciencias de la educación,Posgrado,7047
+2019,1,graduados,Ciencias de la educación,Pregrado,11113
+2019,1,graduados,Ciencias de la salud,Posgrado,2757
+2019,1,graduados,Ciencias de la salud,Pregrado,9544
+2019,1,graduados,Ciencias sociales y humanas,Posgrado,10325
+2019,1,graduados,Ciencias sociales y humanas,Pregrado,30031
+2019,1,graduados,"Economía, administración, contaduría y afines",Posgrado,17175
+2019,1,graduados,"Economía, administración, contaduría y afines",Pregrado,60881
+2019,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,4882
+2019,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,39628
+2019,1,graduados,Matemáticas y ciencias naturales,Posgrado,645
+2019,1,graduados,Matemáticas y ciencias naturales,Pregrado,2007
+2019,1,matriculados,"Agronomía, veterinaria y afines",Posgrado,2141
+2019,1,matriculados,"Agronomía, veterinaria y afines",Pregrado,44917
+2019,1,matriculados,Bellas artes,Posgrado,1770
+2019,1,matriculados,Bellas artes,Pregrado,73175
+2019,1,matriculados,Ciencias de la educación,Posgrado,28765
+2019,1,matriculados,Ciencias de la educación,Pregrado,152907
+2019,1,matriculados,Ciencias de la salud,Posgrado,15214
+2019,1,matriculados,Ciencias de la salud,Pregrado,157131
+2019,1,matriculados,Ciencias sociales y humanas,Posgrado,35511
+2019,1,matriculados,Ciencias sociales y humanas,Pregrado,409572
+2019,1,matriculados,"Economía, administración, contaduría y afines",Posgrado,61126
+2019,1,matriculados,"Economía, administración, contaduría y afines",Pregrado,667017
+2019,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,26610
+2019,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,599287
+2019,1,matriculados,Matemáticas y ciencias naturales,Posgrado,5132
+2019,1,matriculados,Matemáticas y ciencias naturales,Pregrado,43072
+2019,1,primer_curso,"Agronomía, veterinaria y afines",Posgrado,864
+2019,1,primer_curso,"Agronomía, veterinaria y afines",Pregrado,8267
+2019,1,primer_curso,Bellas artes,Posgrado,450
+2019,1,primer_curso,Bellas artes,Pregrado,14226
+2019,1,primer_curso,Ciencias de la educación,Posgrado,7828
+2019,1,primer_curso,Ciencias de la educación,Pregrado,25546
+2019,1,primer_curso,Ciencias de la salud,Posgrado,4361
+2019,1,primer_curso,Ciencias de la salud,Pregrado,24042
+2019,1,primer_curso,Ciencias sociales y humanas,Posgrado,14792
+2019,1,primer_curso,Ciencias sociales y humanas,Pregrado,68926
+2019,1,primer_curso,"Economía, administración, contaduría y afines",Posgrado,30431
+2019,1,primer_curso,"Economía, administración, contaduría y afines",Pregrado,121582
+2019,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,11862
+2019,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,105275
+2019,1,primer_curso,Matemáticas y ciencias naturales,Posgrado,1602
+2019,1,primer_curso,Matemáticas y ciencias naturales,Pregrado,7614
+2019,2,graduados,"Agronomía, veterinaria y afines",Posgrado,590
+2019,2,graduados,"Agronomía, veterinaria y afines",Pregrado,5157
+2019,2,graduados,Bellas artes,Posgrado,462
+2019,2,graduados,Bellas artes,Pregrado,8119
+2019,2,graduados,Ciencias de la educación,Posgrado,9817
+2019,2,graduados,Ciencias de la educación,Pregrado,15028
+2019,2,graduados,Ciencias de la salud,Posgrado,4687
+2019,2,graduados,Ciencias de la salud,Pregrado,15083
+2019,2,graduados,Ciencias sociales y humanas,Posgrado,13953
+2019,2,graduados,Ciencias sociales y humanas,Pregrado,34132
+2019,2,graduados,"Economía, administración, contaduría y afines",Posgrado,25923
+2019,2,graduados,"Economía, administración, contaduría y afines",Pregrado,90421
+2019,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,9112
+2019,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,65299
+2019,2,graduados,Matemáticas y ciencias naturales,Posgrado,1121
+2019,2,graduados,Matemáticas y ciencias naturales,Pregrado,4066
+2019,2,matriculados,"Agronomía, veterinaria y afines",Posgrado,2330
+2019,2,matriculados,"Agronomía, veterinaria y afines",Pregrado,47285
+2019,2,matriculados,Bellas artes,Posgrado,2055
+2019,2,matriculados,Bellas artes,Pregrado,74760
+2019,2,matriculados,Ciencias de la educación,Posgrado,29803
+2019,2,matriculados,Ciencias de la educación,Pregrado,149962
+2019,2,matriculados,Ciencias de la salud,Posgrado,15798
+2019,2,matriculados,Ciencias de la salud,Pregrado,159191
+2019,2,matriculados,Ciencias sociales y humanas,Posgrado,34354
+2019,2,matriculados,Ciencias sociales y humanas,Pregrado,403966
+2019,2,matriculados,"Economía, administración, contaduría y afines",Posgrado,68492
+2019,2,matriculados,"Economía, administración, contaduría y afines",Pregrado,681714
+2019,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,30407
+2019,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,607311
+2019,2,matriculados,Matemáticas y ciencias naturales,Posgrado,5126
+2019,2,matriculados,Matemáticas y ciencias naturales,Pregrado,40956
+2019,2,primer_curso,"Agronomía, veterinaria y afines",Posgrado,836
+2019,2,primer_curso,"Agronomía, veterinaria y afines",Pregrado,6721
+2019,2,primer_curso,Bellas artes,Posgrado,797
+2019,2,primer_curso,Bellas artes,Pregrado,11222
+2019,2,primer_curso,Ciencias de la educación,Posgrado,9640
+2019,2,primer_curso,Ciencias de la educación,Pregrado,20117
+2019,2,primer_curso,Ciencias de la salud,Posgrado,4232
+2019,2,primer_curso,Ciencias de la salud,Pregrado,20947
+2019,2,primer_curso,Ciencias sociales y humanas,Posgrado,12594
+2019,2,primer_curso,Ciencias sociales y humanas,Pregrado,48662
+2019,2,primer_curso,"Economía, administración, contaduría y afines",Posgrado,30054
+2019,2,primer_curso,"Economía, administración, contaduría y afines",Pregrado,109538
+2019,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,10959
+2019,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,84307
+2019,2,primer_curso,Matemáticas y ciencias naturales,Posgrado,1209
+2019,2,primer_curso,Matemáticas y ciencias naturales,Pregrado,5337
+2020,1,graduados,"Agronomía, veterinaria y afines",Posgrado,416
+2020,1,graduados,"Agronomía, veterinaria y afines",Pregrado,2705
+2020,1,graduados,Bellas artes,Posgrado,376
+2020,1,graduados,Bellas artes,Pregrado,4445
+2020,1,graduados,Ciencias de la educación,Posgrado,5907
+2020,1,graduados,Ciencias de la educación,Pregrado,9087
+2020,1,graduados,Ciencias de la salud,Posgrado,3153
+2020,1,graduados,Ciencias de la salud,Pregrado,10961
+2020,1,graduados,Ciencias sociales y humanas,Posgrado,9130
+2020,1,graduados,Ciencias sociales y humanas,Pregrado,28643
+2020,1,graduados,"Economía, administración, contaduría y afines",Posgrado,19334
+2020,1,graduados,"Economía, administración, contaduría y afines",Pregrado,52056
+2020,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,5510
+2020,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,35511
+2020,1,graduados,Matemáticas y ciencias naturales,Posgrado,591
+2020,1,graduados,Matemáticas y ciencias naturales,Pregrado,2200
+2020,1,matriculados,"Agronomía, veterinaria y afines",Posgrado,1766
+2020,1,matriculados,"Agronomía, veterinaria y afines",Pregrado,45214
+2020,1,matriculados,Bellas artes,Posgrado,1586
+2020,1,matriculados,Bellas artes,Pregrado,70837
+2020,1,matriculados,Ciencias de la educación,Posgrado,33166
+2020,1,matriculados,Ciencias de la educación,Pregrado,147686
+2020,1,matriculados,Ciencias de la salud,Posgrado,15067
+2020,1,matriculados,Ciencias de la salud,Pregrado,159314
+2020,1,matriculados,Ciencias sociales y humanas,Posgrado,34692
+2020,1,matriculados,Ciencias sociales y humanas,Pregrado,405763
+2020,1,matriculados,"Economía, administración, contaduría y afines",Posgrado,61235
+2020,1,matriculados,"Economía, administración, contaduría y afines",Pregrado,648652
+2020,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,25462
+2020,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,570529
+2020,1,matriculados,Matemáticas y ciencias naturales,Posgrado,4622
+2020,1,matriculados,Matemáticas y ciencias naturales,Pregrado,41407
+2020,1,matriculados,Sin clasificar,Pregrado,93
+2020,1,primer_curso,"Agronomía, veterinaria y afines",Posgrado,480
+2020,1,primer_curso,"Agronomía, veterinaria y afines",Pregrado,9864
+2020,1,primer_curso,Bellas artes,Posgrado,443
+2020,1,primer_curso,Bellas artes,Pregrado,14820
+2020,1,primer_curso,Ciencias de la educación,Posgrado,11960
+2020,1,primer_curso,Ciencias de la educación,Pregrado,23965
+2020,1,primer_curso,Ciencias de la salud,Posgrado,4561
+2020,1,primer_curso,Ciencias de la salud,Pregrado,24195
+2020,1,primer_curso,Ciencias sociales y humanas,Posgrado,15310
+2020,1,primer_curso,Ciencias sociales y humanas,Pregrado,63421
+2020,1,primer_curso,"Economía, administración, contaduría y afines",Posgrado,25453
+2020,1,primer_curso,"Economía, administración, contaduría y afines",Pregrado,153745
+2020,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,8979
+2020,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,112705
+2020,1,primer_curso,Matemáticas y ciencias naturales,Posgrado,1337
+2020,1,primer_curso,Matemáticas y ciencias naturales,Pregrado,7582
+2020,1,primer_curso,Sin clasificar,Pregrado,2667
+2020,2,graduados,"Agronomía, veterinaria y afines",Posgrado,541
+2020,2,graduados,"Agronomía, veterinaria y afines",Pregrado,3343
+2020,2,graduados,Bellas artes,Posgrado,477
+2020,2,graduados,Bellas artes,Pregrado,6176
+2020,2,graduados,Ciencias de la educación,Posgrado,9743
+2020,2,graduados,Ciencias de la educación,Pregrado,13706
+2020,2,graduados,Ciencias de la salud,Posgrado,3943
+2020,2,graduados,Ciencias de la salud,Pregrado,11621
+2020,2,graduados,Ciencias sociales y humanas,Posgrado,14164
+2020,2,graduados,Ciencias sociales y humanas,Pregrado,36820
+2020,2,graduados,"Economía, administración, contaduría y afines",Posgrado,26414
+2020,2,graduados,"Economía, administración, contaduría y afines",Pregrado,69411
+2020,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,8411
+2020,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,50955
+2020,2,graduados,Matemáticas y ciencias naturales,Posgrado,985
+2020,2,graduados,Matemáticas y ciencias naturales,Pregrado,3128
+2020,2,graduados,Sin clasificar,Posgrado,24
+2020,2,graduados,Sin clasificar,Pregrado,36
+2020,2,matriculados,"Agronomía, veterinaria y afines",Posgrado,1689
+2020,2,matriculados,"Agronomía, veterinaria y afines",Pregrado,43563
+2020,2,matriculados,Bellas artes,Posgrado,1570
+2020,2,matriculados,Bellas artes,Pregrado,66899
+2020,2,matriculados,Ciencias de la educación,Posgrado,35146
+2020,2,matriculados,Ciencias de la educación,Pregrado,139592
+2020,2,matriculados,Ciencias de la salud,Posgrado,15388
+2020,2,matriculados,Ciencias de la salud,Pregrado,152587
+2020,2,matriculados,Ciencias sociales y humanas,Posgrado,36543
+2020,2,matriculados,Ciencias sociales y humanas,Pregrado,366248
+2020,2,matriculados,"Economía, administración, contaduría y afines",Posgrado,61223
+2020,2,matriculados,"Economía, administración, contaduría y afines",Pregrado,649546
+2020,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,26240
+2020,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,571074
+2020,2,matriculados,Matemáticas y ciencias naturales,Posgrado,4640
+2020,2,matriculados,Matemáticas y ciencias naturales,Pregrado,40794
+2020,2,matriculados,Sin clasificar,Posgrado,858
+2020,2,matriculados,Sin clasificar,Pregrado,13516
+2020,2,primer_curso,"Agronomía, veterinaria y afines",Posgrado,434
+2020,2,primer_curso,"Agronomía, veterinaria y afines",Pregrado,6559
+2020,2,primer_curso,Bellas artes,Posgrado,478
+2020,2,primer_curso,Bellas artes,Pregrado,10786
+2020,2,primer_curso,Ciencias de la educación,Posgrado,12260
+2020,2,primer_curso,Ciencias de la educación,Pregrado,17803
+2020,2,primer_curso,Ciencias de la salud,Posgrado,4181
+2020,2,primer_curso,Ciencias de la salud,Pregrado,16880
+2020,2,primer_curso,Ciencias sociales y humanas,Posgrado,14918
+2020,2,primer_curso,Ciencias sociales y humanas,Pregrado,38846
+2020,2,primer_curso,"Economía, administración, contaduría y afines",Posgrado,25362
+2020,2,primer_curso,"Economía, administración, contaduría y afines",Pregrado,118219
+2020,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,8830
+2020,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,81603
+2020,2,primer_curso,Matemáticas y ciencias naturales,Posgrado,1274
+2020,2,primer_curso,Matemáticas y ciencias naturales,Pregrado,5169
+2020,2,primer_curso,Sin clasificar,Posgrado,858
+2020,2,primer_curso,Sin clasificar,Pregrado,9759
+2021,1,graduados,"Agronomía, veterinaria y afines",Posgrado,271
+2021,1,graduados,"Agronomía, veterinaria y afines",Pregrado,2856
+2021,1,graduados,Bellas artes,Posgrado,205
+2021,1,graduados,Bellas artes,Pregrado,5207
+2021,1,graduados,Ciencias de la educación,Posgrado,8919
+2021,1,graduados,Ciencias de la educación,Pregrado,10955
+2021,1,graduados,Ciencias de la salud,Posgrado,3540
+2021,1,graduados,Ciencias de la salud,Pregrado,10524
+2021,1,graduados,Ciencias sociales y humanas,Posgrado,11528
+2021,1,graduados,Ciencias sociales y humanas,Pregrado,31381
+2021,1,graduados,"Economía, administración, contaduría y afines",Posgrado,18283
+2021,1,graduados,"Economía, administración, contaduría y afines",Pregrado,68050
+2021,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,6519
+2021,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,47093
+2021,1,graduados,Matemáticas y ciencias naturales,Posgrado,787
+2021,1,graduados,Matemáticas y ciencias naturales,Pregrado,2639
+2021,1,graduados,Sin clasificar,Posgrado,13
+2021,1,graduados,Sin clasificar,Pregrado,57
+2021,1,matriculados,"Agronomía, veterinaria y afines",Posgrado,1269
+2021,1,matriculados,"Agronomía, veterinaria y afines",Pregrado,47405
+2021,1,matriculados,Bellas artes,Posgrado,1492
+2021,1,matriculados,Bellas artes,Pregrado,70922
+2021,1,matriculados,Ciencias de la educación,Posgrado,36936
+2021,1,matriculados,Ciencias de la educación,Pregrado,150692
+2021,1,matriculados,Ciencias de la salud,Posgrado,15221
+2021,1,matriculados,Ciencias de la salud,Pregrado,167547
+2021,1,matriculados,Ciencias sociales y humanas,Posgrado,37347
+2021,1,matriculados,Ciencias sociales y humanas,Pregrado,403058
+2021,1,matriculados,"Economía, administración, contaduría y afines",Posgrado,60281
+2021,1,matriculados,"Economía, administración, contaduría y afines",Pregrado,664092
+2021,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,23948
+2021,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,597692
+2021,1,matriculados,Matemáticas y ciencias naturales,Posgrado,4908
+2021,1,matriculados,Matemáticas y ciencias naturales,Pregrado,45604
+2021,1,matriculados,Sin clasificar,Posgrado,3995
+2021,1,matriculados,Sin clasificar,Pregrado,27490
+2021,1,primer_curso,"Agronomía, veterinaria y afines",Posgrado,385
+2021,1,primer_curso,"Agronomía, veterinaria y afines",Pregrado,9390
+2021,1,primer_curso,Bellas artes,Posgrado,439
+2021,1,primer_curso,Bellas artes,Pregrado,14980
+2021,1,primer_curso,Ciencias de la educación,Posgrado,12520
+2021,1,primer_curso,Ciencias de la educación,Pregrado,24713
+2021,1,primer_curso,Ciencias de la salud,Posgrado,4563
+2021,1,primer_curso,Ciencias de la salud,Pregrado,25465
+2021,1,primer_curso,Ciencias sociales y humanas,Posgrado,15700
+2021,1,primer_curso,Ciencias sociales y humanas,Pregrado,65299
+2021,1,primer_curso,"Economía, administración, contaduría y afines",Posgrado,28775
+2021,1,primer_curso,"Economía, administración, contaduría y afines",Pregrado,156540
+2021,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,9146
+2021,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,118839
+2021,1,primer_curso,Matemáticas y ciencias naturales,Posgrado,1213
+2021,1,primer_curso,Matemáticas y ciencias naturales,Pregrado,7006
+2021,1,primer_curso,Sin clasificar,Posgrado,3276
+2021,1,primer_curso,Sin clasificar,Pregrado,16268
+2021,2,graduados,"Agronomía, veterinaria y afines",Posgrado,428
+2021,2,graduados,"Agronomía, veterinaria y afines",Pregrado,4170
+2021,2,graduados,Bellas artes,Posgrado,387
+2021,2,graduados,Bellas artes,Pregrado,6748
+2021,2,graduados,Ciencias de la educación,Posgrado,10953
+2021,2,graduados,Ciencias de la educación,Pregrado,12713
+2021,2,graduados,Ciencias de la salud,Posgrado,4315
+2021,2,graduados,Ciencias de la salud,Pregrado,14052
+2021,2,graduados,Ciencias sociales y humanas,Posgrado,14979
+2021,2,graduados,Ciencias sociales y humanas,Pregrado,43756
+2021,2,graduados,"Economía, administración, contaduría y afines",Posgrado,25617
+2021,2,graduados,"Economía, administración, contaduría y afines",Pregrado,84635
+2021,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,7744
+2021,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,59402
+2021,2,graduados,Matemáticas y ciencias naturales,Posgrado,870
+2021,2,graduados,Matemáticas y ciencias naturales,Pregrado,3212
+2021,2,graduados,Sin clasificar,Posgrado,488
+2021,2,graduados,Sin clasificar,Pregrado,1687
+2021,2,matriculados,"Agronomía, veterinaria y afines",Posgrado,1202
+2021,2,matriculados,"Agronomía, veterinaria y afines",Pregrado,49623
+2021,2,matriculados,Bellas artes,Posgrado,1503
+2021,2,matriculados,Bellas artes,Pregrado,72750
+2021,2,matriculados,Ciencias de la educación,Posgrado,33685
+2021,2,matriculados,Ciencias de la educación,Pregrado,143324
+2021,2,matriculados,Ciencias de la salud,Posgrado,15210
+2021,2,matriculados,Ciencias de la salud,Pregrado,169028
+2021,2,matriculados,Ciencias sociales y humanas,Posgrado,35934
+2021,2,matriculados,Ciencias sociales y humanas,Pregrado,383646
+2021,2,matriculados,"Economía, administración, contaduría y afines",Posgrado,57391
+2021,2,matriculados,"Economía, administración, contaduría y afines",Pregrado,689719
+2021,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,23511
+2021,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,607997
+2021,2,matriculados,Matemáticas y ciencias naturales,Posgrado,4547
+2021,2,matriculados,Matemáticas y ciencias naturales,Pregrado,43028
+2021,2,matriculados,Sin clasificar,Posgrado,8067
+2021,2,matriculados,Sin clasificar,Pregrado,50696
+2021,2,primer_curso,"Agronomía, veterinaria y afines",Posgrado,319
+2021,2,primer_curso,"Agronomía, veterinaria y afines",Pregrado,6291
+2021,2,primer_curso,Bellas artes,Posgrado,462
+2021,2,primer_curso,Bellas artes,Pregrado,12453
+2021,2,primer_curso,Ciencias de la educación,Posgrado,9057
+2021,2,primer_curso,Ciencias de la educación,Pregrado,18297
+2021,2,primer_curso,Ciencias de la salud,Posgrado,3903
+2021,2,primer_curso,Ciencias de la salud,Pregrado,21672
+2021,2,primer_curso,Ciencias sociales y humanas,Posgrado,13039
+2021,2,primer_curso,Ciencias sociales y humanas,Pregrado,43664
+2021,2,primer_curso,"Economía, administración, contaduría y afines",Posgrado,21897
+2021,2,primer_curso,"Economía, administración, contaduría y afines",Pregrado,117391
+2021,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,7275
+2021,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,84693
+2021,2,primer_curso,Matemáticas y ciencias naturales,Posgrado,1014
+2021,2,primer_curso,Matemáticas y ciencias naturales,Pregrado,5779
+2021,2,primer_curso,Sin clasificar,Posgrado,4711
+2021,2,primer_curso,Sin clasificar,Pregrado,24693
+2022,1,graduados,"Agronomía, veterinaria y afines",Posgrado,146
+2022,1,graduados,"Agronomía, veterinaria y afines",Pregrado,2589
+2022,1,graduados,Bellas artes,Posgrado,316
+2022,1,graduados,Bellas artes,Pregrado,5079
+2022,1,graduados,Ciencias de la educación,Posgrado,9376
+2022,1,graduados,Ciencias de la educación,Pregrado,10284
+2022,1,graduados,Ciencias de la salud,Posgrado,3103
+2022,1,graduados,Ciencias de la salud,Pregrado,10062
+2022,1,graduados,Ciencias sociales y humanas,Posgrado,11437
+2022,1,graduados,Ciencias sociales y humanas,Pregrado,35677
+2022,1,graduados,"Economía, administración, contaduría y afines",Posgrado,20451
+2022,1,graduados,"Economía, administración, contaduría y afines",Pregrado,55935
+2022,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,6001
+2022,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,43545
+2022,1,graduados,Matemáticas y ciencias naturales,Posgrado,694
+2022,1,graduados,Matemáticas y ciencias naturales,Pregrado,2190
+2022,1,graduados,Sin información,Posgrado,1446
+2022,1,graduados,Sin información,Pregrado,744
+2022,1,matriculados,"Agronomía, veterinaria y afines",Posgrado,1133
+2022,1,matriculados,"Agronomía, veterinaria y afines",Pregrado,46202
+2022,1,matriculados,Bellas artes,Posgrado,1403
+2022,1,matriculados,Bellas artes,Pregrado,74357
+2022,1,matriculados,Ciencias de la educación,Posgrado,32131
+2022,1,matriculados,Ciencias de la educación,Pregrado,151244
+2022,1,matriculados,Ciencias de la salud,Posgrado,15177
+2022,1,matriculados,Ciencias de la salud,Pregrado,175432
+2022,1,matriculados,Ciencias sociales y humanas,Posgrado,35778
+2022,1,matriculados,Ciencias sociales y humanas,Pregrado,388450
+2022,1,matriculados,"Economía, administración, contaduría y afines",Posgrado,54183
+2022,1,matriculados,"Economía, administración, contaduría y afines",Pregrado,653736
+2022,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,21799
+2022,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,584552
+2022,1,matriculados,Matemáticas y ciencias naturales,Posgrado,4545
+2022,1,matriculados,Matemáticas y ciencias naturales,Pregrado,46704
+2022,1,matriculados,Sin clasificar,Posgrado,16036
+2022,1,matriculados,Sin clasificar,Pregrado,81929
+2022,1,primer_curso,"Agronomía, veterinaria y afines",Posgrado,334
+2022,1,primer_curso,"Agronomía, veterinaria y afines",Pregrado,7857
+2022,1,primer_curso,Bellas artes,Posgrado,368
+2022,1,primer_curso,Bellas artes,Pregrado,17214
+2022,1,primer_curso,Ciencias de la educación,Posgrado,10848
+2022,1,primer_curso,Ciencias de la educación,Pregrado,22644
+2022,1,primer_curso,Ciencias de la salud,Posgrado,4351
+2022,1,primer_curso,Ciencias de la salud,Pregrado,25298
+2022,1,primer_curso,Ciencias sociales y humanas,Posgrado,14629
+2022,1,primer_curso,Ciencias sociales y humanas,Pregrado,57574
+2022,1,primer_curso,"Economía, administración, contaduría y afines",Posgrado,23763
+2022,1,primer_curso,"Economía, administración, contaduría y afines",Pregrado,122937
+2022,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,8671
+2022,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,99921
+2022,1,primer_curso,Matemáticas y ciencias naturales,Posgrado,1088
+2022,1,primer_curso,Matemáticas y ciencias naturales,Pregrado,6970
+2022,1,primer_curso,Sin clasificar,Posgrado,10420
+2022,1,primer_curso,Sin clasificar,Pregrado,44221
+2022,2,graduados,"Agronomía, veterinaria y afines",Posgrado,338
+2022,2,graduados,"Agronomía, veterinaria y afines",Pregrado,4695
+2022,2,graduados,Bellas artes,Posgrado,410
+2022,2,graduados,Bellas artes,Pregrado,7479
+2022,2,graduados,Ciencias de la educación,Posgrado,11304
+2022,2,graduados,Ciencias de la educación,Pregrado,13367
+2022,2,graduados,Ciencias de la salud,Posgrado,4293
+2022,2,graduados,Ciencias de la salud,Pregrado,16479
+2022,2,graduados,Ciencias sociales y humanas,Posgrado,14521
+2022,2,graduados,Ciencias sociales y humanas,Pregrado,46052
+2022,2,graduados,"Economía, administración, contaduría y afines",Posgrado,23092
+2022,2,graduados,"Economía, administración, contaduría y afines",Pregrado,93304
+2022,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,7503
+2022,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,61225
+2022,2,graduados,Matemáticas y ciencias naturales,Posgrado,1063
+2022,2,graduados,Matemáticas y ciencias naturales,Pregrado,3515
+2022,2,graduados,Sin información,Posgrado,3424
+2022,2,graduados,Sin información,Pregrado,4824
+2022,2,matriculados,"Agronomía, veterinaria y afines",Posgrado,1195
+2022,2,matriculados,"Agronomía, veterinaria y afines",Pregrado,48052
+2022,2,matriculados,Bellas artes,Posgrado,1554
+2022,2,matriculados,Bellas artes,Pregrado,77154
+2022,2,matriculados,Ciencias de la educación,Posgrado,30764
+2022,2,matriculados,Ciencias de la educación,Pregrado,150603
+2022,2,matriculados,Ciencias de la salud,Posgrado,15067
+2022,2,matriculados,Ciencias de la salud,Pregrado,176394
+2022,2,matriculados,Ciencias sociales y humanas,Posgrado,35741
+2022,2,matriculados,Ciencias sociales y humanas,Pregrado,373394
+2022,2,matriculados,"Economía, administración, contaduría y afines",Posgrado,53105
+2022,2,matriculados,"Economía, administración, contaduría y afines",Pregrado,653384
+2022,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,23535
+2022,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,579851
+2022,2,matriculados,Matemáticas y ciencias naturales,Posgrado,4571
+2022,2,matriculados,Matemáticas y ciencias naturales,Pregrado,44844
+2022,2,matriculados,Sin clasificar,Posgrado,24300
+2022,2,matriculados,Sin clasificar,Pregrado,139325
+2022,2,primer_curso,"Agronomía, veterinaria y afines",Posgrado,353
+2022,2,primer_curso,"Agronomía, veterinaria y afines",Pregrado,6302
+2022,2,primer_curso,Bellas artes,Posgrado,497
+2022,2,primer_curso,Bellas artes,Pregrado,13322
+2022,2,primer_curso,Ciencias de la educación,Posgrado,8863
+2022,2,primer_curso,Ciencias de la educación,Pregrado,17842
+2022,2,primer_curso,Ciencias de la salud,Posgrado,3827
+2022,2,primer_curso,Ciencias de la salud,Pregrado,21126
+2022,2,primer_curso,Ciencias sociales y humanas,Posgrado,13630
+2022,2,primer_curso,Ciencias sociales y humanas,Pregrado,43944
+2022,2,primer_curso,"Economía, administración, contaduría y afines",Posgrado,21787
+2022,2,primer_curso,"Economía, administración, contaduría y afines",Pregrado,98764
+2022,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,7087
+2022,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,78889
+2022,2,primer_curso,Matemáticas y ciencias naturales,Posgrado,1063
+2022,2,primer_curso,Matemáticas y ciencias naturales,Pregrado,5365
+2022,2,primer_curso,Sin clasificar,Posgrado,12862
+2022,2,primer_curso,Sin clasificar,Pregrado,67086
+2023,1,graduados,"Agronomía, veterinaria y afines",Posgrado,221
+2023,1,graduados,"Agronomía, veterinaria y afines",Pregrado,3000
+2023,1,graduados,Bellas artes,Posgrado,293
+2023,1,graduados,Bellas artes,Pregrado,4885
+2023,1,graduados,Ciencias de la educación,Posgrado,8486
+2023,1,graduados,Ciencias de la educación,Pregrado,9749
+2023,1,graduados,Ciencias de la salud,Posgrado,3420
+2023,1,graduados,Ciencias de la salud,Pregrado,10633
+2023,1,graduados,Ciencias sociales y humanas,Posgrado,10955
+2023,1,graduados,Ciencias sociales y humanas,Pregrado,31451
+2023,1,graduados,"Economía, administración, contaduría y afines",Posgrado,17811
+2023,1,graduados,"Economía, administración, contaduría y afines",Pregrado,55194
+2023,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,6485
+2023,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,40247
+2023,1,graduados,Matemáticas y ciencias naturales,Posgrado,733
+2023,1,graduados,Matemáticas y ciencias naturales,Pregrado,2538
+2023,1,graduados,Sin información,Posgrado,5045
+2023,1,graduados,Sin información,Pregrado,2747
+2023,1,matriculados,"Agronomía, veterinaria y afines",Posgrado,1295
+2023,1,matriculados,"Agronomía, veterinaria y afines",Pregrado,46602
+2023,1,matriculados,Bellas artes,Posgrado,1474
+2023,1,matriculados,Bellas artes,Pregrado,76821
+2023,1,matriculados,Ciencias de la educación,Posgrado,29793
+2023,1,matriculados,Ciencias de la educación,Pregrado,152902
+2023,1,matriculados,Ciencias de la salud,Posgrado,14419
+2023,1,matriculados,Ciencias de la salud,Pregrado,164886
+2023,1,matriculados,Ciencias sociales y humanas,Posgrado,34812
+2023,1,matriculados,Ciencias sociales y humanas,Pregrado,370423
+2023,1,matriculados,"Economía, administración, contaduría y afines",Posgrado,52323
+2023,1,matriculados,"Economía, administración, contaduría y afines",Pregrado,587411
+2023,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,21428
+2023,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,549938
+2023,1,matriculados,Matemáticas y ciencias naturales,Posgrado,4636
+2023,1,matriculados,Matemáticas y ciencias naturales,Pregrado,46474
+2023,1,matriculados,Sin información,Posgrado,34856
+2023,1,matriculados,Sin información,Pregrado,193678
+2023,1,primer_curso,"Agronomía, veterinaria y afines",Posgrado,404
+2023,1,primer_curso,"Agronomía, veterinaria y afines",Pregrado,8607
+2023,1,primer_curso,Bellas artes,Posgrado,412
+2023,1,primer_curso,Bellas artes,Pregrado,16105
+2023,1,primer_curso,Ciencias de la educación,Posgrado,10827
+2023,1,primer_curso,Ciencias de la educación,Pregrado,24348
+2023,1,primer_curso,Ciencias de la salud,Posgrado,3812
+2023,1,primer_curso,Ciencias de la salud,Pregrado,21213
+2023,1,primer_curso,Ciencias sociales y humanas,Posgrado,13977
+2023,1,primer_curso,Ciencias sociales y humanas,Pregrado,53948
+2023,1,primer_curso,"Economía, administración, contaduría y afines",Posgrado,23562
+2023,1,primer_curso,"Economía, administración, contaduría y afines",Pregrado,110530
+2023,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,7716
+2023,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,99310
+2023,1,primer_curso,Matemáticas y ciencias naturales,Posgrado,1085
+2023,1,primer_curso,Matemáticas y ciencias naturales,Pregrado,6813
+2023,1,primer_curso,Sin información,Posgrado,18657
+2023,1,primer_curso,Sin información,Pregrado,85610
+2023,2,graduados,"Agronomía, veterinaria y afines",Posgrado,424
+2023,2,graduados,"Agronomía, veterinaria y afines",Pregrado,4727
+2023,2,graduados,Bellas artes,Posgrado,458
+2023,2,graduados,Bellas artes,Pregrado,7142
+2023,2,graduados,Ciencias de la educación,Posgrado,10670
+2023,2,graduados,Ciencias de la educación,Pregrado,13509
+2023,2,graduados,Ciencias de la salud,Posgrado,4208
+2023,2,graduados,Ciencias de la salud,Pregrado,16376
+2023,2,graduados,Ciencias sociales y humanas,Posgrado,15648
+2023,2,graduados,Ciencias sociales y humanas,Pregrado,45131
+2023,2,graduados,"Economía, administración, contaduría y afines",Posgrado,23315
+2023,2,graduados,"Economía, administración, contaduría y afines",Pregrado,87673
+2023,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,7800
+2023,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,57782
+2023,2,graduados,Matemáticas y ciencias naturales,Posgrado,1103
+2023,2,graduados,Matemáticas y ciencias naturales,Pregrado,3899
+2023,2,graduados,Sin información,Posgrado,10871
+2023,2,graduados,Sin información,Pregrado,10313
+2023,2,matriculados,"Agronomía, veterinaria y afines",Posgrado,1270
+2023,2,matriculados,"Agronomía, veterinaria y afines",Pregrado,49162
+2023,2,matriculados,Bellas artes,Posgrado,1456
+2023,2,matriculados,Bellas artes,Pregrado,78626
+2023,2,matriculados,Ciencias de la educación,Posgrado,27524
+2023,2,matriculados,Ciencias de la educación,Pregrado,150899
+2023,2,matriculados,Ciencias de la salud,Posgrado,13981
+2023,2,matriculados,Ciencias de la salud,Pregrado,164623
+2023,2,matriculados,Ciencias sociales y humanas,Posgrado,32901
+2023,2,matriculados,Ciencias sociales y humanas,Pregrado,350575
+2023,2,matriculados,"Economía, administración, contaduría y afines",Posgrado,47131
+2023,2,matriculados,"Economía, administración, contaduría y afines",Pregrado,583403
+2023,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,20426
+2023,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,547425
+2023,2,matriculados,Matemáticas y ciencias naturales,Posgrado,4431
+2023,2,matriculados,Matemáticas y ciencias naturales,Pregrado,45406
+2023,2,matriculados,Sin información,Posgrado,38869
+2023,2,matriculados,Sin información,Pregrado,286921
+2023,2,primer_curso,"Agronomía, veterinaria y afines",Posgrado,356
+2023,2,primer_curso,"Agronomía, veterinaria y afines",Pregrado,8715
+2023,2,primer_curso,Bellas artes,Posgrado,475
+2023,2,primer_curso,Bellas artes,Pregrado,13629
+2023,2,primer_curso,Ciencias de la educación,Posgrado,8787
+2023,2,primer_curso,Ciencias de la educación,Pregrado,20194
+2023,2,primer_curso,Ciencias de la salud,Posgrado,3375
+2023,2,primer_curso,Ciencias de la salud,Pregrado,19503
+2023,2,primer_curso,Ciencias sociales y humanas,Posgrado,11824
+2023,2,primer_curso,Ciencias sociales y humanas,Pregrado,38489
+2023,2,primer_curso,"Economía, administración, contaduría y afines",Posgrado,19347
+2023,2,primer_curso,"Economía, administración, contaduría y afines",Pregrado,96431
+2023,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,6895
+2023,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,81438
+2023,2,primer_curso,Matemáticas y ciencias naturales,Posgrado,999
+2023,2,primer_curso,Matemáticas y ciencias naturales,Pregrado,5390
+2023,2,primer_curso,Sin información,Posgrado,18138
+2023,2,primer_curso,Sin información,Pregrado,111395
+2024,1,graduados,"Agronomía, veterinaria y afines",Posgrado,225
+2024,1,graduados,"Agronomía, veterinaria y afines",Pregrado,2323
+2024,1,graduados,Bellas artes,Posgrado,362
+2024,1,graduados,Bellas artes,Pregrado,4872
+2024,1,graduados,Ciencias de la educación,Posgrado,9891
+2024,1,graduados,Ciencias de la educación,Pregrado,8539
+2024,1,graduados,Ciencias de la salud,Posgrado,3181
+2024,1,graduados,Ciencias de la salud,Pregrado,10738
+2024,1,graduados,Ciencias sociales y humanas,Posgrado,13741
+2024,1,graduados,Ciencias sociales y humanas,Pregrado,27046
+2024,1,graduados,"Economía, administración, contaduría y afines",Posgrado,21311
+2024,1,graduados,"Economía, administración, contaduría y afines",Pregrado,51032
+2024,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,7331
+2024,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,37998
+2024,1,graduados,Matemáticas y ciencias naturales,Posgrado,857
+2024,1,graduados,Matemáticas y ciencias naturales,Pregrado,2460
+2024,1,graduados,Sin información,Posgrado,948
+2024,1,graduados,Sin información,Pregrado,9170
+2024,1,matriculados,"Agronomía, veterinaria y afines",Posgrado,1820
+2024,1,matriculados,"Agronomía, veterinaria y afines",Pregrado,49113
+2024,1,matriculados,Bellas artes,Posgrado,1748
+2024,1,matriculados,Bellas artes,Pregrado,100099
+2024,1,matriculados,Ciencias de la educación,Posgrado,39021
+2024,1,matriculados,Ciencias de la educación,Pregrado,159245
+2024,1,matriculados,Ciencias de la salud,Posgrado,14813
+2024,1,matriculados,Ciencias de la salud,Pregrado,165728
+2024,1,matriculados,Ciencias sociales y humanas,Posgrado,41804
+2024,1,matriculados,Ciencias sociales y humanas,Pregrado,364676
+2024,1,matriculados,"Economía, administración, contaduría y afines",Posgrado,66751
+2024,1,matriculados,"Economía, administración, contaduría y afines",Pregrado,605120
+2024,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,29617
+2024,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,642319
+2024,1,matriculados,Matemáticas y ciencias naturales,Posgrado,5453
+2024,1,matriculados,Matemáticas y ciencias naturales,Pregrado,46486
+2024,1,matriculados,Sin información,Posgrado,5776
+2024,1,matriculados,Sin información,Pregrado,125337
+2024,1,primer_curso,"Agronomía, veterinaria y afines",Posgrado,654
+2024,1,primer_curso,"Agronomía, veterinaria y afines",Pregrado,9978
+2024,1,primer_curso,Bellas artes,Posgrado,632
+2024,1,primer_curso,Bellas artes,Pregrado,21969
+2024,1,primer_curso,Ciencias de la educación,Posgrado,16848
+2024,1,primer_curso,Ciencias de la educación,Pregrado,30573
+2024,1,primer_curso,Ciencias de la salud,Posgrado,4589
+2024,1,primer_curso,Ciencias de la salud,Pregrado,22968
+2024,1,primer_curso,Ciencias sociales y humanas,Posgrado,19271
+2024,1,primer_curso,Ciencias sociales y humanas,Pregrado,58012
+2024,1,primer_curso,"Economía, administración, contaduría y afines",Posgrado,34085
+2024,1,primer_curso,"Economía, administración, contaduría y afines",Pregrado,140226
+2024,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,13654
+2024,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,140580
+2024,1,primer_curso,Matemáticas y ciencias naturales,Posgrado,1765
+2024,1,primer_curso,Matemáticas y ciencias naturales,Pregrado,8163
+2024,1,primer_curso,Sin información,Posgrado,3343
+2024,1,primer_curso,Sin información,Pregrado,27960
+2024,2,graduados,"Agronomía, veterinaria y afines",Posgrado,532
+2024,2,graduados,"Agronomía, veterinaria y afines",Pregrado,4224
+2024,2,graduados,Bellas artes,Posgrado,521
+2024,2,graduados,Bellas artes,Pregrado,8560
+2024,2,graduados,Ciencias de la educación,Posgrado,15914
+2024,2,graduados,Ciencias de la educación,Pregrado,12663
+2024,2,graduados,Ciencias de la salud,Posgrado,4018
+2024,2,graduados,Ciencias de la salud,Pregrado,17104
+2024,2,graduados,Ciencias sociales y humanas,Posgrado,17342
+2024,2,graduados,Ciencias sociales y humanas,Pregrado,51338
+2024,2,graduados,"Economía, administración, contaduría y afines",Posgrado,28351
+2024,2,graduados,"Economía, administración, contaduría y afines",Pregrado,84992
+2024,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,9976
+2024,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,59357
+2024,2,graduados,Matemáticas y ciencias naturales,Posgrado,1226
+2024,2,graduados,Matemáticas y ciencias naturales,Pregrado,4015
+2024,2,graduados,Sin información,Posgrado,1096
+2024,2,graduados,Sin información,Pregrado,14705
+2024,2,matriculados,"Agronomía, veterinaria y afines",Posgrado,1780
+2024,2,matriculados,"Agronomía, veterinaria y afines",Pregrado,52114
+2024,2,matriculados,Bellas artes,Posgrado,1764
+2024,2,matriculados,Bellas artes,Pregrado,109069
+2024,2,matriculados,Ciencias de la educación,Posgrado,36852
+2024,2,matriculados,Ciencias de la educación,Pregrado,162161
+2024,2,matriculados,Ciencias de la salud,Posgrado,14896
+2024,2,matriculados,Ciencias de la salud,Pregrado,165657
+2024,2,matriculados,Ciencias sociales y humanas,Posgrado,43054
+2024,2,matriculados,Ciencias sociales y humanas,Pregrado,361941
+2024,2,matriculados,"Economía, administración, contaduría y afines",Posgrado,64284
+2024,2,matriculados,"Economía, administración, contaduría y afines",Pregrado,639343
+2024,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,30357
+2024,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,680196
+2024,2,matriculados,Matemáticas y ciencias naturales,Posgrado,5158
+2024,2,matriculados,Matemáticas y ciencias naturales,Pregrado,47186
+2024,2,matriculados,Sin información,Posgrado,10399
+2024,2,matriculados,Sin información,Pregrado,135496
+2024,2,primer_curso,"Agronomía, veterinaria y afines",Posgrado,554
+2024,2,primer_curso,"Agronomía, veterinaria y afines",Pregrado,8112
+2024,2,primer_curso,Bellas artes,Posgrado,563
+2024,2,primer_curso,Bellas artes,Pregrado,19829
+2024,2,primer_curso,Ciencias de la educación,Posgrado,12605
+2024,2,primer_curso,Ciencias de la educación,Pregrado,24855
+2024,2,primer_curso,Ciencias de la salud,Posgrado,3680
+2024,2,primer_curso,Ciencias de la salud,Pregrado,20054
+2024,2,primer_curso,Ciencias sociales y humanas,Posgrado,17235
+2024,2,primer_curso,Ciencias sociales y humanas,Pregrado,60299
+2024,2,primer_curso,"Economía, administración, contaduría y afines",Posgrado,26924
+2024,2,primer_curso,"Economía, administración, contaduría y afines",Pregrado,130121
+2024,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,11112
+2024,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,122605
+2024,2,primer_curso,Matemáticas y ciencias naturales,Posgrado,1193
+2024,2,primer_curso,Matemáticas y ciencias naturales,Pregrado,6634
+2024,2,primer_curso,Sin información,Posgrado,6347
+2024,2,primer_curso,Sin información,Pregrado,30044
+2025,1,graduados,"Agronomía, veterinaria y afines",Posgrado,289
+2025,1,graduados,"Agronomía, veterinaria y afines",Pregrado,3340
+2025,1,graduados,Bellas artes,Posgrado,414
+2025,1,graduados,Bellas artes,Pregrado,6468
+2025,1,graduados,Ciencias de la educación,Posgrado,9845
+2025,1,graduados,Ciencias de la educación,Pregrado,9011
+2025,1,graduados,Ciencias de la salud,Posgrado,3513
+2025,1,graduados,Ciencias de la salud,Pregrado,11447
+2025,1,graduados,Ciencias sociales y humanas,Posgrado,14757
+2025,1,graduados,Ciencias sociales y humanas,Pregrado,31486
+2025,1,graduados,"Economía, administración, contaduría y afines",Posgrado,24564
+2025,1,graduados,"Economía, administración, contaduría y afines",Pregrado,56270
+2025,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,9731
+2025,1,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,44218
+2025,1,graduados,Matemáticas y ciencias naturales,Posgrado,952
+2025,1,graduados,Matemáticas y ciencias naturales,Pregrado,3112
+2025,1,graduados,Sin información,Posgrado,343
+2025,1,graduados,Sin información,Pregrado,421
+2025,1,matriculados,"Agronomía, veterinaria y afines",Posgrado,1813
+2025,1,matriculados,"Agronomía, veterinaria y afines",Pregrado,57564
+2025,1,matriculados,Bellas artes,Posgrado,1695
+2025,1,matriculados,Bellas artes,Pregrado,112758
+2025,1,matriculados,Ciencias de la educación,Posgrado,43678
+2025,1,matriculados,Ciencias de la educación,Pregrado,181292
+2025,1,matriculados,Ciencias de la salud,Posgrado,15232
+2025,1,matriculados,Ciencias de la salud,Pregrado,169130
+2025,1,matriculados,Ciencias sociales y humanas,Posgrado,45623
+2025,1,matriculados,Ciencias sociales y humanas,Pregrado,381570
+2025,1,matriculados,"Economía, administración, contaduría y afines",Posgrado,67467
+2025,1,matriculados,"Economía, administración, contaduría y afines",Pregrado,675250
+2025,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,32629
+2025,1,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,710230
+2025,1,matriculados,Matemáticas y ciencias naturales,Posgrado,5729
+2025,1,matriculados,Matemáticas y ciencias naturales,Pregrado,50568
+2025,1,matriculados,Sin información,Posgrado,12844
+2025,1,matriculados,Sin información,Pregrado,38231
+2025,1,primer_curso,"Agronomía, veterinaria y afines",Posgrado,600
+2025,1,primer_curso,"Agronomía, veterinaria y afines",Pregrado,11394
+2025,1,primer_curso,Bellas artes,Posgrado,505
+2025,1,primer_curso,Bellas artes,Pregrado,23616
+2025,1,primer_curso,Ciencias de la educación,Posgrado,20153
+2025,1,primer_curso,Ciencias de la educación,Pregrado,31066
+2025,1,primer_curso,Ciencias de la salud,Posgrado,4906
+2025,1,primer_curso,Ciencias de la salud,Pregrado,21683
+2025,1,primer_curso,Ciencias sociales y humanas,Posgrado,21138
+2025,1,primer_curso,Ciencias sociales y humanas,Pregrado,61915
+2025,1,primer_curso,"Economía, administración, contaduría y afines",Posgrado,33182
+2025,1,primer_curso,"Economía, administración, contaduría y afines",Pregrado,148757
+2025,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,14380
+2025,1,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,145496
+2025,1,primer_curso,Matemáticas y ciencias naturales,Posgrado,1630
+2025,1,primer_curso,Matemáticas y ciencias naturales,Pregrado,8495
+2025,1,primer_curso,Sin información,Posgrado,8914
+2025,1,primer_curso,Sin información,Pregrado,24624
+2025,2,graduados,"Agronomía, veterinaria y afines",Posgrado,573
+2025,2,graduados,"Agronomía, veterinaria y afines",Pregrado,4265
+2025,2,graduados,Bellas artes,Posgrado,604
+2025,2,graduados,Bellas artes,Pregrado,9599
+2025,2,graduados,Ciencias de la educación,Posgrado,13703
+2025,2,graduados,Ciencias de la educación,Pregrado,14405
+2025,2,graduados,Ciencias de la salud,Posgrado,4059
+2025,2,graduados,Ciencias de la salud,Pregrado,15459
+2025,2,graduados,Ciencias sociales y humanas,Posgrado,19458
+2025,2,graduados,Ciencias sociales y humanas,Pregrado,52048
+2025,2,graduados,"Economía, administración, contaduría y afines",Posgrado,32053
+2025,2,graduados,"Economía, administración, contaduría y afines",Pregrado,80161
+2025,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,12518
+2025,2,graduados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,59988
+2025,2,graduados,Matemáticas y ciencias naturales,Posgrado,1484
+2025,2,graduados,Matemáticas y ciencias naturales,Pregrado,4224
+2025,2,graduados,Sin información,Posgrado,2361
+2025,2,graduados,Sin información,Pregrado,856
+2025,2,matriculados,"Agronomía, veterinaria y afines",Posgrado,1847
+2025,2,matriculados,"Agronomía, veterinaria y afines",Pregrado,62764
+2025,2,matriculados,Bellas artes,Posgrado,1617
+2025,2,matriculados,Bellas artes,Pregrado,120143
+2025,2,matriculados,Ciencias de la educación,Posgrado,47527
+2025,2,matriculados,Ciencias de la educación,Pregrado,178538
+2025,2,matriculados,Ciencias de la salud,Posgrado,15558
+2025,2,matriculados,Ciencias de la salud,Pregrado,172097
+2025,2,matriculados,Ciencias sociales y humanas,Posgrado,46446
+2025,2,matriculados,Ciencias sociales y humanas,Pregrado,382255
+2025,2,matriculados,"Economía, administración, contaduría y afines",Posgrado,66103
+2025,2,matriculados,"Economía, administración, contaduría y afines",Pregrado,731644
+2025,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,32526
+2025,2,matriculados,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,762234
+2025,2,matriculados,Matemáticas y ciencias naturales,Posgrado,5978
+2025,2,matriculados,Matemáticas y ciencias naturales,Pregrado,51314
+2025,2,matriculados,Sin información,Posgrado,20922
+2025,2,matriculados,Sin información,Pregrado,55048
+2025,2,primer_curso,"Agronomía, veterinaria y afines",Posgrado,594
+2025,2,primer_curso,"Agronomía, veterinaria y afines",Pregrado,11927
+2025,2,primer_curso,Bellas artes,Posgrado,571
+2025,2,primer_curso,Bellas artes,Pregrado,21623
+2025,2,primer_curso,Ciencias de la educación,Posgrado,17799
+2025,2,primer_curso,Ciencias de la educación,Pregrado,26273
+2025,2,primer_curso,Ciencias de la salud,Posgrado,3902
+2025,2,primer_curso,Ciencias de la salud,Pregrado,21202
+2025,2,primer_curso,Ciencias sociales y humanas,Posgrado,18938
+2025,2,primer_curso,Ciencias sociales y humanas,Pregrado,59375
+2025,2,primer_curso,"Economía, administración, contaduría y afines",Posgrado,29285
+2025,2,primer_curso,"Economía, administración, contaduría y afines",Pregrado,160473
+2025,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Posgrado,12372
+2025,2,primer_curso,"Ingeniería, arquitectura, urbanismo y afines",Pregrado,143698
+2025,2,primer_curso,Matemáticas y ciencias naturales,Posgrado,1709
+2025,2,primer_curso,Matemáticas y ciencias naturales,Pregrado,6815
+2025,2,primer_curso,Sin información,Posgrado,11885
+2025,2,primer_curso,Sin información,Pregrado,25465
