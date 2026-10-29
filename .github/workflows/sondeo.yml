@@ -6,37 +6,22 @@ jobs:
   sondeo:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-      - name: Probar fuentes
+      - name: Bajar archivos de muestra
         run: |
-          exec > salida.txt 2>&1
-          pip -q install pandas openpyxl pyxlsb
+          mkdir r && cd r
           UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
           B=https://snies.mineducacion.gov.co/1778
-          curl -sL -m 300 -A "$UA" -o s.xlsx "$B/articles-430149_recurso.xlsx"
+          curl -sL -m 300 -A "$UA" -o snies_matriculados_2025.xlsx "$B/articles-430149_recurso.xlsx"
+          curl -sL -m 300 -A "$UA" -o snies_primer_curso_2025.xlsx "$B/articles-430140_recurso.xlsx"
+          curl -sL -m 300 -A "$UA" -o snies_graduados_2025.xlsx "$B/articles-430151_recurso.xlsx"
+          curl -sL -m 300 -A "$UA" -o snies_matriculados_2017.xlsx "$B/articles-391576_recurso.xlsx"
+          curl -sL -m 300 -A "$UA" -o snies.html "https://snies.mineducacion.gov.co/portal/ESTADISTICAS/Bases-consolidadas/"
           W=https://www.icfes.gov.co/wp-content/uploads
-          for u in 2026/10/cuadros-salida-saber-11-2025.xlsx 2026/10/Cuadros_salida_saber_11_2023_V2.xlsx 2026/10/cuadros-salida-saber-pro-2025_.xlsx 2026/04/2024.xlsx 2026/09/ficha-indicadores-saber-11-v1.xlsx; do
-            curl -sL -m 300 -A "$UA" -o "$(basename $u)" "$W/$u"; ls -la "$(basename $u)"; done
-          python - <<'P'
-          import pandas as pd, glob
-          x = pd.read_excel("s.xlsx", sheet_name="1.", header=5, nrows=3)
-          print("SNIES columnas:", list(x.columns)); print(x.T.to_string()[:4000])
-          for f in ["cuadros-salida-saber-11-2025.xlsx", "Cuadros_salida_saber_11_2023_V2.xlsx", "cuadros-salida-saber-pro-2025_.xlsx", "2024.xlsx", "ficha-indicadores-saber-11-v1.xlsx"]:
-              try:
-                  hs = pd.read_excel(f, sheet_name=None, header=None)
-              except Exception as e:
-                  print("ERR", f, e); continue
-              print("#########", f, [(h, d.shape) for h, d in hs.items()])
-              for h, d in list(hs.items())[:6]:
-                  print("=====", f, h)
-                  print(d.dropna(how="all").head(30).to_string(max_colwidth=40, max_cols=14)[:5000])
-          P
-      - name: Guardar resultado en la rama sondeo
-        if: always()
-        run: |
-          mkdir r && cd r && git init -q && cp ../salida.txt .
-          git config user.name sondeo && git config user.email s@users.noreply.github.com
+          curl -sL -m 300 -A "$UA" -o icfes_s11_2025.xlsx "$W/2026/10/cuadros-salida-saber-11-2025.xlsx"
+          curl -sL -m 300 -A "$UA" -o icfes_pro_2025.xlsx "$W/2026/10/cuadros-salida-saber-pro-2025_.xlsx"
+          curl -sL -m 300 -A "$UA" -o icfes_tyt_2025.xlsx "$W/2026/10/cuadros-salida-saber-tyt-2025.xlsx"
+          curl -sL -m 300 -A "$UA" -o icfes_estadisticas.html "https://www.icfes.gov.co/estadisticas-oficiales/"
+          ls -la > lista.txt
+          git init -q && git config user.name sondeo && git config user.email s@users.noreply.github.com
           git checkout -q -b sondeo && git add -A && git commit -qm sondeo
           git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" sondeo
