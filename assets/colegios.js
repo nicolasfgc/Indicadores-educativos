@@ -13,7 +13,7 @@ registrar("colegios", (() => {
     desercion: {t: "Deserción", h: "De cada 100 estudiantes, cuántos se salieron del colegio durante el año.", alto: false},
     repitencia: {t: "Repitencia", h: "De cada 100 estudiantes, cuántos están repitiendo el año.", alto: false}};
   const I = (m, dep = "00") => st.d.indicadores[m]?.[dep] || [];
-  const nombre = c => { if (c === "00") return "Colombia"; const n = st.d.nombres[c] || c; return /[a-z]/.test(n) ? n : titulo(n).replace(/^Capital /, ""); };
+  const nombre = c => { if (c === "00") return "Colombia"; const n = st.d.nombres[c] || c; const t = /[a-z]/.test(n) ? n : titulo(n).replace(/^Capital /, ""); return /San Andr/i.test(t) ? "San Andrés" : t; };
   const pctTxt = x => fmt(x, 1) + "%";
   const mill = x => fmt(x / 1e6, x % 1e6 === 0 ? 0 : 2) + " millones";
 
@@ -86,20 +86,21 @@ registrar("colegios", (() => {
 
   function deptos() {
     const A = st.d.anios_ind.map(String), k = A.indexOf(st.dAnio), m = st.dInd, D = IND[m];
-    const items = Object.keys(st.d.indicadores[m] || {}).map(c => ({id: c, n: nombre(c), v: I(m, c)[k], resaltar: c === "00"})).filter(x => x.v != null)
-      .sort((a, b) => D.alto ? b.v - a.v : a.v - b.v);
+    const valores = {}, nombres = {};
+    Object.keys(st.d.indicadores[m] || {}).filter(c => c !== "00").forEach(c => { valores[c] = I(m, c)[k]; nombres[c] = nombre(c); });
     $("col-dep-t").textContent = `${D.t} por departamento, ${st.dAnio}`;
-    $("col-dep-h").textContent = D.h + (D.alto ? " Ordenado de mayor a menor." : " Ordenado de menor (mejor) a mayor.") + " Toca un departamento para verlo en el tiempo.";
-    barras("col-dep", items, {fmtValor: pctTxt, alto: 22, colores: x => x.resaltar ? css("--muted") : css("--grafica"), alClic: x => deptoTiempo(x.id)});
-    const sinNac = items.filter(x => !x.resaltar), mejor = sinNac[0], peor = sinNac.at(-1), nac = items.find(x => x.resaltar);
-    $("col-dep-txt").innerHTML = `${D.alto ? "La más alta" : "La más baja"}: <strong>${mejor.n}</strong> (${pctTxt(mejor.v)}). ${D.alto ? "La más baja" : "La más alta"}: <strong>${peor.n}</strong> (${pctTxt(peor.v)}). ` +
-      (nac ? `El dato de Colombia (en gris) es un promedio de los departamentos ponderado por su población de 5 a 16 años, calculado por esta página porque el conjunto de datos no trae el total nacional.` : "");
+    $("col-dep-h").textContent = D.h + (D.alto ? " Entre más oscuro, mayor la cobertura." : " Entre más oscuro, peor.");
+    mapa("col-dep", valores, nombres, {fmtValor: pctTxt, mayorEsMejor: D.alto, nacional: {n: "Colombia (estimado)", v: I(m)[k]}, alClic: deptoTiempo});
+    const orden = Object.entries(valores).filter(x => x[1] != null).sort((a, b) => D.alto ? b[1] - a[1] : a[1] - b[1]);
+    const [mejor, peor] = [orden[0], orden.at(-1)];
+    $("col-dep-txt").innerHTML = `${D.alto ? "La más alta" : "La más baja"}: <strong>${nombres[mejor[0]]}</strong> (${pctTxt(mejor[1])}). ${D.alto ? "La más baja" : "La más alta"}: <strong>${nombres[peor[0]]}</strong> (${pctTxt(peor[1])}). ` +
+      `El dato de Colombia es un promedio de los departamentos ponderado por su población de 5 a 16 años, calculado por esta página porque el conjunto de datos no trae el total nacional.`;
   }
   function deptoTiempo(c) {
     const A = st.d.anios_ind.map(String), m = st.dInd;
     const series = [{label: nombre(c), data: I(m, c), color: css("--grafica"), ancho: 2.5}];
     if (c !== "00") series.unshift({label: "Colombia", data: I(m), color: css("--muted"), ancho: 1.6});
-    enElTiempo("col-dep-tiempo", `${IND[m].t} en ${nombre(c)}`, A, series, {fmtValor: pctTxt, nota: "Toca otro departamento para cambiarlo."});
+    enElTiempo("col-dep-tiempo", `${IND[m].t} en ${nombre(c)}`, A, series, {fmtValor: pctTxt, nota: "Toca otro departamento en el mapa para cambiarlo."});
   }
 
   function render() {

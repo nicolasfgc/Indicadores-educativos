@@ -1,6 +1,6 @@
 // Pestaña: ICETEX — créditos para estudiar: cuántos se entregan, a quién y cómo se están pagando
 registrar("icetex", (() => {
-  const st = {d: null, dim: "nivel", tipo: "nuevos", per: null, mora: "pct"};
+  const st = {d: null, dim: "nivel", tipo: "nuevos", per: null, mora: "pct", dmed: "pct"};
   const DIM = {nivel: "Nivel de estudios", estrato: "Estrato", sector_ies: "Tipo de institución", sexo: "Sexo"};
   // "2025-1" -> "2025-01-01"; "2025-2" -> "2025-07-01" (para usar las gráficas de series de tiempo)
   const aFecha = p => `${p.slice(0, 4)}-${p.endsWith("1") ? "01" : "07"}-01`;
@@ -18,6 +18,7 @@ registrar("icetex", (() => {
     seg("ice-dim", x => { st.dim = x; quienes(); });
     seg("ice-tipo", x => { st.tipo = x; quienes(); });
     seg("ice-mora", x => { st.mora = x; cartera(); });
+    seg("ice-dmed", x => { st.dmed = x; deptos(); });
     const s = $("ice-per");
     opciones(s, st.d.periodos.slice().reverse().map(p => [p, etqP(p)]), st.per);
     s.onchange = () => { st.per = s.value; quienes(); };
@@ -73,17 +74,31 @@ registrar("icetex", (() => {
       }});
   }
 
+  const nomDep = n => { const t = titulo(n); return t.charAt(0).toUpperCase() + t.slice(1); };
   function deptos() {
-    const items = st.d.deptos.filter(d => d[1] >= 100).map(d => ({id: d[0], n: titulo(d[0]), v: d[2] / d[1] * 100, c: d[1]})).sort((a, b) => b.v - a.v);
-    $("ice-dep-t").textContent = `Créditos con cuotas atrasadas por departamento, ${etqCorte(st.d.fechas.at(-1))}`;
-    barras("ice-dep", items, {fmtValor: x => fmt(x, 1) + "%" + (x.v < 2 ? " (dato dudoso)" : ""), alto: 22, colores: x => x.v < 2 ? css("--muted") : css("--grafica")});
-    const may = items.slice().sort((a, b) => b.c - a.c)[0];
-    // departamentos que la fuente reporta casi sin mora, muy lejos del resto del país: se señalan en vez de presentarlos como "los mejores"
-    const raros = items.filter(x => x.v < 2), normales = items.filter(x => x.v >= 2);
-    $("ice-dep-txt").innerHTML = `La mora más alta está en <strong>${normales[0].n}</strong> (${fmt(normales[0].v, 1)}%) y la más baja en <strong>${normales.at(-1).n}</strong> (${fmt(normales.at(-1).v, 1)}%). ` +
-      `El departamento con más créditos es ${may.n}: ${fmt(may.c, 0)}. ` +
-      (raros.length ? `<strong>Ojo:</strong> ${listaY(raros.map(x => x.n))} aparecen en la fuente casi sin créditos atrasados (menos de 2%), algo poco creíble frente al resto del país; puede ser un problema en cómo el ICETEX reporta esos departamentos. ` : "") +
+    const lista = st.d.deptos.filter(d => d[2] >= 100), F = etqCorte(st.d.fechas.at(-1));
+    const pctD = d => d[3] / d[2] * 100, dudoso = d => pctD(d) < 2;
+    const valores = {}, nombres = {}, info = {};
+    lista.forEach(d => { valores[d[0]] = st.dmed === "pct" ? pctD(d) : d[2]; nombres[d[0]] = nomDep(d[1]); info[d[0]] = d; });
+    $("ice-dep-t").textContent = st.dmed === "pct" ? `Créditos con cuotas atrasadas por departamento, ${F}` : `Créditos vivos por departamento, ${F}`;
+    mapa("ice-dep", valores, nombres, {
+      fmtValor: st.dmed === "pct" ? (x => fmt(x, 1) + "%") : (x => fmt(x, 0)), mayorEsMejor: st.dmed === "pct" ? false : true,
+      dudoso: k => st.dmed === "pct" && dudoso(info[k]),
+      extra: k => { const d = info[k]; return d ? `${fmt(d[2], 0)} créditos · ${fmt(pctD(d), 1)}% atrasados · saldo ${plata(d[4])}` : ""; },
+      nacional: st.dmed === "pct" ? {n: "Colombia", v: pct("todas", st.d.fechas.length - 1)} : null,
+      alClic: depTiempo});
+    const normales = lista.filter(d => !dudoso(d)).sort((a, b) => pctD(b) - pctD(a)), raros = lista.filter(dudoso);
+    const may = lista.slice().sort((a, b) => b[2] - a[2])[0];
+    $("ice-dep-txt").innerHTML = `La mora más alta está en <strong>${nomDep(normales[0][1])}</strong> (${fmt(pctD(normales[0]), 1)}%) y la más baja en <strong>${nomDep(normales.at(-1)[1])}</strong> (${fmt(pctD(normales.at(-1)), 1)}%). ` +
+      `El departamento con más créditos es ${nomDep(may[1])}: ${fmt(may[2], 0)}. ` +
+      (raros.length ? `<strong>Ojo:</strong> ${listaY(raros.map(d => nomDep(d[1])))} aparecen en la fuente casi sin créditos atrasados (menos de 2%), algo poco creíble frente al resto del país; puede ser un problema en cómo el ICETEX reporta esos departamentos. En el mapa de mora van en gris. ` : "") +
       `Se muestran los departamentos con al menos 100 créditos, según dónde vive el beneficiario.`;
+  }
+  function depTiempo(k) {
+    const F = st.d.fechas.map(trim), d = st.d.deptos.find(x => x[0] === k);
+    enElTiempo("ice-dep-tiempo", `Créditos con cuotas atrasadas en ${nomDep(d[1])}`, F,
+      [{label: "Colombia", data: F.map((f, i) => pct("todas", i)), color: css("--muted"), ancho: 1.6}, {label: nomDep(d[1]), data: st.d.deptos_hist[k] || [], color: css("--grafica"), ancho: 2.5}],
+      {fmtValor: x => x == null ? "sin dato" : fmt(x, 1) + "%", eje0: true, atajos: [["1 año", 4], ["3 años", 12], ["Todo", 0]], inicio: 12, nota: "Porcentaje de créditos con al menos una cuota atrasada, al cierre de cada trimestre. Toca otro departamento para cambiarlo."});
   }
 
   function render() {

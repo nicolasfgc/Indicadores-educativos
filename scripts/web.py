@@ -13,6 +13,10 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import mapa  # noqa: E402
+
 RAIZ = Path(__file__).resolve().parents[1]
 DATOS = RAIZ / "datos"
 WEB = RAIZ / "web"
@@ -131,6 +135,12 @@ def presupuesto_historico():
 
 
 # ---------------------------------------------------------------- ICETEX
+# códigos DANE de los departamentos, para ubicarlos en el mapa
+COD_DEPTO = {"ANTIOQUIA": "05", "ATLÁNTICO": "08", "BOGOTÁ": "11", "BOLÍVAR": "13", "BOYACÁ": "15", "CALDAS": "17", "CAQUETÁ": "18",
+             "CAUCA": "19", "CESAR": "20", "CÓRDOBA": "23", "CUNDINAMARCA": "25", "CHOCÓ": "27", "HUILA": "41", "LA GUAJIRA": "44",
+             "MAGDALENA": "47", "META": "50", "NARIÑO": "52", "NORTE DE SANTANDER": "54", "QUINDÍO": "63", "RISARALDA": "66",
+             "SANTANDER": "68", "SUCRE": "70", "TOLIMA": "73", "VALLE DEL CAUCA": "76", "ARAUCA": "81", "CASANARE": "85",
+             "PUTUMAYO": "86", "SAN ANDRÉS": "88", "AMAZONAS": "91", "GUAINÍA": "94", "GUAVIARE": "95", "VAUPÉS": "97", "VICHADA": "99"}
 def icetex():
     c = pd.read_csv(DATOS / "icetex" / "cartera.csv")
     fechas = sorted(c.fecha.unique())
@@ -150,13 +160,17 @@ def icetex():
         for med in ["creditos", "al_dia", "en_mora", "mora_mayor"]:
             cart[ep][med] = [None if f in atipicos else x for f, x in zip(fechas, cart[ep][med])]
     u = c[(c.fecha == fechas[-1]) & (c.depto != "TOTAL") & (c.epoca == "todas")].pivot(index="depto", columns="medida", values="valor")
-    deptos = [[d, int(x.creditos), int(x.en_mora), round(x.saldo_total / 1e6)] for d, x in u.iterrows() if x.creditos > 0 and d != "SIN DATO"]
+    deptos = [[COD_DEPTO[d], d, int(x.creditos), int(x.en_mora), round(x.saldo_total / 1e6)] for d, x in u.iterrows() if d in COD_DEPTO and x.creditos > 0]
+    # % de créditos con cuotas atrasadas de cada departamento, trimestre a trimestre (para verlo en el tiempo)
+    t = c[(c.epoca == "todas") & c.depto.isin(COD_DEPTO)].pivot_table(index=["depto", "fecha"], columns="medida", values="valor")
+    t["pct"] = t.en_mora / t.creditos * 100
+    deptos_hist = {COD_DEPTO[d]: lista(g.droplevel(0).pct, fechas, 1) for d, g in t.groupby(level=0)}
     cr = pd.read_csv(DATOS / "icetex" / "creditos.csv")
     periodos = sorted(cr.periodo.unique())
     creditos = {}
     for (tipo, dim, cat), g in cr.groupby(["tipo", "dimension", "categoria"]):
         creditos.setdefault(tipo, {}).setdefault(dim, {})[cat] = lista(g.set_index("periodo").valor, periodos, 0)
-    guardar("icetex.json", {"fechas": fechas, "atipicos": atipicos, "cartera": cart, "deptos": deptos, "periodos": periodos, "creditos": creditos})
+    guardar("icetex.json", {"fechas": fechas, "atipicos": atipicos, "cartera": cart, "deptos": deptos, "deptos_hist": deptos_hist, "periodos": periodos, "creditos": creditos})
 
 
 # ---------------------------------------------------------------- colegios (anual)
@@ -229,6 +243,7 @@ def resumen():
 def main():
     print("Preparando datos para la web:")
     juventud()
+    mapa.main()
     presupuesto()
     presupuesto_historico()
     icetex()

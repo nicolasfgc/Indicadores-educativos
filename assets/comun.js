@@ -232,6 +232,58 @@ function enElTiempo(boxId, titulo, etiquetas, series, opts = {}) {
   irA(boxId, "center");
 }
 
+// ------------------------------------------------------------ mapa de Colombia por departamento
+// valores = {códigoDANE: número}; nombres = {código: nombre}. Al pasar el mouse muestra el dato; al tocar llama alClic(código).
+// opts: fmtValor, extra(código) -> texto adicional en el globo, dudoso(código) -> se pinta en gris, mayorEsMejor (para el ranking),
+//       nacional: {n, v} para mostrar el promedio del país en la lista.
+const hexRgb = h => { h = h.replace("#", ""); if (h.length === 3) h = h.split("").map(c => c + c).join(""); return [0, 2, 4].map(i => parseInt(h.slice(i, i + 2), 16)); };
+const mezcla = (a, b, t) => { const x = hexRgb(a), y = hexRgb(b); return `rgb(${x.map((v, i) => Math.round(v + (y[i] - v) * t)).join(",")})`; };
+async function mapa(contId, valores, nombres, opts = {}) {
+  const M = await json("web/mapa.json"), c = $(contId);
+  const f = opts.fmtValor || (v => fmt(v, 1));
+  const claro = css("--accent-soft"), fuerte = css("--grafica"), gris = css("--chip");
+  if (!c.dataset.listo) {
+    const [rx, ry, rw, rh] = M.recuadro;
+    c.innerHTML = `<div class="mapa-wrap"><div><div class="mapa-box"><svg viewBox="0 0 ${M.ancho} ${M.alto}" role="img" aria-label="Mapa de Colombia por departamento">
+      <rect class="recuadro" x="${rx}" y="${ry}" width="${rw}" height="${rh}" rx="8"></rect><text class="rec-t" x="${rx + 4}" y="${ry + rh + 12}">San Andrés (ampliado)</text>
+      ${Object.entries(M.deptos).map(([k, d]) => `<path data-k="${k}" d="${d}"></path>`).join("")}</svg><div class="mapa-tip" hidden></div></div>
+      <div class="mapa-ley"><div class="grad"></div><div class="ext"><span class="mn"></span><span class="mx"></span></div></div></div>
+      <div class="mapa-lado"></div></div>`;
+    c.dataset.listo = 1;
+  }
+  const svg = c.querySelector("svg"), tip = c.querySelector(".mapa-tip"), caja = c.querySelector(".mapa-box");
+  const vals = Object.entries(valores).filter(([k, v]) => v != null && M.deptos[k] && !(opts.dudoso && opts.dudoso(k)));
+  const mn = Math.min(...vals.map(x => x[1])), mx = Math.max(...vals.map(x => x[1]));
+  const color = v => mezcla(claro, fuerte, mx > mn ? .08 + .92 * (v - mn) / (mx - mn) : 1);
+  const orden = vals.slice().sort((a, b) => opts.mayorEsMejor === false ? a[1] - b[1] : b[1] - a[1]);
+  const puesto = k => orden.findIndex(x => x[0] === k) + 1;
+  const marcar = k => { svg.querySelectorAll("path").forEach(p => p.classList.toggle("sel", p.dataset.k === k)); c.querySelectorAll(".mapa-lado li").forEach(li => li.classList.toggle("sel", li.dataset.k === k)); };
+  const mostrar = (k, x, y) => {
+    const v = valores[k], dud = opts.dudoso && opts.dudoso(k);
+    tip.innerHTML = `<b>${nombres[k] || k}</b>${v == null ? `<span class="x">Sin dato</span>` : `<span class="v">${f(v)}</span>` +
+      (dud ? `<div class="x">Dato dudoso en la fuente</div>` : `<div class="x">Puesto ${puesto(k)} de ${orden.length}${opts.mayorEsMejor === false ? " (1 = el mejor)" : ""}</div>`)}` +
+      (opts.extra ? `<div class="x">${opts.extra(k) || ""}</div>` : "");
+    tip.style.left = x + "px"; tip.style.top = y + "px"; tip.hidden = false;
+  };
+  svg.querySelectorAll("path").forEach(p => {
+    const k = p.dataset.k, v = valores[k];
+    p.style.fill = v == null || (opts.dudoso && opts.dudoso(k)) ? gris : color(v);
+    const pos = e => { const r = caja.getBoundingClientRect(); return [e.clientX - r.left, e.clientY - r.top]; };
+    p.onmousemove = e => mostrar(k, ...pos(e));
+    p.onmouseleave = () => { tip.hidden = true; };
+    p.onclick = e => { mostrar(k, ...pos(e)); marcar(k); if (opts.alClic && v != null) opts.alClic(k); };
+  });
+  c.querySelector(".grad").style.background = `linear-gradient(90deg, ${color(mn)}, ${color(mx)})`;
+  c.querySelector(".mn").textContent = f(mn); c.querySelector(".mx").textContent = f(mx);
+  // al lado: los cinco mejores y los cinco peores
+  const fila = ([k, v]) => `<li data-k="${k}"><span>${nombres[k] || k}</span><span>${f(v)}</span></li>`;
+  const bien = opts.mayorEsMejor === false ? "Los más bajos" : "Los más altos", mal = opts.mayorEsMejor === false ? "Los más altos" : "Los más bajos";
+  c.querySelector(".mapa-lado").innerHTML = `<h4>${bien}</h4><ol>${orden.slice(0, 5).map(fila).join("")}</ol>` +
+    (opts.nacional ? `<ol><li class="nac" data-k=""><span>${opts.nacional.n}</span><span>${f(opts.nacional.v)}</span></li></ol>` : "") +
+    `<h4>${mal}</h4><ol>${orden.slice(-5).reverse().map(fila).join("")}</ol><p class="hint">Pasa el mouse sobre el mapa para ver cada departamento${opts.alClic ? "; tócalo para verlo en el tiempo" : ""}.</p>`;
+  c.querySelectorAll(".mapa-lado li[data-k]").forEach(li => { if (!li.dataset.k) return; li.onclick = () => { marcar(li.dataset.k); if (opts.alClic) opts.alClic(li.dataset.k); }; });
+}
+
 // ------------------------------------------------------------ gráficos
 // Si la gráfica ya existe y es del mismo tipo, se actualiza en su sitio: Chart.js anima el paso de un estado al otro
 // (cambiar de periodo, de categoría o de medida se ve como una transición suave, no como un redibujo de golpe).
