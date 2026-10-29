@@ -58,7 +58,7 @@ registrar("calidad", (() => {
     serie("cal-bre", A, orden.filter(k => fuente[k]).map((k, i) => ({label: nombre(k), data: fuente[k], color: pal[i], ancho: 2.5})), {fmtValor: p1, despues: (i0, i1) => {
       let txt = "";
       if (b === "nse") { const d = fuente["4"][i1] - fuente["1"][i1];
-        txt = `Es la brecha más grande: en ${A[i1]} los estudiantes del nivel socioeconómico más alto sacaron en promedio <strong>${p1(d)} puntos más</strong> que los del más bajo (${p1(fuente["4"][i1])} frente a ${p1(fuente["1"][i1])}). El ICFES calcula este nivel con la educación de los padres, la ocupación, los bienes del hogar y el acceso a internet.`; }
+        txt = `Es la brecha más grande: en ${A[i1]} los estudiantes del nivel socioeconómico más alto sacaron en promedio <strong>${p1(d)} puntos más</strong> que los del más bajo (${p1(fuente["4"][i1])} frente a ${p1(fuente["1"][i1])}). El ICFES calcula este nivel con la educación de los padres y los bienes y servicios del hogar, como computador e internet.`; }
       if (b === "zona" && fuente["Públicos rurales"]) txt = `En ${A[i1]} los colegios públicos rurales promediaron ${p1(fuente["Públicos rurales"][i1])}, frente a ${p1(fuente["Públicos urbanos"][i1])} de los urbanos y ${p1(fuente["Privados"][i1])} de los privados: <strong>estudiar en el campo sigue siendo una desventaja</strong>.`;
       if (b === "genero") txt = `En ${A[i1]} los hombres sacaron ${p1(fuente.Hombres[i1] - fuente.Mujeres[i1])} puntos más que las mujeres en promedio.`;
       $("cal-bre-txt").innerHTML = txt;
@@ -90,7 +90,7 @@ registrar("calidad", (() => {
         const pr = Object.entries(P.pruebas).map(([m, v]) => [m, v.Total?.[i1], v.Total?.[i0]]).filter(x => x[1] != null).sort((a, b) => a[1] - b[1]);
         $("cal-pro-txt").innerHTML = `Saber Pro lo presentan quienes están terminando una carrera universitaria. Su escala se fijó para que el promedio de 2016 fuera 150. ` +
           `En <strong>${A[i1]}</strong> el promedio fue <strong>${p1(G.Total[i1])}</strong>` + (i1 > i0 ? ` (en ${A[i0]}: ${p1(G.Total[i0])})` : "") + `. ` +
-          `A diferencia del colegio, <strong>aquí las instituciones públicas superan a las privadas</strong> (${p1(G["Público"][i1])} frente a ${p1(G["Privado"][i1])}): a las universidades públicas entran estudiantes muy seleccionados. ` +
+          `A diferencia del colegio, <strong>aquí las instituciones públicas superan a las privadas</strong> (${p1(G["Público"][i1])} frente a ${p1(G["Privado"][i1])}): muchas universidades públicas tienen exámenes de admisión exigentes y reciben a los estudiantes con mejores resultados. ` +
           (pr.length ? `La prueba genérica más floja: ${pr[0][0].toLowerCase()} (${p1(pr[0][1])}); la mejor: ${pr.at(-1)[0].toLowerCase()} (${p1(pr.at(-1)[1])}).` : "");
       }});
   }

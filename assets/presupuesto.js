@@ -165,9 +165,9 @@ registrar("presupuesto", (() => {
       colores: () => css("--grafica"), alClic: x => destinoTiempo(x.id)});
     const o = items.slice().sort((a, b) => b.ap - a.ap), top = o[0], top2 = o[1];
     const lentos = items.filter(x => x.ap > 0).map(x => ({...x, p: x.ob / x.ap * 100})).sort((a, b) => a.p - b.p);
-    $("pre-dest-txt").innerHTML = `De cada 100 pesos del presupuesto de educación de ${st.ult.slice(0, 4)}, <strong>${fmt(top.ap / items.reduce((a, x) => a + x.ap, 0) * 100, 0)} van a ${top.n.toLowerCase()}</strong>: ` +
-      (top.id === 0 ? `es la plata que la Nación gira a departamentos y municipios (el Sistema General de Participaciones) para pagar a los maestros y sostener los colegios públicos. ` : "") +
-      `Le siguen ${top2.n.toLowerCase()} (${plata(top2.ap)}). Lo que va más atrasado a ${etqMesLargo(st.ult)}: ${lentos[0].n.toLowerCase()}, con ${fmt(lentos[0].p, 1)}% ejecutado.`;
+    $("pre-dest-txt").innerHTML = `De cada 100 pesos del presupuesto de educación de ${st.ult.slice(0, 4)}, <strong>${fmt(top.ap / items.reduce((a, x) => a + x.ap, 0) * 100, 0)} van a “${top.n.toLowerCase()}”</strong>. ` +
+      (top.id === 0 ? `Es la plata que la Nación gira a departamentos y municipios (el Sistema General de Participaciones) para pagar a los maestros y sostener los colegios públicos. ` : "") +
+      `Le sigue “${top2.n.toLowerCase()}” (${plata(top2.ap)}). Lo que va más atrasado a ${etqMesLargo(st.ult)} es “${lentos[0].n.toLowerCase()}”, con ${fmt(lentos[0].p, 1)}% ejecutado.`;
   }
   function destinoTiempo(k) {
     const D = st.dest, F = mesesCompletos(D.fechas), v = D.valores[k];

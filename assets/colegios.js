@@ -6,6 +6,16 @@ registrar("colegios", (() => {
     sector: {orden: ["Público", "Privado"], t: "en colegios públicos y privados", nombres: {"Público": "Colegios públicos", "Privado": "Colegios privados"}},
     zona: {orden: ["Urbana", "Rural"], t: "en zonas urbanas y rurales", nombres: {Urbana: "Zona urbana", Rural: "Zona rural"}},
     sexo: {orden: ["Femenino", "Masculino"], t: "mujeres y hombres", nombres: {Femenino: "Mujeres", Masculino: "Hombres"}}};
+  // la explicación que acompaña a cada forma de ver la gráfica
+  const EXP = {
+    nivel: [["Preescolar y primaria", "Prejardín, jardín y transición; luego de primero a quinto."],
+            ["Secundaria y media", "Secundaria va de sexto a noveno. La media son décimo y once, los dos últimos años antes de graduarse."],
+            ["Adultos y otros", "Programas para adultos y para jóvenes que van atrasados (por ciclos o de aceleración del aprendizaje)."]],
+    sector: [["Colegios públicos", "Los paga el Estado y son gratuitos para las familias."],
+             ["Colegios privados", "Los pagan las familias con la pensión y la matrícula."]],
+    zona: [["Urbana", "Colegios ubicados en las cabeceras de los municipios (cascos urbanos)."],
+           ["Rural", "Colegios en veredas y centros poblados. Suelen ser más pequeños, a veces con un solo docente para varios grados."]],
+    sexo: []};
   const IND = {
     cobertura_neta: {t: "Cobertura neta", h: "De cada 100 niños y jóvenes de 5 a 16 años, cuántos están matriculados en el nivel que corresponde a su edad.", alto: true},
     cobertura_neta_media: {t: "Cobertura neta en media (10.º y 11.º)", h: "De cada 100 jóvenes de 15 y 16 años, cuántos están en décimo u once.", alto: true},
@@ -37,14 +47,15 @@ registrar("colegios", (() => {
     const series = [{label: "Total", data: M.total, color: css("--muted"), ancho: 1.6, dash: [4, 3]}].concat(
       D.orden.filter(k => M[st.desg][k]).map((k, i) => ({label: D.nombres?.[k] || k, data: M[st.desg][k], color: pal[i], ancho: 2.5})));
     $("col-mat-t").textContent = `Estudiantes matriculados ${D.t}`;
+    $("col-mat-exp").innerHTML = EXP[st.desg].map(([t, d]) => `<div><strong>${t}</strong><span>${d}</span></div>`).join("");
     serie("col-mat", A, series, {fmtValor: x => x == null ? "sin dato" : mill(x), eje0: true, despues: (i0, i1) => {
       const t = M.total; let a = i1; while (a > i0 && t[a] == null) a--; let b = i0; while (b < a && t[b] == null) b++;
       const cambio = t[a] - t[b], partes = D.orden.filter(k => M[st.desg][k]).map(k => [D.nombres?.[k] || k, M[st.desg][k][a]]);
       let txt = `En <strong>${A[a]}</strong> había <strong>${mill(t[a])}</strong> de estudiantes en preescolar, primaria, secundaria y media. ` +
-        (a > b ? `Eso es ${fmt(Math.abs(cambio) / 1000, 0)} mil ${cambio < 0 ? "menos" : "más"} que en ${A[b]} (${cambio < 0 ? "−" : "+"}${fmt(Math.abs(cambio / t[b] * 100), 1)}%). ` : "");
+        (a > b ? `Eso es ${Math.abs(cambio) >= 1e6 ? mill(Math.abs(cambio)) : fmt(Math.abs(cambio) / 1000, 0) + " mil"} ${cambio < 0 ? "menos" : "más"} que en ${A[b]} (${cambio < 0 ? "−" : "+"}${fmt(Math.abs(cambio / t[b] * 100), 1)}%). ` : "");
       if (st.desg === "sector") txt += `De cada 100, <strong>${fmt(partes[0][1] / t[a] * 100, 0)} estudian en colegios públicos</strong>. `;
       if (st.desg === "zona") txt += `De cada 100, ${fmt(partes[1][1] / t[a] * 100, 0)} estudian en zonas rurales. `;
-      if (st.desg === "nivel") txt += `La primaria es el nivel más grande (${mill(M.nivel.Primaria[a])}); la media, la de los últimos dos años, apenas ${mill(M.nivel.Media[a])}: muchos se quedan en el camino. `;
+      if (st.desg === "nivel") txt += `La primaria es el nivel más grande (${mill(M.nivel.Primaria[a])}), pero tiene cinco grados. Mirado grado por grado, en primaria hay unos ${fmt(M.nivel.Primaria[a] / 5 / 1000, 0)} mil estudiantes por grado y en la media (décimo y once) unos ${fmt(M.nivel.Media[a] / 2 / 1000, 0)} mil: <strong>muchos se quedan en el camino antes de terminar el colegio</strong>. `;
       txt += cambio < 0 ? `La caída se explica sobre todo porque en Colombia nacen cada vez menos niños: hay menos población en edad escolar. Por eso, más que el número, importa la cobertura (abajo). ` : "";
       txt += A.includes("2018") && M.total[A.indexOf("2018")] == null && i0 <= A.indexOf("2018") && i1 >= A.indexOf("2018") ? "El Ministerio no publicó en datos abiertos la matrícula de 2018: por eso entre 2017 y 2019 la línea va directo, sin ese dato." : "";
       $("col-mat-txt").innerHTML = txt;
@@ -77,7 +88,7 @@ registrar("colegios", (() => {
       const est = st.d.matricula.total[st.d.anios.indexOf(+A[i1])];
       $("col-sal-txt").innerHTML = m === "desercion"
         ? `En <strong>${A[i1]}</strong>, <strong>${fmt(d[i1], 2)} de cada 100 estudiantes</strong> se salieron del colegio durante el año` + (est ? ` (del orden de ${fmt(d[i1] / 100 * est / 1000, 0)} mil niños y jóvenes)` : "") + `. ` +
-          `Donde más pasa es en secundaria (${fmt(s[i1], 2)}%), cuando muchos empiezan a trabajar o se van por problemas económicos. ` +
+          `Donde más pasa es en secundaria (${fmt(s[i1], 2)}%), la edad en la que muchos empiezan a trabajar o a ayudar en la casa. ` +
           (i1 > i0 ? `En ${A[i0]} la deserción era ${fmt(d[i0], 2)}%.` : "")
         : `En <strong>${A[i1]}</strong>, ${fmt(r[i1], 1)} de cada 100 estudiantes estaban repitiendo el año. Desde la pandemia la repitencia y la reprobación subieron con fuerza: ` +
           `en 2019 la repitencia era ${fmt(r[A.indexOf("2019")], 1)}%. Repetir años aumenta el riesgo de que un estudiante termine abandonando el colegio.`;
@@ -94,6 +105,7 @@ registrar("colegios", (() => {
     const orden = Object.entries(valores).filter(x => x[1] != null).sort((a, b) => D.alto ? b[1] - a[1] : a[1] - b[1]);
     const [mejor, peor] = [orden[0], orden.at(-1)];
     $("col-dep-txt").innerHTML = `${D.alto ? "La más alta" : "La más baja"}: <strong>${nombres[mejor[0]]}</strong> (${pctTxt(mejor[1])}). ${D.alto ? "La más baja" : "La más alta"}: <strong>${nombres[peor[0]]}</strong> (${pctTxt(peor[1])}). ` +
+      (orden.some(x => x[1] > 100) ? `Una cobertura neta de más de 100% no es posible en la realidad: suele indicar que la población estimada del departamento se quedó corta. ` : "") +
       `El dato de Colombia es un promedio de los departamentos ponderado por su población de 5 a 16 años, calculado por esta página porque el conjunto de datos no trae el total nacional.`;
   }
   function deptoTiempo(c) {

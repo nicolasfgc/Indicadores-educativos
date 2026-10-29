@@ -257,13 +257,14 @@ async function mapa(contId, valores, nombres, opts = {}) {
   // escala logarítmica para cifras muy desiguales (por ejemplo, número de estudiantes: Bogotá frente a Vaupés)
   const esc = opts.log ? (v => Math.log(Math.max(v, 1))) : (v => v);
   const color = v => mezcla(claro, fuerte, mx > mn ? .08 + .92 * (esc(v) - esc(mn)) / (esc(mx) - esc(mn)) : 1);
-  const orden = vals.slice().sort((a, b) => opts.mayorEsMejor === false ? a[1] - b[1] : b[1] - a[1]);
+  // el ranking (puestos y listas de al lado) puede dejar por fuera departamentos donde la cifra no es comparable
+  const orden = vals.filter(([k]) => !opts.enRanking || opts.enRanking(k)).sort((a, b) => opts.mayorEsMejor === false ? a[1] - b[1] : b[1] - a[1]);
   const puesto = k => orden.findIndex(x => x[0] === k) + 1;
   const marcar = k => { svg.querySelectorAll("path").forEach(p => p.classList.toggle("sel", p.dataset.k === k)); c.querySelectorAll(".mapa-lado li").forEach(li => li.classList.toggle("sel", li.dataset.k === k)); };
   const mostrar = (k, x, y) => {
     const v = valores[k], dud = opts.dudoso && opts.dudoso(k);
     tip.innerHTML = `<b>${nombres[k] || k}</b>${v == null ? `<span class="x">Sin dato</span>` : `<span class="v">${f(v)}</span>` +
-      (dud ? `<div class="x">Dato dudoso en la fuente</div>` : `<div class="x">Puesto ${puesto(k)} de ${orden.length}${opts.mayorEsMejor === false ? " (1 = el mejor)" : ""}</div>`)}` +
+      (dud ? `<div class="x">Dato dudoso en la fuente</div>` : puesto(k) ? `<div class="x">Puesto ${puesto(k)} de ${orden.length}${opts.mayorEsMejor === false ? " (1 = el mejor)" : ""}</div>` : "")}` +
       (opts.extra ? `<div class="x">${opts.extra(k) || ""}</div>` : "");
     tip.style.left = x + "px"; tip.style.top = y + "px"; tip.hidden = false;
   };

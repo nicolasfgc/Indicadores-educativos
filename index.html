@@ -9,16 +9,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/estilos.css?v=4">
+<link rel="stylesheet" href="assets/estilos.css?v=6">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-<script src="assets/comun.js?v=4"></script>
-<script src="assets/resumen.js?v=4"></script>
-<script src="assets/jovenes.js?v=4"></script>
-<script src="assets/colegios.js?v=4"></script>
-<script src="assets/icetex.js?v=4"></script>
-<script src="assets/universidades.js?v=4"></script>
-<script src="assets/calidad.js?v=4"></script>
-<script src="assets/presupuesto.js?v=4"></script>
+<script src="assets/comun.js?v=6"></script>
+<script src="assets/resumen.js?v=6"></script>
+<script src="assets/jovenes.js?v=6"></script>
+<script src="assets/colegios.js?v=6"></script>
+<script src="assets/icetex.js?v=6"></script>
+<script src="assets/universidades.js?v=6"></script>
+<script src="assets/calidad.js?v=6"></script>
+<script src="assets/presupuesto.js?v=6"></script>
 </head>
 <body>
 <header class="appbar">
@@ -85,7 +85,7 @@
       </section>
       <section class="panel">
         <span class="paso"><b>2</b>El trabajo</span>
-        <div class="row spread"><h2 id="jov-trab-t"></h2><div class="seg" id="jov-ind"><button data-v="td" class="on">Desempleo</button><button data-v="to">Ocupación</button><button data-v="tgp">Participación</button></div></div>
+        <h2 id="jov-trab-t"></h2><div class="row controles"><div class="seg" id="jov-ind"><button data-v="td" class="on">Desempleo</button><button data-v="to">Ocupación</button><button data-v="tgp">Participación</button></div></div>
         <p class="hint" id="jov-trab-h"></p>
         <div class="row"><label class="lbl">Dónde:</label><div class="seg" id="jov-zona"><button data-v="NACIONAL" class="on">Todo el país</button><button data-v="CABECERAS">Zonas urbanas</button><button data-v="RURAL">Campo</button></div></div>
         <div class="chartbox" style="height:320px;margin-top:10px"><canvas id="jov-trab"></canvas></div>
@@ -109,25 +109,21 @@
       </section>
       <section class="panel">
         <span class="paso"><b>1</b>Cuántos estudian</span>
-        <div class="row spread"><h2 id="col-mat-t"></h2><div class="seg" id="col-desg"><button data-v="nivel" class="on">Por nivel</button><button data-v="sector">Público y privado</button><button data-v="zona">Urbano y rural</button><button data-v="sexo">Mujeres y hombres</button></div></div>
-        <div class="grupos-ise">
-          <div><strong>Preescolar y primaria</strong><span>Prejardín, jardín y transición; luego de primero a quinto.</span></div>
-          <div><strong>Secundaria y media</strong><span>Secundaria va de sexto a noveno. La media son décimo y once, los dos últimos años antes de graduarse.</span></div>
-          <div><strong>Adultos y otros</strong><span>Programas para adultos y jóvenes que van atrasados (por ciclos o de aceleración del aprendizaje).</span></div>
-        </div>
+        <h2 id="col-mat-t"></h2><div class="row controles"><div class="seg" id="col-desg"><button data-v="nivel" class="on">Por nivel</button><button data-v="sector">Público y privado</button><button data-v="zona">Urbano y rural</button><button data-v="sexo">Mujeres y hombres</button></div></div>
+        <div class="grupos-ise" id="col-mat-exp"></div>
         <div class="chartbox" style="height:320px"><canvas id="col-mat"></canvas></div>
         <p class="interp" id="col-mat-txt"></p>
       </section>
       <section class="panel">
         <span class="paso"><b>2</b>¿Están todos los que deberían?</span>
-        <div class="row spread"><h2>Cobertura: niños y jóvenes estudiando</h2><div class="seg" id="col-cob"><button data-v="neta" class="on">Cobertura neta</button><button data-v="bruta">Cobertura bruta</button></div></div>
+        <h2>Cobertura: niños y jóvenes estudiando</h2><div class="row controles"><div class="seg" id="col-cob"><button data-v="neta" class="on">Cobertura neta</button><button data-v="bruta">Cobertura bruta</button></div></div>
         <p class="hint">La cobertura neta dice, de cada 100 niños en edad de estar en un nivel, cuántos están efectivamente en él. Es la mejor forma de saber si el sistema llega a todos. Estimado nacional con los datos por departamento.</p>
         <div class="chartbox" style="height:320px"><canvas id="col-cob-g"></canvas></div>
         <p class="interp" id="col-cob-txt"></p>
       </section>
       <section class="panel">
         <span class="paso"><b>3</b>Los que se quedan en el camino</span>
-        <div class="row spread"><h2>Deserción y repitencia</h2><div class="seg" id="col-sal"><button data-v="desercion" class="on">Deserción</button><button data-v="repitencia">Repitencia y reprobación</button></div></div>
+        <h2>Deserción y repitencia</h2><div class="row controles"><div class="seg" id="col-sal"><button data-v="desercion" class="on">Deserción</button><button data-v="repitencia">Repitencia y reprobación</button></div></div>
         <p class="hint">Deserción: estudiantes que se salen del colegio durante el año. Repitencia: los que están cursando de nuevo un grado. Por cada 100 estudiantes.</p>
         <div class="chartbox" style="height:300px"><canvas id="col-sal-g"></canvas></div>
         <p class="interp" id="col-sal-txt"></p>
@@ -170,14 +166,14 @@
         <h2>Puntaje promedio de cada prueba</h2>
         <div class="chartbox" style="height:300px"><canvas id="cal-pru"></canvas></div>
         <p class="interp" id="cal-pru-txt"></p>
-        <div class="row spread" style="margin-top:22px"><h2 style="margin:0">¿Cuántos alcanzan lo mínimo?</h2><div class="seg" id="cal-prueba"><button data-v="Matemáticas" class="on">Matemáticas</button><button data-v="Lectura crítica">Lectura</button><button data-v="Ciencias naturales">Ciencias</button><button data-v="Sociales y ciudadanas">Sociales</button><button data-v="Inglés">Inglés</button></div></div>
+        <div style="margin-top:22px"><h2>¿Cuántos alcanzan lo mínimo?</h2></div><div class="row controles"><div class="seg" id="cal-prueba"><button data-v="Matemáticas" class="on">Matemáticas</button><button data-v="Lectura crítica">Lectura</button><button data-v="Ciencias naturales">Ciencias</button><button data-v="Sociales y ciudadanas">Sociales</button><button data-v="Inglés">Inglés</button></div></div>
         <p class="hint">Porcentaje de estudiantes en cada nivel de desempeño. Nivel 1 (rojo): no alcanza lo mínimo esperado; el último nivel (verde): el más alto.</p>
         <div class="chartbox" style="height:300px"><canvas id="cal-niv"></canvas></div>
         <p class="interp" id="cal-niv-txt"></p>
       </section>
       <section class="panel">
         <span class="paso"><b>3</b>Las brechas</span>
-        <div class="row spread"><h2>¿Quién saca mejores resultados?</h2><div class="seg" id="cal-brecha"><button data-v="nse" class="on">Según el hogar</button><button data-v="zona">Campo y ciudad</button><button data-v="genero">Mujeres y hombres</button></div></div>
+        <h2>¿Quién saca mejores resultados?</h2><div class="row controles"><div class="seg" id="cal-brecha"><button data-v="nse" class="on">Según el hogar</button><button data-v="zona">Campo y ciudad</button><button data-v="genero">Mujeres y hombres</button></div></div>
         <div class="chartbox" style="height:300px"><canvas id="cal-bre"></canvas></div>
         <p class="interp" id="cal-bre-txt"></p>
       </section>
@@ -199,7 +195,7 @@
       </section>
       <section class="panel">
         <span class="paso"><b>6</b>Frente al mundo</span>
-        <div class="row spread"><h2>PISA: Colombia frente a los países de la OCDE</h2><div class="seg" id="cal-pisa"><button data-v="Matemáticas" class="on">Matemáticas</button><button data-v="Lectura">Lectura</button><button data-v="Ciencias">Ciencias</button></div></div>
+        <h2>PISA: Colombia frente a los países de la OCDE</h2><div class="row controles"><div class="seg" id="cal-pisa"><button data-v="Matemáticas" class="on">Matemáticas</button><button data-v="Lectura">Lectura</button><button data-v="Ciencias">Ciencias</button></div></div>
         <p class="hint">PISA evalúa cada tres o cuatro años a estudiantes de 15 años de decenas de países con la misma prueba. Puntaje promedio.</p>
         <div class="chartbox" style="height:280px"><canvas id="cal-pisa-g"></canvas></div>
         <p class="interp" id="cal-pisa-txt"></p>
@@ -222,12 +218,8 @@
       </section>
       <section class="panel">
         <span class="paso"><b>1</b>Cuántos estudian</span>
-        <div class="row spread"><h2 id="uni-mat-t"></h2><div class="seg" id="uni-desg"><button data-v="sector" class="on">Públicas y privadas</button><button data-v="nivel">Nivel</button><button data-v="modalidad">Presencial o virtual</button><button data-v="sexo">Mujeres y hombres</button></div></div>
-        <div class="grupos-ise">
-          <div><strong>Técnico y tecnológico</strong><span>Programas cortos (dos a tres años) para un oficio específico. El SENA es el que más estudiantes tiene.</span></div>
-          <div><strong>Universitario</strong><span>Las carreras profesionales, de cuatro a cinco años.</span></div>
-          <div><strong>Posgrado</strong><span>Especializaciones, maestrías y doctorados, después de una carrera.</span></div>
-        </div>
+        <h2 id="uni-mat-t"></h2><div class="row controles"><div class="seg" id="uni-desg"><button data-v="sector" class="on">Públicas y privadas</button><button data-v="nivel">Nivel</button><button data-v="modalidad">Presencial o virtual</button><button data-v="sexo">Mujeres y hombres</button></div></div>
+        <div class="grupos-ise" id="uni-mat-exp"></div>
         <p class="hint">Matriculados en el segundo semestre de cada año.</p>
         <div class="chartbox" style="height:320px"><canvas id="uni-mat"></canvas></div>
         <p class="interp" id="uni-mat-txt"></p>
@@ -240,19 +232,19 @@
       </section>
       <section class="panel">
         <span class="paso"><b>3</b>Dónde estudian</span>
-        <h2 id="uni-ies-t"></h2>
+        <h2 id="uni-ies-t"></h2><div class="row controles"><label class="lbl">Año:</label><select id="uni-ies-anio"></select></div>
         <div class="chartbox"><canvas id="uni-ies"></canvas></div>
         <p class="interp" id="uni-ies-txt"></p>
       </section>
       <section class="panel">
         <span class="paso"><b>4</b>Qué estudian</span>
-        <h2 id="uni-area-t"></h2>
+        <h2 id="uni-area-t"></h2><div class="row controles"><label class="lbl">Año:</label><select id="uni-area-anio"></select></div>
         <div class="chartbox"><canvas id="uni-area"></canvas></div>
         <p class="interp" id="uni-area-txt"></p>
       </section>
       <section class="panel">
         <span class="paso"><b>5</b>Por departamento</span>
-        <div class="row spread"><h2 id="uni-dep-t"></h2><div class="seg" id="uni-dmapa"><button data-v="n" class="on">Número de estudiantes</button><button data-v="pub">% en públicas</button></div></div>
+        <h2 id="uni-dep-t"></h2><div class="row controles"><div class="seg" id="uni-dmapa"><button data-v="n" class="on">Número de estudiantes</button><button data-v="pub">% en públicas</button></div><label class="lbl">Año:</label><select id="uni-dep-anio"></select></div>
         <div id="uni-dep"></div>
         <div id="uni-dep-tiempo" hidden></div>
         <p class="interp" id="uni-dep-txt"></p>
@@ -285,20 +277,20 @@
         <h2 id="ice-q-t"></h2>
         <div class="row"><div class="seg" id="ice-tipo"><button data-v="nuevos" class="on">Nuevos</button><button data-v="renovados">Renovaciones</button></div>
           <div class="seg" id="ice-dim"><button data-v="nivel" class="on">Nivel</button><button data-v="estrato">Estrato</button><button data-v="sector_ies">Pública o privada</button><button data-v="sexo">Sexo</button></div>
-          <label class="lbl">Semestre:</label><select id="ice-per"></select></div>
+          <label class="lbl">Año:</label><select id="ice-anio"></select><label class="lbl">Semestre:</label><select id="ice-sem"></select></div>
         <div class="chartbox" style="margin-top:10px"><canvas id="ice-q"></canvas></div>
         <p class="interp" id="ice-q-txt"></p>
       </section>
       <section class="panel">
         <span class="paso"><b>3</b>Cómo se están pagando</span>
-        <div class="row spread"><h2>La cartera del ICETEX</h2><div class="seg" id="ice-mora"><button data-v="pct" class="on">% con cuotas atrasadas</button><button data-v="n">Número de créditos</button></div></div>
+        <h2>La cartera del ICETEX</h2><div class="row controles"><div class="seg" id="ice-mora"><button data-v="pct" class="on">% con cuotas atrasadas</button><button data-v="n">Número de créditos</button></div></div>
         <p class="hint">“Todavía estudiando”: créditos de quienes aún no terminan (algunos ya deben hacer pagos pequeños). “Ya pagando”: quienes terminaron y están devolviendo el préstamo. Corte de cada trimestre.</p>
         <div class="chartbox" style="height:300px"><canvas id="ice-cart"></canvas></div>
         <p class="interp" id="ice-cart-txt"></p>
       </section>
       <section class="panel">
         <span class="paso"><b>4</b>Por departamento</span>
-        <div class="row spread"><h2 id="ice-dep-t"></h2><div class="seg" id="ice-dmed"><button data-v="pct" class="on">% con cuotas atrasadas</button><button data-v="n">Número de créditos</button></div></div>
+        <h2 id="ice-dep-t"></h2><div class="row controles"><div class="seg" id="ice-dmed"><button data-v="pct" class="on">% con cuotas atrasadas</button><button data-v="n">Número de créditos</button></div><div id="ice-dep-per"></div></div>
         <div id="ice-dep"></div>
         <div id="ice-dep-tiempo" hidden></div>
         <p class="interp" id="ice-dep-txt"></p>
@@ -335,7 +327,7 @@
       </section>
       <section class="panel">
         <span class="paso"><b>2</b>En qué se va la plata</span>
-        <div class="row spread"><h2>¿A qué se destina el presupuesto de educación?</h2><div class="seg" id="pre-dmed"><button data-v="apropiacion_vigente" class="on">Presupuesto del año</button><button data-v="obligaciones">Ejecutado hasta hoy</button></div></div>
+        <h2>¿A qué se destina el presupuesto de educación?</h2><div class="row controles"><div class="seg" id="pre-dmed"><button data-v="apropiacion_vigente" class="on">Presupuesto del año</button><button data-v="obligaciones">Ejecutado hasta hoy</button></div></div>
         <p class="hint">Cada rubro del presupuesto agrupado según para qué sirve. Toca una barra para ver cómo se ha ejecutado mes a mes.</p>
         <div class="chartbox"><canvas id="pre-dest"></canvas></div>
         <div id="pre-dest-tiempo" hidden></div>

@@ -166,13 +166,16 @@ def icetex():
     # % de créditos con cuotas atrasadas de cada departamento, trimestre a trimestre (para verlo en el tiempo)
     t = c[(c.epoca == "todas") & c.depto.isin(COD_DEPTO)].pivot_table(index=["depto", "fecha"], columns="medida", values="valor")
     t["pct"] = t.en_mora / t.creditos * 100
-    deptos_hist = {COD_DEPTO[d]: lista(g.droplevel(0).pct, fechas, 1) for d, g in t.groupby(level=0)}
+    deptos_hist = {COD_DEPTO[d]: {"pct": lista(g.droplevel(0).pct, fechas, 1), "creditos": lista(g.droplevel(0).creditos, fechas, 0),
+                                  "en_mora": lista(g.droplevel(0).en_mora, fechas, 0), "saldo": lista(g.droplevel(0).saldo_total / 1e6, fechas, 0)}
+                   for d, g in t.groupby(level=0)}
+    nombres_dep = {COD_DEPTO[d]: d for d in t.index.get_level_values(0).unique()}
     cr = pd.read_csv(DATOS / "icetex" / "creditos.csv")
     periodos = sorted(cr.periodo.unique())
     creditos = {}
     for (tipo, dim, cat), g in cr.groupby(["tipo", "dimension", "categoria"]):
         creditos.setdefault(tipo, {}).setdefault(dim, {})[cat] = lista(g.set_index("periodo").valor, periodos, 0)
-    guardar("icetex.json", {"fechas": fechas, "atipicos": atipicos, "cartera": cart, "deptos": deptos, "deptos_hist": deptos_hist, "periodos": periodos, "creditos": creditos})
+    guardar("icetex.json", {"fechas": fechas, "atipicos": atipicos, "cartera": cart, "deptos": deptos, "deptos_hist": deptos_hist, "nombres_dep": nombres_dep, "periodos": periodos, "creditos": creditos})
 
 
 # ---------------------------------------------------------------- colegios (anual)
@@ -297,11 +300,14 @@ def superior():
     out["areas"] = {k: lista(g.groupby("anio").valor.sum(), anios, 0) for k, g in ar.groupby("area")}
     ies = anual(pd.read_csv(c / "ies.csv"))
     ies = ies[ies.tipo == "matriculados"]
-    u, a = anios[-1], anios[-2] if len(anios) > 1 else None
     tot = ies.groupby(["anio", "cod_ies"]).valor.sum()
-    info = ies[ies.anio == u].groupby("cod_ies").agg(ies=("ies", "first"), sector=("sector", "first"), caracter=("caracter", "first"))
-    top = tot.loc[u].sort_values(ascending=False).head(20)
-    out["ies"] = [[info.ies[k], info.sector[k], info.caracter[k], int(v), int(tot.get((a, k), 0)) if a else None] for k, v in top.items()]
+    # las 20 más grandes de cada año, con su cifra del año anterior para comparar
+    out["ies"] = {}
+    for i, y in enumerate(anios):
+        info = ies[ies.anio == y].groupby("cod_ies").agg(ies=("ies", "first"), sector=("sector", "first"), caracter=("caracter", "first"))
+        top = tot.loc[y].sort_values(ascending=False).head(20)
+        prev = anios[i - 1] if i else None
+        out["ies"][y] = [[info.ies[k], info.sector[k], info.caracter[k], int(v), int(tot.get((prev, k), 0)) if prev else None] for k, v in top.items()]
     guardar("superior.json", out)
 
 
