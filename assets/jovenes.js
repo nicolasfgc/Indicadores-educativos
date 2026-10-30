@@ -24,7 +24,7 @@ registrar("jovenes", (() => {
   function ninis() {
     const F = st.d.fechas, t = v("JUV_NACIONAL", "pct_ninis"), m = v("JUV_NACIONAL_MUJERES", "pct_ninis"), h = v("JUV_NACIONAL_HOMBRES", "pct_ninis");
     serie("jov-ninis", F, [{label: "Mujeres", data: m, color: css("--s2"), ancho: 2}, {label: "Hombres", data: h, color: css("--s3"), ancho: 2}, {label: "Total", data: t, color: css("--grafica"), ancho: 3}],
-      {fmtValor: x => fmt(x, 1) + "%", fmtX: etqTrim, despues: (i0, i1) => {
+      {agregar: "promedio", fmtValor: x => fmt(x, 1) + "%", fmtX: etqTrim, despues: (i0, i1) => {
         let k = i1; while (k > i0 && t[k] == null) k--;
         const f = F[k], k12 = k - 12, n = at("JUV_NACIONAL", "ninis", f);
         const tramo = t.slice(i0, k + 1).map((x, j) => [x, F[i0 + j]]).filter(x => x[0] != null);
@@ -43,7 +43,7 @@ registrar("jovenes", (() => {
     $("jov-trab-t").textContent = `${IND[i]} en ${ZONA[z]}`;
     $("jov-trab-h").textContent = IND_EXPL[i];
     serie("jov-trab", F, [{label: "Mujeres", data: m, color: css("--s2"), ancho: 2}, {label: "Hombres", data: h, color: css("--s3"), ancho: 2}, {label: "Total", data: t, color: css("--grafica"), ancho: 3}],
-      {fmtValor: x => fmt(x, 1) + "%", fmtX: etqTrim, despues: (i0, i1) => {
+      {agregar: "promedio", fmtValor: x => fmt(x, 1) + "%", fmtX: etqTrim, despues: (i0, i1) => {
         let k = i1; while (k > i0 && t[k] == null) k--;
         const f = F[k], k12 = k - 12, d = k12 >= 0 ? t[k] - t[k12] : null;
         const bien = i === "td" ? d < 0 : d > 0;

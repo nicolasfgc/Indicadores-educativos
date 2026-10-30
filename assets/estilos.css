@@ -328,3 +328,7 @@ section.tab:not([hidden]) > .contenido:not([hidden]){animation:aparecer .45s cub
 /* controles debajo del título: no se mueven cuando cambia el texto del título */
 .row.controles{margin:8px 0 12px;gap:10px}
 .grupos-ise:empty{display:none}
+
+/* vista mes a mes / por año en las series */
+.rango-modo{display:inline-flex;gap:2px;margin-right:8px;padding-right:10px;border-right:1px solid var(--line)}
+.subbar{gap:18px;flex-wrap:wrap}
