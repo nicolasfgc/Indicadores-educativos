@@ -39,7 +39,8 @@ periodo,tipo,dimension,categoria,valor
 2015-1,nuevos,estrato,Estrato 5,589
 2015-1,nuevos,estrato,Estrato 6,207
 2015-1,nuevos,nivel,Estudios en el exterior,730
-2015-1,nuevos,nivel,Posgrado,2054
+2015-1,nuevos,nivel,Otros,87
+2015-1,nuevos,nivel,Posgrado,1967
 2015-1,nuevos,nivel,Pregrado universitario,27777
 2015-1,nuevos,nivel,Técnico o tecnológico,4747
 2015-1,nuevos,sector_ies,No aplica (exterior),731
@@ -137,7 +138,8 @@ periodo,tipo,dimension,categoria,valor
 2015-2,nuevos,estrato,Estrato 5,578
 2015-2,nuevos,estrato,Estrato 6,235
 2015-2,nuevos,nivel,Estudios en el exterior,995
-2015-2,nuevos,nivel,Posgrado,2367
+2015-2,nuevos,nivel,Otros,107
+2015-2,nuevos,nivel,Posgrado,2260
 2015-2,nuevos,nivel,Pregrado universitario,19303
 2015-2,nuevos,nivel,Técnico o tecnológico,1148
 2015-2,nuevos,sector_ies,No aplica (exterior),995
@@ -235,7 +237,8 @@ periodo,tipo,dimension,categoria,valor
 2016-1,nuevos,estrato,Estrato 5,589
 2016-1,nuevos,estrato,Estrato 6,219
 2016-1,nuevos,nivel,Estudios en el exterior,787
-2016-1,nuevos,nivel,Posgrado,3139
+2016-1,nuevos,nivel,Otros,112
+2016-1,nuevos,nivel,Posgrado,3027
 2016-1,nuevos,nivel,Pregrado universitario,28839
 2016-1,nuevos,nivel,Técnico o tecnológico,1949
 2016-1,nuevos,sector_ies,No aplica (exterior),814
@@ -334,7 +337,8 @@ periodo,tipo,dimension,categoria,valor
 2016-2,nuevos,estrato,Estrato 5,487
 2016-2,nuevos,estrato,Estrato 6,222
 2016-2,nuevos,nivel,Estudios en el exterior,941
-2016-2,nuevos,nivel,Posgrado,2136
+2016-2,nuevos,nivel,Otros,93
+2016-2,nuevos,nivel,Posgrado,2043
 2016-2,nuevos,nivel,Pregrado universitario,18388
 2016-2,nuevos,nivel,Técnico o tecnológico,932
 2016-2,nuevos,sector_ies,No aplica (exterior),941
@@ -433,7 +437,8 @@ periodo,tipo,dimension,categoria,valor
 2017-1,nuevos,estrato,Estrato 5,445
 2017-1,nuevos,estrato,Estrato 6,155
 2017-1,nuevos,nivel,Estudios en el exterior,779
-2017-1,nuevos,nivel,Posgrado,2330
+2017-1,nuevos,nivel,Otros,70
+2017-1,nuevos,nivel,Posgrado,2260
 2017-1,nuevos,nivel,Pregrado universitario,22962
 2017-1,nuevos,nivel,Técnico o tecnológico,1124
 2017-1,nuevos,sector_ies,No aplica (exterior),779
@@ -532,7 +537,8 @@ periodo,tipo,dimension,categoria,valor
 2017-2,nuevos,estrato,Estrato 5,604
 2017-2,nuevos,estrato,Estrato 6,233
 2017-2,nuevos,nivel,Estudios en el exterior,961
-2017-2,nuevos,nivel,Posgrado,2498
+2017-2,nuevos,nivel,Otros,157
+2017-2,nuevos,nivel,Posgrado,2341
 2017-2,nuevos,nivel,Pregrado universitario,20814
 2017-2,nuevos,nivel,Técnico o tecnológico,978
 2017-2,nuevos,sector_ies,No aplica (exterior),961
@@ -631,7 +637,8 @@ periodo,tipo,dimension,categoria,valor
 2018-1,nuevos,estrato,Estrato 5,393
 2018-1,nuevos,estrato,Estrato 6,127
 2018-1,nuevos,nivel,Estudios en el exterior,493
-2018-1,nuevos,nivel,Posgrado,1639
+2018-1,nuevos,nivel,Otros,98
+2018-1,nuevos,nivel,Posgrado,1541
 2018-1,nuevos,nivel,Pregrado universitario,12516
 2018-1,nuevos,nivel,Técnico o tecnológico,223
 2018-1,nuevos,sector_ies,No aplica (exterior),493
@@ -730,7 +737,8 @@ periodo,tipo,dimension,categoria,valor
 2018-2,nuevos,estrato,Estrato 5,558
 2018-2,nuevos,estrato,Estrato 6,233
 2018-2,nuevos,nivel,Estudios en el exterior,1005
-2018-2,nuevos,nivel,Posgrado,2318
+2018-2,nuevos,nivel,Otros,178
+2018-2,nuevos,nivel,Posgrado,2140
 2018-2,nuevos,nivel,Pregrado universitario,16731
 2018-2,nuevos,nivel,Técnico o tecnológico,480
 2018-2,nuevos,sector_ies,No aplica (exterior),1005
@@ -829,7 +837,8 @@ periodo,tipo,dimension,categoria,valor
 2019-1,nuevos,estrato,Estrato 5,528
 2019-1,nuevos,estrato,Estrato 6,177
 2019-1,nuevos,nivel,Estudios en el exterior,598
-2019-1,nuevos,nivel,Posgrado,2719
+2019-1,nuevos,nivel,Otros,187
+2019-1,nuevos,nivel,Posgrado,2532
 2019-1,nuevos,nivel,Pregrado universitario,25554
 2019-1,nuevos,nivel,Técnico o tecnológico,782
 2019-1,nuevos,sector_ies,No aplica (exterior),598
@@ -928,7 +937,8 @@ periodo,tipo,dimension,categoria,valor
 2019-2,nuevos,estrato,Estrato 5,274
 2019-2,nuevos,estrato,Estrato 6,101
 2019-2,nuevos,nivel,Estudios en el exterior,295
-2019-2,nuevos,nivel,Posgrado,1118
+2019-2,nuevos,nivel,Otros,127
+2019-2,nuevos,nivel,Posgrado,991
 2019-2,nuevos,nivel,Pregrado universitario,8847
 2019-2,nuevos,nivel,Técnico o tecnológico,247
 2019-2,nuevos,sector_ies,No aplica (exterior),295
@@ -1027,7 +1037,8 @@ periodo,tipo,dimension,categoria,valor
 2020-1,nuevos,estrato,Estrato 5,382
 2020-1,nuevos,estrato,Estrato 6,132
 2020-1,nuevos,nivel,Estudios en el exterior,369
-2020-1,nuevos,nivel,Posgrado,1989
+2020-1,nuevos,nivel,Otros,202
+2020-1,nuevos,nivel,Posgrado,1787
 2020-1,nuevos,nivel,Pregrado universitario,18647
 2020-1,nuevos,nivel,Técnico o tecnológico,946
 2020-1,nuevos,sector_ies,No aplica (exterior),370
@@ -1126,7 +1137,8 @@ periodo,tipo,dimension,categoria,valor
 2020-2,nuevos,estrato,Estrato 5,415
 2020-2,nuevos,estrato,Estrato 6,174
 2020-2,nuevos,nivel,Estudios en el exterior,242
-2020-2,nuevos,nivel,Posgrado,2429
+2020-2,nuevos,nivel,Otros,160
+2020-2,nuevos,nivel,Posgrado,2269
 2020-2,nuevos,nivel,Pregrado universitario,16806
 2020-2,nuevos,nivel,Técnico o tecnológico,672
 2020-2,nuevos,sector_ies,No aplica (exterior),242
@@ -1225,7 +1237,8 @@ periodo,tipo,dimension,categoria,valor
 2021-1,nuevos,estrato,Estrato 5,394
 2021-1,nuevos,estrato,Estrato 6,114
 2021-1,nuevos,nivel,Estudios en el exterior,328
-2021-1,nuevos,nivel,Posgrado,2531
+2021-1,nuevos,nivel,Otros,134
+2021-1,nuevos,nivel,Posgrado,2397
 2021-1,nuevos,nivel,Pregrado universitario,20880
 2021-1,nuevos,nivel,Técnico o tecnológico,900
 2021-1,nuevos,sector_ies,No aplica (exterior),328
@@ -1324,7 +1337,8 @@ periodo,tipo,dimension,categoria,valor
 2021-2,nuevos,estrato,Estrato 5,488
 2021-2,nuevos,estrato,Estrato 6,189
 2021-2,nuevos,nivel,Estudios en el exterior,774
-2021-2,nuevos,nivel,Posgrado,2465
+2021-2,nuevos,nivel,Otros,174
+2021-2,nuevos,nivel,Posgrado,2291
 2021-2,nuevos,nivel,Pregrado universitario,17488
 2021-2,nuevos,nivel,Técnico o tecnológico,818
 2021-2,nuevos,sector_ies,No aplica (exterior),774
@@ -1423,7 +1437,8 @@ periodo,tipo,dimension,categoria,valor
 2022-1,nuevos,estrato,Estrato 5,429
 2022-1,nuevos,estrato,Estrato 6,127
 2022-1,nuevos,nivel,Estudios en el exterior,871
-2022-1,nuevos,nivel,Posgrado,2539
+2022-1,nuevos,nivel,Otros,221
+2022-1,nuevos,nivel,Posgrado,2318
 2022-1,nuevos,nivel,Pregrado universitario,20155
 2022-1,nuevos,nivel,Técnico o tecnológico,740
 2022-1,nuevos,sector_ies,No aplica (exterior),871
@@ -1523,7 +1538,8 @@ periodo,tipo,dimension,categoria,valor
 2022-2,nuevos,estrato,Estrato 5,493
 2022-2,nuevos,estrato,Estrato 6,216
 2022-2,nuevos,nivel,Estudios en el exterior,1246
-2022-2,nuevos,nivel,Posgrado,3052
+2022-2,nuevos,nivel,Otros,276
+2022-2,nuevos,nivel,Posgrado,2776
 2022-2,nuevos,nivel,Pregrado universitario,19390
 2022-2,nuevos,nivel,Técnico o tecnológico,794
 2022-2,nuevos,sector_ies,No aplica (exterior),1246
@@ -1623,7 +1639,8 @@ periodo,tipo,dimension,categoria,valor
 2023-1,nuevos,estrato,Estrato 5,566
 2023-1,nuevos,estrato,Estrato 6,179
 2023-1,nuevos,nivel,Estudios en el exterior,1608
-2023-1,nuevos,nivel,Posgrado,3774
+2023-1,nuevos,nivel,Otros,296
+2023-1,nuevos,nivel,Posgrado,3478
 2023-1,nuevos,nivel,Pregrado universitario,23554
 2023-1,nuevos,nivel,Técnico o tecnológico,662
 2023-1,nuevos,sector_ies,No aplica (exterior),1608
@@ -1723,7 +1740,8 @@ periodo,tipo,dimension,categoria,valor
 2023-2,nuevos,estrato,Estrato 5,556
 2023-2,nuevos,estrato,Estrato 6,199
 2023-2,nuevos,nivel,Estudios en el exterior,1629
-2023-2,nuevos,nivel,Posgrado,3090
+2023-2,nuevos,nivel,Otros,231
+2023-2,nuevos,nivel,Posgrado,2859
 2023-2,nuevos,nivel,Pregrado universitario,21018
 2023-2,nuevos,nivel,Técnico o tecnológico,674
 2023-2,nuevos,sector_ies,No aplica (exterior),1629
@@ -1823,7 +1841,8 @@ periodo,tipo,dimension,categoria,valor
 2024-1,nuevos,estrato,Estrato 5,451
 2024-1,nuevos,estrato,Estrato 6,128
 2024-1,nuevos,nivel,Estudios en el exterior,1421
-2024-1,nuevos,nivel,Posgrado,3695
+2024-1,nuevos,nivel,Otros,295
+2024-1,nuevos,nivel,Posgrado,3400
 2024-1,nuevos,nivel,Pregrado universitario,21668
 2024-1,nuevos,nivel,Técnico o tecnológico,552
 2024-1,nuevos,sector_ies,No aplica (exterior),1423
@@ -1923,7 +1942,8 @@ periodo,tipo,dimension,categoria,valor
 2024-2,nuevos,estrato,Estrato 5,578
 2024-2,nuevos,estrato,Estrato 6,205
 2024-2,nuevos,nivel,Estudios en el exterior,1155
-2024-2,nuevos,nivel,Posgrado,3851
+2024-2,nuevos,nivel,Otros,274
+2024-2,nuevos,nivel,Posgrado,3577
 2024-2,nuevos,nivel,Pregrado universitario,24218
 2024-2,nuevos,nivel,Técnico o tecnológico,692
 2024-2,nuevos,sector_ies,No aplica (exterior),1155
@@ -2020,13 +2040,13 @@ periodo,tipo,dimension,categoria,valor
 2025-1,nuevos,estrato,Estrato 4,382
 2025-1,nuevos,estrato,Estrato 5,120
 2025-1,nuevos,estrato,Estrato 6,35
-2025-1,nuevos,nivel,Otros,117
-2025-1,nuevos,nivel,Posgrado,519
+2025-1,nuevos,nivel,Otros,203
+2025-1,nuevos,nivel,Posgrado,433
 2025-1,nuevos,nivel,Pregrado universitario,4571
 2025-1,nuevos,nivel,Técnico o tecnológico,48
 2025-1,nuevos,sector_ies,No aplica (exterior),117
-2025-1,nuevos,sector_ies,Oficial,111
-2025-1,nuevos,sector_ies,Privado,5027
+2025-1,nuevos,sector_ies,Oficial,110
+2025-1,nuevos,sector_ies,Privado,5028
 2025-1,nuevos,sexo,Femenino,3216
 2025-1,nuevos,sexo,Intersexual,1
 2025-1,nuevos,sexo,Masculino,2038
@@ -2075,8 +2095,8 @@ periodo,tipo,dimension,categoria,valor
 2025-1,renovados,nivel,Pregrado universitario,125272
 2025-1,renovados,nivel,Técnico o tecnológico,1900
 2025-1,renovados,sector_ies,No aplica (exterior),86
-2025-1,renovados,sector_ies,Oficial,9294
-2025-1,renovados,sector_ies,Privado,123650
+2025-1,renovados,sector_ies,Oficial,9250
+2025-1,renovados,sector_ies,Privado,123694
 2025-1,renovados,sexo,Femenino,77970
 2025-1,renovados,sexo,Masculino,55060
 2025-1,renovados,total,Total,133030
@@ -2116,13 +2136,13 @@ periodo,tipo,dimension,categoria,valor
 2025-2,nuevos,estrato,Estrato 4,256
 2025-2,nuevos,estrato,Estrato 5,97
 2025-2,nuevos,estrato,Estrato 6,24
-2025-2,nuevos,nivel,Otros,165
-2025-2,nuevos,nivel,Posgrado,488
+2025-2,nuevos,nivel,Otros,300
+2025-2,nuevos,nivel,Posgrado,353
 2025-2,nuevos,nivel,Pregrado universitario,3335
 2025-2,nuevos,nivel,Técnico o tecnológico,99
 2025-2,nuevos,sector_ies,No aplica (exterior),165
-2025-2,nuevos,sector_ies,Oficial,413
-2025-2,nuevos,sector_ies,Privado,3509
+2025-2,nuevos,sector_ies,Oficial,410
+2025-2,nuevos,sector_ies,Privado,3512
 2025-2,nuevos,sexo,Femenino,2123
 2025-2,nuevos,sexo,Masculino,1964
 2025-2,nuevos,total,Total,4087
@@ -2170,8 +2190,104 @@ periodo,tipo,dimension,categoria,valor
 2025-2,renovados,nivel,Pregrado universitario,112817
 2025-2,renovados,nivel,Técnico o tecnológico,1505
 2025-2,renovados,sector_ies,No aplica (exterior),48
-2025-2,renovados,sector_ies,Oficial,7638
-2025-2,renovados,sector_ies,Privado,110333
+2025-2,renovados,sector_ies,Oficial,7595
+2025-2,renovados,sector_ies,Privado,110376
 2025-2,renovados,sexo,Femenino,69557
 2025-2,renovados,sexo,Masculino,48462
 2025-2,renovados,total,Total,118019
+2026-1,nuevos,departamento,AMAZONAS,1
+2026-1,nuevos,departamento,ANTIOQUIA,343
+2026-1,nuevos,departamento,ARAUCA,25
+2026-1,nuevos,departamento,ATLÁNTICO,605
+2026-1,nuevos,departamento,BOGOTÁ,1330
+2026-1,nuevos,departamento,BOLÍVAR,399
+2026-1,nuevos,departamento,BOYACÁ,121
+2026-1,nuevos,departamento,CALDAS,63
+2026-1,nuevos,departamento,CAQUETÁ,37
+2026-1,nuevos,departamento,CASANARE,28
+2026-1,nuevos,departamento,CAUCA,91
+2026-1,nuevos,departamento,CESAR,253
+2026-1,nuevos,departamento,CHOCÓ,29
+2026-1,nuevos,departamento,CUNDINAMARCA,203
+2026-1,nuevos,departamento,CÓRDOBA,609
+2026-1,nuevos,departamento,GUAVIARE,3
+2026-1,nuevos,departamento,HUILA,113
+2026-1,nuevos,departamento,LA GUAJIRA,167
+2026-1,nuevos,departamento,MAGDALENA,190
+2026-1,nuevos,departamento,META,81
+2026-1,nuevos,departamento,NARIÑO,335
+2026-1,nuevos,departamento,NORTE DE SANTANDER,127
+2026-1,nuevos,departamento,PUTUMAYO,35
+2026-1,nuevos,departamento,QUINDÍO,45
+2026-1,nuevos,departamento,RISARALDA,77
+2026-1,nuevos,departamento,SAN ANDRÉS,4
+2026-1,nuevos,departamento,SANTANDER,154
+2026-1,nuevos,departamento,SUCRE,369
+2026-1,nuevos,departamento,TOLIMA,118
+2026-1,nuevos,departamento,VALLE DEL CAUCA,638
+2026-1,nuevos,departamento,VICHADA,2
+2026-1,nuevos,estrato,Estrato 1,2316
+2026-1,nuevos,estrato,Estrato 2,2117
+2026-1,nuevos,estrato,Estrato 3,1460
+2026-1,nuevos,estrato,Estrato 4,502
+2026-1,nuevos,estrato,Estrato 5,160
+2026-1,nuevos,estrato,Estrato 6,40
+2026-1,nuevos,nivel,Otros,405
+2026-1,nuevos,nivel,Posgrado,781
+2026-1,nuevos,nivel,Pregrado universitario,5322
+2026-1,nuevos,nivel,Técnico o tecnológico,87
+2026-1,nuevos,sector_ies,No aplica (exterior),227
+2026-1,nuevos,sector_ies,Oficial,332
+2026-1,nuevos,sector_ies,Privado,6036
+2026-1,nuevos,sexo,Femenino,3809
+2026-1,nuevos,sexo,Masculino,2786
+2026-1,nuevos,total,Total,6595
+2026-1,renovados,departamento,AMAZONAS,42
+2026-1,renovados,departamento,ANTIOQUIA,5475
+2026-1,renovados,departamento,ARAUCA,352
+2026-1,renovados,departamento,ATLÁNTICO,11700
+2026-1,renovados,departamento,BOGOTÁ,15067
+2026-1,renovados,departamento,BOLÍVAR,8297
+2026-1,renovados,departamento,BOYACÁ,1717
+2026-1,renovados,departamento,CALDAS,1056
+2026-1,renovados,departamento,CAQUETÁ,288
+2026-1,renovados,departamento,CASANARE,562
+2026-1,renovados,departamento,CAUCA,1192
+2026-1,renovados,departamento,CESAR,4206
+2026-1,renovados,departamento,CHOCÓ,277
+2026-1,renovados,departamento,CUNDINAMARCA,3768
+2026-1,renovados,departamento,CÓRDOBA,12660
+2026-1,renovados,departamento,GUAINÍA,19
+2026-1,renovados,departamento,GUAVIARE,112
+2026-1,renovados,departamento,HUILA,1220
+2026-1,renovados,departamento,LA GUAJIRA,2996
+2026-1,renovados,departamento,MAGDALENA,3181
+2026-1,renovados,departamento,META,1125
+2026-1,renovados,departamento,NARIÑO,3761
+2026-1,renovados,departamento,NORTE DE SANTANDER,1414
+2026-1,renovados,departamento,PUTUMAYO,615
+2026-1,renovados,departamento,QUINDÍO,632
+2026-1,renovados,departamento,RISARALDA,897
+2026-1,renovados,departamento,SAN ANDRÉS,80
+2026-1,renovados,departamento,SANTANDER,2943
+2026-1,renovados,departamento,SUCRE,7806
+2026-1,renovados,departamento,TOLIMA,1129
+2026-1,renovados,departamento,VALLE DEL CAUCA,7036
+2026-1,renovados,departamento,VAUPÉS,25
+2026-1,renovados,departamento,VICHADA,16
+2026-1,renovados,estrato,Estrato 1,48137
+2026-1,renovados,estrato,Estrato 2,30521
+2026-1,renovados,estrato,Estrato 3,16545
+2026-1,renovados,estrato,Estrato 4,4521
+2026-1,renovados,estrato,Estrato 5,1504
+2026-1,renovados,estrato,Estrato 6,438
+2026-1,renovados,nivel,Otros,903
+2026-1,renovados,nivel,Posgrado,1538
+2026-1,renovados,nivel,Pregrado universitario,98185
+2026-1,renovados,nivel,Técnico o tecnológico,1040
+2026-1,renovados,sector_ies,No aplica (exterior),17
+2026-1,renovados,sector_ies,Oficial,6504
+2026-1,renovados,sector_ies,Privado,95145
+2026-1,renovados,sexo,Femenino,59786
+2026-1,renovados,sexo,Masculino,41880
+2026-1,renovados,total,Total,101666
